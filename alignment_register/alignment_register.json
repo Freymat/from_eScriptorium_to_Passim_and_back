@@ -1,127 +1,77 @@
 [
     {
+        "filename": "IE34120895_00033.xml",
+        "aligned_lines_count": 5,
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE35481905_00027.xml",
+        "aligned_lines_count": 14,
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE61220167_00084.xml",
+        "aligned_lines_count": 19,
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE35481905_00027.xml",
+        "aligned_lines_count": 14,
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE61220167_00083.xml",
+        "aligned_lines_count": 19,
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE61220167_00084.xml",
+        "aligned_lines_count": 19,
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE61220167_00097.xml",
+        "aligned_lines_count": 19,
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
         "filename": "IE103402206_00010.xml",
-        "aligned_lines_count": 9,
-        "GT_id": "01MT_NoVoc"
+        "aligned_lines_count": 11,
+        "GT_id": "MT_NoVoc_concatenated.txt"
     },
     {
         "filename": "IE103402206_00014.xml",
-        "aligned_lines_count": 7,
-        "GT_id": "01MT_NoVoc"
+        "aligned_lines_count": 9,
+        "GT_id": "MT_NoVoc_concatenated.txt"
     },
     {
         "filename": "IE103409244_00025.xml",
-        "aligned_lines_count": 27,
-        "GT_id": "01MT_NoVoc"
-    },
-    {
-        "filename": "IE34120895_00033.xml",
-        "aligned_lines_count": 1,
-        "GT_id": "01MT_NoVoc"
-    },
-    {
-        "filename": "IE34120895_00046.xml",
-        "aligned_lines_count": 0,
-        "GT_id": "01MT_NoVoc"
-    },
-    {
-        "filename": "IE34120895_00054.xml",
-        "aligned_lines_count": 0,
-        "GT_id": "01MT_NoVoc"
-    },
-    {
-        "filename": "IE35481905_00011.xml",
-        "aligned_lines_count": 0,
-        "GT_id": "01MT_NoVoc"
-    },
-    {
-        "filename": "IE36149273_00006.xml",
-        "aligned_lines_count": 0,
-        "GT_id": "01MT_NoVoc"
-    },
-    {
-        "filename": "IE36149273_00009.xml",
-        "aligned_lines_count": 0,
-        "GT_id": "01MT_NoVoc"
-    },
-    {
-        "filename": "IE36149273_00015.xml",
-        "aligned_lines_count": 0,
-        "GT_id": "01MT_NoVoc"
+        "aligned_lines_count": 28,
+        "GT_id": "MT_NoVoc_concatenated.txt"
     },
     {
         "filename": "IE61220167_00083.xml",
-        "aligned_lines_count": 5,
-        "GT_id": "01MT_NoVoc"
+        "aligned_lines_count": 19,
+        "GT_id": "MT_NoVoc_concatenated.txt"
     },
     {
         "filename": "IE61220167_00097.xml",
-        "aligned_lines_count": 7,
-        "GT_id": "01MT_NoVoc"
-    },
-    {
-        "filename": "IE103409244_00025.xml",
-        "aligned_lines_count": 0,
-        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated"
+        "aligned_lines_count": 19,
+        "GT_id": "MT_NoVoc_concatenated.txt"
     },
     {
         "filename": "IE61220167_00084.xml",
-        "aligned_lines_count": 11,
-        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated"
+        "aligned_lines_count": 19,
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
     },
     {
         "filename": "IE61220167_00097.xml",
-        "aligned_lines_count": 1,
-        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated"
-    },
-    {
-        "filename": "IE103409244_00025.xml",
-        "aligned_lines_count": 0,
-        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated"
-    },
-    {
-        "filename": "IE34120895_00033.xml",
-        "aligned_lines_count": 0,
-        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated"
-    },
-    {
-        "filename": "IE34120895_00046.xml",
-        "aligned_lines_count": 0,
-        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated"
-    },
-    {
-        "filename": "IE61220167_00083.xml",
-        "aligned_lines_count": 4,
-        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated"
+        "aligned_lines_count": 19,
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
     },
     {
         "filename": "IE61220167_00084.xml",
-        "aligned_lines_count": 10,
-        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated"
-    },
-    {
-        "filename": "IE61220167_00097.xml",
-        "aligned_lines_count": 2,
-        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated"
-    },
-    {
-        "filename": "IE36149273_00015.xml",
-        "aligned_lines_count": 0,
-        "GT_id": "Siddur_Ashkenaz_clean_concatenated"
-    },
-    {
-        "filename": "IE61220167_00083.xml",
-        "aligned_lines_count": 0,
-        "GT_id": "Siddur_Ashkenaz_clean_concatenated"
-    },
-    {
-        "filename": "IE61220167_00084.xml",
-        "aligned_lines_count": 8,
-        "GT_id": "Siddur_Ashkenaz_clean_concatenated"
-    },
-    {
-        "filename": "IE61220167_00097.xml",
-        "aligned_lines_count": 4,
-        "GT_id": "Siddur_Ashkenaz_clean_concatenated"
+        "aligned_lines_count": 19,
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
     }
 ]
