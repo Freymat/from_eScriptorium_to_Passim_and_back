@@ -166,7 +166,7 @@
     },
     {
         "filename": "IE87733114_00007.xml",
-        "aligned_lines_count": 1,
+        "aligned_lines_count": 0,
         "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
     },
     {
@@ -451,7 +451,7 @@
     },
     {
         "filename": "IE87363222_00008.xml",
-        "aligned_lines_count": 14,
+        "aligned_lines_count": 13,
         "GT_id": "MT_NoVoc_concatenated.txt"
     },
     {
@@ -551,7 +551,7 @@
     },
     {
         "filename": "IE87733114_00007.xml",
-        "aligned_lines_count": 9,
+        "aligned_lines_count": 7,
         "GT_id": "MT_NoVoc_concatenated.txt"
     },
     {
@@ -591,7 +591,7 @@
     },
     {
         "filename": "IE87363222_00008.xml",
-        "aligned_lines_count": 14,
+        "aligned_lines_count": 12,
         "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
     },
     {
@@ -681,7 +681,7 @@
     },
     {
         "filename": "IE87694978_00020.xml",
-        "aligned_lines_count": 23,
+        "aligned_lines_count": 22,
         "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
     },
     {
@@ -726,12 +726,12 @@
     },
     {
         "filename": "IE87733114_00006.xml",
-        "aligned_lines_count": 19,
+        "aligned_lines_count": 18,
         "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
     },
     {
         "filename": "IE87733114_00007.xml",
-        "aligned_lines_count": 8,
+        "aligned_lines_count": 7,
         "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
     },
     {
@@ -801,7 +801,7 @@
     },
     {
         "filename": "IE87363222_00008.xml",
-        "aligned_lines_count": 12,
+        "aligned_lines_count": 10,
         "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
     },
     {
@@ -851,7 +851,7 @@
     },
     {
         "filename": "IE87519524_00013.xml",
-        "aligned_lines_count": 19,
+        "aligned_lines_count": 18,
         "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
     },
     {
@@ -861,7 +861,7 @@
     },
     {
         "filename": "IE87580382_00008.xml",
-        "aligned_lines_count": 7,
+        "aligned_lines_count": 6,
         "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
     },
     {
@@ -911,7 +911,7 @@
     },
     {
         "filename": "IE87694978_00020.xml",
-        "aligned_lines_count": 23,
+        "aligned_lines_count": 22,
         "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
     },
     {
@@ -966,12 +966,12 @@
     },
     {
         "filename": "IE87733114_00006.xml",
-        "aligned_lines_count": 19,
+        "aligned_lines_count": 18,
         "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
     },
     {
         "filename": "IE87733114_00007.xml",
-        "aligned_lines_count": 8,
+        "aligned_lines_count": 7,
         "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
     },
     {
