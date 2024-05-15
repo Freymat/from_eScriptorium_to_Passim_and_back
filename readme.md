@@ -1,3 +1,5 @@
+This repository is a work in progress.
+Scheduled delivery date: 06/25/2024
 # Aligning large quantities of digital text with large numbers of documents
 
 ## Pipeline purpose
