@@ -17,7 +17,8 @@
                         "alg_GT": "וידבר יהוה אל משה במדבר סיני",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 242880,
-                        "GT_len": 29
+                        "GT_len": 29,
+                        "levenshtein_ratio": 0.964
                     },
                     {
                         "line_id": "eSc_line_b2807a21",
@@ -28,7 +29,8 @@
                         "alg_GT": "באהל מועד באחד לחדש השני בשנה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 242909,
-                        "GT_len": 30
+                        "GT_len": 30,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_c042ab7e",
@@ -39,7 +41,8 @@
                         "alg_GT": "השנית לצאתם מארץ מצרים לאמר : שאו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 242939,
-                        "GT_len": 34
+                        "GT_len": 34,
+                        "levenshtein_ratio": 0.97
                     },
                     {
                         "line_id": "eSc_line_5732c7a6",
@@ -50,7 +53,8 @@
                         "alg_GT": "את ראש כל עדת בני ישראל למשפחתם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 242973,
-                        "GT_len": 32
+                        "GT_len": 32,
+                        "levenshtein_ratio": 0.903
                     },
                     {
                         "line_id": "eSc_line_36dd65c1",
@@ -61,7 +65,8 @@
                         "alg_GT": "לבית אבתם במספר שמות כל זכר",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 243005,
-                        "GT_len": 28
+                        "GT_len": 28,
+                        "levenshtein_ratio": 0.945
                     },
                     {
                         "line_id": "eSc_line_165b7ae5",
@@ -72,7 +77,8 @@
                         "alg_GT": "לגלגלתם : מבן עשרים שנה ומעלה כל",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 243033,
-                        "GT_len": 33
+                        "GT_len": 33,
+                        "levenshtein_ratio": 0.925
                     },
                     {
                         "line_id": "eSc_line_81ccd87b",
@@ -83,7 +89,8 @@
                         "alg_GT": "יצא צבא בישראל תפקדו אתם לצבאתם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 243066,
-                        "GT_len": 32
+                        "GT_len": 32,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_57a22f6a",
@@ -94,7 +101,8 @@
                         "alg_GT": "אתה ואהרן : ואתכם יהיו איש איש למטה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 243098,
-                        "GT_len": 36
+                        "GT_len": 36,
+                        "levenshtein_ratio": 0.958
                     },
                     {
                         "line_id": "eSc_line_0d16250e",
@@ -105,7 +113,8 @@
                         "alg_GT": "איש ראש לבית אבתיו הוא : ואלה שמות",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 243134,
-                        "GT_len": 35
+                        "GT_len": 35,
+                        "levenshtein_ratio": 0.928
                     },
                     {
                         "line_id": "eSc_line_0d65293e",
@@ -116,7 +125,8 @@
                         "alg_GT": "האנשים אשר יעמדו אתכם לראובן אליצור",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 243169,
-                        "GT_len": 36
+                        "GT_len": 36,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_d98986fa",
@@ -127,7 +137,8 @@
                         "alg_GT": "בן שדיאור : לשמעון שלמיאל בן צורישדי",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 243205,
-                        "GT_len": 36
+                        "GT_len": 36,
+                        "levenshtein_ratio": 0.904
                     }
                 ],
                 "series": "OCR"
@@ -152,7 +163,8 @@
                         "alg_GT": "אלף וחמש מאות : לבני שמעון",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 243870,
-                        "GT_len": 27
+                        "GT_len": 27,
+                        "levenshtein_ratio": 0.862
                     },
                     {
                         "line_id": "eSc_line_f2b31e01",
@@ -163,7 +175,8 @@
                         "alg_GT": "תולדתם למשפחתם לבית אבתם פקדיו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 243897,
-                        "GT_len": 31
+                        "GT_len": 31,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_e3838709",
@@ -174,7 +187,8 @@
                         "alg_GT": "במספר שמות לגלגלתם כל זכר מבן",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 243928,
-                        "GT_len": 30
+                        "GT_len": 30,
+                        "levenshtein_ratio": 0.949
                     },
                     {
                         "line_id": "eSc_line_57b828f3",
@@ -185,7 +199,8 @@
                         "alg_GT": "עשרים שנה ומעלה כל יצא צבא :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 243958,
-                        "GT_len": 29
+                        "GT_len": 29,
+                        "levenshtein_ratio": 0.9
                     },
                     {
                         "line_id": "eSc_line_1a938346",
@@ -196,7 +211,8 @@
                         "alg_GT": "פקדיהם למטה שמעון תשעה וחמשים אלף",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 243987,
-                        "GT_len": 34
+                        "GT_len": 34,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_4fd03d12",
@@ -207,7 +223,8 @@
                         "alg_GT": "ושלש מאות : לבני גד תולדתם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 244021,
-                        "GT_len": 27
+                        "GT_len": 27,
+                        "levenshtein_ratio": 0.893
                     },
                     {
                         "line_id": "eSc_line_2f261a2d",
@@ -218,7 +235,8 @@
                         "alg_GT": "למשפחתם לבית אבתם במספר שמות",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 244048,
-                        "GT_len": 29
+                        "GT_len": 29,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_0fd733ae",
@@ -229,7 +247,8 @@
                         "alg_GT": "מבן עשרים שנה ומעלה כל יצא צבא",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 244077,
-                        "GT_len": 31
+                        "GT_len": 31,
+                        "levenshtein_ratio": 0.984
                     },
                     {
                         "line_id": "eSc_line_1461f045",
@@ -240,7 +259,8 @@
                         "alg_GT": ": פקדיהם למטה גד חמשה וארבעים",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 244108,
-                        "GT_len": 29
+                        "GT_len": 29,
+                        "levenshtein_ratio": 0.933
                     }
                 ],
                 "series": "OCR"
@@ -343,7 +363,8 @@
                         "alg_GT": "שנה ויולד את תרח : ויחי נחור אחרי הולידו את תרח",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 17979,
-                        "GT_len": 48
+                        "GT_len": 48,
+                        "levenshtein_ratio": 0.946
                     },
                     {
                         "line_id": "eSc_line_df1e76a3",
@@ -354,7 +375,8 @@
                         "alg_GT": "תשע עשרה שנה ומאת שנה ויולד בנים ובנות :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 18027,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.938
                     },
                     {
                         "line_id": "eSc_line_73de073b",
@@ -365,7 +387,8 @@
                         "alg_GT": "ויחי תרח שבעים שנה ויולד את אברם את נחור ואת",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 18068,
-                        "GT_len": 45
+                        "GT_len": 45,
+                        "levenshtein_ratio": 0.921
                     },
                     {
                         "line_id": "eSc_line_80f11829",
@@ -376,7 +399,8 @@
                         "alg_GT": "הרן : ואלה תולדת תרח תרח הוליד את אברם את",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 18113,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.951
                     },
                     {
                         "line_id": "eSc_line_e973f319",
@@ -387,7 +411,8 @@
                         "alg_GT": "נחור ואת הרן והרן הוליד את לוט : וימת הרן על פני",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 18155,
-                        "GT_len": 49
+                        "GT_len": 49,
+                        "levenshtein_ratio": 0.926
                     },
                     {
                         "line_id": "eSc_line_82745404",
@@ -398,7 +423,8 @@
                         "alg_GT": "תרח אביו בארץ מולדתו באור כשדים : ויקח אברם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 18204,
-                        "GT_len": 44
+                        "GT_len": 44,
+                        "levenshtein_ratio": 0.945
                     },
                     {
                         "line_id": "eSc_line_503ad4b8",
@@ -409,7 +435,8 @@
                         "alg_GT": "ונחור להם נשים שם אשת אברם שרי ושם אשת נחור",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 18248,
-                        "GT_len": 44
+                        "GT_len": 44,
+                        "levenshtein_ratio": 0.953
                     },
                     {
                         "line_id": "eSc_line_2cf79fc3",
@@ -420,7 +447,8 @@
                         "alg_GT": "מלכה בת הרן אבי מלכה ואבי יסכה : ותהי שרי עקרה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 18292,
-                        "GT_len": 47
+                        "GT_len": 47,
+                        "levenshtein_ratio": 0.945
                     },
                     {
                         "line_id": "eSc_line_d88eb2ad",
@@ -431,7 +459,8 @@
                         "alg_GT": "אין לה ולד : ויקח תרח את אברם בנו ואת לוט בן הרן",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 18339,
-                        "GT_len": 49
+                        "GT_len": 49,
+                        "levenshtein_ratio": 0.905
                     },
                     {
                         "line_id": "eSc_line_6938c137",
@@ -442,7 +471,8 @@
                         "alg_GT": "בן בנו ואת שרי כלתו אשת אברם בנו ויצאו אתם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 18388,
-                        "GT_len": 43
+                        "GT_len": 43,
+                        "levenshtein_ratio": 0.976
                     },
                     {
                         "line_id": "eSc_line_1a2843a9",
@@ -453,7 +483,8 @@
                         "alg_GT": "מאור כשדים ללכת ארצה כנען ויבאו עד חרן וישבו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 18431,
-                        "GT_len": 45
+                        "GT_len": 45,
+                        "levenshtein_ratio": 0.955
                     },
                     {
                         "line_id": "eSc_line_772a3fe4",
@@ -464,7 +495,8 @@
                         "alg_GT": "שם : ויהיו ימי תרח חמש שנים ומאתים שנה וימת",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 18476,
-                        "GT_len": 44
+                        "GT_len": 44,
+                        "levenshtein_ratio": 0.965
                     },
                     {
                         "line_id": "eSc_line_2f6d36dc",
@@ -475,7 +507,8 @@
                         "alg_GT": "תרח בחרן",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 18520,
-                        "GT_len": 9
+                        "GT_len": 9,
+                        "levenshtein_ratio": 0.941
                     },
                     {
                         "line_id": "eSc_line_c8ce431c",
@@ -486,7 +519,8 @@
                         "alg_GT": ":",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 18529,
-                        "GT_len": 2
+                        "GT_len": 2,
+                        "levenshtein_ratio": 0.0
                     },
                     {
                         "line_id": "eSc_line_69a98f0b",
@@ -497,7 +531,8 @@
                         "alg_GT": "ויאמר יהוה אל אברם לך לך מארצך וממולדתך ומבית",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 18531,
-                        "GT_len": 46
+                        "GT_len": 46,
+                        "levenshtein_ratio": 0.933
                     },
                     {
                         "line_id": "eSc_line_035b2f25",
@@ -508,7 +543,8 @@
                         "alg_GT": "אביך אל הארץ אשר אראך : ואעשך לגוי גדול ואברכך",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 18577,
-                        "GT_len": 47
+                        "GT_len": 47,
+                        "levenshtein_ratio": 0.978
                     },
                     {
                         "line_id": "eSc_line_3db70421",
@@ -519,7 +555,8 @@
                         "alg_GT": "ואגדלה שמך והיה ברכה : ואברכה מברכיך ומקללך אאר",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 18624,
-                        "GT_len": 48
+                        "GT_len": 48,
+                        "levenshtein_ratio": 0.968
                     },
                     {
                         "line_id": "eSc_line_15c3737b",
@@ -530,7 +567,8 @@
                         "alg_GT": "ונברכו בך כל משפחת האדמה : וילך אברם כאשר דבר",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 18672,
-                        "GT_len": 46
+                        "GT_len": 46,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_b81ef53d",
@@ -541,7 +579,8 @@
                         "alg_GT": "אליו יהוה וילך אתו לוט ואברם בן חמש שנים ושבעים",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 18718,
-                        "GT_len": 48
+                        "GT_len": 48,
+                        "levenshtein_ratio": 0.979
                     },
                     {
                         "line_id": "eSc_line_2a4b29ee",
@@ -552,7 +591,8 @@
                         "alg_GT": "שנה בצאתו מחרן : ויקח אברם את שרי אשתו ואת לוט",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 18766,
-                        "GT_len": 47
+                        "GT_len": 47,
+                        "levenshtein_ratio": 0.957
                     },
                     {
                         "line_id": "eSc_line_d7af5a8b",
@@ -563,7 +603,8 @@
                         "alg_GT": "בן אחיו ואת כל רכושם אשר רכשו ואת הנפש אשר",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 18813,
-                        "GT_len": 43
+                        "GT_len": 43,
+                        "levenshtein_ratio": 0.894
                     },
                     {
                         "line_id": "eSc_line_48e7134d",
@@ -574,7 +615,8 @@
                         "alg_GT": "עשו בחרן ויצאו ללכת ארצה כנען ויבאו ארצה כנען :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 18856,
-                        "GT_len": 48
+                        "GT_len": 48,
+                        "levenshtein_ratio": 0.989
                     },
                     {
                         "line_id": "eSc_line_7fdeada0",
@@ -585,7 +627,8 @@
                         "alg_GT": "ויעבר אברם בארץ עד מקום שכם עד אלון מורה והכנעני",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 18904,
-                        "GT_len": 49
+                        "GT_len": 49,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_d7739f42",
@@ -596,7 +639,8 @@
                         "alg_GT": "אז בארץ : וירא יהוה אל אברם ויאמר לזרעך אתן את",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 18953,
-                        "GT_len": 47
+                        "GT_len": 47,
+                        "levenshtein_ratio": 0.935
                     },
                     {
                         "line_id": "eSc_line_3231af54",
@@ -607,7 +651,8 @@
                         "alg_GT": "הארץ הזאת ויבן שם מזבח ליהוה הנראה אליו : ויעתק",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 19000,
-                        "GT_len": 48
+                        "GT_len": 48,
+                        "levenshtein_ratio": 0.978
                     },
                     {
                         "line_id": "eSc_line_4360b634",
@@ -618,7 +663,8 @@
                         "alg_GT": "משם ההרה מקדם לבית אל ויט אהלה בית אל מים והעי",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 19048,
-                        "GT_len": 47
+                        "GT_len": 47,
+                        "levenshtein_ratio": 0.945
                     },
                     {
                         "line_id": "eSc_line_fc63e47c",
@@ -629,7 +675,8 @@
                         "alg_GT": "מקדם ויבן שם מזבח ליהוה ויקרא בשם יהוה : ויסע אברם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 19095,
-                        "GT_len": 51
+                        "GT_len": 51,
+                        "levenshtein_ratio": 0.98
                     },
                     {
                         "line_id": "eSc_line_86354d8e",
@@ -640,7 +687,8 @@
                         "alg_GT": "הלוך ונסוע הנגבה : ויהי רעב בארץ וירד אברם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 19146,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.965
                     }
                 ],
                 "series": "OCR"
@@ -2443,7 +2491,8 @@
                         "alg_GT": "ולכל חית הארץ ולכל עוף הש",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 2008,
-                        "GT_len": 25
+                        "GT_len": 25,
+                        "levenshtein_ratio": 0.467
                     },
                     {
                         "line_id": "eSc_line_09539a20",
@@ -2454,7 +2503,8 @@
                         "alg_GT": "מים ולכל רומש על הארץ א",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 2033,
-                        "GT_len": 23
+                        "GT_len": 23,
+                        "levenshtein_ratio": 0.526
                     },
                     {
                         "line_id": "eSc_line_93dfd7b4",
@@ -2465,7 +2515,8 @@
                         "alg_GT": "שר בו נפש חיה את כל",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 2056,
-                        "GT_len": 20
+                        "GT_len": 20,
+                        "levenshtein_ratio": 0.414
                     },
                     {
                         "line_id": "eSc_line_61a31c19",
@@ -2476,7 +2527,8 @@
                         "alg_GT": "ירק עשב לאכלה ויהי כן : וירא אלהים",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 2076,
-                        "GT_len": 35
+                        "GT_len": 35,
+                        "levenshtein_ratio": 0.421
                     },
                     {
                         "line_id": "eSc_line_b74b1ede",
@@ -2487,7 +2539,8 @@
                         "alg_GT": "את כל אשר עשה והנה טוב מאד וי",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 2111,
-                        "GT_len": 29
+                        "GT_len": 29,
+                        "levenshtein_ratio": 0.388
                     },
                     {
                         "line_id": "eSc_line_273a606d",
@@ -2498,7 +2551,8 @@
                         "alg_GT": "הי ערב ויהי בקר יום הששי :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 2140,
-                        "GT_len": 27
+                        "GT_len": 27,
+                        "levenshtein_ratio": 0.361
                     },
                     {
                         "line_id": "eSc_line_f4ed5705",
@@ -2509,7 +2563,8 @@
                         "alg_GT": "ויכלו השמים והארץ וכל צבאם : ויכל",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 2167,
-                        "GT_len": 34
+                        "GT_len": 34,
+                        "levenshtein_ratio": 0.985
                     },
                     {
                         "line_id": "eSc_line_5afa095c",
@@ -2520,7 +2575,8 @@
                         "alg_GT": "אלהים ביום השביעי מלאכתו אשר",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 2201,
-                        "GT_len": 29
+                        "GT_len": 29,
+                        "levenshtein_ratio": 0.982
                     },
                     {
                         "line_id": "eSc_line_d8b0d33c",
@@ -2531,7 +2587,8 @@
                         "alg_GT": "עשה וישבת ביום השביעי מכל מלאכתו אשר עשה : ויברך אלהים את יום השביעי ויקדש",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 2230,
-                        "GT_len": 75
+                        "GT_len": 75,
+                        "levenshtein_ratio": 0.642
                     },
                     {
                         "line_id": "eSc_line_b56d3cad",
@@ -2542,7 +2599,8 @@
                         "alg_GT": "אתו כי בו שבת מכל מלאכתו אשר ברא",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 2305,
-                        "GT_len": 33
+                        "GT_len": 33,
+                        "levenshtein_ratio": 0.954
                     },
                     {
                         "line_id": "eSc_line_ec8cd8bd",
@@ -2553,7 +2611,8 @@
                         "alg_GT": "אלהים לעשות",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 2338,
-                        "GT_len": 12
+                        "GT_len": 12,
+                        "levenshtein_ratio": 0.957
                     },
                     {
                         "line_id": "eSc_line_1d51b567",
@@ -2564,7 +2623,8 @@
                         "alg_GT": ": אלה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 2350,
-                        "GT_len": 6
+                        "GT_len": 6,
+                        "levenshtein_ratio": 0.19
                     },
                     {
                         "line_id": "eSc_line_ae67e6ef",
@@ -2806,7 +2866,8 @@
                         "alg_GT": "יצחק ואף את בריתי אברהם אזכר והארץ",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 240260,
-                        "GT_len": 35
+                        "GT_len": 35,
+                        "levenshtein_ratio": 0.986
                     },
                     {
                         "line_id": "eSc_line_ca9cffe2",
@@ -2817,7 +2878,8 @@
                         "alg_GT": "אזכר : והארץ תעזב מהם ותרץ את שבתתיה בהשמה מהם והם ירצו את עונם יען וביען במשפטי מאסו ואת חקתי געלה נפשם : ואף גם זאת בהיותם בארץ",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 240295,
-                        "GT_len": 130
+                        "GT_len": 130,
+                        "levenshtein_ratio": 0.402
                     },
                     {
                         "line_id": "eSc_line_8bcb560a",
@@ -2828,7 +2890,8 @@
                         "alg_GT": "איביהם לא מאסתים ולא געלתים לכלתם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 240425,
-                        "GT_len": 34
+                        "GT_len": 34,
+                        "levenshtein_ratio": 0.943
                     },
                     {
                         "line_id": "eSc_line_8b2cf296",
@@ -2839,7 +2902,8 @@
                         "alg_GT": "להפר בריתי אתם כי אני יהוה אלהיהם :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 240459,
-                        "GT_len": 36
+                        "GT_len": 36,
+                        "levenshtein_ratio": 0.767
                     },
                     {
                         "line_id": "eSc_line_ce4322cd",
@@ -2850,7 +2914,8 @@
                         "alg_GT": "וזכרתי להם ברית ראשנים אשר הוצאתי אתם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 240495,
-                        "GT_len": 38
+                        "GT_len": 38,
+                        "levenshtein_ratio": 0.947
                     },
                     {
                         "line_id": "eSc_line_4e584a16",
@@ -2861,7 +2926,8 @@
                         "alg_GT": "מארץ מצרים לעיני הגוים להית להם לאלהים",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 240533,
-                        "GT_len": 39
+                        "GT_len": 39,
+                        "levenshtein_ratio": 0.961
                     },
                     {
                         "line_id": "eSc_line_8040b958",
@@ -2872,7 +2938,8 @@
                         "alg_GT": "אני י",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 240572,
-                        "GT_len": 5
+                        "GT_len": 5,
+                        "levenshtein_ratio": 0.213
                     },
                     {
                         "line_id": "eSc_line_a8eda78f",
@@ -2883,7 +2950,8 @@
                         "alg_GT": "ושב וקבצך מכל העמים אשר הפיצך יהוה אלהיך",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 386722,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.923
                     },
                     {
                         "line_id": "eSc_line_8f9879c9",
@@ -2894,7 +2962,8 @@
                         "alg_GT": "שמה : אם יהיה נדחך בקצה השמים משם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 386763,
-                        "GT_len": 34
+                        "GT_len": 34,
+                        "levenshtein_ratio": 0.954
                     },
                     {
                         "line_id": "eSc_line_9a3c384b",
@@ -2905,7 +2974,8 @@
                         "alg_GT": "יקבצך יהוה אלהיך ומשם יקחך : והביאך י",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 386797,
-                        "GT_len": 37
+                        "GT_len": 37,
+                        "levenshtein_ratio": 0.861
                     }
                 ],
                 "series": "OCR"
@@ -2951,7 +3021,8 @@
                         "alg_GT": "יתן ממנו על זר ונכרת מעמיו : ויאמר יהוה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 162261,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 0.53
                     },
                     {
                         "line_id": "eSc_line_19d6e904",
@@ -2962,7 +3033,8 @@
                         "alg_GT": "אל משה קח לך סמים נטף ושחלת וחלבנה סמים",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 162301,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_33839f78",
@@ -2973,7 +3045,8 @@
                         "alg_GT": "ולבנה זכה בד בבד יהיה : ועשית אתה קטרת",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 162341,
-                        "GT_len": 39
+                        "GT_len": 39,
+                        "levenshtein_ratio": 0.949
                     },
                     {
                         "line_id": "eSc_line_45a50914",
@@ -2984,7 +3057,8 @@
                         "alg_GT": "רקח מעשה רוקח ממלח טהור קדש : ושחקת ממנה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 162380,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.988
                     },
                     {
                         "line_id": "eSc_line_0c6fbf58",
@@ -2995,7 +3069,8 @@
                         "alg_GT": "הדק ונתתה ממנה לפני העדת באהל מועד אשר",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 162421,
-                        "GT_len": 39
+                        "GT_len": 39,
+                        "levenshtein_ratio": 0.987
                     },
                     {
                         "line_id": "eSc_line_c70f1efa",
@@ -3006,7 +3081,8 @@
                         "alg_GT": "אועד לך שמה קדש קדשים תהיה לכם : והקטרת",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 162460,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 0.961
                     },
                     {
                         "line_id": "eSc_line_876e47f1",
@@ -3017,7 +3093,8 @@
                         "alg_GT": "אשר תעשה במתכנתה לא תעשו לכם קדש תהיה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 162500,
-                        "GT_len": 38
+                        "GT_len": 38,
+                        "levenshtein_ratio": 0.973
                     },
                     {
                         "line_id": "eSc_line_7796c0ba",
@@ -3028,7 +3105,8 @@
                         "alg_GT": "לך לי",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 162538,
-                        "GT_len": 5
+                        "GT_len": 5,
+                        "levenshtein_ratio": 0.2
                     },
                     {
                         "line_id": "eSc_line_89790339",
@@ -3039,7 +3117,8 @@
                         "alg_GT": "בבקר בהיטיבו את הנרת יקטירנה : ובהעלת אהרן",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 160684,
-                        "GT_len": 43
+                        "GT_len": 43,
+                        "levenshtein_ratio": 0.929
                     },
                     {
                         "line_id": "eSc_line_5a5eaac3",
@@ -3050,7 +3129,8 @@
                         "alg_GT": "את הנרת בין הערבים יקטירנה קטרת תמיד לפני",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 160727,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.964
                     },
                     {
                         "line_id": "eSc_line_2c2fb8d9",
@@ -3061,7 +3141,8 @@
                         "alg_GT": "יהוה לדרתיכם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 160769,
-                        "GT_len": 13
+                        "GT_len": 13,
+                        "levenshtein_ratio": 0.327
                     },
                     {
                         "line_id": "eSc_line_5a828568",
@@ -3443,7 +3524,8 @@
                         "alg_GT": "אותם אמר יהוה רוחי אשר עליך ודברי אשר שמתי בפיך לא",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 822855,
-                        "GT_len": 51
+                        "GT_len": 51,
+                        "levenshtein_ratio": 0.959
                     },
                     {
                         "line_id": "eSc_line_54aeb016",
@@ -3454,7 +3536,8 @@
                         "alg_GT": "ימושו מפיך ומפי זרעך ומפי זרע זרעך אמר יהוה מעתה ועד",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 822906,
-                        "GT_len": 53
+                        "GT_len": 53,
+                        "levenshtein_ratio": 0.92
                     },
                     {
                         "line_id": "eSc_line_5d7cb634",
@@ -3465,7 +3548,8 @@
                         "alg_GT": "עולם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 822959,
-                        "GT_len": 5
+                        "GT_len": 5,
+                        "levenshtein_ratio": 0.154
                     },
                     {
                         "line_id": "eSc_line_a25e20b8",
@@ -3588,7 +3672,8 @@
                         "alg_GT": "ויהי נעם אדני אלהינו עלינו ומעשה ידינו כוננה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1301696,
-                        "GT_len": 45
+                        "GT_len": 45,
+                        "levenshtein_ratio": 0.943
                     },
                     {
                         "line_id": "eSc_line_7e6edd76",
@@ -3599,7 +3684,8 @@
                         "alg_GT": "עלינו ומעשה ידינו כוננהו : ישב בסתר ע",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1301741,
-                        "GT_len": 37
+                        "GT_len": 37,
+                        "levenshtein_ratio": 0.933
                     },
                     {
                         "line_id": "eSc_line_dc20e6b9",
@@ -3610,7 +3696,8 @@
                         "alg_GT": "ליון בצל שדי יתלונן : אמר ליהוה מחסי ומצודתי אלהי",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1301778,
-                        "GT_len": 50
+                        "GT_len": 50,
+                        "levenshtein_ratio": 0.848
                     },
                     {
                         "line_id": "eSc_line_a15c1fd5",
@@ -3621,7 +3708,8 @@
                         "alg_GT": "אבטח בו : כי הוא יצילך מפח יקוש מדבר הוות : באברתו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1301828,
-                        "GT_len": 51
+                        "GT_len": 51,
+                        "levenshtein_ratio": 0.928
                     },
                     {
                         "line_id": "eSc_line_ab22ffa1",
@@ -3632,7 +3720,8 @@
                         "alg_GT": "יסך לך ותחת כנפיו תחסה צנה וסחרה אמתו : לא תירא",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1301879,
-                        "GT_len": 48
+                        "GT_len": 48,
+                        "levenshtein_ratio": 0.915
                     },
                     {
                         "line_id": "eSc_line_49fdf527",
@@ -3643,7 +3732,8 @@
                         "alg_GT": "מפחד לילה מחץ יעוף יומם : מדבר באפל יהלך מקטב",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1301927,
-                        "GT_len": 46
+                        "GT_len": 46,
+                        "levenshtein_ratio": 0.923
                     },
                     {
                         "line_id": "eSc_line_af26a94f",
@@ -3654,7 +3744,8 @@
                         "alg_GT": "ישוד צהרים : יפל מצדך אלף ורבבה מימינך אליך לא יגש :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1301973,
-                        "GT_len": 53
+                        "GT_len": 53,
+                        "levenshtein_ratio": 0.913
                     },
                     {
                         "line_id": "eSc_line_5a5922eb",
@@ -3665,7 +3756,8 @@
                         "alg_GT": "רק בעיניך תביט ושלמת רשעים תראה : כי אתה יהוה מחסי",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1302026,
-                        "GT_len": 51
+                        "GT_len": 51,
+                        "levenshtein_ratio": 0.928
                     },
                     {
                         "line_id": "eSc_line_45f90817",
@@ -3676,7 +3768,8 @@
                         "alg_GT": "עליון שמת מעונך : לא תאנה אליך רעה ונגע לא יקרב",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1302077,
-                        "GT_len": 48
+                        "GT_len": 48,
+                        "levenshtein_ratio": 0.936
                     },
                     {
                         "line_id": "eSc_line_b6a665d7",
@@ -3687,7 +3780,8 @@
                         "alg_GT": "באהלך : כי מלאכיו יצוה לך לשמרך בכל דרכיך : על כפים",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1302125,
-                        "GT_len": 52
+                        "GT_len": 52,
+                        "levenshtein_ratio": 0.95
                     },
                     {
                         "line_id": "eSc_line_49717002",
@@ -3698,7 +3792,8 @@
                         "alg_GT": "ישאונך פן תגף באבן רגלך : על שחל ופתן תדרך תרמס",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1302177,
-                        "GT_len": 48
+                        "GT_len": 48,
+                        "levenshtein_ratio": 0.816
                     },
                     {
                         "line_id": "eSc_line_333fcb4a",
@@ -3709,7 +3804,8 @@
                         "alg_GT": "כפיר ותנין : כי בי חשק ואפלטהו אשגבהו כי ידע שמי :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1302225,
-                        "GT_len": 51
+                        "GT_len": 51,
+                        "levenshtein_ratio": 0.94
                     },
                     {
                         "line_id": "eSc_line_149cdd83",
@@ -3720,7 +3816,8 @@
                         "alg_GT": "יקראני ואענהו עמו אנכי בצרה אחלצהו ואכבדהו : ארך",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1302276,
-                        "GT_len": 49
+                        "GT_len": 49,
+                        "levenshtein_ratio": 0.938
                     },
                     {
                         "line_id": "eSc_line_30eef5b1",
@@ -3731,7 +3828,8 @@
                         "alg_GT": "ימים אשביעהו ואראהו בישועתי :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1302325,
-                        "GT_len": 29
+                        "GT_len": 29,
+                        "levenshtein_ratio": 0.966
                     }
                 ],
                 "series": "OCR"
@@ -3983,7 +4081,8 @@
                         "alg_GT": "ההיא אביא אתכם ובעת קבצי אתכם כי אתן אתכם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1086891,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_55c47f1c",
@@ -3994,7 +4093,8 @@
                         "alg_GT": "לשם ולתהלה בכל עמי הארץ בשובי את שבותיכם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1086933,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_9ff395db",
@@ -4005,7 +4105,8 @@
                         "alg_GT": "לעיניכם אמר י",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1086974,
-                        "GT_len": 13
+                        "GT_len": 13,
+                        "levenshtein_ratio": 0.897
                     }
                 ],
                 "series": "OCR"
@@ -4147,7 +4248,8 @@
                         "alg_GT": "וידבר יהוה אל משה לאמר : ועשית כיור נחשת וכנו נחשת",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 161379,
-                        "GT_len": 51
+                        "GT_len": 51,
+                        "levenshtein_ratio": 0.939
                     },
                     {
                         "line_id": "eSc_line_ddc9c3eb",
@@ -4158,7 +4260,8 @@
                         "alg_GT": "לרחצה ונתת אתו בין אהל מועד ובין המזבח ונתת",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 161430,
-                        "GT_len": 44
+                        "GT_len": 44,
+                        "levenshtein_ratio": 0.965
                     },
                     {
                         "line_id": "eSc_line_baefaf4a",
@@ -4169,7 +4272,8 @@
                         "alg_GT": "שמה מים : ורחצו אהרן ובניו ממנו את ידיהם ואת רגליהם :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 161474,
-                        "GT_len": 54
+                        "GT_len": 54,
+                        "levenshtein_ratio": 0.952
                     },
                     {
                         "line_id": "eSc_line_cc4a7374",
@@ -4180,7 +4284,8 @@
                         "alg_GT": "בבאם אל אהל מועד ירחצו מים ולא ימתו או בגשתם אל",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 161528,
-                        "GT_len": 48
+                        "GT_len": 48,
+                        "levenshtein_ratio": 0.936
                     },
                     {
                         "line_id": "eSc_line_9de04549",
@@ -4191,7 +4296,8 @@
                         "alg_GT": "המזבח לשרת להקטיר אשה ליהוה : ורחצו ידיהם ורגליהם ולא",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 161576,
-                        "GT_len": 54
+                        "GT_len": 54,
+                        "levenshtein_ratio": 0.932
                     },
                     {
                         "line_id": "eSc_line_9141b8dc",
@@ -4202,7 +4308,8 @@
                         "alg_GT": "ימתו והיתה להם חק עולם לו ולזרעו לדרתם :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 161630,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.975
                     },
                     {
                         "line_id": "eSc_line_e3f49fce",
@@ -4213,7 +4320,8 @@
                         "alg_GT": "ולבש הכהן מדו בד ומכנסי בד ילבש על בשרו והרים את",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 192662,
-                        "GT_len": 49
+                        "GT_len": 49,
+                        "levenshtein_ratio": 0.948
                     },
                     {
                         "line_id": "eSc_line_d911e799",
@@ -4224,7 +4332,8 @@
                         "alg_GT": "הדשן אשר תאכל האש את העלה על המזבח ושמו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 192711,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 0.949
                     },
                     {
                         "line_id": "eSc_line_87016d9e",
@@ -4235,7 +4344,8 @@
                         "alg_GT": "אצל המזבח : ופשט את בגדיו ולבש בגדים אחרים והוציא את",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 192751,
-                        "GT_len": 53
+                        "GT_len": 53,
+                        "levenshtein_ratio": 0.962
                     },
                     {
                         "line_id": "eSc_line_edb902bd",
@@ -4246,7 +4356,8 @@
                         "alg_GT": "הדשן אל מחוץ למחנה אל מקום טהור",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 192804,
-                        "GT_len": 31
+                        "GT_len": 31,
+                        "levenshtein_ratio": 0.857
                     }
                 ],
                 "series": "OCR"
@@ -4860,7 +4971,8 @@
                         "alg_GT": "אלהיך לא תעשה מלאכה : שבעה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 360341,
-                        "GT_len": 27
+                        "GT_len": 27,
+                        "levenshtein_ratio": 0.552
                     },
                     {
                         "line_id": "eSc_line_04b6b1f6",
@@ -4871,7 +4983,8 @@
                         "alg_GT": "שבעת תספר לך מהחל חרמש בקמה תחל לספר",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 360368,
-                        "GT_len": 37
+                        "GT_len": 37,
+                        "levenshtein_ratio": 0.917
                     },
                     {
                         "line_id": "eSc_line_9fd31d89",
@@ -4882,7 +4995,8 @@
                         "alg_GT": "שבעה שבעות : ועשית חג שבעות ליהוה אלהיך",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 360405,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_8901a41c",
@@ -4893,7 +5007,8 @@
                         "alg_GT": "מסת נדבת ידך אשר תתן כאשר יברכך יהוה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 360445,
-                        "GT_len": 37
+                        "GT_len": 37,
+                        "levenshtein_ratio": 0.972
                     },
                     {
                         "line_id": "eSc_line_b028db14",
@@ -4904,7 +5019,8 @@
                         "alg_GT": "אלהיך : ושמחת לפני יהוה אלהיך אתה ובנך",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 360482,
-                        "GT_len": 39
+                        "GT_len": 39,
+                        "levenshtein_ratio": 0.974
                     },
                     {
                         "line_id": "eSc_line_be3f97f2",
@@ -4915,7 +5031,8 @@
                         "alg_GT": "ובתך ועבדך ואמתך והלוי אשר בשעריך והגר",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 360521,
-                        "GT_len": 39
+                        "GT_len": 39,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_4a86e3b9",
@@ -4926,7 +5043,8 @@
                         "alg_GT": "והיתום והאלמנה אשר בקרבך במקום אשר יבחר",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 360560,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_aabe1fa5",
@@ -4937,7 +5055,8 @@
                         "alg_GT": "יהוה אלהיך לשכן שמו שם : וזכרת כי עבד",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 360600,
-                        "GT_len": 38
+                        "GT_len": 38,
+                        "levenshtein_ratio": 0.973
                     },
                     {
                         "line_id": "eSc_line_7b2eb070",
@@ -4948,7 +5067,8 @@
                         "alg_GT": "היית במצרים ושמרת ועשית את החקים האלה :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 360638,
-                        "GT_len": 39
+                        "GT_len": 39,
+                        "levenshtein_ratio": 0.974
                     },
                     {
                         "line_id": "eSc_line_699fe422",
@@ -4959,7 +5079,8 @@
                         "alg_GT": "חג הסכת תעשה לך שבעת ימים באספך",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 360677,
-                        "GT_len": 33
+                        "GT_len": 33,
+                        "levenshtein_ratio": 0.969
                     },
                     {
                         "line_id": "eSc_line_d61cbc1a",
@@ -4970,7 +5091,8 @@
                         "alg_GT": "מגרנך ומיקבך : ושמחת בחגך אתה ובנך ובתך",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 360710,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_60451601",
@@ -4981,7 +5103,8 @@
                         "alg_GT": "ועבדך ואמתך והלוי והגר והיתום והאלמנה אשר",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 360750,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_184ff8c0",
@@ -4992,7 +5115,8 @@
                         "alg_GT": "בשעריך : שבעת ימים תחג ליהוה אלהיך",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 360792,
-                        "GT_len": 35
+                        "GT_len": 35,
+                        "levenshtein_ratio": 0.985
                     },
                     {
                         "line_id": "eSc_line_02ff839a",
@@ -5003,7 +5127,8 @@
                         "alg_GT": "במקום אשר יבחר יהוה כי יברכך יהוה אלהיך",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 360827,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 0.974
                     },
                     {
                         "line_id": "eSc_line_dbe36008",
@@ -5014,7 +5139,8 @@
                         "alg_GT": "בכל תבואתך ובכל מעשה ידיך והיית אך שמח :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 360867,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.987
                     },
                     {
                         "line_id": "eSc_line_16408d0b",
@@ -5025,7 +5151,8 @@
                         "alg_GT": "שלוש פעמים בשנה יראה כל זכורך את פני",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 360908,
-                        "GT_len": 37
+                        "GT_len": 37,
+                        "levenshtein_ratio": 0.932
                     },
                     {
                         "line_id": "eSc_line_3fa06bda",
@@ -5036,7 +5163,8 @@
                         "alg_GT": "יהוה אלהיך במקום אשר יבחר בחג המצות ובחג",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 360945,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_9f99ae73",
@@ -5047,7 +5175,8 @@
                         "alg_GT": "השבעות ובחג הסכות ולא יראה את פני יהוה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 360986,
-                        "GT_len": 39
+                        "GT_len": 39,
+                        "levenshtein_ratio": 0.974
                     },
                     {
                         "line_id": "eSc_line_90021966",
@@ -5058,7 +5187,8 @@
                         "alg_GT": "ריקם : איש כמתנת ידו כברכת יהוה אלהיך",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 361025,
-                        "GT_len": 38
+                        "GT_len": 38,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_29a55714",
@@ -5069,7 +5199,8 @@
                         "alg_GT": "אשר נתן לך :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 361063,
-                        "GT_len": 13
+                        "GT_len": 13,
+                        "levenshtein_ratio": 0.786
                     },
                     {
                         "line_id": "eSc_line_bbf2eb52",
@@ -5080,7 +5211,8 @@
                         "alg_GT": "שפטים ושטרים תתן לך בכל שעריך אשר",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 361076,
-                        "GT_len": 34
+                        "GT_len": 34,
+                        "levenshtein_ratio": 0.939
                     },
                     {
                         "line_id": "eSc_line_2e6bc3c1",
@@ -5091,7 +5223,8 @@
                         "alg_GT": "יהוה אלהיך נתן לך לשבטיך ושפטו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 361110,
-                        "GT_len": 31
+                        "GT_len": 31,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_7c354003",
@@ -5102,7 +5235,8 @@
                         "alg_GT": "את העם משפט צדק : לא תטה משפט לא",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 361141,
-                        "GT_len": 32
+                        "GT_len": 32,
+                        "levenshtein_ratio": 0.889
                     }
                 ],
                 "series": "OCR"
@@ -5302,7 +5436,8 @@
                         "alg_GT": "והמתנשא לכל לראש : והעשר והכבוד מלפניך",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1166073,
-                        "GT_len": 39
+                        "GT_len": 39,
+                        "levenshtein_ratio": 0.947
                     },
                     {
                         "line_id": "eSc_line_143c5651",
@@ -5313,7 +5448,8 @@
                         "alg_GT": "ואתה מושל בכל ובידך כח וגבורה ובידך לגדל",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1166112,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_c3222657",
@@ -5324,7 +5460,8 @@
                         "alg_GT": "ולחזק לכל : ועתה אלהינו מודים אנחנו לך ומהללים",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1166153,
-                        "GT_len": 47
+                        "GT_len": 47,
+                        "levenshtein_ratio": 0.989
                     },
                     {
                         "line_id": "eSc_line_42162675",
@@ -5335,7 +5472,8 @@
                         "alg_GT": "לשם תפארתך :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1166200,
-                        "GT_len": 13
+                        "GT_len": 13,
+                        "levenshtein_ratio": 0.462
                     },
                     {
                         "line_id": "eSc_line_f9df1cb7",
@@ -5346,7 +5484,8 @@
                         "alg_GT": "ברכה ותהלה : אתה הוא יהוה לבדך את עשית את",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1536563,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.938
                     },
                     {
                         "line_id": "eSc_line_81028636",
@@ -5357,7 +5496,8 @@
                         "alg_GT": "השמים שמי השמים וכל צבאם הארץ וכל אשר",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1536605,
-                        "GT_len": 38
+                        "GT_len": 38,
+                        "levenshtein_ratio": 0.973
                     },
                     {
                         "line_id": "eSc_line_a59a5cdb",
@@ -5368,7 +5508,8 @@
                         "alg_GT": "עליה הימים וכל אשר בהם ואתה מחיה את כלם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1536643,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 0.962
                     },
                     {
                         "line_id": "eSc_line_c7e348cc",
@@ -5379,7 +5520,8 @@
                         "alg_GT": "וצבא השמים לך משתחוים : אתה הוא יהוה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1536683,
-                        "GT_len": 37
+                        "GT_len": 37,
+                        "levenshtein_ratio": 0.947
                     },
                     {
                         "line_id": "eSc_line_b503646d",
@@ -5390,7 +5532,8 @@
                         "alg_GT": "האלהים אשר בחרת באברם והוצאתו מאור כשדים",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1536720,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.961
                     },
                     {
                         "line_id": "eSc_line_69563750",
@@ -5401,7 +5544,8 @@
                         "alg_GT": "ושמת שמו אברהם : ומצאת את לבבו נאמן לפניך",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1536761,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.976
                     },
                     {
                         "line_id": "eSc_line_edc8a3cf",
@@ -5412,7 +5556,8 @@
                         "alg_GT": "וכרות עמו הברית לתת את ארץ הכנעני החתי",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1536803,
-                        "GT_len": 39
+                        "GT_len": 39,
+                        "levenshtein_ratio": 0.974
                     },
                     {
                         "line_id": "eSc_line_3f9fcd85",
@@ -5423,7 +5568,8 @@
                         "alg_GT": "האמרי והפרזי והיבוסי והגרגשי לתת לזרעו ותקם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1536842,
-                        "GT_len": 44
+                        "GT_len": 44,
+                        "levenshtein_ratio": 0.943
                     },
                     {
                         "line_id": "eSc_line_3486f3d3",
@@ -5434,7 +5580,8 @@
                         "alg_GT": "את דבריך כי צדיק אתה : ותרא את עני אבתינו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1536886,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.988
                     },
                     {
                         "line_id": "eSc_line_81dbfc02",
@@ -5445,7 +5592,8 @@
                         "alg_GT": "במצרים ואת זעקתם שמעת על ים סוף : ותתן אתת",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1536928,
-                        "GT_len": 43
+                        "GT_len": 43,
+                        "levenshtein_ratio": 0.988
                     },
                     {
                         "line_id": "eSc_line_8ac7259a",
@@ -5456,7 +5604,8 @@
                         "alg_GT": "ומפתים בפרעה ובכל עבדיו ובכל עם ארצו כי",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1536971,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 0.95
                     },
                     {
                         "line_id": "eSc_line_2eda3e92",
@@ -5467,7 +5616,8 @@
                         "alg_GT": "ידעת כי הזידו עליהם ותעש לך שם כהיום הזה :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1537011,
-                        "GT_len": 43
+                        "GT_len": 43,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_0e9e46fd",
@@ -5478,7 +5628,8 @@
                         "alg_GT": "והים בקעת לפניהם ויעברו בתוך הים ביבשה ואת",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1537054,
-                        "GT_len": 43
+                        "GT_len": 43,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_233b397c",
@@ -5489,7 +5640,8 @@
                         "alg_GT": "רדפיהם השלכת במצולת כמו אבן במים עזים :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1537097,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 0.974
                     },
                     {
                         "line_id": "eSc_line_ecdd116a",
@@ -5500,7 +5652,8 @@
                         "alg_GT": "ו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1537137,
-                        "GT_len": 1
+                        "GT_len": 1,
+                        "levenshtein_ratio": 0.044
                     },
                     {
                         "line_id": "eSc_line_c90384d7",
@@ -5511,7 +5664,8 @@
                         "alg_GT": "ישראל את מצרים מת על שפת הים : וירא ישראל",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 129958,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.975
                     },
                     {
                         "line_id": "eSc_line_7fa12d20",
@@ -5522,7 +5676,8 @@
                         "alg_GT": "את היד הגדלה אשר עשה יהוה במצרים וייראו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130000,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_1d880db6",
@@ -5533,7 +5688,8 @@
                         "alg_GT": "העם את יהוה ויאמינו ביהוה ובמשה עבדו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130040,
-                        "GT_len": 37
+                        "GT_len": 37,
+                        "levenshtein_ratio": 0.986
                     },
                     {
                         "line_id": "eSc_line_be68a6f4",
@@ -5586,7 +5742,8 @@
                         "alg_GT": "ואין צוחה ברחבתינו :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1337722,
-                        "GT_len": 21
+                        "GT_len": 21,
+                        "levenshtein_ratio": 0.415
                     },
                     {
                         "line_id": "eSc_line_039b9703",
@@ -5597,7 +5754,8 @@
                         "alg_GT": "אשרי העם שככה לו אשרי",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1337743,
-                        "GT_len": 22
+                        "GT_len": 22,
+                        "levenshtein_ratio": 0.955
                     },
                     {
                         "line_id": "eSc_line_27d1c17a",
@@ -5608,7 +5766,8 @@
                         "alg_GT": "העם שיהוה אלהיו : תהלה לדוד ארוממך",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1337765,
-                        "GT_len": 35
+                        "GT_len": 35,
+                        "levenshtein_ratio": 0.939
                     },
                     {
                         "line_id": "eSc_line_95cd2057",
@@ -5619,7 +5778,8 @@
                         "alg_GT": "אלוהי המלך ואברכה שמך לעולם ועד :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1337800,
-                        "GT_len": 34
+                        "GT_len": 34,
+                        "levenshtein_ratio": 0.923
                     },
                     {
                         "line_id": "eSc_line_bd45281c",
@@ -5630,7 +5790,8 @@
                         "alg_GT": "בכל יום אברכך ואהללה שמך לעולם ועד :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1337834,
-                        "GT_len": 37
+                        "GT_len": 37,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_7c6d2c01",
@@ -5641,7 +5802,8 @@
                         "alg_GT": "גדול יהוה ומהלל מאד ולגדלתו אין חקר",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1337871,
-                        "GT_len": 36
+                        "GT_len": 36,
+                        "levenshtein_ratio": 0.899
                     },
                     {
                         "line_id": "eSc_line_2c38645c",
@@ -5652,7 +5814,8 @@
                         "alg_GT": ": דור לדור ישבח מעשיך וגבורתיך יגידו :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1337907,
-                        "GT_len": 39
+                        "GT_len": 39,
+                        "levenshtein_ratio": 0.973
                     },
                     {
                         "line_id": "eSc_line_2e3bb248",
@@ -5663,7 +5826,8 @@
                         "alg_GT": "הדר כבוד הודך ודברי נפלאותיך אשיחה :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1337946,
-                        "GT_len": 37
+                        "GT_len": 37,
+                        "levenshtein_ratio": 0.986
                     },
                     {
                         "line_id": "eSc_line_489a551c",
@@ -5674,7 +5838,8 @@
                         "alg_GT": "ועזוז נוראתיך יאמרו וגדולתיך אספרנה :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1337983,
-                        "GT_len": 38
+                        "GT_len": 38,
+                        "levenshtein_ratio": 0.944
                     },
                     {
                         "line_id": "eSc_line_c2623289",
@@ -5685,7 +5850,8 @@
                         "alg_GT": "זכר רב טובך יביעו וצדקתך ירננו : חנון",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1338021,
-                        "GT_len": 38
+                        "GT_len": 38,
+                        "levenshtein_ratio": 0.973
                     },
                     {
                         "line_id": "eSc_line_1f68ceb6",
@@ -5696,7 +5862,8 @@
                         "alg_GT": "ורחום יהוה ארך אפים וגדל חסד : טוב יהוה לכל",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1338059,
-                        "GT_len": 44
+                        "GT_len": 44,
+                        "levenshtein_ratio": 0.875
                     },
                     {
                         "line_id": "eSc_line_ca1f56ab",
@@ -5707,7 +5874,8 @@
                         "alg_GT": "ורחמיו על כל מעשיו : יודוך יהוה כל מעשיך",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1338103,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.949
                     },
                     {
                         "line_id": "eSc_line_808d9db3",
@@ -5718,7 +5886,8 @@
                         "alg_GT": "וחסידיך יברכוכה : כבוד מלכותך יאמרו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1338144,
-                        "GT_len": 36
+                        "GT_len": 36,
+                        "levenshtein_ratio": 0.971
                     },
                     {
                         "line_id": "eSc_line_04c4bb53",
@@ -5729,7 +5898,8 @@
                         "alg_GT": "וגבורתך ידברו : להודיע לבני האדם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1338180,
-                        "GT_len": 33
+                        "GT_len": 33,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_624efac4",
@@ -5740,7 +5910,8 @@
                         "alg_GT": "גבורתיו וכבוד הדר מלכותו : מלכותך",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1338213,
-                        "GT_len": 33
+                        "GT_len": 33,
+                        "levenshtein_ratio": 0.985
                     }
                 ],
                 "series": "OCR"
@@ -5842,7 +6013,8 @@
                         "alg_GT": "וקראתי בשם יהוה לפניך וחנתי את אשר אחן",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 167803,
-                        "GT_len": 39
+                        "GT_len": 39,
+                        "levenshtein_ratio": 0.919
                     },
                     {
                         "line_id": "eSc_line_c54474e2",
@@ -5853,7 +6025,8 @@
                         "alg_GT": "ורחמתי את אשר ארחם :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 167842,
-                        "GT_len": 21
+                        "GT_len": 21,
+                        "levenshtein_ratio": 0.95
                     },
                     {
                         "line_id": "eSc_line_96ea086c",
@@ -5864,7 +6037,8 @@
                         "alg_GT": "ויאמר לא תוכל לראת את",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 167863,
-                        "GT_len": 22
+                        "GT_len": 22,
+                        "levenshtein_ratio": 0.464
                     },
                     {
                         "line_id": "eSc_line_913e9b3c",
@@ -5952,7 +6126,8 @@
                         "alg_GT": "חרנך יאכלמו כקש : וברוח אפיך נערמו מים נצבו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130421,
-                        "GT_len": 44
+                        "GT_len": 44,
+                        "levenshtein_ratio": 0.988
                     },
                     {
                         "line_id": "eSc_line_eb8f1942",
@@ -5963,7 +6138,8 @@
                         "alg_GT": "כמו נד נזלים קפאו תהמת בלב ים : אמר אויב",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130465,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.923
                     },
                     {
                         "line_id": "eSc_line_467cffe1",
@@ -5974,7 +6150,8 @@
                         "alg_GT": "ארדף אשיג אחלק שלל תמלאמו נפשי אריק",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130506,
-                        "GT_len": 36
+                        "GT_len": 36,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_62733cef",
@@ -5985,7 +6162,8 @@
                         "alg_GT": "חרבי תורישמו ידי : נשפת ברוחך כסמו ים צללו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130542,
-                        "GT_len": 43
+                        "GT_len": 43,
+                        "levenshtein_ratio": 0.988
                     },
                     {
                         "line_id": "eSc_line_f78cceb6",
@@ -5996,7 +6174,8 @@
                         "alg_GT": "כעופרת במים אדירים : מי כמכה באלם יהוה מי",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130585,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.976
                     },
                     {
                         "line_id": "eSc_line_21a89328",
@@ -6007,7 +6186,8 @@
                         "alg_GT": "כמכה נאדר בקדש נורא תהלת עשה פלא : נטית",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130627,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 0.987
                     },
                     {
                         "line_id": "eSc_line_75fa65a7",
@@ -6018,7 +6198,8 @@
                         "alg_GT": "ימינך תבלעמו ארץ : נחית בחסדך עם זו גאלת",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130667,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.962
                     },
                     {
                         "line_id": "eSc_line_c6b76ef3",
@@ -6029,7 +6210,8 @@
                         "alg_GT": "נהלת בעזך אל נוה קדשך : שמעו עמים ירגזון",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130708,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.962
                     },
                     {
                         "line_id": "eSc_line_99b966e5",
@@ -6040,7 +6222,8 @@
                         "alg_GT": "חיל אחז ישבי פלשת : אז נבהלו אלופי אדום אילי",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130749,
-                        "GT_len": 45
+                        "GT_len": 45,
+                        "levenshtein_ratio": 0.989
                     },
                     {
                         "line_id": "eSc_line_98410d67",
@@ -6051,7 +6234,8 @@
                         "alg_GT": "מואב יאחזמו רעד נמגו כל ישבי כנען : תפל עליהם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130794,
-                        "GT_len": 46
+                        "GT_len": 46,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_2bbc123f",
@@ -6062,7 +6246,8 @@
                         "alg_GT": "אימתה ופחד בגדל זרועך ידמו כאבן עד יעבר עמך",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130840,
-                        "GT_len": 44
+                        "GT_len": 44,
+                        "levenshtein_ratio": 0.977
                     },
                     {
                         "line_id": "eSc_line_9d99f944",
@@ -6073,7 +6258,8 @@
                         "alg_GT": "יהוה עד יעבר עם זו קנית : תבאמו ותטעמו בהר",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130884,
-                        "GT_len": 43
+                        "GT_len": 43,
+                        "levenshtein_ratio": 0.94
                     },
                     {
                         "line_id": "eSc_line_65d82987",
@@ -6084,7 +6270,8 @@
                         "alg_GT": "נחלתך מכון לשבתך פעלת יהוה מקדש אדני",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130927,
-                        "GT_len": 37
+                        "GT_len": 37,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_f31521b9",
@@ -6095,7 +6282,8 @@
                         "alg_GT": "כוננו ידיך : יהוה ימלך לעלם ועד : כי בא סוס",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130964,
-                        "GT_len": 44
+                        "GT_len": 44,
+                        "levenshtein_ratio": 0.965
                     },
                     {
                         "line_id": "eSc_line_7ef7a16d",
@@ -6106,7 +6294,8 @@
                         "alg_GT": "פרעה ברכבו ובפרשיו בים וישב יהוה עלהם את",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 131008,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.988
                     },
                     {
                         "line_id": "eSc_line_4900aa37",
@@ -6117,7 +6306,8 @@
                         "alg_GT": "מי הים ובני ישראל הלכו ביבשה בתוך הים :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 131049,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_5830c93c",
@@ -6128,7 +6318,8 @@
                         "alg_GT": "ותקח מרים הנביאה אחות אהרן את התף בידה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 131089,
-                        "GT_len": 39
+                        "GT_len": 39,
+                        "levenshtein_ratio": 0.947
                     },
                     {
                         "line_id": "eSc_line_bf22f664",
@@ -6139,7 +6330,8 @@
                         "alg_GT": "ותצאן כל הנשים אחריה בתפים ובמחלת : ותען",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 131128,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.962
                     },
                     {
                         "line_id": "eSc_line_08a8323c",
@@ -6150,7 +6342,8 @@
                         "alg_GT": "להם מרים שירו ליהוה כי גאה גאה סוס ורכבו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 131169,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.975
                     },
                     {
                         "line_id": "eSc_line_15c05c04",
@@ -6161,7 +6354,8 @@
                         "alg_GT": "רמה בים : ויסע משה את ישראל מים סוף ויצאו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 131210,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.938
                     },
                     {
                         "line_id": "eSc_line_33379e53",
@@ -6172,7 +6366,8 @@
                         "alg_GT": "אל מדבר שור וילכו שלשת ימים במדבר ולא מצאו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 131252,
-                        "GT_len": 43
+                        "GT_len": 43,
+                        "levenshtein_ratio": 0.905
                     },
                     {
                         "line_id": "eSc_line_5ea5ef66",
@@ -6183,7 +6378,8 @@
                         "alg_GT": "מים : ויבאו מרתה ולא יכלו לשתת מים ממרה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 131295,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 0.987
                     },
                     {
                         "line_id": "eSc_line_7ce81ad5",
@@ -6194,7 +6390,8 @@
                         "alg_GT": "כי מרים הם על כן קרא שמה מרה : וילנו העם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 131335,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.937
                     },
                     {
                         "line_id": "eSc_line_6056749f",
@@ -6205,7 +6402,8 @@
                         "alg_GT": "על משה לאמר מה נשתה : ויצעק אל יהוה ויורהו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 131376,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.916
                     }
                 ],
                 "series": "OCR"
@@ -6427,7 +6625,8 @@
                         "alg_GT": "מזמור שיר ליום השבת : טוב להדות ליהוה ולזמר לשמך עליון :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1302355,
-                        "GT_len": 57
+                        "GT_len": 57,
+                        "levenshtein_ratio": 0.955
                     },
                     {
                         "line_id": "eSc_line_af9e86b9",
@@ -6438,7 +6637,8 @@
                         "alg_GT": "להגיד בבקר חסדך ואמונתך בלילות : עלי עשור ועלי נבל עלי הגיון",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1302412,
-                        "GT_len": 61
+                        "GT_len": 61,
+                        "levenshtein_ratio": 0.983
                     },
                     {
                         "line_id": "eSc_line_730d0864",
@@ -6449,7 +6649,8 @@
                         "alg_GT": "בכנור : כי שמחתני יהוה בפעלך במעשי ידיך ארנן : מה גדלו מעשיך",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1302473,
-                        "GT_len": 60
+                        "GT_len": 60,
+                        "levenshtein_ratio": 0.932
                     }
                 ],
                 "series": "OCR"
@@ -6817,7 +7018,8 @@
                         "alg_GT": "העצים ויעקד את יצחק בנו וישם אתו על המזבח",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 35992,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_1e387ad8",
@@ -6828,7 +7030,8 @@
                         "alg_GT": "ממעל לעצים : וישלח אברהם את ידו ויקח את",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36034,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 0.961
                     },
                     {
                         "line_id": "eSc_line_fd4c8b25",
@@ -6839,7 +7042,8 @@
                         "alg_GT": "המאכלת לשחט את בנו : ויקרא אליו מלאך יהוה מן",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36074,
-                        "GT_len": 45
+                        "GT_len": 45,
+                        "levenshtein_ratio": 0.941
                     },
                     {
                         "line_id": "eSc_line_08f18b8f",
@@ -6850,7 +7054,8 @@
                         "alg_GT": "השמים ויאמר אברהם אברהם ויאמר הנני : ויאמר",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36119,
-                        "GT_len": 43
+                        "GT_len": 43,
+                        "levenshtein_ratio": 0.988
                     },
                     {
                         "line_id": "eSc_line_1118b892",
@@ -6861,7 +7066,8 @@
                         "alg_GT": "אל תשלח ידך אל הנער ואל תעש לו מאומה כי",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36162,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 0.974
                     },
                     {
                         "line_id": "eSc_line_c549991b",
@@ -6872,7 +7078,8 @@
                         "alg_GT": "עתה ידעתי כי ירא אלהים אתה ולא חשכת את",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36202,
-                        "GT_len": 39
+                        "GT_len": 39,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_96543368",
@@ -6883,7 +7090,8 @@
                         "alg_GT": "בנך את יחידך ממני : וישא אברהם את עיניו וירא",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36241,
-                        "GT_len": 45
+                        "GT_len": 45,
+                        "levenshtein_ratio": 0.989
                     },
                     {
                         "line_id": "eSc_line_616be5b5",
@@ -6894,7 +7102,8 @@
                         "alg_GT": "והנה איל אחר נאחז בסבך בקרניו וילך אברהם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36286,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_7de2908b",
@@ -6905,7 +7114,8 @@
                         "alg_GT": "ויקח את האיל ויעלהו לעלה תחת בנו : ויקרא",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36327,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.987
                     },
                     {
                         "line_id": "eSc_line_27f677f9",
@@ -6916,7 +7126,8 @@
                         "alg_GT": "אברהם שם המקום ההוא יהוה יראה אשר יאמר היום",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36368,
-                        "GT_len": 44
+                        "GT_len": 44,
+                        "levenshtein_ratio": 0.905
                     },
                     {
                         "line_id": "eSc_line_1a41e756",
@@ -6927,7 +7138,8 @@
                         "alg_GT": "בהר י",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36412,
-                        "GT_len": 5
+                        "GT_len": 5,
+                        "levenshtein_ratio": 0.222
                     },
                     {
                         "line_id": "eSc_line_a37264f4",
@@ -6938,7 +7150,8 @@
                         "alg_GT": "מן השמים : ויאמר בי נשבעתי נאם יהוה כי יען אשר",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36458,
-                        "GT_len": 47
+                        "GT_len": 47,
+                        "levenshtein_ratio": 0.944
                     },
                     {
                         "line_id": "eSc_line_f60ed953",
@@ -6949,7 +7162,8 @@
                         "alg_GT": "עשית את הדבר הזה ולא חשכת את בנך את",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36505,
-                        "GT_len": 36
+                        "GT_len": 36,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_02a74698",
@@ -6960,7 +7174,8 @@
                         "alg_GT": "יחידך : כי ברך אברכך והרבה ארבה את זרעך",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36541,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 0.987
                     },
                     {
                         "line_id": "eSc_line_9f041739",
@@ -6971,7 +7186,8 @@
                         "alg_GT": "ככוכבי השמים וכחול אשר על שפת הים וירש",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36581,
-                        "GT_len": 39
+                        "GT_len": 39,
+                        "levenshtein_ratio": 0.949
                     },
                     {
                         "line_id": "eSc_line_3080ef1d",
@@ -6982,7 +7198,8 @@
                         "alg_GT": "זרעך את שער איביו : והתברכו בזרעך כל גויי",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36620,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.988
                     },
                     {
                         "line_id": "eSc_line_eaccd1c9",
@@ -6993,7 +7210,8 @@
                         "alg_GT": "הארץ עקב אשר שמעת בקלי : וישב אברהם אל",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36662,
-                        "GT_len": 39
+                        "GT_len": 39,
+                        "levenshtein_ratio": 0.987
                     },
                     {
                         "line_id": "eSc_line_22b08e87",
@@ -7004,7 +7222,8 @@
                         "alg_GT": "נעריו ויקמו וילכו יחדו אל באר שבע וישב אברהם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36701,
-                        "GT_len": 45
+                        "GT_len": 45,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_2215cdf4",
@@ -7015,7 +7234,8 @@
                         "alg_GT": "בבאר שבע",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36746,
-                        "GT_len": 9
+                        "GT_len": 9,
+                        "levenshtein_ratio": 0.889
                     },
                     {
                         "line_id": "eSc_line_f12fc779",
@@ -7026,7 +7246,8 @@
                         "alg_GT": ": ו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36755,
-                        "GT_len": 3
+                        "GT_len": 3,
+                        "levenshtein_ratio": 0.1
                     },
                     {
                         "line_id": "eSc_line_3423c2f9",
@@ -7079,7 +7300,8 @@
                         "alg_GT": "אמת ליעקב חסד לאברהם אשר נשבעת לאבתינו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1076789,
-                        "GT_len": 39
+                        "GT_len": 39,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_c81b9002",
@@ -7090,7 +7312,8 @@
                         "alg_GT": "מימי קדם : משא",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1076828,
-                        "GT_len": 15
+                        "GT_len": 15,
+                        "levenshtein_ratio": 0.414
                     },
                     {
                         "line_id": "eSc_line_8650c4bc",
@@ -7101,7 +7324,8 @@
                         "alg_GT": "בבית תפלתי עולתיהם וזבחיהם לרצון על מזבחי",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 818611,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.976
                     },
                     {
                         "line_id": "eSc_line_f1425742",
@@ -7112,7 +7336,8 @@
                         "alg_GT": "כי ביתי בית תפלה יקרא לכל העמים : נאם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 818653,
-                        "GT_len": 38
+                        "GT_len": 38,
+                        "levenshtein_ratio": 0.886
                     },
                     {
                         "line_id": "eSc_line_e770dea1",
@@ -7123,7 +7348,8 @@
                         "alg_GT": "אדני יהוה מקבץ נדחי ישראל עוד אקבץ",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 818691,
-                        "GT_len": 35
+                        "GT_len": 35,
+                        "levenshtein_ratio": 0.35
                     },
                     {
                         "line_id": "eSc_line_2f347ae5",
@@ -7134,7 +7360,8 @@
                         "alg_GT": "עליו לנקבציו : כל חיתו שדי אתיו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 818726,
-                        "GT_len": 32
+                        "GT_len": 32,
+                        "levenshtein_ratio": 0.435
                     },
                     {
                         "line_id": "eSc_line_b288a334",
@@ -7145,7 +7372,8 @@
                         "alg_GT": "לאכל כל חיתו ביער : צפו עורים",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 818758,
-                        "GT_len": 30
+                        "GT_len": 30,
+                        "levenshtein_ratio": 0.423
                     },
                     {
                         "line_id": "eSc_line_1fb4a0ad",
@@ -7156,7 +7384,8 @@
                         "alg_GT": "כלם לא ידעו כלם כלבים אלמים לא יוכלו לנבח",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 818788,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.476
                     },
                     {
                         "line_id": "eSc_line_2f9b0332",
@@ -7167,7 +7396,8 @@
                         "alg_GT": "הזים שכבים אהבי לנום : והכלבים",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 818830,
-                        "GT_len": 31
+                        "GT_len": 31,
+                        "levenshtein_ratio": 0.448
                     },
                     {
                         "line_id": "eSc_line_fe05c674",
@@ -7178,7 +7408,8 @@
                         "alg_GT": "עזי נפש לא ידעו שבעה והמה רעים",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 818861,
-                        "GT_len": 31
+                        "GT_len": 31,
+                        "levenshtein_ratio": 0.348
                     },
                     {
                         "line_id": "eSc_line_798c381d",
@@ -7189,7 +7420,8 @@
                         "alg_GT": "לא ידעו הבין כלם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 818892,
-                        "GT_len": 17
+                        "GT_len": 17,
+                        "levenshtein_ratio": 0.465
                     },
                     {
                         "line_id": "eSc_line_dd271957",
@@ -7200,7 +7432,8 @@
                         "alg_GT": "לדרכם פנו איש לבצעו מקצהו :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 818909,
-                        "GT_len": 28
+                        "GT_len": 28,
+                        "levenshtein_ratio": 0.406
                     },
                     {
                         "line_id": "eSc_line_0e49de41",
@@ -7211,7 +7444,8 @@
                         "alg_GT": "אתיו א",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 818937,
-                        "GT_len": 6
+                        "GT_len": 6,
+                        "levenshtein_ratio": 0.25
                     },
                     {
                         "line_id": "eSc_line_c60f7708",
@@ -7222,7 +7456,8 @@
                         "alg_GT": "נקרא שמך עליה כי לא על צדקתינו אנחנו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1493435,
-                        "GT_len": 37
+                        "GT_len": 37,
+                        "levenshtein_ratio": 0.634
                     },
                     {
                         "line_id": "eSc_line_7ef98c76",
@@ -7233,7 +7468,8 @@
                         "alg_GT": "מפילים תחנונינו לפניך כי על רחמיך הרבים : אדני",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1493472,
-                        "GT_len": 47
+                        "GT_len": 47,
+                        "levenshtein_ratio": 0.944
                     },
                     {
                         "line_id": "eSc_line_0fbdc9d1",
@@ -7244,7 +7480,8 @@
                         "alg_GT": "שמעה אדני סלחה אדני הקשיבה ועשה אל תאחר למענך",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1493519,
-                        "GT_len": 46
+                        "GT_len": 46,
+                        "levenshtein_ratio": 0.894
                     },
                     {
                         "line_id": "eSc_line_d7215519",
@@ -7255,7 +7492,8 @@
                         "alg_GT": "אלהי כי שמך נקרא על עירך ועל עמך : ועו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1493565,
-                        "GT_len": 38
+                        "GT_len": 38,
+                        "levenshtein_ratio": 0.9
                     },
                     {
                         "line_id": "eSc_line_7a4624e5",
@@ -7266,7 +7504,8 @@
                         "alg_GT": "ד אני מדבר ומתפלל ומתודה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1493603,
-                        "GT_len": 25
+                        "GT_len": 25,
+                        "levenshtein_ratio": 0.375
                     },
                     {
                         "line_id": "eSc_line_92d9eee0",
@@ -7277,7 +7516,8 @@
                         "alg_GT": "חטאתי וחטאת עמי ישראל ומפיל תחנתי",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1493628,
-                        "GT_len": 34
+                        "GT_len": 34,
+                        "levenshtein_ratio": 0.38
                     },
                     {
                         "line_id": "eSc_line_e667da1e",
@@ -7288,7 +7528,8 @@
                         "alg_GT": "לפני יהוה אלהי על הר קדש אלהי",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1493662,
-                        "GT_len": 30
+                        "GT_len": 30,
+                        "levenshtein_ratio": 0.451
                     },
                     {
                         "line_id": "eSc_line_c8bad7a4",
@@ -7299,7 +7540,8 @@
                         "alg_GT": ": ועוד אני מד",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1493692,
-                        "GT_len": 13
+                        "GT_len": 13,
+                        "levenshtein_ratio": 0.218
                     },
                     {
                         "line_id": "eSc_line_17b7f6e6",
@@ -7331,7 +7573,8 @@
                         "alg_GT": "הנני בני ויאמר הנה האש והעצים ואיה השה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 35823,
-                        "GT_len": 39
+                        "GT_len": 39,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_bf8b713d",
@@ -7342,7 +7585,8 @@
                         "alg_GT": "לעלה : ויאמר אברהם אלהים יראה לו השה לעלה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 35862,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.976
                     },
                     {
                         "line_id": "eSc_line_cda43c8f",
@@ -7353,7 +7597,8 @@
                         "alg_GT": "בני וילכו שניהם יחדו : ויבאו אל המקום אשר אמר",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 35904,
-                        "GT_len": 46
+                        "GT_len": 46,
+                        "levenshtein_ratio": 0.955
                     },
                     {
                         "line_id": "eSc_line_74b2793e",
@@ -7364,7 +7609,8 @@
                         "alg_GT": "לו האלהים ויבן שם אברהם את המזבח ויערך את",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 35950,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_fcdefbdc",
@@ -7375,7 +7621,8 @@
                         "alg_GT": "העצים ויעקד את יצחק בנו וישם אתו על המזבח",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 35992,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.951
                     },
                     {
                         "line_id": "eSc_line_ae4d7705",
@@ -7386,7 +7633,8 @@
                         "alg_GT": "ממעל לעצים : וישלח אברהם את ידו ויקח את",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36034,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 0.961
                     },
                     {
                         "line_id": "eSc_line_76bf1360",
@@ -7397,7 +7645,8 @@
                         "alg_GT": "המאכלת לשחט את בנו : ויקרא אליו מלאך יהוה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36074,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_e4f00a0b",
@@ -7408,7 +7657,8 @@
                         "alg_GT": "מן השמים ויאמר אברהם אברהם ויאמר הנני :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36116,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 0.974
                     },
                     {
                         "line_id": "eSc_line_7c612d27",
@@ -7419,7 +7669,8 @@
                         "alg_GT": "ויאמר אל תשלח ידך אל הנער ואל תעש לו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36156,
-                        "GT_len": 37
+                        "GT_len": 37,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_8ed6a59d",
@@ -7430,7 +7681,8 @@
                         "alg_GT": "מאומה כי עתה ידעתי כי ירא אלהים אתה ולא",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36193,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_5e8718c3",
@@ -7441,7 +7693,8 @@
                         "alg_GT": "חשכת את בנך את יחידך ממני : וישא אברהם את",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36233,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.963
                     },
                     {
                         "line_id": "eSc_line_ace7ef07",
@@ -7452,7 +7705,8 @@
                         "alg_GT": "עיניו וירא והנה איל אחר נאחז בסבך בקרניו וילך",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36275,
-                        "GT_len": 46
+                        "GT_len": 46,
+                        "levenshtein_ratio": 0.966
                     },
                     {
                         "line_id": "eSc_line_6efffdb8",
@@ -7463,7 +7717,8 @@
                         "alg_GT": "אברהם ויקח את האיל ויעלהו לעלה תחת בנו :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36321,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.962
                     },
                     {
                         "line_id": "eSc_line_47a0c301",
@@ -7474,7 +7729,8 @@
                         "alg_GT": "ויקרא אברהם שם המקום ההוא יהוה יראה אשר",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36362,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 0.987
                     },
                     {
                         "line_id": "eSc_line_caecd19c",
@@ -7485,7 +7741,8 @@
                         "alg_GT": "יאמר היום בהר יהוה יראה : ויקרא מלאך יהוה אל",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36402,
-                        "GT_len": 45
+                        "GT_len": 45,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_14627f7a",
@@ -7496,7 +7753,8 @@
                         "alg_GT": "אברהם שנית מן השמים : ויאמר בי נשבעתי נאם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36447,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_76643800",
@@ -7507,7 +7765,8 @@
                         "alg_GT": "יהוה כי יען אשר עשית את הדבר הזה ולא חשכת",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36489,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.976
                     },
                     {
                         "line_id": "eSc_line_dae699be",
@@ -7518,7 +7777,8 @@
                         "alg_GT": "את בנך את יחידך : כי ברך אברכך והרבה ארבה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36531,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.976
                     },
                     {
                         "line_id": "eSc_line_9c470b2a",
@@ -7529,7 +7789,8 @@
                         "alg_GT": "את זרעך ככוכבי השמים וכחול אשר על שפת הים",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36573,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_4c1c1a81",
@@ -7540,7 +7801,8 @@
                         "alg_GT": "וירש זרעך את שער איביו : והתברכו בזרעך כל",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36615,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.964
                     },
                     {
                         "line_id": "eSc_line_b25ed510",
@@ -7551,7 +7813,8 @@
                         "alg_GT": "גויי הארץ עקב אשר שמעת בקלי : וישב אברהם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36657,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_f6d160c2",
@@ -7562,7 +7825,8 @@
                         "alg_GT": "אל נעריו ויקמו וילכו יחדו אל באר שבע וישב",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36698,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.976
                     },
                     {
                         "line_id": "eSc_line_98be68fa",
@@ -7573,7 +7837,8 @@
                         "alg_GT": "אברהם בבאר שבע",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36740,
-                        "GT_len": 15
+                        "GT_len": 15,
+                        "levenshtein_ratio": 0.966
                     },
                     {
                         "line_id": "eSc_line_461677ea",
@@ -7584,7 +7849,8 @@
                         "alg_GT": ": ו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36755,
-                        "GT_len": 3
+                        "GT_len": 3,
+                        "levenshtein_ratio": 0.1
                     }
                 ],
                 "series": "OCR"
@@ -7637,7 +7903,8 @@
                         "alg_GT": "מה יקר חסדך אלהים ובני אדם בצל כנפיך יחסיון :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1259996,
-                        "GT_len": 46
+                        "GT_len": 46,
+                        "levenshtein_ratio": 0.978
                     },
                     {
                         "line_id": "eSc_line_68d4ae07",
@@ -7648,7 +7915,8 @@
                         "alg_GT": "ירוין מדשן ביתך ונחל עדניך תשקם :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1260042,
-                        "GT_len": 34
+                        "GT_len": 34,
+                        "levenshtein_ratio": 0.985
                     },
                     {
                         "line_id": "eSc_line_5a0f38c5",
@@ -7659,7 +7927,8 @@
                         "alg_GT": "כי עמך מקור חיים באורך נראה אור :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1260076,
-                        "GT_len": 34
+                        "GT_len": 34,
+                        "levenshtein_ratio": 0.97
                     },
                     {
                         "line_id": "eSc_line_778f24c8",
@@ -7670,7 +7939,8 @@
                         "alg_GT": "משך חסדך לידעיך וצדקתך לישרי לב",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1260110,
-                        "GT_len": 32
+                        "GT_len": 32,
+                        "levenshtein_ratio": 0.879
                     },
                     {
                         "line_id": "eSc_line_85c254df",
@@ -7681,7 +7951,8 @@
                         "alg_GT": ":",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1260142,
-                        "GT_len": 1
+                        "GT_len": 1,
+                        "levenshtein_ratio": 0.043
                     },
                     {
                         "line_id": "eSc_line_7a8d957a",
@@ -7825,7 +8096,8 @@
                         "alg_GT": "והמתה את העם הזה כאיש אחד ואמרו הג",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 275828,
-                        "GT_len": 34
+                        "GT_len": 34,
+                        "levenshtein_ratio": 0.388
                     },
                     {
                         "line_id": "eSc_line_8d012009",
@@ -7836,7 +8108,8 @@
                         "alg_GT": "וים אשר שמעו את שמעך ל",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 275862,
-                        "GT_len": 22
+                        "GT_len": 22,
+                        "levenshtein_ratio": 0.481
                     },
                     {
                         "line_id": "eSc_line_1fcb5914",
@@ -7847,7 +8120,8 @@
                         "alg_GT": "אמר : מבלתי יכלת יהוה להביא את ה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 275884,
-                        "GT_len": 32
+                        "GT_len": 32,
+                        "levenshtein_ratio": 0.427
                     },
                     {
                         "line_id": "eSc_line_e7cc0b8a",
@@ -7858,7 +8132,8 @@
                         "alg_GT": "עם הזה אל הארץ",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 275916,
-                        "GT_len": 15
+                        "GT_len": 15,
+                        "levenshtein_ratio": 0.439
                     },
                     {
                         "line_id": "eSc_line_b793798e",
@@ -7869,7 +8144,8 @@
                         "alg_GT": "אשר נשבע להם וישחטם במדבר : ועתה יגדל נא",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 275931,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.376
                     },
                     {
                         "line_id": "eSc_line_b60af291",
@@ -7880,7 +8156,8 @@
                         "alg_GT": "כח אדני כאשר דברת לאמר : יהוה ארך אפים",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 275972,
-                        "GT_len": 39
+                        "GT_len": 39,
+                        "levenshtein_ratio": 0.463
                     },
                     {
                         "line_id": "eSc_line_47948397",
@@ -7891,7 +8168,8 @@
                         "alg_GT": "ורב חסד נשא עון ופשע ונקה לא ינקה פקד עון",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 276011,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.418
                     },
                     {
                         "line_id": "eSc_line_0c57f395",
@@ -7902,7 +8180,8 @@
                         "alg_GT": "אבות על בנים על שלשים ועל רבעים :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 276053,
-                        "GT_len": 34
+                        "GT_len": 34,
+                        "levenshtein_ratio": 0.424
                     },
                     {
                         "line_id": "eSc_line_8623370c",
@@ -7913,7 +8192,8 @@
                         "alg_GT": "סלח נא לעון העם הזה כגדל חסדך וכאשר נשאתה לעם הזה ממצרים ועד הנה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 276087,
-                        "GT_len": 65
+                        "GT_len": 65,
+                        "levenshtein_ratio": 0.97
                     },
                     {
                         "line_id": "eSc_line_94bafae1",
@@ -7924,7 +8204,8 @@
                         "alg_GT": ": ויאמר יהוה סלחתי כדברך : ואולם חי אני וימ",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 276152,
-                        "GT_len": 43
+                        "GT_len": 43,
+                        "levenshtein_ratio": 0.585
                     },
                     {
                         "line_id": "eSc_line_dc0b63ed",
@@ -7935,7 +8216,8 @@
                         "alg_GT": "שממתינו והעיר אשר נקרא שמך עליה כי לא על צדקתינו אנחנו מפילים תחנונינו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1493417,
-                        "GT_len": 71
+                        "GT_len": 71,
+                        "levenshtein_ratio": 0.965
                     },
                     {
                         "line_id": "eSc_line_1c49c71d",
@@ -7946,7 +8228,8 @@
                         "alg_GT": "לפניך כי על רחמיך הרבים : אדני שמעה אדני סלחה אדני הקשיבה ועשה אל",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1493488,
-                        "GT_len": 66
+                        "GT_len": 66,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_948ad415",
@@ -7957,7 +8240,8 @@
                         "alg_GT": "תאחר למענך אלהי כי שמך נקרא על עירך ועל עמך :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1493554,
-                        "GT_len": 46
+                        "GT_len": 46,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_e5193484",
@@ -8619,7 +8903,8 @@
                         "alg_GT": "על פניך וקראתי בשם יהוה לפניך וחנתי את אשר אחן",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 167795,
-                        "GT_len": 47
+                        "GT_len": 47,
+                        "levenshtein_ratio": 0.911
                     },
                     {
                         "line_id": "eSc_line_f1e527aa",
@@ -8630,7 +8915,8 @@
                         "alg_GT": "ורחמתי את אשר ארחם :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 167842,
-                        "GT_len": 21
+                        "GT_len": 21,
+                        "levenshtein_ratio": 0.95
                     },
                     {
                         "line_id": "eSc_line_6a6c0860",
@@ -9012,7 +9298,8 @@
                         "alg_GT": "וידבר יהוה אל משה לאמר : דבר אל אהרן ואל בניו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 258098,
-                        "GT_len": 46
+                        "GT_len": 46,
+                        "levenshtein_ratio": 0.921
                     },
                     {
                         "line_id": "eSc_line_4cdda5a2",
@@ -9023,7 +9310,8 @@
                         "alg_GT": "לאמר כה תברכו את בני ישראל אמור להם :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 258144,
-                        "GT_len": 38
+                        "GT_len": 38,
+                        "levenshtein_ratio": 0.96
                     },
                     {
                         "line_id": "eSc_line_fc491ea0",
@@ -9034,7 +9322,8 @@
                         "alg_GT": "יברכך יהוה וישמרך : יאר יהוה פניו אליך ויחנך :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 258182,
-                        "GT_len": 47
+                        "GT_len": 47,
+                        "levenshtein_ratio": 0.957
                     },
                     {
                         "line_id": "eSc_line_86da0d14",
@@ -9045,7 +9334,8 @@
                         "alg_GT": "ישא יהוה פניו אליך וישם לך שלום : ושמו את שמי",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 258229,
-                        "GT_len": 46
+                        "GT_len": 46,
+                        "levenshtein_ratio": 0.956
                     },
                     {
                         "line_id": "eSc_line_d034b027",
@@ -9056,7 +9346,8 @@
                         "alg_GT": "על בני ישראל ואני אברכם :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 258275,
-                        "GT_len": 26
+                        "GT_len": 26,
+                        "levenshtein_ratio": 0.92
                     },
                     {
                         "line_id": "eSc_line_24fc59b3",
@@ -9067,7 +9358,8 @@
                         "alg_GT": "ויהי ביום כלות משה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 258301,
-                        "GT_len": 19
+                        "GT_len": 19,
+                        "levenshtein_ratio": 0.387
                     },
                     {
                         "line_id": "eSc_line_d56906f9",
@@ -9078,7 +9370,8 @@
                         "alg_GT": "להקים את המשכן וימשח אתו וי",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 258320,
-                        "GT_len": 27
+                        "GT_len": 27,
+                        "levenshtein_ratio": 0.387
                     },
                     {
                         "line_id": "eSc_line_a9534b53",
@@ -9089,7 +9382,8 @@
                         "alg_GT": "קדש אתו ואת כל כליו ואת המזבח ואת כל כליו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 258347,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.472
                     },
                     {
                         "line_id": "eSc_line_46e043c6",
@@ -9100,7 +9394,8 @@
                         "alg_GT": "וימשחם ויקדש אתם : ויקריבו נשיאי ישראל",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 258389,
-                        "GT_len": 39
+                        "GT_len": 39,
+                        "levenshtein_ratio": 0.405
                     },
                     {
                         "line_id": "eSc_line_ab6668d2",
@@ -9111,7 +9406,8 @@
                         "alg_GT": "ראשי בית אבתם הם נשיאי המטת הם העמד",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 258428,
-                        "GT_len": 35
+                        "GT_len": 35,
+                        "levenshtein_ratio": 0.5
                     },
                     {
                         "line_id": "eSc_line_c2e2296a",
@@ -9122,7 +9418,8 @@
                         "alg_GT": "ים על",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 258463,
-                        "GT_len": 6
+                        "GT_len": 6,
+                        "levenshtein_ratio": 0.186
                     },
                     {
                         "line_id": "eSc_line_49b7c90d",
@@ -9140,7 +9437,8 @@
                         "alg_GT": "ויהי אחר הדברים האלה והאלהים נסה את אברהם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 35257,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.964
                     },
                     {
                         "line_id": "eSc_line_6079471d",
@@ -9151,7 +9449,8 @@
                         "alg_GT": "ויאמר אליו אברהם ויאמר הנני : ויאמר קח נא",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 35299,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.963
                     },
                     {
                         "line_id": "eSc_line_b4dce7dd",
@@ -9162,7 +9461,8 @@
                         "alg_GT": "את בנך את יחידך אשר אהבת את יצחק ולך לך אל",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 35341,
-                        "GT_len": 43
+                        "GT_len": 43,
+                        "levenshtein_ratio": 0.871
                     },
                     {
                         "line_id": "eSc_line_4b4cc7c3",
@@ -9173,7 +9473,8 @@
                         "alg_GT": "ארץ המריה והעלהו שם לעלה על אחד ההרים אשר",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 35384,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.988
                     },
                     {
                         "line_id": "eSc_line_6a321a67",
@@ -9184,7 +9485,8 @@
                         "alg_GT": "אמר אליך : וישכם אברהם בבקר ויחבש את חמרו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 35426,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.963
                     }
                 ],
                 "series": "OCR"
@@ -9209,7 +9511,8 @@
                         "alg_GT": "בני שנה תמימם שנים ליום עלה תמיד : את",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 306474,
-                        "GT_len": 38
+                        "GT_len": 38,
+                        "levenshtein_ratio": 0.947
                     },
                     {
                         "line_id": "eSc_line_9e6d5280",
@@ -9220,7 +9523,8 @@
                         "alg_GT": "הכבש אחד תעשה בבקר ואת הכבש השני",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 306512,
-                        "GT_len": 33
+                        "GT_len": 33,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_f5678cb2",
@@ -9231,7 +9535,8 @@
                         "alg_GT": "תעשה בין הערבים : ועשירית האיפה סלת",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 306545,
-                        "GT_len": 36
+                        "GT_len": 36,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_97adfe17",
@@ -9242,7 +9547,8 @@
                         "alg_GT": "למנחה בלולה בשמן כתית רביעת ההין : עלת",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 306581,
-                        "GT_len": 39
+                        "GT_len": 39,
+                        "levenshtein_ratio": 0.987
                     },
                     {
                         "line_id": "eSc_line_0a78417f",
@@ -9253,7 +9559,8 @@
                         "alg_GT": "תמיד העשיה בהר סיני לריח ניחח אשה ליהוה :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 306620,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.962
                     },
                     {
                         "line_id": "eSc_line_d4483431",
@@ -9264,7 +9571,8 @@
                         "alg_GT": "ונסכו רביעת ההין לכבש האחד בקדש הסך נסך",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 306662,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 0.907
                     },
                     {
                         "line_id": "eSc_line_38a8ecd2",
@@ -9275,7 +9583,8 @@
                         "alg_GT": "שכר ליהוה : ואת הכבש השני תעשה בין",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 306702,
-                        "GT_len": 35
+                        "GT_len": 35,
+                        "levenshtein_ratio": 0.985
                     },
                     {
                         "line_id": "eSc_line_8e8f8f09",
@@ -9286,7 +9595,8 @@
                         "alg_GT": "הערבים כמנחת הבקר וכנסכו תעשה אשה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 306737,
-                        "GT_len": 34
+                        "GT_len": 34,
+                        "levenshtein_ratio": 0.97
                     },
                     {
                         "line_id": "eSc_line_0f416d97",
@@ -9297,7 +9607,8 @@
                         "alg_GT": "ריח ניחח ליהוה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 306771,
-                        "GT_len": 15
+                        "GT_len": 15,
+                        "levenshtein_ratio": 0.897
                     },
                     {
                         "line_id": "eSc_line_1aaae765",
@@ -9308,7 +9619,8 @@
                         "alg_GT": ": וביום השבת שני כבשים בני",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 306786,
-                        "GT_len": 27
+                        "GT_len": 27,
+                        "levenshtein_ratio": 0.406
                     },
                     {
                         "line_id": "eSc_line_738130d7",
@@ -9326,7 +9638,8 @@
                         "alg_GT": "כמהו ואשר יתן ממנו על זר ונ",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 162251,
-                        "GT_len": 27
+                        "GT_len": 27,
+                        "levenshtein_ratio": 0.484
                     },
                     {
                         "line_id": "eSc_line_e0183fad",
@@ -9337,7 +9650,8 @@
                         "alg_GT": "כרת מעמיו : ויאמר יהוה אל משה קח לך",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 162278,
-                        "GT_len": 36
+                        "GT_len": 36,
+                        "levenshtein_ratio": 0.767
                     },
                     {
                         "line_id": "eSc_line_0fa17d81",
@@ -9348,7 +9662,8 @@
                         "alg_GT": "סמים נטף ושחלת וחלבנה סמים ולבנה זכה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 162314,
-                        "GT_len": 37
+                        "GT_len": 37,
+                        "levenshtein_ratio": 0.986
                     },
                     {
                         "line_id": "eSc_line_a034c749",
@@ -9359,7 +9674,8 @@
                         "alg_GT": "בד בבד יהיה : ועשית אתה קטרת רקח מעשה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 162351,
-                        "GT_len": 38
+                        "GT_len": 38,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_f315d873",
@@ -9370,7 +9686,8 @@
                         "alg_GT": "רוקח ממלח טהור קדש : ושחקת ממנה הדק",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 162389,
-                        "GT_len": 36
+                        "GT_len": 36,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_3ff2a1d3",
@@ -9381,7 +9698,8 @@
                         "alg_GT": "ונתתה ממנה לפני העדת באהל מועד אשר",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 162425,
-                        "GT_len": 35
+                        "GT_len": 35,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_c5f0dcee",
@@ -9392,7 +9710,8 @@
                         "alg_GT": "אועד לך שמה קדש קדשים תהיה לכם :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 162460,
-                        "GT_len": 33
+                        "GT_len": 33,
+                        "levenshtein_ratio": 0.882
                     },
                     {
                         "line_id": "eSc_line_9f96d767",
@@ -9403,7 +9722,8 @@
                         "alg_GT": "והקט",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 162493,
-                        "GT_len": 4
+                        "GT_len": 4,
+                        "levenshtein_ratio": 0.2
                     },
                     {
                         "line_id": "eSc_line_0b8676fa",
@@ -9414,7 +9734,8 @@
                         "alg_GT": "בהיטיבו את הנרת יקטירנה : ובהעלת אהרן",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 160689,
-                        "GT_len": 38
+                        "GT_len": 38,
+                        "levenshtein_ratio": 0.973
                     },
                     {
                         "line_id": "eSc_line_52805a43",
@@ -9425,7 +9746,8 @@
                         "alg_GT": "את הנרת בין הערבים יקטירנה קטרת תמיד",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 160727,
-                        "GT_len": 37
+                        "GT_len": 37,
+                        "levenshtein_ratio": 0.972
                     },
                     {
                         "line_id": "eSc_line_628eb3ac",
@@ -9436,7 +9758,8 @@
                         "alg_GT": "לפני יהוה לדרתיכם :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 160764,
-                        "GT_len": 19
+                        "GT_len": 19,
+                        "levenshtein_ratio": 1.0
                     }
                 ],
                 "series": "OCR"
@@ -9622,7 +9945,8 @@
                         "alg_GT": "אברהם את שם בנו הנולד לו אשר ילדה לו שרה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 33271,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.9
                     },
                     {
                         "line_id": "eSc_line_5de11774",
@@ -9633,7 +9957,8 @@
                         "alg_GT": "יצחק : וימל אברהם את יצחק בנו בן שמנת ימים",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 33312,
-                        "GT_len": 43
+                        "GT_len": 43,
+                        "levenshtein_ratio": 0.94
                     },
                     {
                         "line_id": "eSc_line_9846ae40",
@@ -9644,7 +9969,8 @@
                         "alg_GT": "כאשר צוה אתו אלהים : ואברהם בן מאת שנה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 33355,
-                        "GT_len": 39
+                        "GT_len": 39,
+                        "levenshtein_ratio": 0.96
                     },
                     {
                         "line_id": "eSc_line_cbe3fa88",
@@ -9655,7 +9981,8 @@
                         "alg_GT": "בהולד לו את יצחק בנו : ותאמר שרה צחק עשה לי",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 33394,
-                        "GT_len": 44
+                        "GT_len": 44,
+                        "levenshtein_ratio": 0.988
                     },
                     {
                         "line_id": "eSc_line_0502a691",
@@ -9666,7 +9993,8 @@
                         "alg_GT": "אלהים כל השמע יצחק לי : ותאמר מי מלל לאברהם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 33438,
-                        "GT_len": 44
+                        "GT_len": 44,
+                        "levenshtein_ratio": 0.929
                     },
                     {
                         "line_id": "eSc_line_8a1dbcf5",
@@ -9677,7 +10005,8 @@
                         "alg_GT": "היניקה בנים שרה כי ילדתי בן לזקניו : ויגדל הילד",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 33482,
-                        "GT_len": 48
+                        "GT_len": 48,
+                        "levenshtein_ratio": 0.968
                     },
                     {
                         "line_id": "eSc_line_d8bc07cc",
@@ -9688,7 +10017,8 @@
                         "alg_GT": "ויגמל ויעש אברהם משתה גדול ביום הגמל את",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 33530,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 0.987
                     },
                     {
                         "line_id": "eSc_line_e98a9a5e",
@@ -9699,7 +10029,8 @@
                         "alg_GT": "יצחק : ותר",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 33570,
-                        "GT_len": 10
+                        "GT_len": 10,
+                        "levenshtein_ratio": 0.314
                     },
                     {
                         "line_id": "eSc_line_bd60d0a2",
@@ -9710,7 +10041,8 @@
                         "alg_GT": "אשר יאמר היום בהר יהוה יראה : ויקרא מלאך יהוה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36398,
-                        "GT_len": 46
+                        "GT_len": 46,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_1ebe1d51",
@@ -9721,7 +10053,8 @@
                         "alg_GT": "אל אברהם שנית מן השמים : ויאמר בי נשבעתי",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36444,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.937
                     },
                     {
                         "line_id": "eSc_line_5fd82443",
@@ -9732,7 +10065,8 @@
                         "alg_GT": "נאם יהוה כי יען אשר עשית את הדבר הזה ולא",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36485,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.925
                     },
                     {
                         "line_id": "eSc_line_4852970f",
@@ -9743,7 +10077,8 @@
                         "alg_GT": "חשכת את בנך את יחידך : כי ברך אברכך והרבה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36526,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.927
                     },
                     {
                         "line_id": "eSc_line_08d5c796",
@@ -9754,7 +10089,8 @@
                         "alg_GT": "ארבה את זרעך ככוכבי השמים וכחול אשר על",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36568,
-                        "GT_len": 39
+                        "GT_len": 39,
+                        "levenshtein_ratio": 0.961
                     },
                     {
                         "line_id": "eSc_line_a52157aa",
@@ -9765,7 +10101,8 @@
                         "alg_GT": "שפת הים וירש זרעך את שער איביו : והתברכו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36607,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.987
                     },
                     {
                         "line_id": "eSc_line_3aae08f3",
@@ -9776,7 +10113,8 @@
                         "alg_GT": "בזרעך כל גויי הארץ עקב אשר שמעת בקלי : וישב",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36648,
-                        "GT_len": 44
+                        "GT_len": 44,
+                        "levenshtein_ratio": 0.988
                     },
                     {
                         "line_id": "eSc_line_544a72ba",
@@ -9787,7 +10125,8 @@
                         "alg_GT": "אברהם אל נעריו ויקמו וילכו יחדו אל באר שבע",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36692,
-                        "GT_len": 43
+                        "GT_len": 43,
+                        "levenshtein_ratio": 0.952
                     },
                     {
                         "line_id": "eSc_line_214fdb1e",
@@ -9798,7 +10137,8 @@
                         "alg_GT": "וישב אברהם בבאר שבע : ויהי אחרי ה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 36735,
-                        "GT_len": 33
+                        "GT_len": 33,
+                        "levenshtein_ratio": 0.757
                     },
                     {
                         "line_id": "eSc_line_97e2e5ca",
@@ -9809,7 +10149,8 @@
                         "alg_GT": "אל תרד מצרימה שכן בארץ אשר אמר אליך : גור",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 45052,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.963
                     },
                     {
                         "line_id": "eSc_line_a06f4631",
@@ -9820,7 +10161,8 @@
                         "alg_GT": "בארץ הזאת ואהיה עמך ואברכך כי לך ולזרעך אתן",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 45094,
-                        "GT_len": 44
+                        "GT_len": 44,
+                        "levenshtein_ratio": 0.977
                     },
                     {
                         "line_id": "eSc_line_f8dd08aa",
@@ -9831,7 +10173,8 @@
                         "alg_GT": "את כל הארצת האל והקמתי את השבעה אשר",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 45138,
-                        "GT_len": 36
+                        "GT_len": 36,
+                        "levenshtein_ratio": 0.914
                     },
                     {
                         "line_id": "eSc_line_f3727b65",
@@ -9842,7 +10185,8 @@
                         "alg_GT": "נשבעתי לאברהם אביך : והרביתי את זרעך ככוכבי",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 45174,
-                        "GT_len": 44
+                        "GT_len": 44,
+                        "levenshtein_ratio": 0.965
                     },
                     {
                         "line_id": "eSc_line_16d5b7c2",
@@ -9853,7 +10197,8 @@
                         "alg_GT": "השמים ונתתי לזרעך את כל הארצת האל והתברכו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 45218,
-                        "GT_len": 42
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.963
                     },
                     {
                         "line_id": "eSc_line_886c1016",
@@ -9864,7 +10209,8 @@
                         "alg_GT": "בזרעך כל גויי הארץ : עקב אשר שמע אברהם בקלי",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 45260,
-                        "GT_len": 44
+                        "GT_len": 44,
+                        "levenshtein_ratio": 0.965
                     },
                     {
                         "line_id": "eSc_line_959ca54f",
@@ -9875,7 +10221,8 @@
                         "alg_GT": "וישמר משמרתי מצותי חקותי ותורתי : וי",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 45304,
-                        "GT_len": 36
+                        "GT_len": 36,
+                        "levenshtein_ratio": 0.897
                     }
                 ],
                 "series": "OCR"
@@ -10124,7 +10471,8 @@
                         "alg_GT": "ביעקב אתה עשית : רוממו יהוה אלהינו והשתחוו להדם רגליו קדוש",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1306155,
-                        "GT_len": 59
+                        "GT_len": 59,
+                        "levenshtein_ratio": 0.883
                     },
                     {
                         "line_id": "eSc_line_e2f84616",
@@ -10135,7 +10483,8 @@
                         "alg_GT": "הוא : משה ואהרן בכהניו ושמואל בקראי שמו קראים אל יהוה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1306214,
-                        "GT_len": 54
+                        "GT_len": 54,
+                        "levenshtein_ratio": 0.932
                     },
                     {
                         "line_id": "eSc_line_d257c3d3",
@@ -10146,7 +10495,8 @@
                         "alg_GT": "והוא יענם : בעמוד ענן ידבר אליהם שמרו עדתיו וחק נתן למו :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1306268,
-                        "GT_len": 58
+                        "GT_len": 58,
+                        "levenshtein_ratio": 0.964
                     },
                     {
                         "line_id": "eSc_line_92b03805",
@@ -10157,7 +10507,8 @@
                         "alg_GT": "יהוה אלהינו אתה עניתם אל נשא היית להם ונקם על עלילותם :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1306326,
-                        "GT_len": 56
+                        "GT_len": 56,
+                        "levenshtein_ratio": 0.936
                     },
                     {
                         "line_id": "eSc_line_03ae1bbb",
@@ -10168,7 +10519,8 @@
                         "alg_GT": "רוממו יהוה אלהינו והשתחוו להר קדשו כי קדוש יהוה אלהינו :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1306382,
-                        "GT_len": 57
+                        "GT_len": 57,
+                        "levenshtein_ratio": 0.891
                     },
                     {
                         "line_id": "eSc_line_d85f6188",
@@ -10179,7 +10531,8 @@
                         "alg_GT": "מזמו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1306439,
-                        "GT_len": 4
+                        "GT_len": 4,
+                        "levenshtein_ratio": 0.129
                     },
                     {
                         "line_id": "eSc_line_5d1b6605",
@@ -10190,7 +10543,8 @@
                         "alg_GT": "שמו השתחוו ליהוה בהדרת קדש : קול יהוה על המים אל הכבוד הרעים",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1254141,
-                        "GT_len": 61
+                        "GT_len": 61,
+                        "levenshtein_ratio": 0.923
                     },
                     {
                         "line_id": "eSc_line_6421392f",
@@ -10201,7 +10555,8 @@
                         "alg_GT": "יהוה על מים רבים : קול יהוה בכח קול יהוה בהדר : קול יהוה שבר ארזים",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1254202,
-                        "GT_len": 67
+                        "GT_len": 67,
+                        "levenshtein_ratio": 0.823
                     },
                     {
                         "line_id": "eSc_line_53a4512c",
@@ -10212,7 +10567,8 @@
                         "alg_GT": "וישבר יהוה את ארזי הלבנון : וירקידם כמו עגל לבנון ושרין כמו בן",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1254269,
-                        "GT_len": 63
+                        "GT_len": 63,
+                        "levenshtein_ratio": 0.934
                     },
                     {
                         "line_id": "eSc_line_86e6e298",
@@ -10223,7 +10579,8 @@
                         "alg_GT": "ראמים : קול יהוה חצב להבות אש : קול יהוה יחיל מדבר יחיל יהוה מדבר",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1254332,
-                        "GT_len": 66
+                        "GT_len": 66,
+                        "levenshtein_ratio": 0.869
                     },
                     {
                         "line_id": "eSc_line_060ed884",
@@ -10234,7 +10591,8 @@
                         "alg_GT": "קדש : קול יהוה יחולל אילות ויחשף יערות ובהיכלו כלו אמר כבוד :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1254398,
-                        "GT_len": 62
+                        "GT_len": 62,
+                        "levenshtein_ratio": 0.917
                     },
                     {
                         "line_id": "eSc_line_e00d11d9",
@@ -10245,7 +10603,8 @@
                         "alg_GT": "יהוה למבול ישב וישב יהוה מלך לעולם : יהוה עז לעמו יתן יהוה יברך את",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1254460,
-                        "GT_len": 67
+                        "GT_len": 67,
+                        "levenshtein_ratio": 0.855
                     },
                     {
                         "line_id": "eSc_line_e94645aa",
@@ -10256,7 +10615,8 @@
                         "alg_GT": "עמו בשלום",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1254527,
-                        "GT_len": 10
+                        "GT_len": 10,
+                        "levenshtein_ratio": 0.947
                     },
                     {
                         "line_id": "eSc_line_bc360f2f",
@@ -10386,7 +10746,8 @@
                         "alg_GT": "תורישמו ידי : נשפת ברוחך כסמו ים צללו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130547,
-                        "GT_len": 38
+                        "GT_len": 38,
+                        "levenshtein_ratio": 0.959
                     },
                     {
                         "line_id": "eSc_line_8e6b1ee9",
@@ -10397,7 +10758,8 @@
                         "alg_GT": "כעופרת במים אדירים : מי כמכה באלם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130585,
-                        "GT_len": 34
+                        "GT_len": 34,
+                        "levenshtein_ratio": 0.954
                     },
                     {
                         "line_id": "eSc_line_34a97532",
@@ -10408,7 +10770,8 @@
                         "alg_GT": "יהוה מי כמכה נאדר בקדש נורא תהלת",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130619,
-                        "GT_len": 33
+                        "GT_len": 33,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_f50c2d41",
@@ -10419,7 +10782,8 @@
                         "alg_GT": "עשה פלא : נטית ימינך תבלעמו ארץ : נחית",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130652,
-                        "GT_len": 39
+                        "GT_len": 39,
+                        "levenshtein_ratio": 0.987
                     },
                     {
                         "line_id": "eSc_line_5c8aeac4",
@@ -10430,7 +10794,8 @@
                         "alg_GT": "בחסדך עם זו גאלת נהלת בעזך אל נוה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130691,
-                        "GT_len": 34
+                        "GT_len": 34,
+                        "levenshtein_ratio": 0.909
                     },
                     {
                         "line_id": "eSc_line_87ec09bd",
@@ -10441,7 +10806,8 @@
                         "alg_GT": "קדשך : שמעו עמים ירגזון חיל אחז ישבי",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130725,
-                        "GT_len": 37
+                        "GT_len": 37,
+                        "levenshtein_ratio": 0.986
                     },
                     {
                         "line_id": "eSc_line_d4d11396",
@@ -10452,7 +10818,8 @@
                         "alg_GT": "פלשת : אז נבהלו אלופי אדום אילי מואב",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130762,
-                        "GT_len": 37
+                        "GT_len": 37,
+                        "levenshtein_ratio": 0.986
                     },
                     {
                         "line_id": "eSc_line_5d4f3d59",
@@ -10463,7 +10830,8 @@
                         "alg_GT": "יאחזמו רעד נמגו כל ישבי כנען : תפל עליהם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130799,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_7765b509",
@@ -10474,7 +10842,8 @@
                         "alg_GT": "אימתה ופחד בגדל זרועך ידמו כאבן עד",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130840,
-                        "GT_len": 35
+                        "GT_len": 35,
+                        "levenshtein_ratio": 0.986
                     },
                     {
                         "line_id": "eSc_line_4492cdbf",
@@ -10485,7 +10854,8 @@
                         "alg_GT": "יעבר עמך יהוה עד יעבר עם זו קנית : תבאמו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130875,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.909
                     },
                     {
                         "line_id": "eSc_line_8e337e6f",
@@ -10496,7 +10866,8 @@
                         "alg_GT": "ותטעמו בהר נחלתך מכון לשבתך פעלת",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130916,
-                        "GT_len": 33
+                        "GT_len": 33,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_d60907fd",
@@ -10507,7 +10878,8 @@
                         "alg_GT": "יהוה מקדש אדני כוננו ידיך : יהוה ימלך",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130949,
-                        "GT_len": 38
+                        "GT_len": 38,
+                        "levenshtein_ratio": 0.947
                     },
                     {
                         "line_id": "eSc_line_076b7cf9",
@@ -10518,7 +10890,8 @@
                         "alg_GT": "לעלם ועד : כי בא סוס פרעה ברכבו ובפרשיו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 130987,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 0.987
                     },
                     {
                         "line_id": "eSc_line_b04c1fe6",
@@ -10529,7 +10902,8 @@
                         "alg_GT": "בים וישב יהוה עלהם את מי הים ובני ישראל",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 131027,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 0.974
                     },
                     {
                         "line_id": "eSc_line_b8bfebd5",
@@ -10540,7 +10914,8 @@
                         "alg_GT": "הלכו ביבשה בתוך הים :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 131067,
-                        "GT_len": 22
+                        "GT_len": 22,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_8bb83c5c",
@@ -10551,7 +10926,8 @@
                         "alg_GT": "ותקח מרים הנביאה אחות אהרן את התף",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 131089,
-                        "GT_len": 34
+                        "GT_len": 34,
+                        "levenshtein_ratio": 0.97
                     },
                     {
                         "line_id": "eSc_line_49092fc7",
@@ -10562,7 +10938,8 @@
                         "alg_GT": "בידה ותצאן כל הנשים אחריה בתפים",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 131123,
-                        "GT_len": 32
+                        "GT_len": 32,
+                        "levenshtein_ratio": 0.968
                     },
                     {
                         "line_id": "eSc_line_a42c5733",
@@ -10573,7 +10950,8 @@
                         "alg_GT": "ובמחלת : ותען להם מרים שירו ליהוה כי גאה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 131155,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.962
                     },
                     {
                         "line_id": "eSc_line_1ee2699b",
@@ -10584,7 +10962,8 @@
                         "alg_GT": "גאה סוס ורכבו רמה בים : ויסע משה את",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 131196,
-                        "GT_len": 36
+                        "GT_len": 36,
+                        "levenshtein_ratio": 0.971
                     },
                     {
                         "line_id": "eSc_line_983fad4a",
@@ -10595,7 +10974,8 @@
                         "alg_GT": "ישראל מים סוף ויצאו אל מדבר שור וילכו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 131232,
-                        "GT_len": 38
+                        "GT_len": 38,
+                        "levenshtein_ratio": 0.889
                     },
                     {
                         "line_id": "eSc_line_9ebb721d",
@@ -10606,7 +10986,8 @@
                         "alg_GT": "שלשת ימים במדבר ולא מצאו מים : ויבא",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 131270,
-                        "GT_len": 35
+                        "GT_len": 35,
+                        "levenshtein_ratio": 0.914
                     },
                     {
                         "line_id": "eSc_line_8a238b27",
@@ -10617,7 +10998,8 @@
                         "alg_GT": "ו מרתה ולא יכלו לשתת מים ממרה כי מרים",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 131305,
-                        "GT_len": 37
+                        "GT_len": 37,
+                        "levenshtein_ratio": 0.986
                     }
                 ],
                 "series": "OCR"
@@ -10656,7 +11038,8 @@
                         "alg_GT": "למנצח על הגתית מזמור לדוד : יהוה אדנינו מה אדיר",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1240830,
-                        "GT_len": 48
+                        "GT_len": 48,
+                        "levenshtein_ratio": 0.935
                     },
                     {
                         "line_id": "eSc_line_ab21bf57",
@@ -10667,7 +11050,8 @@
                         "alg_GT": "שמך בכל הארץ אשר תנה הודך על השמים :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1240878,
-                        "GT_len": 37
+                        "GT_len": 37,
+                        "levenshtein_ratio": 0.986
                     },
                     {
                         "line_id": "eSc_line_032c4e9e",
@@ -10678,7 +11062,8 @@
                         "alg_GT": "מפי עוללים וינקים יסדת עז למען צורריך להשבית אויב",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1240915,
-                        "GT_len": 50
+                        "GT_len": 50,
+                        "levenshtein_ratio": 0.98
                     },
                     {
                         "line_id": "eSc_line_b9d3fc75",
@@ -10689,7 +11074,8 @@
                         "alg_GT": "ומתנקם : כי אראה שמיך מעשי אצבעתיך ירח וכוכבים",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1240965,
-                        "GT_len": 47
+                        "GT_len": 47,
+                        "levenshtein_ratio": 0.968
                     },
                     {
                         "line_id": "eSc_line_72e65045",
@@ -10700,7 +11086,8 @@
                         "alg_GT": "אשר כוננתה : מה אנוש כי תזכרנו ובן אדם כי תפקדנו :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1241012,
-                        "GT_len": 51
+                        "GT_len": 51,
+                        "levenshtein_ratio": 0.99
                     },
                     {
                         "line_id": "eSc_line_e989d6c2",
@@ -10711,7 +11098,8 @@
                         "alg_GT": "ותחסרהו מעט מאלהים וכבוד והדר תעטרהו : תמשילהו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1241063,
-                        "GT_len": 47
+                        "GT_len": 47,
+                        "levenshtein_ratio": 0.966
                     },
                     {
                         "line_id": "eSc_line_7146ade3",
@@ -10722,7 +11110,8 @@
                         "alg_GT": "במעשי ידיך כל שתה תחת רגליו : צנה ואלפים כלם וגם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1241110,
-                        "GT_len": 49
+                        "GT_len": 49,
+                        "levenshtein_ratio": 0.99
                     },
                     {
                         "line_id": "eSc_line_4c6df654",
@@ -10733,7 +11122,8 @@
                         "alg_GT": "בהמות שדי : צפור שמים ודגי הים עבר ארחות ימים :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1241159,
-                        "GT_len": 48
+                        "GT_len": 48,
+                        "levenshtein_ratio": 0.968
                     },
                     {
                         "line_id": "eSc_line_b6307db4",
@@ -10744,7 +11134,8 @@
                         "alg_GT": "יהוה אדנינו מה אדיר שמך בכל הארץ :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1241207,
-                        "GT_len": 35
+                        "GT_len": 35,
+                        "levenshtein_ratio": 0.925
                     },
                     {
                         "line_id": "eSc_line_934cc501",
@@ -10783,7 +11174,8 @@
                         "alg_GT": "ממתינו והעיר אשר נקרא שמך עליה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1493418,
-                        "GT_len": 31
+                        "GT_len": 31,
+                        "levenshtein_ratio": 0.368
                     },
                     {
                         "line_id": "eSc_line_eb77bad9",
@@ -10794,7 +11186,8 @@
                         "alg_GT": "כי לא על צדקתינו אנחנו מפילים תחנונינו לפניך כי על",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1493449,
-                        "GT_len": 51
+                        "GT_len": 51,
+                        "levenshtein_ratio": 0.99
                     },
                     {
                         "line_id": "eSc_line_a37eca88",
@@ -10805,7 +11198,8 @@
                         "alg_GT": "רחמיך הרבים : אדני שמעה אדני סלחה אדני הקשיבה ועשה אל",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1493500,
-                        "GT_len": 54
+                        "GT_len": 54,
+                        "levenshtein_ratio": 0.837
                     },
                     {
                         "line_id": "eSc_line_e9836246",
@@ -10816,7 +11210,8 @@
                         "alg_GT": "תאחר למענך אלהי כי שמך נקרא על עירך ועל עמך :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1493554,
-                        "GT_len": 46
+                        "GT_len": 46,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_6af947f9",
@@ -10883,7 +11278,8 @@
                         "alg_GT": "וירד יהוה בענן ויתיצב עמו שם ויקרא בשם יהוה :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 168405,
-                        "GT_len": 46
+                        "GT_len": 46,
+                        "levenshtein_ratio": 0.894
                     },
                     {
                         "line_id": "eSc_line_df87a8a5",
@@ -10894,7 +11290,8 @@
                         "alg_GT": "ויעבר יהוה על פניו ויקרא",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 168451,
-                        "GT_len": 25
+                        "GT_len": 25,
+                        "levenshtein_ratio": 0.894
                     },
                     {
                         "line_id": "eSc_line_9147b20f",
@@ -10905,7 +11302,8 @@
                         "alg_GT": "יהוה יהוה אל רחום וחנון ארך אפים ורב חסד ואמת : נצר",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 168476,
-                        "GT_len": 52
+                        "GT_len": 52,
+                        "levenshtein_ratio": 0.872
                     },
                     {
                         "line_id": "eSc_line_bd636b66",
@@ -10916,7 +11314,8 @@
                         "alg_GT": "חסד לאלפים נשא עון ופשע וחטאה ונקה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 168528,
-                        "GT_len": 35
+                        "GT_len": 35,
+                        "levenshtein_ratio": 0.957
                     },
                     {
                         "line_id": "eSc_line_75d8cc5f",
@@ -10927,7 +11326,8 @@
                         "alg_GT": "לא ינ",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 168563,
-                        "GT_len": 5
+                        "GT_len": 5,
+                        "levenshtein_ratio": 0.157
                     },
                     {
                         "line_id": "eSc_line_26ef7f4f",
@@ -11008,7 +11408,8 @@
                         "alg_GT": "אדני : הטה אלהי אזנך ושמע פקחה עיניך וראה שממתינו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1493375,
-                        "GT_len": 50
+                        "GT_len": 50,
+                        "levenshtein_ratio": 0.804
                     },
                     {
                         "line_id": "eSc_line_01c10380",
@@ -11019,7 +11420,8 @@
                         "alg_GT": "והעיר אשר נקרא שמך עליה כי לא על צדקתינו אנחנו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1493425,
-                        "GT_len": 47
+                        "GT_len": 47,
+                        "levenshtein_ratio": 0.956
                     },
                     {
                         "line_id": "eSc_line_045ad2b0",
@@ -11030,7 +11432,8 @@
                         "alg_GT": "מפילים תחנונינו לפניך כי על רחמיך הרבים : אדני שמעה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1493472,
-                        "GT_len": 52
+                        "GT_len": 52,
+                        "levenshtein_ratio": 0.863
                     },
                     {
                         "line_id": "eSc_line_b33220d8",
@@ -11041,7 +11444,8 @@
                         "alg_GT": "אדני סלחה אדני הקשיבה ועשה אל תאחר למענך אלהי כי שמך נקרא על",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1493524,
-                        "GT_len": 61
+                        "GT_len": 61,
+                        "levenshtein_ratio": 0.83
                     },
                     {
                         "line_id": "eSc_line_c2b4e9b5",
@@ -11052,7 +11456,8 @@
                         "alg_GT": "עירך ועל עמך",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1493585,
-                        "GT_len": 13
+                        "GT_len": 13,
+                        "levenshtein_ratio": 0.96
                     },
                     {
                         "line_id": "eSc_line_1f27e9be",
@@ -11063,7 +11468,8 @@
                         "alg_GT": ": ועוד אני",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1493598,
-                        "GT_len": 11
+                        "GT_len": 11,
+                        "levenshtein_ratio": 0.333
                     },
                     {
                         "line_id": "eSc_line_0ed82be5",
@@ -11074,7 +11480,8 @@
                         "alg_GT": "מ",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1493609,
-                        "GT_len": 1
+                        "GT_len": 1,
+                        "levenshtein_ratio": 0.049
                     },
                     {
                         "line_id": "eSc_line_b1ffcf3c",
@@ -11442,7 +11849,8 @@
                         "alg_GT": "ויאמר אני אעביר כל טובי על פניך וקראתי בשם יהוה לפניך וחנתי את",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 167771,
-                        "GT_len": 63
+                        "GT_len": 63,
+                        "levenshtein_ratio": 0.959
                     },
                     {
                         "line_id": "eSc_line_8d754818",
@@ -11453,7 +11861,8 @@
                         "alg_GT": "אשר אחן ורחמתי את אשר ארחם :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 167834,
-                        "GT_len": 29
+                        "GT_len": 29,
+                        "levenshtein_ratio": 0.982
                     },
                     {
                         "line_id": "eSc_line_8803a92d",
@@ -11527,7 +11936,8 @@
                         "alg_GT": "ונתתי עשב בשדך לבהמתך ואכלת ושבעת : השמרו לכם פן יפתה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 350595,
-                        "GT_len": 54
+                        "GT_len": 54,
+                        "levenshtein_ratio": 0.981
                     },
                     {
                         "line_id": "eSc_line_24a98ced",
@@ -11538,7 +11948,8 @@
                         "alg_GT": "לבבכם וסרתם ועבדתם אלהים אחרים והשתחויתם להם : וחרה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 350649,
-                        "GT_len": 52
+                        "GT_len": 52,
+                        "levenshtein_ratio": 0.97
                     },
                     {
                         "line_id": "eSc_line_8f61ce34",
@@ -11549,7 +11960,8 @@
                         "alg_GT": "אף יהוה בכם ועצר את השמים ולא יהיה מטר והאדמה לא תתן",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 350701,
-                        "GT_len": 53
+                        "GT_len": 53,
+                        "levenshtein_ratio": 0.942
                     },
                     {
                         "line_id": "eSc_line_b0a55298",
@@ -11560,7 +11972,8 @@
                         "alg_GT": "את יבולה ואבדתם מהרה מעל הארץ הטבה אשר יהוה נתן לכם :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 350754,
-                        "GT_len": 54
+                        "GT_len": 54,
+                        "levenshtein_ratio": 0.971
                     },
                     {
                         "line_id": "eSc_line_c8003e76",
@@ -11571,7 +11984,8 @@
                         "alg_GT": "ושמתם את דברי אלה על לבבכם ועל נפשכם וקשרתם אתם לאות",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 350808,
-                        "GT_len": 53
+                        "GT_len": 53,
+                        "levenshtein_ratio": 0.923
                     },
                     {
                         "line_id": "eSc_line_28a6556a",
@@ -11582,7 +11996,8 @@
                         "alg_GT": "על ידכם והיו לטוטפת בין עיניכם : ולמדתם אתם את בניכם לדבר",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 350861,
-                        "GT_len": 58
+                        "GT_len": 58,
+                        "levenshtein_ratio": 0.965
                     },
                     {
                         "line_id": "eSc_line_48d6b03a",
@@ -11593,7 +12008,8 @@
                         "alg_GT": "בם בשבתך בביתך ובלכתך בדרך ובשכבך ובקומך : וכתבתם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 350919,
-                        "GT_len": 50
+                        "GT_len": 50,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_483cb28d",
@@ -11604,7 +12020,8 @@
                         "alg_GT": "על מזוזות ביתך ובשעריך :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 350969,
-                        "GT_len": 25
+                        "GT_len": 25,
+                        "levenshtein_ratio": 0.958
                     },
                     {
                         "line_id": "eSc_line_8eef6aec",
@@ -11615,7 +12032,8 @@
                         "alg_GT": "למען ירבו ימיכם וימי בניכם על האדמה אשר נשבע יהוה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 350994,
-                        "GT_len": 50
+                        "GT_len": 50,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_c8588135",
@@ -11626,7 +12044,8 @@
                         "alg_GT": "לאבתיכם לתת להם כימי השמים על הארץ :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 351044,
-                        "GT_len": 37
+                        "GT_len": 37,
+                        "levenshtein_ratio": 0.972
                     },
                     {
                         "line_id": "eSc_line_a09c95a5",
@@ -11637,7 +12056,8 @@
                         "alg_GT": "כי אם שמר תשמרון",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 351081,
-                        "GT_len": 17
+                        "GT_len": 17,
+                        "levenshtein_ratio": 0.299
                     },
                     {
                         "line_id": "eSc_line_b011c205",
@@ -11648,7 +12068,8 @@
                         "alg_GT": "ועשו להם ציצת על כנפי בגדיהם לדרתם ונתנו על ציצת הכנף פתיל",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 280124,
-                        "GT_len": 59
+                        "GT_len": 59,
+                        "levenshtein_ratio": 0.957
                     },
                     {
                         "line_id": "eSc_line_5ab7134a",
@@ -11659,7 +12080,8 @@
                         "alg_GT": "תכלת : והיה לכם לציצת וראיתם אתו וזכרתם את כל מצות יהוה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 280183,
-                        "GT_len": 56
+                        "GT_len": 56,
+                        "levenshtein_ratio": 0.964
                     },
                     {
                         "line_id": "eSc_line_44a0c806",
@@ -11670,7 +12092,8 @@
                         "alg_GT": "ועשיתם אתם ולא תתרו אחרי לבבכם ואחרי עיניכם אשר אתם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 280239,
-                        "GT_len": 52
+                        "GT_len": 52,
+                        "levenshtein_ratio": 0.971
                     },
                     {
                         "line_id": "eSc_line_298a7375",
@@ -11681,7 +12104,8 @@
                         "alg_GT": "זנים אחריהם : למען תזכרו ועשיתם את כל מצותי והייתם קדשים",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 280291,
-                        "GT_len": 57
+                        "GT_len": 57,
+                        "levenshtein_ratio": 0.919
                     },
                     {
                         "line_id": "eSc_line_983851df",
@@ -11692,7 +12116,8 @@
                         "alg_GT": "לאלהיכם : אני יהוה אלהיכם אשר הוצאתי אתכם מארץ מצרים",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 280348,
-                        "GT_len": 53
+                        "GT_len": 53,
+                        "levenshtein_ratio": 0.99
                     },
                     {
                         "line_id": "eSc_line_9d0c39bc",
@@ -11703,7 +12128,8 @@
                         "alg_GT": "להיות לכם לאלהים אני יהוה אלהיכם : ויקח קרח בן יצהר בן",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 280401,
-                        "GT_len": 55
+                        "GT_len": 55,
+                        "levenshtein_ratio": 0.734
                     },
                     {
                         "line_id": "eSc_line_f425df9b",
@@ -11714,7 +12140,8 @@
                         "alg_GT": "קהת בן לוי ודתן ואבירם בני אליאב ואון בן פלת",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 280456,
-                        "GT_len": 45
+                        "GT_len": 45,
+                        "levenshtein_ratio": 0.48
                     },
                     {
                         "line_id": "eSc_line_4773718f",
@@ -11725,7 +12152,8 @@
                         "alg_GT": "בני ראובן : ויקמו לפני משה ואנ",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 280501,
-                        "GT_len": 30
+                        "GT_len": 30,
+                        "levenshtein_ratio": 0.4
                     },
                     {
                         "line_id": "eSc_line_a8d47c09",
@@ -11827,7 +12255,8 @@
                         "alg_GT": "ואני בחסדך בטחתי יגל לבי בישועתך",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1243902,
-                        "GT_len": 33
+                        "GT_len": 33,
+                        "levenshtein_ratio": 0.985
                     },
                     {
                         "line_id": "eSc_line_54b92377",
@@ -11838,7 +12267,8 @@
                         "alg_GT": "אשירה ליהוה כי גמל עלי",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1243935,
-                        "GT_len": 23
+                        "GT_len": 23,
+                        "levenshtein_ratio": 0.884
                     },
                     {
                         "line_id": "eSc_line_cc1b318b",
@@ -11898,7 +12328,8 @@
                         "alg_GT": "למנצח מזמור לדוד : השמים מספרים כבוד אל ומעשה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1247874,
-                        "GT_len": 46
+                        "GT_len": 46,
+                        "levenshtein_ratio": 0.957
                     },
                     {
                         "line_id": "eSc_line_71579040",
@@ -11909,7 +12340,8 @@
                         "alg_GT": "ידיו מגיד הרקיע : יום ליום יביע אמר ולילה ללילה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1247920,
-                        "GT_len": 48
+                        "GT_len": 48,
+                        "levenshtein_ratio": 0.989
                     },
                     {
                         "line_id": "eSc_line_285713bb",
@@ -11920,7 +12352,8 @@
                         "alg_GT": "יחוה דעת : אין אמר ואין דברים בלי נשמע קולם : בכל",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1247968,
-                        "GT_len": 50
+                        "GT_len": 50,
+                        "levenshtein_ratio": 0.938
                     },
                     {
                         "line_id": "eSc_line_885cd859",
@@ -11931,7 +12364,8 @@
                         "alg_GT": "הארץ יצא קום ובקצה תבל מליהם לשמש שם אהל",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1248018,
-                        "GT_len": 41
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.976
                     },
                     {
                         "line_id": "eSc_line_773e7a7e",
@@ -11942,7 +12376,8 @@
                         "alg_GT": "בהם : והוא כחתן יצא מחפתו ישיש כגבור לרוץ ארח :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1248059,
-                        "GT_len": 48
+                        "GT_len": 48,
+                        "levenshtein_ratio": 0.968
                     },
                     {
                         "line_id": "eSc_line_0b08a66a",
@@ -11953,7 +12388,8 @@
                         "alg_GT": "מקצה השמים מוצאו ותקופתו על קצותם ואין נסתר",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1248107,
-                        "GT_len": 44
+                        "GT_len": 44,
+                        "levenshtein_ratio": 0.966
                     },
                     {
                         "line_id": "eSc_line_a648109c",
@@ -11964,7 +12400,8 @@
                         "alg_GT": "מחמתו : תורת יהוה תמימה משיבת נפש עדות יהוה",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1248151,
-                        "GT_len": 44
+                        "GT_len": 44,
+                        "levenshtein_ratio": 0.988
                     },
                     {
                         "line_id": "eSc_line_886a1567",
@@ -11975,7 +12412,8 @@
                         "alg_GT": "נאמנה מחכימת פתי : פקודי יהוה ישרים משמחי לב",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1248195,
-                        "GT_len": 45
+                        "GT_len": 45,
+                        "levenshtein_ratio": 0.966
                     },
                     {
                         "line_id": "eSc_line_519736aa",
@@ -11986,7 +12424,8 @@
                         "alg_GT": "מצות יהוה ברה מאירת עינים : יראת יהוה טהורה עומדת",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1248240,
-                        "GT_len": 50
+                        "GT_len": 50,
+                        "levenshtein_ratio": 0.969
                     },
                     {
                         "line_id": "eSc_line_855b6a7e",
@@ -11997,7 +12436,8 @@
                         "alg_GT": "לעד משפטי יהוה אמת צדקו יחדו : הנחמדים מזהב ומפז",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1248290,
-                        "GT_len": 49
+                        "GT_len": 49,
+                        "levenshtein_ratio": 0.958
                     },
                     {
                         "line_id": "eSc_line_61b3ab3b",
@@ -12008,7 +12448,8 @@
                         "alg_GT": "רב ומתוקים מדבש ונפת צופים : גם עבדך נזהר בהם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1248339,
-                        "GT_len": 46
+                        "GT_len": 46,
+                        "levenshtein_ratio": 0.966
                     },
                     {
                         "line_id": "eSc_line_6a9ecb80",
@@ -12019,7 +12460,8 @@
                         "alg_GT": "בשמרם עקב רב : שגיאות מי יבין מנסתרות נקני : גם",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1248385,
-                        "GT_len": 48
+                        "GT_len": 48,
+                        "levenshtein_ratio": 0.957
                     },
                     {
                         "line_id": "eSc_line_7d76cbde",
@@ -12030,7 +12472,8 @@
                         "alg_GT": "מזדים חשך עבדך אל ימשלו בי אז איתם ונקיתי מפשע",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1248433,
-                        "GT_len": 47
+                        "GT_len": 47,
+                        "levenshtein_ratio": 0.957
                     },
                     {
                         "line_id": "eSc_line_98e15e09",
@@ -12041,7 +12484,8 @@
                         "alg_GT": "רב : יהיו לרצון אמרי פי והגיון לבי לפניך יהוה צורי וגאלי :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1248480,
-                        "GT_len": 59
+                        "GT_len": 59,
+                        "levenshtein_ratio": 0.966
                     },
                     {
                         "line_id": "eSc_line_255eaee2",
@@ -12052,7 +12496,8 @@
                         "alg_GT": "ל",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1248539,
-                        "GT_len": 1
+                        "GT_len": 1,
+                        "levenshtein_ratio": 0.04
                     },
                     {
                         "line_id": "eSc_line_878a36df",
@@ -12063,7 +12508,8 @@
                         "alg_GT": "אברכה את יהוה בכל עת תמיד תהלתו בפי :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1257651,
-                        "GT_len": 38
+                        "GT_len": 38,
+                        "levenshtein_ratio": 0.946
                     },
                     {
                         "line_id": "eSc_line_6b97e574",
@@ -12074,7 +12520,8 @@
                         "alg_GT": "ביהוה תתהלל נפשי ישמעו ענוים וישמחו :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1257689,
-                        "GT_len": 38
+                        "GT_len": 38,
+                        "levenshtein_ratio": 0.986
                     },
                     {
                         "line_id": "eSc_line_01840871",
@@ -12085,7 +12532,8 @@
                         "alg_GT": "גדלו ליהוה אתי ונרוממה שמו יחדו :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1257727,
-                        "GT_len": 34
+                        "GT_len": 34,
+                        "levenshtein_ratio": 0.97
                     },
                     {
                         "line_id": "eSc_line_c86866e3",
@@ -12096,7 +12544,8 @@
                         "alg_GT": "דרשתי את יהוה וענני ומכל מגורותי הציל",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 1257761,
-                        "GT_len": 37
+                        "GT_len": 37,
+                        "levenshtein_ratio": 0.88
                     }
                 ],
                 "series": "OCR"
@@ -12632,7 +13081,8 @@
                         "alg_GT": "אלהם ישראל אביהם אם כן אפוא זאת עשו קחו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 85565,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 0.975
                     },
                     {
                         "line_id": "eSc_line_6c4cc6a0",
@@ -12643,7 +13093,8 @@
                         "alg_GT": "מזמרת הארץ בכליכם והורידו לאיש מנחה מעט",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 85605,
-                        "GT_len": 40
+                        "GT_len": 40,
+                        "levenshtein_ratio": 1.0
                     },
                     {
                         "line_id": "eSc_line_5a21ab40",
@@ -12654,7 +13105,8 @@
                         "alg_GT": "צרי ומעט דבש נכאת ולט בטנים ושקדים :",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 85645,
-                        "GT_len": 37
+                        "GT_len": 37,
+                        "levenshtein_ratio": 0.933
                     },
                     {
                         "line_id": "eSc_line_96e52eae",
@@ -12665,7 +13117,8 @@
                         "alg_GT": "וכסף משנה קחו בידכם ו",
                         "GT_id": "MT_NoVoc_concatenated.txt",
                         "GT_start": 85682,
-                        "GT_len": 21
+                        "GT_len": 21,
+                        "levenshtein_ratio": 0.31
                     },
                     {
                         "line_id": "eSc_line_83c1f179",
