@@ -1,0 +1,2381 @@
+[
+    {
+        "filename": "IE87297122_00014.xml",
+        "part_pk": 734753,
+        "part_title": "Element 19",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 2,
+        "aligned_clusters_size": [
+            2
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE61220167_00084.xml",
+        "part_pk": 734742,
+        "part_title": "Element 8",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 9,
+        "aligned_clusters_size": [
+            9
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87234800_00004.xml",
+        "part_pk": 734751,
+        "part_title": "Element 17",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 17,
+        "aligned_clusters_size": [
+            8,
+            5,
+            1,
+            3
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87234800_00005.xml",
+        "part_pk": 734752,
+        "part_title": "Element 18",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 22,
+        "aligned_clusters_size": [
+            22
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87363222_00008.xml",
+        "part_pk": 734754,
+        "part_title": "Element 20",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 13,
+        "aligned_clusters_size": [
+            10,
+            3
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87447950_00011.xml",
+        "part_pk": 734755,
+        "part_title": "Element 21",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 12,
+        "aligned_clusters_size": [
+            6,
+            6
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87447950_00015.xml",
+        "part_pk": 734756,
+        "part_title": "Element 22",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 22,
+        "aligned_clusters_size": [
+            7,
+            6,
+            6,
+            3
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87447950_00018.xml",
+        "part_pk": 734757,
+        "part_title": "Element 23",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 20,
+        "aligned_clusters_size": [
+            17,
+            3
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87474895_00014.xml",
+        "part_pk": 734758,
+        "part_title": "Element 24",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 4,
+        "aligned_clusters_size": [
+            4
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87474895_00044.xml",
+        "part_pk": 734759,
+        "part_title": "Element 25",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 27,
+        "aligned_clusters_size": [
+            27
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87502633_00018.xml",
+        "part_pk": 734761,
+        "part_title": "Element 27",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 10,
+        "aligned_clusters_size": [
+            5,
+            3,
+            1,
+            1
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87502633_00044.xml",
+        "part_pk": 734762,
+        "part_title": "Element 28",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 20,
+        "aligned_clusters_size": [
+            3,
+            17
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87532920_00026.xml",
+        "part_pk": 734765,
+        "part_title": "Element 31",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 15,
+        "aligned_clusters_size": [
+            13,
+            2
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87580382_00008.xml",
+        "part_pk": 734767,
+        "part_title": "Element 33",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 5,
+        "aligned_clusters_size": [
+            5
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87580382_00041.xml",
+        "part_pk": 734768,
+        "part_title": "Element 34",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 20,
+        "aligned_clusters_size": [
+            7,
+            13
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87581919_00016.xml",
+        "part_pk": 734770,
+        "part_title": "Element 36",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 19,
+        "aligned_clusters_size": [
+            19
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87581919_00018.xml",
+        "part_pk": 734771,
+        "part_title": "Element 37",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 12,
+        "aligned_clusters_size": [
+            4,
+            1,
+            1,
+            1,
+            5
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87582245_00015.xml",
+        "part_pk": 734772,
+        "part_title": "Element 38",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 23,
+        "aligned_clusters_size": [
+            23
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87610546_00015.xml",
+        "part_pk": 734773,
+        "part_title": "Element 39",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 6,
+        "aligned_clusters_size": [
+            1,
+            5
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87690674_00007.xml",
+        "part_pk": 734776,
+        "part_title": "Element 42",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 1,
+        "aligned_clusters_size": [
+            1
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87705971_00006.xml",
+        "part_pk": 734779,
+        "part_title": "Element 45",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 11,
+        "aligned_clusters_size": [
+            10,
+            1
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87705976_00034.xml",
+        "part_pk": 734780,
+        "part_title": "Element 46",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 9,
+        "aligned_clusters_size": [
+            1,
+            3,
+            5
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87705976_00036.xml",
+        "part_pk": 734781,
+        "part_title": "Element 47",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 11,
+        "aligned_clusters_size": [
+            6,
+            5
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87708411_00019.xml",
+        "part_pk": 734782,
+        "part_title": "Element 48",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 10,
+        "aligned_clusters_size": [
+            2,
+            1,
+            2,
+            1,
+            2,
+            2
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87708411_00021.xml",
+        "part_pk": 734783,
+        "part_title": "Element 49",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 22,
+        "aligned_clusters_size": [
+            22
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87716931_00014.xml",
+        "part_pk": 734784,
+        "part_title": "Element 50",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 6,
+        "aligned_clusters_size": [
+            2,
+            2,
+            1,
+            1
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87717323_00012.xml",
+        "part_pk": 734785,
+        "part_title": "Element 51",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 6,
+        "aligned_clusters_size": [
+            2,
+            4
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87719995_00046.xml",
+        "part_pk": 734786,
+        "part_title": "Element 52",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 8,
+        "aligned_clusters_size": [
+            8
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87719995_00053.xml",
+        "part_pk": 734787,
+        "part_title": "Element 53",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 8,
+        "aligned_clusters_size": [
+            8
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87726132_00023.xml",
+        "part_pk": 734788,
+        "part_title": "Element 54",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 14,
+        "aligned_clusters_size": [
+            12,
+            2
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87733114_00006.xml",
+        "part_pk": 734789,
+        "part_title": "Element 55",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 1,
+        "aligned_clusters_size": [
+            1
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87733114_00007.xml",
+        "part_pk": 734790,
+        "part_title": "Element 56",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 1,
+        "aligned_clusters_size": [
+            1
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87744435_00015.xml",
+        "part_pk": 734793,
+        "part_title": "Element 59",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 21,
+        "aligned_clusters_size": [
+            10,
+            11
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87744435_00039.xml",
+        "part_pk": 734794,
+        "part_title": "Element 60",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 21,
+        "aligned_clusters_size": [
+            3,
+            18
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87752740_00019.xml",
+        "part_pk": 734795,
+        "part_title": "Element 61",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 11,
+        "aligned_clusters_size": [
+            11
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87752740_00022.xml",
+        "part_pk": 734796,
+        "part_title": "Element 62",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 13,
+        "aligned_clusters_size": [
+            13
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87755510_00024.xml",
+        "part_pk": 734798,
+        "part_title": "Element 64",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 15,
+        "aligned_clusters_size": [
+            12,
+            3
+        ],
+        "GT_id": "Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87297122_00014.xml",
+        "part_pk": 734753,
+        "part_title": "Element 19",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 2,
+        "aligned_clusters_size": [
+            2
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE61220167_00083.xml",
+        "part_pk": 734741,
+        "part_title": "Element 7",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 6,
+        "aligned_clusters_size": [
+            1,
+            5
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE61220167_00084.xml",
+        "part_pk": 734742,
+        "part_title": "Element 8",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 12,
+        "aligned_clusters_size": [
+            9,
+            3
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE61220167_00097.xml",
+        "part_pk": 734743,
+        "part_title": "Element 9",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 7,
+        "aligned_clusters_size": [
+            1,
+            1,
+            5
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87234800_00004.xml",
+        "part_pk": 734751,
+        "part_title": "Element 17",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 17,
+        "aligned_clusters_size": [
+            8,
+            5,
+            1,
+            3
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87234800_00005.xml",
+        "part_pk": 734752,
+        "part_title": "Element 18",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 22,
+        "aligned_clusters_size": [
+            22
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87363222_00008.xml",
+        "part_pk": 734754,
+        "part_title": "Element 20",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 13,
+        "aligned_clusters_size": [
+            10,
+            3
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87447950_00011.xml",
+        "part_pk": 734755,
+        "part_title": "Element 21",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 13,
+        "aligned_clusters_size": [
+            6,
+            1,
+            6
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87447950_00015.xml",
+        "part_pk": 734756,
+        "part_title": "Element 22",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 23,
+        "aligned_clusters_size": [
+            8,
+            6,
+            6,
+            3
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87447950_00018.xml",
+        "part_pk": 734757,
+        "part_title": "Element 23",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 20,
+        "aligned_clusters_size": [
+            17,
+            3
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87474895_00014.xml",
+        "part_pk": 734758,
+        "part_title": "Element 24",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 3,
+        "aligned_clusters_size": [
+            2,
+            1
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87474895_00044.xml",
+        "part_pk": 734759,
+        "part_title": "Element 25",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 27,
+        "aligned_clusters_size": [
+            27
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87502633_00018.xml",
+        "part_pk": 734761,
+        "part_title": "Element 27",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 11,
+        "aligned_clusters_size": [
+            5,
+            3,
+            1,
+            1,
+            1
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87502633_00044.xml",
+        "part_pk": 734762,
+        "part_title": "Element 28",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 20,
+        "aligned_clusters_size": [
+            3,
+            17
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87519524_00013.xml",
+        "part_pk": 734764,
+        "part_title": "Element 30",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 3,
+        "aligned_clusters_size": [
+            3
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87532920_00026.xml",
+        "part_pk": 734765,
+        "part_title": "Element 31",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 16,
+        "aligned_clusters_size": [
+            16
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87580382_00041.xml",
+        "part_pk": 734768,
+        "part_title": "Element 34",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 13,
+        "aligned_clusters_size": [
+            13
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87581919_00016.xml",
+        "part_pk": 734770,
+        "part_title": "Element 36",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 20,
+        "aligned_clusters_size": [
+            19,
+            1
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87581919_00018.xml",
+        "part_pk": 734771,
+        "part_title": "Element 37",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 10,
+        "aligned_clusters_size": [
+            4,
+            1,
+            1,
+            1,
+            3
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87582245_00015.xml",
+        "part_pk": 734772,
+        "part_title": "Element 38",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 23,
+        "aligned_clusters_size": [
+            23
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87610546_00015.xml",
+        "part_pk": 734773,
+        "part_title": "Element 39",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 6,
+        "aligned_clusters_size": [
+            1,
+            5
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87675634_00010.xml",
+        "part_pk": 734775,
+        "part_title": "Element 41",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 4,
+        "aligned_clusters_size": [
+            1,
+            3
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87690674_00007.xml",
+        "part_pk": 734776,
+        "part_title": "Element 42",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 4,
+        "aligned_clusters_size": [
+            3,
+            1
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87700963_00014.xml",
+        "part_pk": 734778,
+        "part_title": "Element 44",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 2,
+        "aligned_clusters_size": [
+            2
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87705971_00006.xml",
+        "part_pk": 734779,
+        "part_title": "Element 45",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 10,
+        "aligned_clusters_size": [
+            10
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87705976_00034.xml",
+        "part_pk": 734780,
+        "part_title": "Element 46",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 9,
+        "aligned_clusters_size": [
+            1,
+            3,
+            5
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87705976_00036.xml",
+        "part_pk": 734781,
+        "part_title": "Element 47",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 11,
+        "aligned_clusters_size": [
+            6,
+            5
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87708411_00019.xml",
+        "part_pk": 734782,
+        "part_title": "Element 48",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 9,
+        "aligned_clusters_size": [
+            2,
+            1,
+            1,
+            1,
+            2,
+            2
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87708411_00021.xml",
+        "part_pk": 734783,
+        "part_title": "Element 49",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 22,
+        "aligned_clusters_size": [
+            22
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87716931_00014.xml",
+        "part_pk": 734784,
+        "part_title": "Element 50",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 8,
+        "aligned_clusters_size": [
+            2,
+            5,
+            1
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87717323_00012.xml",
+        "part_pk": 734785,
+        "part_title": "Element 51",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 9,
+        "aligned_clusters_size": [
+            9
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87719995_00046.xml",
+        "part_pk": 734786,
+        "part_title": "Element 52",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 8,
+        "aligned_clusters_size": [
+            8
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87719995_00053.xml",
+        "part_pk": 734787,
+        "part_title": "Element 53",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 8,
+        "aligned_clusters_size": [
+            8
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87726132_00023.xml",
+        "part_pk": 734788,
+        "part_title": "Element 54",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 14,
+        "aligned_clusters_size": [
+            12,
+            2
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87739615_00009.xml",
+        "part_pk": 734792,
+        "part_title": "Element 58",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 2,
+        "aligned_clusters_size": [
+            2
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87744435_00039.xml",
+        "part_pk": 734794,
+        "part_title": "Element 60",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 21,
+        "aligned_clusters_size": [
+            3,
+            18
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87752740_00019.xml",
+        "part_pk": 734795,
+        "part_title": "Element 61",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 11,
+        "aligned_clusters_size": [
+            11
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87752740_00022.xml",
+        "part_pk": 734796,
+        "part_title": "Element 62",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 12,
+        "aligned_clusters_size": [
+            7,
+            5
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87752740_00038.xml",
+        "part_pk": 734797,
+        "part_title": "Element 63",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 13,
+        "aligned_clusters_size": [
+            13
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87755510_00024.xml",
+        "part_pk": 734798,
+        "part_title": "Element 64",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 15,
+        "aligned_clusters_size": [
+            12,
+            3
+        ],
+        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87297122_00014.xml",
+        "part_pk": 734753,
+        "part_title": "Element 19",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 2,
+        "aligned_clusters_size": [
+            2
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE103402206_00010.xml",
+        "part_pk": 734735,
+        "part_title": "Element 1",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 11,
+        "aligned_clusters_size": [
+            11
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE103402206_00014.xml",
+        "part_pk": 734736,
+        "part_title": "Element 2",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 9,
+        "aligned_clusters_size": [
+            9
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE103409244_00025.xml",
+        "part_pk": 734737,
+        "part_title": "Element 3",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 27,
+        "aligned_clusters_size": [
+            13,
+            14
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE61220167_00083.xml",
+        "part_pk": 734741,
+        "part_title": "Element 7",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 4,
+        "aligned_clusters_size": [
+            2,
+            2
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE61220167_00097.xml",
+        "part_pk": 734743,
+        "part_title": "Element 9",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 8,
+        "aligned_clusters_size": [
+            2,
+            1,
+            2,
+            3
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE87234800_00003.xml",
+        "part_pk": 734750,
+        "part_title": "Element 16",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 3,
+        "aligned_clusters_size": [
+            3
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE87234800_00004.xml",
+        "part_pk": 734751,
+        "part_title": "Element 17",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 8,
+        "aligned_clusters_size": [
+            6,
+            2
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE87363222_00008.xml",
+        "part_pk": 734754,
+        "part_title": "Element 20",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 14,
+        "aligned_clusters_size": [
+            14
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE87447950_00015.xml",
+        "part_pk": 734756,
+        "part_title": "Element 22",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 13,
+        "aligned_clusters_size": [
+            3,
+            10
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE87476216_00051.xml",
+        "part_pk": 734760,
+        "part_title": "Element 26",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 21,
+        "aligned_clusters_size": [
+            18,
+            3
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE87502633_00044.xml",
+        "part_pk": 734762,
+        "part_title": "Element 28",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 21,
+        "aligned_clusters_size": [
+            3,
+            18
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE87508468_00031.xml",
+        "part_pk": 734763,
+        "part_title": "Element 29",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 14,
+        "aligned_clusters_size": [
+            14
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE87519524_00013.xml",
+        "part_pk": 734764,
+        "part_title": "Element 30",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 3,
+        "aligned_clusters_size": [
+            3
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE87532920_00026.xml",
+        "part_pk": 734765,
+        "part_title": "Element 31",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 24,
+        "aligned_clusters_size": [
+            24
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE87580382_00008.xml",
+        "part_pk": 734767,
+        "part_title": "Element 33",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 3,
+        "aligned_clusters_size": [
+            3
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE87581919_00016.xml",
+        "part_pk": 734770,
+        "part_title": "Element 36",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 18,
+        "aligned_clusters_size": [
+            10,
+            8
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE87581919_00018.xml",
+        "part_pk": 734771,
+        "part_title": "Element 37",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 6,
+        "aligned_clusters_size": [
+            1,
+            2,
+            3
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE87582245_00015.xml",
+        "part_pk": 734772,
+        "part_title": "Element 38",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 23,
+        "aligned_clusters_size": [
+            23
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE87610546_00015.xml",
+        "part_pk": 734773,
+        "part_title": "Element 39",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 4,
+        "aligned_clusters_size": [
+            4
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE87675634_00007.xml",
+        "part_pk": 734774,
+        "part_title": "Element 40",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 4,
+        "aligned_clusters_size": [
+            1,
+            3
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE87700963_00014.xml",
+        "part_pk": 734778,
+        "part_title": "Element 44",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 2,
+        "aligned_clusters_size": [
+            2
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE87705976_00036.xml",
+        "part_pk": 734781,
+        "part_title": "Element 47",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 10,
+        "aligned_clusters_size": [
+            5,
+            5
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE87708411_00021.xml",
+        "part_pk": 734783,
+        "part_title": "Element 49",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 17,
+        "aligned_clusters_size": [
+            9,
+            5,
+            3
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE87717323_00012.xml",
+        "part_pk": 734785,
+        "part_title": "Element 51",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 22,
+        "aligned_clusters_size": [
+            7,
+            8,
+            7
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE87719995_00053.xml",
+        "part_pk": 734787,
+        "part_title": "Element 53",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 12,
+        "aligned_clusters_size": [
+            5,
+            7
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE87726132_00023.xml",
+        "part_pk": 734788,
+        "part_title": "Element 54",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 22,
+        "aligned_clusters_size": [
+            22
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE87733114_00006.xml",
+        "part_pk": 734789,
+        "part_title": "Element 55",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 12,
+        "aligned_clusters_size": [
+            9,
+            3
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE87733114_00007.xml",
+        "part_pk": 734790,
+        "part_title": "Element 56",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 9,
+        "aligned_clusters_size": [
+            4,
+            5
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE87739615_00009.xml",
+        "part_pk": 734792,
+        "part_title": "Element 58",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 2,
+        "aligned_clusters_size": [
+            2
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE87744435_00015.xml",
+        "part_pk": 734793,
+        "part_title": "Element 59",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 15,
+        "aligned_clusters_size": [
+            10,
+            5
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE87744435_00039.xml",
+        "part_pk": 734794,
+        "part_title": "Element 60",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 20,
+        "aligned_clusters_size": [
+            2,
+            14,
+            4
+        ],
+        "GT_id": "MT_NoVoc_concatenated.txt"
+    },
+    {
+        "filename": "IE87581919_00011.xml",
+        "part_pk": 734769,
+        "part_title": "Element 35",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 3,
+        "aligned_clusters_size": [
+            3
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE61220167_00084.xml",
+        "part_pk": 734742,
+        "part_title": "Element 8",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 8,
+        "aligned_clusters_size": [
+            8
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE61220167_00097.xml",
+        "part_pk": 734743,
+        "part_title": "Element 9",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 7,
+        "aligned_clusters_size": [
+            1,
+            1,
+            5
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87234800_00005.xml",
+        "part_pk": 734752,
+        "part_title": "Element 18",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 17,
+        "aligned_clusters_size": [
+            9,
+            8
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87363222_00008.xml",
+        "part_pk": 734754,
+        "part_title": "Element 20",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 14,
+        "aligned_clusters_size": [
+            14
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87447950_00015.xml",
+        "part_pk": 734756,
+        "part_title": "Element 22",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 10,
+        "aligned_clusters_size": [
+            8,
+            2
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87447950_00018.xml",
+        "part_pk": 734757,
+        "part_title": "Element 23",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 20,
+        "aligned_clusters_size": [
+            17,
+            3
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87474895_00044.xml",
+        "part_pk": 734759,
+        "part_title": "Element 25",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 25,
+        "aligned_clusters_size": [
+            17,
+            3,
+            5
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87476216_00051.xml",
+        "part_pk": 734760,
+        "part_title": "Element 26",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 4,
+        "aligned_clusters_size": [
+            4
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87502633_00044.xml",
+        "part_pk": 734762,
+        "part_title": "Element 28",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 19,
+        "aligned_clusters_size": [
+            3,
+            8,
+            5,
+            3
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87508468_00031.xml",
+        "part_pk": 734763,
+        "part_title": "Element 29",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 12,
+        "aligned_clusters_size": [
+            12
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87519524_00013.xml",
+        "part_pk": 734764,
+        "part_title": "Element 30",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 20,
+        "aligned_clusters_size": [
+            10,
+            10
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87532920_00026.xml",
+        "part_pk": 734765,
+        "part_title": "Element 31",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 15,
+        "aligned_clusters_size": [
+            14,
+            1
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87555665_00021.xml",
+        "part_pk": 734766,
+        "part_title": "Element 32",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 6,
+        "aligned_clusters_size": [
+            6
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87580382_00041.xml",
+        "part_pk": 734768,
+        "part_title": "Element 34",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 13,
+        "aligned_clusters_size": [
+            13
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87581919_00016.xml",
+        "part_pk": 734770,
+        "part_title": "Element 36",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 20,
+        "aligned_clusters_size": [
+            19,
+            1
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87581919_00018.xml",
+        "part_pk": 734771,
+        "part_title": "Element 37",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 5,
+        "aligned_clusters_size": [
+            4,
+            1
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87582245_00015.xml",
+        "part_pk": 734772,
+        "part_title": "Element 38",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 23,
+        "aligned_clusters_size": [
+            23
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87610546_00015.xml",
+        "part_pk": 734773,
+        "part_title": "Element 39",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 2,
+        "aligned_clusters_size": [
+            2
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87675634_00007.xml",
+        "part_pk": 734774,
+        "part_title": "Element 40",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 3,
+        "aligned_clusters_size": [
+            3
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87675634_00010.xml",
+        "part_pk": 734775,
+        "part_title": "Element 41",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 8,
+        "aligned_clusters_size": [
+            4,
+            4
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87690674_00007.xml",
+        "part_pk": 734776,
+        "part_title": "Element 42",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 10,
+        "aligned_clusters_size": [
+            10
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87694978_00020.xml",
+        "part_pk": 734777,
+        "part_title": "Element 43",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 23,
+        "aligned_clusters_size": [
+            17,
+            6
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87700963_00014.xml",
+        "part_pk": 734778,
+        "part_title": "Element 44",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 11,
+        "aligned_clusters_size": [
+            4,
+            7
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87705976_00036.xml",
+        "part_pk": 734781,
+        "part_title": "Element 47",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 11,
+        "aligned_clusters_size": [
+            6,
+            5
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87708411_00019.xml",
+        "part_pk": 734782,
+        "part_title": "Element 48",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 6,
+        "aligned_clusters_size": [
+            2,
+            4
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87708411_00021.xml",
+        "part_pk": 734783,
+        "part_title": "Element 49",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 22,
+        "aligned_clusters_size": [
+            22
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87716931_00014.xml",
+        "part_pk": 734784,
+        "part_title": "Element 50",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 15,
+        "aligned_clusters_size": [
+            11,
+            3,
+            1
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87717323_00012.xml",
+        "part_pk": 734785,
+        "part_title": "Element 51",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 9,
+        "aligned_clusters_size": [
+            9
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87719995_00046.xml",
+        "part_pk": 734786,
+        "part_title": "Element 52",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 11,
+        "aligned_clusters_size": [
+            8,
+            3
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87719995_00053.xml",
+        "part_pk": 734787,
+        "part_title": "Element 53",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 22,
+        "aligned_clusters_size": [
+            15,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87726132_00023.xml",
+        "part_pk": 734788,
+        "part_title": "Element 54",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 13,
+        "aligned_clusters_size": [
+            12,
+            1
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87733114_00006.xml",
+        "part_pk": 734789,
+        "part_title": "Element 55",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 19,
+        "aligned_clusters_size": [
+            9,
+            10
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87733114_00007.xml",
+        "part_pk": 734790,
+        "part_title": "Element 56",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 8,
+        "aligned_clusters_size": [
+            2,
+            6
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87733114_00008.xml",
+        "part_pk": 734791,
+        "part_title": "Element 57",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 23,
+        "aligned_clusters_size": [
+            23
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87739615_00009.xml",
+        "part_pk": 734792,
+        "part_title": "Element 58",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 11,
+        "aligned_clusters_size": [
+            6,
+            5
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87744435_00039.xml",
+        "part_pk": 734794,
+        "part_title": "Element 60",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 19,
+        "aligned_clusters_size": [
+            19
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87752740_00019.xml",
+        "part_pk": 734795,
+        "part_title": "Element 61",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 11,
+        "aligned_clusters_size": [
+            11
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87752740_00022.xml",
+        "part_pk": 734796,
+        "part_title": "Element 62",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 13,
+        "aligned_clusters_size": [
+            13
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87755510_00024.xml",
+        "part_pk": 734798,
+        "part_title": "Element 64",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 16,
+        "aligned_clusters_size": [
+            16
+        ],
+        "GT_id": "Siddur_Ashkenaz_clean_concatenated.txt"
+    },
+    {
+        "filename": "IE87297122_00014.xml",
+        "part_pk": 734753,
+        "part_title": "Element 19",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 2,
+        "aligned_clusters_size": [
+            2
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87581919_00011.xml",
+        "part_pk": 734769,
+        "part_title": "Element 35",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 3,
+        "aligned_clusters_size": [
+            3
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE61220167_00084.xml",
+        "part_pk": 734742,
+        "part_title": "Element 8",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 8,
+        "aligned_clusters_size": [
+            8
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87234800_00003.xml",
+        "part_pk": 734750,
+        "part_title": "Element 16",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 1,
+        "aligned_clusters_size": [
+            1
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87234800_00004.xml",
+        "part_pk": 734751,
+        "part_title": "Element 17",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 16,
+        "aligned_clusters_size": [
+            8,
+            5,
+            1,
+            2
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87234800_00005.xml",
+        "part_pk": 734752,
+        "part_title": "Element 18",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 21,
+        "aligned_clusters_size": [
+            9,
+            12
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87363222_00008.xml",
+        "part_pk": 734754,
+        "part_title": "Element 20",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 12,
+        "aligned_clusters_size": [
+            12
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87447950_00011.xml",
+        "part_pk": 734755,
+        "part_title": "Element 21",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 10,
+        "aligned_clusters_size": [
+            3,
+            1,
+            6
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87447950_00015.xml",
+        "part_pk": 734756,
+        "part_title": "Element 22",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 15,
+        "aligned_clusters_size": [
+            3,
+            3,
+            6,
+            3
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87447950_00018.xml",
+        "part_pk": 734757,
+        "part_title": "Element 23",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 17,
+        "aligned_clusters_size": [
+            17
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87474895_00014.xml",
+        "part_pk": 734758,
+        "part_title": "Element 24",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 4,
+        "aligned_clusters_size": [
+            4
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87474895_00044.xml",
+        "part_pk": 734759,
+        "part_title": "Element 25",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 15,
+        "aligned_clusters_size": [
+            2,
+            3,
+            10
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87476216_00051.xml",
+        "part_pk": 734760,
+        "part_title": "Element 26",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 4,
+        "aligned_clusters_size": [
+            4
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87502633_00018.xml",
+        "part_pk": 734761,
+        "part_title": "Element 27",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 11,
+        "aligned_clusters_size": [
+            5,
+            1,
+            1,
+            2,
+            1,
+            1
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87502633_00044.xml",
+        "part_pk": 734762,
+        "part_title": "Element 28",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 20,
+        "aligned_clusters_size": [
+            3,
+            17
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87508468_00031.xml",
+        "part_pk": 734763,
+        "part_title": "Element 29",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 12,
+        "aligned_clusters_size": [
+            12
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87519524_00013.xml",
+        "part_pk": 734764,
+        "part_title": "Element 30",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 19,
+        "aligned_clusters_size": [
+            9,
+            10
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87532920_00026.xml",
+        "part_pk": 734765,
+        "part_title": "Element 31",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 14,
+        "aligned_clusters_size": [
+            6,
+            6,
+            2
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87555665_00021.xml",
+        "part_pk": 734766,
+        "part_title": "Element 32",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 6,
+        "aligned_clusters_size": [
+            6
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87580382_00008.xml",
+        "part_pk": 734767,
+        "part_title": "Element 33",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 7,
+        "aligned_clusters_size": [
+            5,
+            2
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87580382_00041.xml",
+        "part_pk": 734768,
+        "part_title": "Element 34",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 13,
+        "aligned_clusters_size": [
+            13
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87581919_00016.xml",
+        "part_pk": 734770,
+        "part_title": "Element 36",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 19,
+        "aligned_clusters_size": [
+            19
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87581919_00018.xml",
+        "part_pk": 734771,
+        "part_title": "Element 37",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 9,
+        "aligned_clusters_size": [
+            4,
+            5
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87582245_00015.xml",
+        "part_pk": 734772,
+        "part_title": "Element 38",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 23,
+        "aligned_clusters_size": [
+            23
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87610546_00015.xml",
+        "part_pk": 734773,
+        "part_title": "Element 39",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 6,
+        "aligned_clusters_size": [
+            1,
+            5
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87675634_00007.xml",
+        "part_pk": 734774,
+        "part_title": "Element 40",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 3,
+        "aligned_clusters_size": [
+            3
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87675634_00010.xml",
+        "part_pk": 734775,
+        "part_title": "Element 41",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 8,
+        "aligned_clusters_size": [
+            4,
+            4
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87690674_00007.xml",
+        "part_pk": 734776,
+        "part_title": "Element 42",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 12,
+        "aligned_clusters_size": [
+            10,
+            2
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87694978_00020.xml",
+        "part_pk": 734777,
+        "part_title": "Element 43",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 23,
+        "aligned_clusters_size": [
+            17,
+            6
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87700963_00014.xml",
+        "part_pk": 734778,
+        "part_title": "Element 44",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 11,
+        "aligned_clusters_size": [
+            4,
+            7
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87705971_00006.xml",
+        "part_pk": 734779,
+        "part_title": "Element 45",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 12,
+        "aligned_clusters_size": [
+            12
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87705976_00034.xml",
+        "part_pk": 734780,
+        "part_title": "Element 46",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 7,
+        "aligned_clusters_size": [
+            1,
+            3,
+            3
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87705976_00036.xml",
+        "part_pk": 734781,
+        "part_title": "Element 47",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 5,
+        "aligned_clusters_size": [
+            1,
+            4
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87708411_00019.xml",
+        "part_pk": 734782,
+        "part_title": "Element 48",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 13,
+        "aligned_clusters_size": [
+            2,
+            5,
+            1,
+            2,
+            1,
+            2
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87708411_00021.xml",
+        "part_pk": 734783,
+        "part_title": "Element 49",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 21,
+        "aligned_clusters_size": [
+            8,
+            13
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87716931_00014.xml",
+        "part_pk": 734784,
+        "part_title": "Element 50",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 14,
+        "aligned_clusters_size": [
+            2,
+            10,
+            2
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87717323_00012.xml",
+        "part_pk": 734785,
+        "part_title": "Element 51",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 9,
+        "aligned_clusters_size": [
+            9
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87719995_00046.xml",
+        "part_pk": 734786,
+        "part_title": "Element 52",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 10,
+        "aligned_clusters_size": [
+            8,
+            2
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87719995_00053.xml",
+        "part_pk": 734787,
+        "part_title": "Element 53",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 22,
+        "aligned_clusters_size": [
+            15,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87726132_00023.xml",
+        "part_pk": 734788,
+        "part_title": "Element 54",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 12,
+        "aligned_clusters_size": [
+            3,
+            7,
+            2
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87733114_00006.xml",
+        "part_pk": 734789,
+        "part_title": "Element 55",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 19,
+        "aligned_clusters_size": [
+            9,
+            10
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87733114_00007.xml",
+        "part_pk": 734790,
+        "part_title": "Element 56",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 8,
+        "aligned_clusters_size": [
+            2,
+            6
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87733114_00008.xml",
+        "part_pk": 734791,
+        "part_title": "Element 57",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 23,
+        "aligned_clusters_size": [
+            23
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87739615_00009.xml",
+        "part_pk": 734792,
+        "part_title": "Element 58",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 12,
+        "aligned_clusters_size": [
+            7,
+            5
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87744435_00015.xml",
+        "part_pk": 734793,
+        "part_title": "Element 59",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 10,
+        "aligned_clusters_size": [
+            3,
+            7
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87744435_00039.xml",
+        "part_pk": 734794,
+        "part_title": "Element 60",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 21,
+        "aligned_clusters_size": [
+            3,
+            18
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87752740_00019.xml",
+        "part_pk": 734795,
+        "part_title": "Element 61",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 9,
+        "aligned_clusters_size": [
+            4,
+            1,
+            4
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87752740_00022.xml",
+        "part_pk": 734796,
+        "part_title": "Element 62",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 13,
+        "aligned_clusters_size": [
+            13
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87752740_00038.xml",
+        "part_pk": 734797,
+        "part_title": "Element 63",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 10,
+        "aligned_clusters_size": [
+            8,
+            2
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    },
+    {
+        "filename": "IE87755510_00024.xml",
+        "part_pk": 734798,
+        "part_title": "Element 64",
+        "levenshtein_threshold": 0.8,
+        "total_aligned_lines_count": 16,
+        "aligned_clusters_size": [
+            16
+        ],
+        "GT_id": "Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt"
+    }
+]

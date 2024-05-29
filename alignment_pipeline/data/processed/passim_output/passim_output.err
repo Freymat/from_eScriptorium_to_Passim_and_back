@@ -1,0 +1,21 @@
+https://repos.spark-packages.org/ added as a remote repository with the name: repo-1
+Ivy Default Cache set to: /home/matthieu/.ivy2/cache
+The jars for the packages stored in: /home/matthieu/.ivy2/jars
+graphframes#graphframes added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-d9d3e7db-40a0-4403-a131-4f291a08ee68;1.0
+	confs: [default]
+	found graphframes#graphframes;0.8.0-spark3.0-s_2.12 in spark-packages
+	found org.slf4j#slf4j-api;1.7.16 in central
+:: resolution report :: resolve 166ms :: artifacts dl 4ms
+	:: modules in use:
+	graphframes#graphframes;0.8.0-spark3.0-s_2.12 from spark-packages in [default]
+	org.slf4j#slf4j-api;1.7.16 from central in [default]
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   2   |   0   |   0   |   0   ||   2   |   0   |
+	---------------------------------------------------------------------
+:: retrieving :: org.apache.spark#spark-submit-parent-d9d3e7db-40a0-4403-a131-4f291a08ee68
+	confs: [default]
+	0 artifacts copied, 2 already retrieved (0kB/5ms)
