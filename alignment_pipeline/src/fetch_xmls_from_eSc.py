@@ -1,17 +1,23 @@
 import os
 import sys
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import json
+import requests
 
-import config
-from modules.functions import export_xml
-from modules.packages import *
+# Add 'src' parent directory to sys.path
+current_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.dirname(current_dir)
+sys.path.append(parent_dir)
+
+from config import root_url, headers, headersbrief, doc_pk, region_type_pk_list, transcription_level_pk
+
+# Importer les configurations et modules
 
 
 def get_all_parts_infos(doc_pk):
     """
-    Get all parts information from the eScriptorium API, handling pagination to retrieve all pages.
+    Retrieve all party information from the eScriptorium API, managing pagination to retrieve all pages.
     """
-    url = f"https://msia.escriptorium.fr/api/documents/{doc_pk}/parts/"
+    url = f"{root_url}/api/documents/{doc_pk}/parts/"
     all_parts_infos = []
 
     while url:
@@ -19,28 +25,55 @@ def get_all_parts_infos(doc_pk):
         response.raise_for_status()
         data = response.json()
         all_parts_infos.extend(data['results'])
-        
+
         # Update the URL to the next page, or set it to None if there are no more pages
         url = data.get('next')
-    
-    # save the parts information in a json file
-    # if the directory does not exist, create it
-    all_parts_infos_path = f'eSc_parts_infos'
-    if not os.path.exists(all_parts_infos_path):
-        os.makedirs(all_parts_infos_path)
-    with open(f'{all_parts_infos_path}/all_parts_infos.json', 'w') as f:
+
+    # Sauvegarder les informations des parties dans un fichier json
+    all_parts_infos_path = os.path.join('data', 'processed', 'eSc_parts_infos')
+    os.makedirs(all_parts_infos_path, exist_ok=True)
+    with open(os.path.join(all_parts_infos_path, 'all_parts_infos.json'), 'w') as f:
         json.dump(all_parts_infos, f)
 
-    
     return all_parts_infos
 
-# get all the parts from the document
-all_parts = get_all_parts_infos(doc_pk)
+def export_xml(doc_pk, part_pk_list, tr_level_pk, region_type_pk_list, include_undefined=True, include_orphan=True, file_format='alto', include_images=False, print_status=True):
+    # e.g. https://escriptorium.openiti.org/api/documents/3221/export/
+    export_url = f"{root_url}/api/documents/{doc_pk}/export/"
+    
+    # Create a copy of region_type_pk_list to avoid modifying the original list
+    region_types = region_type_pk_list.copy()
 
-# get the part pk list
-part_pk_list = [ part['pk'] for part in all_parts ]
+    # Add 'Undefined' to region_types if include_undefined is True
+    if include_undefined:
+        region_types.append('Undefined')
 
-print(f"{len(part_pk_list)} parts found")
+    # Add 'Orphan' to region_types if include_orphan is True
+    if include_orphan:
+        region_types.append('Orphan')
 
-# get the xmls of the parts from eScriptorium
-export_xml(doc_pk,part_pk_list,tr_level_pk,region_type_pk_list,include_undefined = False, include_orphan = False, file_format = 'alto',include_images = False, print_status = True)
+    data = {'parts': part_pk_list, 'transcription': tr_level_pk, 'task': 'export',
+            'region_types': region_types, 'include_images': include_images, 'file_format': file_format}
+    
+    # e.g. {"parts": [755434], "transcription": 5631, "task": "export", "region_types": [2,'Undefined','Orphan'], "include_images" : False, "file_format": "alto"}
+    res = requests.post(export_url, data=data, headers=headersbrief)
+    if print_status:
+        print(res.status_code)
+        print(res.content)
+    return res
+
+
+if __name__ == "__main__":
+    print(f"doc_pk: {doc_pk}")
+
+    # get all the parts from the document
+    all_parts = get_all_parts_infos(doc_pk)
+    part_pk_list = [part['pk'] for part in all_parts]
+    print(f"{len(part_pk_list)} parts found")
+    print(f"region_type_pk_list: {region_type_pk_list}")
+
+    # Initiate the export of the XMLs altos on eScriptorium instance
+    # The XMLs will have to be downloaded manually from the eScriptorium interface
+    # And saved in the 'data/raw/xmls_from_eSc' folder
+    export_xml(doc_pk, part_pk_list, transcription_level_pk, region_type_pk_list, include_undefined=True,
+               include_orphan=True, file_format='alto', include_images=False, print_status=True)
