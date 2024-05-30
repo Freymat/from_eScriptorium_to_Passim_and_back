@@ -8,7 +8,8 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(current_dir)
 sys.path.append(parent_dir)
 
-from config import n, n_cores, mem, driver_mem, input_passim_path, output_passim_path
+from config import n, n_cores, mem, driver_mem
+from paths import input_passim_path, output_passim_path
 
 
 # Check if output_passim_path exists, if not create it
@@ -50,7 +51,7 @@ def run_command_and_save_output(command, output_dir):
 
         # Optional: Displays the command return code
         print(f"Command executed with return code: {result.returncode}")
-
+        print(f"Logs and results saved in: {output_dir}")
         return result.returncode
 
     except Exception as e:
