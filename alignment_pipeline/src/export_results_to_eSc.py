@@ -80,9 +80,6 @@ def import_xml(doc_pk,dirname,fname, name):
     return res
 
 
-
-
-
 def import_zip_to_eSc(xmls_for_eSc_path):
     """
     Import the ZIP file to eScriptorium.
@@ -109,7 +106,7 @@ def import_zip_to_eSc(xmls_for_eSc_path):
     print(f"Link to the document in eScriptorium: https://msia.escriptorium.fr/document/{doc_pk}/images/")
 
 if __name__ == "__main__":
-    # zip_alignment_files(xmls_for_eSc_path, add_timestamp=True)
+    zip_alignment_files(xmls_for_eSc_path, add_timestamp=True)
     import_zip_to_eSc(xmls_for_eSc_path)
 
 
