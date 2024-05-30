@@ -10,7 +10,8 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(current_dir)
 sys.path.append(parent_dir)
 
-from config import GT_texts_directory_path, xmls_from_eSc_path, ocr_lines_dict_path, input_passim_path
+from config import *
+from paths import *
 
 # Initialize the list where output datas for Passim will be stored
 def initialize_passim_input():

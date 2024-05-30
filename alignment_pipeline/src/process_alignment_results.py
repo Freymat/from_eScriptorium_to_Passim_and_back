@@ -10,8 +10,8 @@ parent_dir = os.path.dirname(current_dir)
 sys.path.append(parent_dir)
 
 from config import *
+from paths import *
 from src.utils import *
-
 
 def build_list_from_passim_outputs(passim_out_json_path):
     '''
@@ -154,22 +154,6 @@ def get_xml_files_with_alignment(lines_dict, GT_id):
                 if line.get('alg_GT') and line['GT_id'] == GT_id:
                     xml_files_with_alg.add(part['filename'])
     return list(xml_files_with_alg)
-
-
-def load_all_parts_infos():
-    """
-    Get all parts informations from the folder 'eSc_parts_infos'.
-    """
-    # check if the file exists
-    if not os.path.exists(f"{all_parts_infos_path}/all_parts_infos.json"):
-        print("The file 'all_parts_infos.json' does not exist.")
-        print("Loading the parts informations from the eScriptorium API.")
-        get_all_parts_infos(doc_pk)        
-        return None
-    with open(f"{all_parts_infos_path}/all_parts_infos.json", 'r', encoding="utf-8") as json_file:
-        all_parts_infos = json.load(json_file)
-
-    return all_parts_infos
 
 
 # We don't insert the function load_all_parts_infos in this function to avoid multiple requests

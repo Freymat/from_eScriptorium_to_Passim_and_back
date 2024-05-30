@@ -8,7 +8,8 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(current_dir)
 sys.path.append(parent_dir)
 
-from config import root_url, headers, all_parts_infos_path
+from config import *
+from paths import all_parts_infos_path
 
 def get_all_parts_infos(doc_pk):
     """
@@ -30,5 +31,20 @@ def get_all_parts_infos(doc_pk):
     os.makedirs(all_parts_infos_path, exist_ok=True)
     with open(os.path.join(all_parts_infos_path, 'all_parts_infos.json'), 'w') as f:
         json.dump(all_parts_infos, f)
+
+    return all_parts_infos
+
+def load_all_parts_infos():
+    """
+    Get all parts informations from the folder 'eSc_parts_infos'.
+    """
+    # check if the file exists
+    if not os.path.exists(f"{all_parts_infos_path}/all_parts_infos.json"):
+        print("The file 'all_parts_infos.json' does not exist.")
+        print("Loading the parts informations from the eScriptorium API.")
+        get_all_parts_infos(doc_pk)        
+        return None
+    with open(f"{all_parts_infos_path}/all_parts_infos.json", 'r', encoding="utf-8") as json_file:
+        all_parts_infos = json.load(json_file)
 
     return all_parts_infos
