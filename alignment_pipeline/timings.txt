@@ -1,5 +1,0 @@
-Current date: 2024-05-30
-doc_pk: 4381
-n: 7
-lev_tresh: 0.8
-
