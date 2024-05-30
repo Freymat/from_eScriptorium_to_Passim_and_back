@@ -51,3 +51,6 @@ results_summary_tsv_path = os.path.join(
 
 # Directory containting the backup of the pipeline results
 backup_path = os.path.join(project_root,"results_backups")
+
+# Directory containing the timings of the pipeline steps
+timings_path = os.path.join(project_root, "data", "output","pipeline_timings")
