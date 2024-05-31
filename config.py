@@ -16,10 +16,9 @@ transcription_level_pk = 10754  # Transcription level pk
 
 # Passim parameters
 n = 7
-levenshtein_threshold = 0.8
-n_cores = 60 # Number of threads (Spark argument)
-mem = 128 # Memory per node, in GB (Spark argument)
-driver_mem = 40 # Memory for the driver, in GB (Spark argument)
+n_cores = 6 # Number of threads (Spark argument)
+mem = 8 # Memory per node, in GB (Spark argument)
+driver_mem = 4 # Memory for the driver, in GB (Spark argument)
 
 # Filering parameters
 levenshtein_threshold = 0.8 # aligned lines with a levenshtein ratio > threshold will be kept.

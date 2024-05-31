@@ -27,8 +27,9 @@ if not os.path.exists(timings_path):
 with open(os.path.join(timings_path, "timings.txt"), "w") as file:
     file.write(f"Current date: {current_date}\n")
     file.write(f"doc_pk: {doc_pk}\n")
-    file.write(f"n: {n}\n")
-    file.write(f"lev_tresh: {levenshtein_threshold}\n")
+    file.write(f"Passim n-grams: {n}\n")
+    file.write(f"Spark parameters: n_cores={n_cores}, mem={mem} GB, driver_mem={driver_mem} GB\n")    
+    file.write(f"Levenshtein ratio treshold: {levenshtein_threshold}\n")
     file.write("\n")
 
 # Complete Pipeline
@@ -74,12 +75,12 @@ if __name__ == "__main__":
 
    
 # Step 6. Optional: export the results to eScriptorium
-from src.export_results_to_eSc import *
-if __name__ == "__main__":
-    start_time = time.time()
-    zip_alignment_files(xmls_for_eSc_path, add_timestamp=True)
-    import_zip_to_eSc(xmls_for_eSc_path)
-    duration = time.time() - start_time
-    save_timings_to_file("Step 5 (XMLs export to eSc)", duration)
+# from src.export_results_to_eSc import *
+# if __name__ == "__main__":
+#     start_time = time.time()
+#     zip_alignment_files(xmls_for_eSc_path, add_timestamp=True)
+#     import_zip_to_eSc(xmls_for_eSc_path)
+#     duration = time.time() - start_time
+#     save_timings_to_file("Step 5 (XMLs export to eSc)", duration)
 
 print("Pipeline completed.")
