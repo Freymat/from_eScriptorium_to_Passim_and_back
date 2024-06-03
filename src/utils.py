@@ -8,8 +8,9 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(current_dir)
 sys.path.append(parent_dir)
 
-from config import *
+from config import root_url, doc_pk, headers
 from paths import all_parts_infos_path
+
 
 def get_all_parts_infos(doc_pk):
     """
@@ -22,17 +23,18 @@ def get_all_parts_infos(doc_pk):
         response = requests.get(url, headers=headers)
         response.raise_for_status()
         data = response.json()
-        all_parts_infos.extend(data['results'])
+        all_parts_infos.extend(data["results"])
 
         # Update the URL to the next page, or set it to None if there are no more pages
-        url = data.get('next')
+        url = data.get("next")
 
     # Sauvegarder les informations des parties dans un fichier json
     os.makedirs(all_parts_infos_path, exist_ok=True)
-    with open(os.path.join(all_parts_infos_path, 'all_parts_infos.json'), 'w') as f:
+    with open(os.path.join(all_parts_infos_path, "all_parts_infos.json"), "w") as f:
         json.dump(all_parts_infos, f)
 
     return all_parts_infos
+
 
 def load_all_parts_infos():
     """
@@ -42,9 +44,11 @@ def load_all_parts_infos():
     if not os.path.exists(f"{all_parts_infos_path}/all_parts_infos.json"):
         print("The file 'all_parts_infos.json' does not exist.")
         print("Loading the parts informations from the eScriptorium API.")
-        get_all_parts_infos(doc_pk)        
+        get_all_parts_infos(doc_pk)
         return None
-    with open(f"{all_parts_infos_path}/all_parts_infos.json", 'r', encoding="utf-8") as json_file:
+    with open(
+        f"{all_parts_infos_path}/all_parts_infos.json", "r", encoding="utf-8"
+    ) as json_file:
         all_parts_infos = json.load(json_file)
 
     return all_parts_infos

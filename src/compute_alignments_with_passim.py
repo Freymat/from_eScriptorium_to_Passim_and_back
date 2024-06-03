@@ -1,4 +1,3 @@
-
 import os
 import sys
 import subprocess
@@ -13,6 +12,7 @@ from paths import input_passim_path, output_passim_path
 
 
 # Check if output_passim_path exists, if not create it
+
 
 def create_output_passim_folder():
     if not os.path.exists(output_passim_path):
@@ -44,10 +44,13 @@ def run_command_and_save_output(command, output_dir):
 
     try:
         # Opens output and error files
-        with open(output_file, "w", encoding="utf-8") as stdout_file, open(error_file, "w", encoding="utf-8") as stderr_file:
+        with open(output_file, "w", encoding="utf-8") as stdout_file, open(
+            error_file, "w", encoding="utf-8"
+        ) as stderr_file:
             # Executes command and redirects output and errors
             result = subprocess.run(
-                command, shell=True, stdout=stdout_file, stderr=stderr_file, text=True)
+                command, shell=True, stdout=stdout_file, stderr=stderr_file, text=True
+            )
 
         # Optional: Displays the command return code
         print(f"Command executed with return code: {result.returncode}")
@@ -57,7 +60,3 @@ def run_command_and_save_output(command, output_dir):
     except Exception as e:
         print(f"An error occurred while executing the command: {e}")
         return None
-
-
-if __name__ == "__main__":
-    run_command_and_save_output(command_passim, output_passim_path)

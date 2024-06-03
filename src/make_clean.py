@@ -1,9 +1,6 @@
 import os
 import sys
 import shutil
-import zipfile
-from datetime import datetime
-
 
 
 # Add 'src' parent directory to sys.path
@@ -11,8 +8,6 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(current_dir)
 sys.path.append(parent_dir)
 
-from config import *
-from paths import *
 
 def clean_folder(folder):
     """
@@ -67,7 +62,7 @@ def keep_xmls_from_esc_and_clean():
     # data/output
     output_folder = os.path.join(project_root, "data", "output")
     clean_folder(output_folder)
-    
+
     print("Pipeline cleaned, except the XMLs from eScriptorium.")
 
 
@@ -84,8 +79,3 @@ def keep_passim_results_and_clean():
     clean_folder(output_folder)
 
     print("Pipeline cleaned, except the Passim results.")
-
-
-if __name__ == "__main__":
-    keep_xmls_from_esc_and_clean()
-    

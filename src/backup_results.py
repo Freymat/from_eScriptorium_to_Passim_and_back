@@ -58,7 +58,3 @@ def backup_pipeline_results():
     print(
         f"Pipeline results backed up in {os.path.join(backup_path, archive_name)}.zip"
     )
-
-
-if __name__ == "__main__":
-    backup_pipeline_results()
