@@ -1,7 +1,6 @@
-Current date: 2024-06-03 16:34:40
+Current date: 2024-06-04 13:35:33
 doc_pk: 4381
 Passim n-grams: 7
 Spark parameters: n_cores=6, mem=8 GB, driver_mem=4 GB
 Levenshtein ratio treshold: 0.8
 
-Step 1 (import document from eScriptorium): 0:00:01.542788

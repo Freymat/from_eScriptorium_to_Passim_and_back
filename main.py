@@ -72,7 +72,8 @@ with open(os.path.join(timings_path, "timings.txt"), "w") as file:
     file.write("\n")
 
 # Argparse setup
-parser = argparse.ArgumentParser(description="Pipeline for processing OCR data")
+parser = argparse.ArgumentParser(description="Pipeline for massive matching between OCR-extracted texts and known digital editions to produce large quantities of ground truth for training OCR models.")
+
 parser.add_argument(
     "--import_document_from_eSc",
     action="store_true",
