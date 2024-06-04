@@ -52,3 +52,18 @@ def load_all_parts_infos():
         all_parts_infos = json.load(json_file)
 
     return all_parts_infos
+
+
+def test_connection():
+    '''
+    Test the connection to the server
+    '''
+
+    url = root_url
+
+    try:
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+        print("Connection to the server was successful")
+    except requests.exceptions.RequestException as e:
+        print(f"Server connection failure : {e}")

@@ -2,7 +2,10 @@ import os
 import time
 from datetime import timedelta, datetime
 import argparse
+import requests
 
+from credentials import servername, root_url, headers, headersbrief
+from src.utils import test_connection
 
 from paths import (
     timings_path,
@@ -36,11 +39,18 @@ from src.compute_alignments_with_passim import (
 from src.process_alignment_results import process_passim_results
 from src.build_results_summary_tsv import create_tsvs
 from src.export_results_to_eSc import zip_alignment_files, import_zip_to_eSc
-from src.make_clean import clean_pipeline_from_zero, keep_xmls_from_esc_and_clean, keep_passim_results_and_clean
+from src.make_clean import (
+    clean_pipeline_from_zero,
+    keep_xmls_from_esc_and_clean,
+    keep_passim_results_and_clean,
+)
 from src.backup_results import backup_pipeline_results
 
 
 # You can configure the pipeline by changing the parameters in the config.py file.
+
+# Test the connection
+test_connection()
 
 
 # Function to save results in a text file
@@ -72,7 +82,9 @@ with open(os.path.join(timings_path, "timings.txt"), "w") as file:
     file.write("\n")
 
 # Argparse setup
-parser = argparse.ArgumentParser(description="Pipeline for massive matching between OCR-extracted texts and known digital editions to produce large quantities of ground truth for training OCR models.")
+parser = argparse.ArgumentParser(
+    description="Pipeline for massive matching between OCR-extracted texts and known digital editions to produce large quantities of ground truth for training OCR models."
+)
 
 parser.add_argument(
     "--import_document_from_eSc",

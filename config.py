@@ -1,12 +1,4 @@
 import os
-from credentials import get_serverinfo, serverconnections
-
-# Server parameters
-servername = "msIA"
-
-# Fetch server connection details
-root_url, headers, headersbrief = get_serverinfo(servername, serverconnections)
-print(f"Server URL: {root_url}")
 
 # Document informations in eScriptorium
 doc_pk = 4381
