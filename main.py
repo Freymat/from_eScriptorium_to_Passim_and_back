@@ -1,10 +1,9 @@
 import os
 import time
 from datetime import timedelta, datetime
+from contextlib import contextmanager
 import argparse
-import requests
 
-from credentials import servername, root_url, headers, headersbrief
 from src.utils import test_connection
 
 from paths import (
@@ -47,7 +46,17 @@ from src.make_clean import (
 from src.backup_results import backup_pipeline_results
 
 
-# You can configure the pipeline by changing the parameters in the config.py file.
+@contextmanager
+def time_this_to_file(step_name):
+    print(f"Starting {step_name}...")
+    start_time = time.time()
+    try:
+        yield
+    finally:
+        duration = time.time() - start_time
+        print(f"Finished {step_name}. Duration: {timedelta(seconds=duration)}")
+        save_timings_to_file(step_name, duration)
+
 
 # Test the connection
 test_connection()
@@ -64,10 +73,9 @@ def save_timings_to_file(step_name, duration):
         file.write(f"{step_name}: {formatted_duration}\n")
 
 
-# Save current information to file
+# Save the pipeline parameters in a log file
 current_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-# Ensure the directory exists
 if not os.path.exists(timings_path):
     os.makedirs(timings_path)
 
@@ -153,64 +161,46 @@ args = parser.parse_args()
 
 # Step 1. Import a document from eScriptorium
 if args.import_document_from_eSc and not args.no_import:
-
-    start_time = time.time()
-    initiate_xml_export(doc_pk)
-    duration = time.time() - start_time
-    save_timings_to_file("Step 1 (import document from eScriptorium)", duration)
+    with time_this_to_file("Step 1 (import document from eScriptorium)"):
+        initiate_xml_export(doc_pk)
 
 # Step 2. Extract textblocks from the OCR results
 if args.prepare_data_for_passim or args.run_all:
-
-    start_time = time.time()
-    build_passim_input(
-        xmls_from_eSc_path,
-        ocr_lines_dict_path,
-        GT_texts_directory_path,
-        input_passim_path,
-    )
-    duration = time.time() - start_time
-    save_timings_to_file("Step 2 (prepare OCR lines for Passim)", duration)
+    with time_this_to_file("Step 2 (prepare OCR lines for Passim)"):
+        build_passim_input(
+            xmls_from_eSc_path,
+            ocr_lines_dict_path,
+            GT_texts_directory_path,
+            input_passim_path,
+        )
 
 # Step 3. Run Passim
 if args.compute_alignments_with_passim or args.run_all:
-
-    start_time = time.time()
-    run_command_and_save_output(command_passim, output_passim_path)
-    duration = time.time() - start_time
-    save_timings_to_file("Step 3 (Passim computation)", duration)
+    with time_this_to_file("Step 3 (Passim computation)"):
+        run_command_and_save_output(command_passim, output_passim_path)
 
 # Step 4. Process the results
-# Extract Passim results, select relevant alignments and update altos xml files for eScriptorium.
 if args.create_xmls_from_passim_results or args.run_all:
-
-    start_time = time.time()
-    process_passim_results(
-        passim_out_json_path,
-        lines_dict_with_alg_GT_path,
-        xmls_from_eSc_path,
-        xmls_for_eSc_path,
-        levenshtein_threshold,
-    )
-    duration = time.time() - start_time
-    save_timings_to_file("Step 4 (xmls update with alignments from Passim)", duration)
+    with time_this_to_file("Step 4 (xmls update with alignments from Passim)"):
+        process_passim_results(
+            passim_out_json_path,
+            lines_dict_with_alg_GT_path,
+            xmls_from_eSc_path,
+            xmls_for_eSc_path,
+            levenshtein_threshold,
+        )
 
 # Step 5. Summarize the results in tsv files
 if args.compiling_results_summary or args.run_all:
-
-    start_time = time.time()
-    create_tsvs(alignment_register_path, doc_pk, display_n_best_gt, n_best_gt)
-    duration = time.time() - start_time
-    save_timings_to_file("Step 5 (Tsv with results creation)", duration)
+    with time_this_to_file("Step 5 (Tsv with results creation)"):
+        create_tsvs(alignment_register_path, doc_pk, display_n_best_gt, n_best_gt)
 
 # Step 6. Export the results to eScriptorium
 if (args.export_xmls_to_eSc or args.run_all) and not args.no_export:
+    with time_this_to_file("Step 6 (xmls export to eSc)"):
+        zip_alignment_files(xmls_for_eSc_path, add_timestamp=True)
+        import_zip_to_eSc(xmls_for_eSc_path)
 
-    start_time = time.time()
-    zip_alignment_files(xmls_for_eSc_path, add_timestamp=True)
-    import_zip_to_eSc(xmls_for_eSc_path)
-    duration = time.time() - start_time
-    save_timings_to_file("Step 6 (xmls export to eSc)", duration)
 
 # Tool: Clean the pipeline
 

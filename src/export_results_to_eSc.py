@@ -11,7 +11,8 @@ parent_dir = os.path.dirname(current_dir)
 sys.path.append(parent_dir)
 
 from paths import alignment_register_path
-from config import doc_pk, root_url, headersbrief
+from config import doc_pk
+from credentials import root_url, headersbrief
 
 
 def zip_alignment_files(xmls_for_eSc_path, add_timestamp=False):

@@ -54,7 +54,6 @@ def backup_pipeline_results():
         # Move the zip archive to the desired location
         shutil.move(f"{os.path.join(temp_dir, archive_name)}.zip", backup_path)
 
-    # Print the location of the backup
     print(
         f"Pipeline results backed up in {os.path.join(backup_path, archive_name)}.zip"
     )

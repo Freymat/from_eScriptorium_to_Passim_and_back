@@ -1,7 +1,11 @@
-Current date: 2024-06-04 17:31:39
+Current date: 2024-06-05 09:37:17
 doc_pk: 4381
 Passim n-grams: 7
 Spark parameters: n_cores=6, mem=8 GB, driver_mem=4 GB
 Levenshtein ratio treshold: 0.8
 
-Step 1 (import document from eScriptorium): 0:00:01.490763
+Step 2 (prepare OCR lines for Passim): 0:00:00.184367
+Step 3 (Passim computation): 0:00:20.551431
+Step 4 (xmls update with alignments from Passim): 0:00:00.885072
+Step 5 (Tsv with results creation): 0:00:00.439504
+Step 6 (xmls export to eSc): 0:00:13.158931

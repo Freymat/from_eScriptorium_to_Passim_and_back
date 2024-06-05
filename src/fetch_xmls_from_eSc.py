@@ -8,9 +8,9 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(current_dir)
 sys.path.append(parent_dir)
 
+from credentials import root_url, headers, headersbrief
+
 from config import (
-    root_url,
-    headersbrief,
     region_type_pk_list,
     transcription_level_pk,
 )

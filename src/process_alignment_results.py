@@ -199,8 +199,8 @@ def count_aligned_line_clusters(lines_dict, filename, levenshtein_threshold):
     # Browse each part of the line dictionary
     for part in lines_dict:
         if part["filename"] != filename:
-            continue  # Passe à la partie suivante si le nom de fichier ne correspond pas
-
+            continue
+        
         # Browse each OCR block in the current section
         for block in part["ocr_blocks"]:
 
