@@ -19,6 +19,7 @@ from paths import (
     alignment_register_path,
 )
 from config import (
+    eSc_connexion,
     doc_pk,
     n,
     n_cores,
@@ -59,7 +60,10 @@ def time_this_to_file(step_name):
 
 
 # Test the connection
-test_connection()
+if eSc_connexion:
+    test_connection()
+else:
+    print("Working without connection to eScriptorium.")
 
 
 # Function to save results in a text file
@@ -177,6 +181,7 @@ if args.prepare_data_for_passim or args.run_all:
 # Step 3. Run Passim
 if args.compute_alignments_with_passim or args.run_all:
     with time_this_to_file("Step 3 (Passim computation)"):
+        print(command_passim)
         run_command_and_save_output(command_passim, output_passim_path)
 
 # Step 4. Process the results

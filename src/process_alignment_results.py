@@ -9,6 +9,8 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(current_dir)
 sys.path.append(parent_dir)
 
+from config import eSc_connexion
+
 from paths import (
     ocr_lines_dict_path,
     lines_dict_with_alg_GT_path,
@@ -200,7 +202,6 @@ def count_aligned_line_clusters(lines_dict, filename, levenshtein_threshold):
     for part in lines_dict:
         if part["filename"] != filename:
             continue
-        
         # Browse each OCR block in the current section
         for block in part["ocr_blocks"]:
 
@@ -237,7 +238,9 @@ def process_alignment_xml_as_txt(
 
     # Load all parts informations, to get the pk and the title of the part from its filename
     # This allows better identification of the parts in the eScriptorium interface
-    all_parts_infos = load_all_parts_infos()
+    
+    if eSc_connexion:
+        all_parts_infos = load_all_parts_infos()
 
     alignment_register = []
 
@@ -320,23 +323,28 @@ def process_alignment_xml_as_txt(
                                         )
 
                     if line_count > 0:
-                        filename = os.path.splitext(xml_file)[0]
-                        part_pk = get_pk_from_filename(all_parts_infos, filename)
+                        filename = os.path.splitext(xml_file)[0]                        
                         aligned_clusters_size = count_aligned_line_clusters(
                             lines_dict, filename, levenshtein_threshold
                         )
 
+                        if eSc_connexion:
+                            part_pk, part_title = get_pk_from_filename(all_parts_infos, filename)
+                        else:
+                            part_pk, part_title = None, None
+
                         alignment_register.append(
                             {
                                 "filename": xml_file,
-                                "part_pk": part_pk[0],
-                                "part_title": part_pk[1],
+                                "part_pk": part_pk,
+                                "part_title": part_pk,
                                 "levenshtein_threshold": levenshtein_threshold,
                                 "total_aligned_lines_count": line_count,
                                 "aligned_clusters_size": aligned_clusters_size,
                                 "GT_id": id2,
                             }
                         )
+
 
                     output_file_path = os.path.join(output_folder, xml_file)
                     with open(output_file_path, "w", encoding="utf-8") as output_file:
@@ -369,8 +377,10 @@ def process_passim_results(
 
     # Extract the Passim alignment results
     extract_passim_results(passim_out_json_path)
-    # Load the informations about the parts of the document
-    all_parts_infos = load_all_parts_infos()
+
+    if eSc_connexion:
+        # Load the informations about the parts of the document
+        all_parts_infos = load_all_parts_infos()
 
     # Parse the XML files from eScriptorium, and update the OCR lines with the GT alignment if the levenshtein ratio is above a given threshold
     process_alignment_xml_as_txt(

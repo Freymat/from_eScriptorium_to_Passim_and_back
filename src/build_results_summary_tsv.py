@@ -8,8 +8,8 @@ parent_dir = os.path.dirname(current_dir)
 sys.path.append(parent_dir)
 
 from src.utils import load_all_parts_infos
-from paths import *
-from config import levenshtein_threshold, n
+from paths import ocr_lines_dict_path, results_summary_tsv_path
+from config import eSc_connexion, levenshtein_threshold, n
 
 
 def load_alignment_register(alignment_register_path):
@@ -185,14 +185,20 @@ def create_tsv_total_alg_lines(
 
     # Create TSV rows
     tsv_rows = ""
-    all_parts_infos = load_all_parts_infos()
+    if eSc_connexion:
+        all_parts_infos = load_all_parts_infos()
+    else:
+        doc_pk = "N/A"
     count = 1  # Initialize counter
     for filename, gt_counts in aligned_counts_by_image.items():
         # Retrieve the number of OCR lines in the file
         nb_of_ocr_lines = get_nb_of_ocr_lines_in_file(filename)
 
-        # Retrieve PK and title based on filename
-        part_pk, title = get_pk_from_filename(all_parts_infos, filename)
+        if eSc_connexion:
+            # Retrieve PK and title based on filename
+            part_pk, title = get_pk_from_filename(all_parts_infos, filename)
+        else:
+            part_pk, title = None, None
 
         # Make sure part_pk and title are never None
         part_pk = part_pk if part_pk is not None else "N/A"
@@ -254,14 +260,20 @@ def create_tsv_biggest_cluster_size(
 
     # Create TSV rows
     tsv_rows = ""
-    all_parts_infos = load_all_parts_infos()
+    if eSc_connexion:
+        all_parts_infos = load_all_parts_infos()
+    else:
+        doc_pk = "N/A"
     count = 1  # Initialize counter
     for filename, gt_counts in aligned_counts_by_image.items():
         # Retrieve the number of OCR lines in the file
         nb_of_ocr_lines = get_nb_of_ocr_lines_in_file(filename)
 
-        # Retrieve PK and title based on filename
-        part_pk, title = get_pk_from_filename(all_parts_infos, filename)
+        if eSc_connexion:
+            # Retrieve PK and title based on filename
+            part_pk, title = get_pk_from_filename(all_parts_infos, filename)
+        else:
+            part_pk, title = None, None
 
         # Make sure part_pk and title are never None
         part_pk = part_pk if part_pk is not None else "N/A"
@@ -319,7 +331,7 @@ def create_tsv_total_alg_lines_from_alignment_register(
     # Write to file in the results directory
     tsv_file_path = os.path.join(
         results_summary_tsv_path,
-        f"results_based_on_total_alg_lines_{doc_pk}_n{n}_lev_{levenshtein_threshold}.tsv",
+        f"results_based_on_total_alg_lines_doc_pk_{doc_pk}_n{n}_lev_{levenshtein_threshold}.tsv",
     )
     with open(tsv_file_path, "w") as tsv_file:
         tsv_file.write(tsv_content)
@@ -352,7 +364,7 @@ def create_tsv_biggest_cluster_size_from_alignment_register(
     # Write to file in the results directory
     tsv_file_path = os.path.join(
         results_summary_tsv_path,
-        f"results_based_on_biggest_cluster_size_{doc_pk}_n{n}_lev_{levenshtein_threshold}.tsv",
+        f"results_based_on_biggest_cluster_size_doc_pk_{doc_pk}_n{n}_lev_{levenshtein_threshold}.tsv",
     )
     with open(tsv_file_path, "w") as tsv_file:
         tsv_file.write(tsv_content)

@@ -8,6 +8,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(current_dir)
 sys.path.append(parent_dir)
 
+from paths import project_root, xmls_from_eSc_path, lines_dict_with_alg_GT_path, output_passim_path
 
 def clean_folder(folder):
     """

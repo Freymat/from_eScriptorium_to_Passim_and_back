@@ -24,10 +24,6 @@ create_output_passim_folder()
 
 command_passim = f"SPARK_SUBMIT_ARGS='--master local[{n_cores}] --executor-memory {mem}G --driver-memory {driver_mem}G' seriatim --docwise --floating-ngrams --fields ref --filterpairs 'ref = 1 AND ref2 = 0' --all-pairs --complete-lines -n {n} {input_passim_path} {output_passim_path}"
 
-print(command_passim)
-
-# subprocess.run(command_passim, shell=True)
-
 
 def run_command_and_save_output(command, output_dir):
     """
