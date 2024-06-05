@@ -232,9 +232,5 @@ Clean the pipeline, but keep the XML files. Useful if you want to re-run the pip
 ```
 Clean the pipeline, but keep the Passim results and the xmls from eScriptorium. Useful if you want tweak the levensthein treshold.
 
-## To do:
-- [ ] Add requirements.txt
-- [ ] Add installation instructions
-- [ ] Add usage instructions
-- [ ] Develop a tool to provide the exact reference for alignments. At the moment, we have the exact position of the aligned section within the digital witness (position of the first character of the alignment in the GT, and length of the alignment), but not expressed in terms of an exact reference (book/chapter/verse ... ). This information is available [in the indexes created via our Sefaria digital text extraction pipeline](https://github.com/Freymat/from_Sefaria_to_Passim/tree/main/Corpuses_prepared_for_passim), but not yet integrated into the alignment pipeline.
+
 
