@@ -70,7 +70,7 @@ def zip_alignment_files(xmls_for_eSc_path, add_timestamp=False):
                         ),
                     )
 
-        print(f"XML files in {output_folder} compressed in {zip_file_path}")
+        # print(f"XML files in {output_folder} compressed in {zip_file_path}")
 
 
 def import_xml(doc_pk, dirname, fname, name):

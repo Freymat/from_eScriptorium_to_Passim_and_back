@@ -84,11 +84,11 @@ def extract_passim_results(passim_out_json_path):
 
     # list of GTs found in alignments:
     GT_ids = list_GT_from_passim_output(out_passim_list)
-    print(f"list of GTs found in alignments: {GT_ids}")
+    # print(f"list of GTs found in alignments: {GT_ids}")
 
     # Iterate over GT_ids, and update the ocr_lines_dict with the GT alignment text
     for GT_id in GT_ids:
-        print(f"--- Processing of GT {GT_id} ---")
+        # print(f"--- Processing of GT {GT_id} ---")
 
         # Load dictionary containing OCR line-splitting information
         with open(ocr_lines_dict_path, "r", encoding="utf-8") as json_file:
@@ -140,7 +140,7 @@ def extract_passim_results(passim_out_json_path):
         )
         with open(file_path, "w", encoding="utf-8") as json_file:
             json.dump(ocr_lines_dict, json_file, ensure_ascii=False, indent=4)
-        print(f"    File {file_path} saved.")
+        # print(f"    File {file_path} saved.")
 
 
 # Parsing XML files and updating text content with GT alignments

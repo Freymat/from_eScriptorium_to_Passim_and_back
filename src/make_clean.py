@@ -8,11 +8,24 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(current_dir)
 sys.path.append(parent_dir)
 
-from paths import project_root, xmls_from_eSc_path, lines_dict_with_alg_GT_path, output_passim_path
+from paths import (
+    xmls_from_eSc_path,
+    all_parts_infos_path,
+    input_passim_path,
+    lines_dict_with_alg_GT_path,
+    ocr_lines_dict_path,
+    output_passim_path,
+    alignment_register_path,
+    timings_path,
+    results_summary_tsv_path,
+    xmls_for_eSc_path,
+)
+
 
 def clean_folder(folder):
     """
-    Clean the specified folder by deleting all its contents, including files and subdirectories.
+    Clean the specified folder by deleting all its contents,
+    including files and subdirectories.
 
     Parameters:
     - folder (str): The path to the folder to be cleaned.
@@ -35,20 +48,36 @@ def clean_folder(folder):
 
 def clean_pipeline_from_zero():
     """
-    Clean the output folders.
+    Clean the complete pipeline.
     """
-    # data/input
-    clean_folder(xmls_from_eSc_path)
+    try:
+        # data/raw/xmls_from_eSc
+        clean_folder(xmls_from_eSc_path)
 
-    # data/processed
-    processed_folder = os.path.join(project_root, "data", "processed")
-    clean_folder(processed_folder)
+        # data/processed
+        processed_folder = [
+            all_parts_infos_path,
+            os.path.dirname(input_passim_path),
+            lines_dict_with_alg_GT_path,
+            os.path.dirname(ocr_lines_dict_path),
+            output_passim_path,
+        ]
+        for folder in processed_folder:
+            clean_folder(folder)
 
-    # data/output
-    output_folder = os.path.join(project_root, "data", "output")
-    clean_folder(output_folder)
+        # data/output
+        output_folder = [
+            alignment_register_path,
+            timings_path,
+            results_summary_tsv_path,
+            xmls_for_eSc_path,
+        ]
+        for folder in output_folder:
+            clean_folder(folder)
 
-    print("Pipeline cleaned from zero.")
+        print("Pipeline cleaned from zero.")
+    except Exception as e:
+        print(f"Error cleaning pipeline: {e}")
 
 
 def keep_xmls_from_esc_and_clean():
@@ -56,27 +85,62 @@ def keep_xmls_from_esc_and_clean():
     Clean all the pipeline results, except the XMLs altos from eScriptorium.
     This allows to re-run the pipeline, without having to re-import the document from eScriptorium.
     """
-    # data/processed
-    processed_folder = os.path.join(project_root, "data", "processed")
-    clean_folder(processed_folder)
+    try:
+        # data/raw/xmls_from_eSc
+        clean_folder(xmls_from_eSc_path)
 
-    # data/output
-    output_folder = os.path.join(project_root, "data", "output")
-    clean_folder(output_folder)
+        # data/processed
+        processed_folder = [
+            all_parts_infos_path,
+            os.path.dirname(input_passim_path),
+            lines_dict_with_alg_GT_path,
+            os.path.dirname(ocr_lines_dict_path),
+            output_passim_path,
+        ]
+        for folder in processed_folder:
+            clean_folder(folder)
 
-    print("Pipeline cleaned, except the XMLs from eScriptorium.")
+        # data/output
+        output_folder = [
+            alignment_register_path,
+            timings_path,
+            results_summary_tsv_path,
+            xmls_for_eSc_path,
+        ]
+        for folder in output_folder:
+            clean_folder(folder)
+
+        print("Pipeline cleaned, except the XMLs from eScriptorium.")
+    except Exception as e:
+        print(f"Error cleaning pipeline: {e}")
 
 
 def keep_passim_results_and_clean():
     """
     Clean the pipeline results, except the Passim results. This allows to re-run the pipeline from the Passim step, and modify Passim parameters for example.
     """
-    # data/processed
-    clean_folder(lines_dict_with_alg_GT_path)
-    clean_folder(output_passim_path)
+    try:
+        # data/raw/xmls_from_eSc
+        clean_folder(xmls_from_eSc_path)
 
-    # data/output
-    output_folder = os.path.join(project_root, "data", "output")
-    clean_folder(output_folder)
+        # data/processed
+        processed_folder = [
+            lines_dict_with_alg_GT_path,
+            output_passim_path,
+        ]
+        for folder in processed_folder:
+            clean_folder(folder)
 
-    print("Pipeline cleaned, except the Passim results.")
+        # data/output
+        output_folder = [
+            alignment_register_path,
+            timings_path,
+            results_summary_tsv_path,
+            xmls_for_eSc_path,
+        ]
+        for folder in output_folder:
+            clean_folder(folder)
+
+        print("Pipeline cleaned, but Passim results are kept.")
+    except Exception as e:
+        print(f"Error cleaning pipeline: {e}")
