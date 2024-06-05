@@ -86,9 +86,7 @@ def keep_xmls_from_esc_and_clean():
     This allows to re-run the pipeline, without having to re-import the document from eScriptorium.
     """
     try:
-        # data/raw/xmls_from_eSc
-        clean_folder(xmls_from_eSc_path)
-
+        
         # data/processed
         processed_folder = [
             all_parts_infos_path,
