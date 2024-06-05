@@ -21,7 +21,32 @@ The principle is as follows:
 The aim of this pipeline is therefore to align large numbers of known numerical texts with large numbers of documents (manuscripts or prints).
 
 **The pipeline has been tested on batches of more than 7000 manuscript images and 150 known digital texts and corpus like the Hebrew Bible, Talmuds, Mishnah, Midrashim, etc.**
-  
+
+## Installation
+1. Create a dedicated environment with conda:
+```bash
+conda create -n alignment_pipeline python=3.11
+```
+2. Activate the environment:
+```bash
+conda activate alignment_pipeline
+```
+3. Install [passim](https://github.com/dasmiq/passim) in the environment:
+```bash
+pip install git+https://github.com/dasmiq/passim.git
+```
+4. Clone the repository:
+```bash
+git clone https://github.com/Freymat/from_eScriptorium_to_Passim_and_back.git
+```
+5. Install the required packages:
+```bash
+pip install -r requirements.txt
+```
+6. Insert your eScriptorium token in the `credentials.py` file.
+
+7. Configure the pipeline by modifying the `config.py` file.
+More information on the configuration of the pipeline is available in the [How to use the pipeline](#how-to-use-the-pipeline) section.
 
 ## Pipeline steps
 
@@ -106,15 +131,11 @@ Parameters `display_n_best_gt = true` and `n_best_gt` can be set in the `config.
 ![alt text](images/tsv_pandas_nbest.png)
 
 ## How to use the pipeline
-### 0. Prerequisites:
-**Prepare the environment**. The pipeline requires the installation of the Passim tool. The installation instructions are available [here](
 
-**get an account on the eScriptorium platform**. You'll need a token to access the API. The token can be generated in the eScriptorium interface.
-### 1. Configuration of the connection with eScriptorium:
-### 2. Configuration of the pipeline:
+### 1. Configure the pipeline:
 The configuration file `config.py` contains the parameters required for pipeline execution:
 
-##### Document informations in eScriptorium
+#### Document informations in eScriptorium
 - `doc_pk` (int): the id of the document containing manuscript/prints in eScriptorium.(e.g. doc_pk = 4381)
 - `region_type_pk_list` (list) : the list of region types in the page, where to look for alignments. The regions are defined in eScriptorium, and are called 'MainCentral', 'MainLeft', 'MainRight', etc. Give the region type pk for each region to be processed as a list. (e.g. region_type_pk_list = [6909, 6910])
 - `transcription_level_pk` (int): the transcription level in eScriptorium where the OCR lines are stored. (e.g. transcription_level_pk = 10754). This involves that a transcription layer has created in eScriptorium before running the pipeline.
@@ -135,15 +156,45 @@ Two tsv files are created in the `data/output/results_summary_tsv/` folder. They
 
 `n_best_gt` (int): the number of best GT to display in the tsv file.
 
-### 3. Run the pipeline:
-Run the complete pipeline from the command line with the following command:
+### 2. Get your xml altos (OCR) files from eScriptorium
+After having set the doc_pk you want to retrieve from eScriptorium in the `config.py`, you can import the xml files with the following command:
+
 ```bash
-python main.py --run_all
+python main.py --import_document_from_eSc
 ```
+**Important**: It's not possible to download and save the xml files from eScriptorium automatically in the folder `data/raw/xmls_from_eSc/`. The import is initiated by the `--import_document_from_eS` command, and the user has to download the files manually from eScriptorium and place them in the folder `data/raw/xmls_from_eSc/`, before running the pipeline.
+
+##### Running the pipeline without connection to eScriptorium:
+It is possible to run the pipeline without connection to eScriptorium, using local XML files. The advantage is that you can use the pipeline on very large quantities of pages (xmls) without having to import them into eScriptorium.
+To do this, set the variables in the `config.py` file as follows:
+```python
+eSc_connexion = False
+doc_pk = None 
+region_type_pk_list = [ None ]
+transcription_level_pk = None
+```
+The xmls files must be placed in the `data/raw/xmls_from_eSc/` folder.
+
+
+### 3. Run the pipeline:
+After having put the xml files in the `data/raw/xmls_from_eSc/` folder, you can run the pipeline.
+
 The available commands are displayed with:
 ```bash
 python main.py --help
 ```
+
+To run the pipeline, use the following command:
+```bash
+python main.py --run_all --no_import
+```
+This will compute the alignments, create the results summary tsv files, and export the XML files to eScriptorium.
+
+If you want to skip the export to eScriptorium:
+```bash
+python main.py --run_all --no_import --no_export
+```
+
 You can run each step of the pipeline separately with the following commands:
 ``` bash
 --import_document_from_eSc  # Import document from eScriptorium
@@ -153,36 +204,34 @@ You can run each step of the pipeline separately with the following commands:
 --compiling_results_summary     # Summarize results in tsv files
 --export_xmls_to_eSc    # Export results to eScriptorium
 ```
-You can also choose to run the pipeline and avoid the xml import into eScriptorium with the `--run_all --no_export` command, or the xml export to eScriptorium with the `--run_all --no_import` command.
-
 
 ### 4. Check the results:
 The results are available in the `data/output/` folder. The `xmls_for_eSc` folder contains the XML files ready to be re-imported into eScriptorium. The `alignment_register` folder contains a dictionary listing the alignments found on each page. The `pipeline_timings` folder contains a file with the time taken for each step of the pipeline. The `results_summary_tsv` folder contains tsv files with the number of total aligned lines and the length of the biggest line cluster for each page and each GT.
-### 5. Re-import the XML files into eScriptorium:
-The modified XML files containing the alignments can be re-imported into eScriptorium via the eScriptorium API with:
 
-```bash
-python main.py --export_xmls_to_eSc
-```
-
-### 6. Backup the results:
+### 5. Backup the results:
 You can backup the results with the command:
 ```bash
 python main.py --backup_results
 ```
 A .zip file with a timestamp is created in the `data/results_backups` folder.
-### 7. Clean the pipeline:
+### 8. Clean the pipeline:
 The pipeline generates a large number of files. To clean the output folders, use the following command:
 (Beware: this command will delete all files in the output folders, make sure to backup the results before running it)
 ```bash
-python main.py --clean
+python main.py --clean_all
 ```
 You can choose the data you want to delete with the following commands:
+
+
 ```bash
-  --clean_except_xmls   # Clean the pipeline, except the XMLs from eScriptorium
-  --clean_except_passim # Clean the pipeline, except the Passim results
-  --backup_results      # Backup the pipeline results
+  --clean_except_xmls
 ```
+Clean the pipeline, but keep the XML files. Useful if you want to re-run the pipeline without having to re-import the XML files from eScriptorium.
+```bash
+  --clean_except_passim
+```
+Clean the pipeline, but keep the Passim results and the xmls from eScriptorium. Useful if you want tweak the levensthein treshold.
+
 ## To do:
 - [ ] Add requirements.txt
 - [ ] Add installation instructions

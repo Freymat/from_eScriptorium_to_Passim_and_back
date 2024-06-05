@@ -115,20 +115,10 @@ def keep_xmls_from_esc_and_clean():
 
 def keep_passim_results_and_clean():
     """
-    Clean the pipeline results, except the Passim results. This allows to re-run the pipeline from the Passim step, and modify Passim parameters for example.
+    Clean the pipeline results, except the Passim results. This allows to re-run the pipeline from the Passim step, and tune the levenshtein threshold.
     """
     try:
-        # data/raw/xmls_from_eSc
-        clean_folder(xmls_from_eSc_path)
-
-        # data/processed
-        processed_folder = [
-            lines_dict_with_alg_GT_path,
-            output_passim_path,
-        ]
-        for folder in processed_folder:
-            clean_folder(folder)
-
+        
         # data/output
         output_folder = [
             alignment_register_path,
