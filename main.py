@@ -68,10 +68,7 @@ else:
 
 # Function to save results in a text file
 def save_timings_to_file(step_name, duration):
-    # Ensure the directory exists
-    if not os.path.exists(timings_path):
-        os.makedirs(timings_path)
-
+    
     formatted_duration = str(timedelta(seconds=duration))
     with open(os.path.join(timings_path, "timings.txt"), "a") as file:
         file.write(f"{step_name}: {formatted_duration}\n")
