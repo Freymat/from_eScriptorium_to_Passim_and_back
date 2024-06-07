@@ -1,0 +1,10 @@
+Current date: 2024-06-07 11:27:34
+doc_pk: 4381
+Passim n-grams: 7
+Spark parameters: n_cores=6, mem=8 GB, driver_mem=4 GB
+Levenshtein ratio threshold: 0.8
+
+Step 2 (prepare OCR lines for Passim): 0:00:00.109651
+Step 3 (Passim computation): 0:00:11.305367
+Step 4 (xmls update with alignments from Passim): 0:00:00.473676
+Step 5 (Tsv with results creation): 0:00:00.413073
