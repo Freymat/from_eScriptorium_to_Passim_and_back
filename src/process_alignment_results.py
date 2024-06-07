@@ -337,7 +337,7 @@ def process_alignment_xml_as_txt(
                             {
                                 "filename": xml_file,
                                 "part_pk": part_pk,
-                                "part_title": part_pk,
+                                "part_title": part_title,
                                 "levenshtein_threshold": levenshtein_threshold,
                                 "total_aligned_lines_count": line_count,
                                 "aligned_clusters_size": aligned_clusters_size,
