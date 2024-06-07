@@ -48,11 +48,14 @@ def backup_pipeline_results():
             os.path.join(temp_dir, "processed"),
         )
 
-        # Create the zip archive
-        shutil.make_archive(os.path.join(temp_dir, archive_name), "zip", temp_dir)
-
-        # Move the zip archive to the desired location
-        shutil.move(f"{os.path.join(temp_dir, archive_name)}.zip", backup_path)
+        # Create the zip archive directly in the backup_path
+        archive_path = os.path.join(backup_path, archive_name)
+        with zipfile.ZipFile(f"{archive_path}.zip", "w", zipfile.ZIP_DEFLATED) as zipf:
+            for root, dirs, files in os.walk(temp_dir):
+                for file in files:
+                    file_path = os.path.join(root, file)
+                    arcname = os.path.relpath(file_path, temp_dir)
+                    zipf.write(file_path, arcname)
 
     print(
         f"Pipeline results backed up in {os.path.join(backup_path, archive_name)}.zip"

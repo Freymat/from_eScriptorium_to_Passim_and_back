@@ -68,27 +68,31 @@ else:
 
 # Function to save results in a text file
 def save_timings_to_file(step_name, duration):
-    
     formatted_duration = str(timedelta(seconds=duration))
     with open(os.path.join(timings_path, "timings.txt"), "a") as file:
         file.write(f"{step_name}: {formatted_duration}\n")
 
 
 # Save the pipeline parameters in a log file
-current_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+def save_pipeline_parameters():
+    current_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-if not os.path.exists(timings_path):
-    os.makedirs(timings_path)
+    if not os.path.exists(timings_path):
+        os.makedirs(timings_path)
 
-with open(os.path.join(timings_path, "timings.txt"), "w") as file:
-    file.write(f"Current date: {current_date}\n")
-    file.write(f"doc_pk: {doc_pk}\n")
-    file.write(f"Passim n-grams: {n}\n")
-    file.write(
-        f"Spark parameters: n_cores={n_cores}, mem={mem} GB, driver_mem={driver_mem} GB\n"
-    )
-    file.write(f"Levenshtein ratio treshold: {levenshtein_threshold}\n")
-    file.write("\n")
+    timings_file_path = os.path.join(timings_path, "timings.txt")
+
+    # Open the file in write mode to overwrite the content
+    with open(timings_file_path, "w") as file:
+        file.write(f"Current date: {current_date}\n")
+        file.write(f"doc_pk: {doc_pk}\n")
+        file.write(f"Passim n-grams: {n}\n")
+        file.write(
+            f"Spark parameters: n_cores={n_cores}, mem={mem} GB, driver_mem={driver_mem} GB\n"
+        )
+        file.write(f"Levenshtein ratio threshold: {levenshtein_threshold}\n")
+        file.write("\n")
+
 
 # Argparse setup
 parser = argparse.ArgumentParser(
@@ -157,6 +161,10 @@ parser.add_argument(
 
 args = parser.parse_args()
 
+
+# Save the pipeline parameters at the start if we are not only backing up results
+if not args.backup_results:
+    save_pipeline_parameters()
 
 # The Pipeline
 
