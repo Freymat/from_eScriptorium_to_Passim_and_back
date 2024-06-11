@@ -68,3 +68,45 @@ def test_connection():
         print("Connection to the server was successful")
     except requests.exceptions.RequestException as e:
         print(f"Server connection failure : {e}")
+
+
+def count_xml_files(directory):
+    """
+    Count the number of XML files in the specified directory.
+
+    Args:
+    directory (str): The path to the directory.
+
+    Returns:
+    int: The number of XML files in the directory.
+    """
+    # Initialize a counter
+    count = 0
+    
+    # Iterate over all files in the directory
+    for file in os.listdir(directory):
+        # Check if the file ends with .xml
+        if file.endswith(".xml"):
+            count += 1
+    
+    return count
+
+def count_txt_files(directory):
+    """
+    Count the number of .txt files in the specified directory and its subdirectories.
+
+    Args:
+    directory (str): The path to the directory.
+
+    Returns:
+    int: The number of .txt files in the directory and its subdirectories.
+    """
+    txt_count = 0
+    
+    # Walk through all subdirectories and files
+    for root, dirs, files in os.walk(directory):
+        for file in files:
+            if file.endswith(".txt"):
+                txt_count += 1
+    
+    return txt_count

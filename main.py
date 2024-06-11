@@ -4,7 +4,7 @@ from datetime import timedelta, datetime
 from contextlib import contextmanager
 import argparse
 
-from src.utils import test_connection
+from src.utils import test_connection, count_xml_files, count_txt_files
 
 from paths import (
     timings_path,
@@ -81,16 +81,24 @@ def save_pipeline_parameters():
         os.makedirs(timings_path)
 
     timings_file_path = os.path.join(timings_path, "timings.txt")
+    n_xmls_processed = count_xml_files(xmls_from_eSc_path)
+    n_txts_processed = count_txt_files(GT_texts_directory_path)
 
     # Open the file in write mode to overwrite the content
     with open(timings_file_path, "w") as file:
         file.write(f"Current date: {current_date}\n")
+        file.write("\n")
         file.write(f"doc_pk: {doc_pk}\n")
         file.write(f"Passim n-grams: {n}\n")
         file.write(
             f"Spark parameters: n_cores={n_cores}, mem={mem} GB, driver_mem={driver_mem} GB\n"
         )
         file.write(f"Levenshtein ratio threshold: {levenshtein_threshold}\n")
+        file.write("\n")
+        file.write(f"Number of xml files processed (OCR): {n_xmls_processed}\n")
+        file.write(
+            f"Number of txt files processed (Ground truth texts): {n_txts_processed}\n "
+        )
         file.write("\n")
 
 

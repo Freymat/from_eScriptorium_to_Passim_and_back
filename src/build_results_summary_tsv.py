@@ -1,6 +1,7 @@
 import os
 import sys
 import json
+import concurrent.futures
 
 # Add 'src' parent directory to sys.path
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -9,7 +10,7 @@ sys.path.append(parent_dir)
 
 from src.utils import load_all_parts_infos
 from paths import ocr_lines_dict_path, results_summary_tsv_path
-from config import eSc_connexion, levenshtein_threshold, n
+from config import eSc_connexion, levenshtein_threshold, n, n_cores
 
 
 def load_alignment_register(alignment_register_path):
@@ -380,14 +381,35 @@ def create_tsvs(alignment_register_path, doc_pk, display_n_best_gt, n_best_gt):
     # Create aligned counts by image
     create_aligned_counts_by_image(alignment_register)
 
+    # Définir le nombre maximal de processus en parallèle
+    max_workers = n_cores
+
+    # Create a ThreadPoolExecutor with the maximum number of parallel processes
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+        # Submit tasks to the executor
+        future_total = executor.submit(
+            identify_top_n_best_gt_based_on_total_alg_lines,
+            aligned_counts_by_image,
+            n_best_gt,
+        )
+        future_cluster = executor.submit(
+            identify_top_n_best_gt_based_on_biggest_cluster_size,
+            aligned_counts_by_image,
+            n_best_gt,
+        )
+
+        # Retrieve task results
+        top_n_best_gt_total = future_total.result()
+        top_n_best_gt_cluster = future_cluster.result()
+
     # Create TSV total aligned lines from alignment register
     create_tsv_total_alg_lines_from_alignment_register(
-        alignment_register, doc_pk, display_n_best_gt, n_best_gt
+        alignment_register, doc_pk, top_n_best_gt_total, display_n_best_gt, n_best_gt
     )
 
     # Create TSV biggest cluster size from alignment register
     create_tsv_biggest_cluster_size_from_alignment_register(
-        alignment_register, doc_pk, display_n_best_gt, n_best_gt
+        alignment_register, doc_pk, top_n_best_gt_cluster, display_n_best_gt, n_best_gt
     )
 
     print(f"TSV files created in {results_summary_tsv_path}.")

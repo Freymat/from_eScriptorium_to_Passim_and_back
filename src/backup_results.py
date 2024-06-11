@@ -25,7 +25,7 @@ def backup_pipeline_results():
     - levenshtein_threshold (float): The Levenshtein threshold value.
     """
     # Get current date
-    current_date = datetime.now().strftime("%Y%m%d")
+    current_date = datetime.now().strftime("%Y%m%d_%H%M%S")
 
     # Create archive name
     archive_name = (

@@ -113,16 +113,20 @@ with:
 
 - `data/output/pipeline_timings/` : a file containing the time taken for each step of the pipeline.
 ```txt
-Current date: 2024-05-31 15:13:35
-doc_pk: 4381
-Passim n-grams: 7
-Spark parameters: n_cores=6, mem=8 GB, driver_mem=4 GB
-Levenshtein ratio treshold: 0.8
+Current date: 2024-06-07 14:53:46
 
-Step 2 (prepare OCR lines for Passim): 0:00:00.210538
-Step 3 (Passim computation): 0:01:12.591952
-Step 4 (XMLs update with alignments): 0:00:02.407609
-Step 5 (Tsv with results creation): 0:00:00.578411
+doc_pk: None
+Passim n-grams: 15
+Spark parameters: n_cores=38, mem=90 GB, driver_mem=40 GB
+Levenshtein ratio threshold: 0.7
+
+Number of xml files processed (OCR): 962
+Number of txt files processed (Ground truth texts): 151
+ 
+Step 2 (prepare OCR lines for Passim): 0:00:05.891599
+Step 3 (Passim computation): 0:09:26.488877
+Step 4 (xmls update with alignments from Passim): 0:01:00.126999
+Step 5 (Tsv with results creation): 0:00:23.462202
 ```
 
 - ```data/output/results_summary_tsv/``` : contains tsv files with the number of total aligned lines (tsv 1) and the length of the biggest line cluster (tsv 2) for each page and each GT.
