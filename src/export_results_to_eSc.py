@@ -4,6 +4,7 @@ import json
 import zipfile
 from datetime import datetime
 import requests
+from concurrent.futures import ProcessPoolExecutor
 
 # Add 'src' parent directory to sys.path
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -11,11 +12,43 @@ parent_dir = os.path.dirname(current_dir)
 sys.path.append(parent_dir)
 
 from paths import alignment_register_path
-from config import doc_pk
+from config import doc_pk, n_cores
 from credentials import root_url, headersbrief
 
 
-def zip_alignment_files(xmls_for_eSc_path, add_timestamp=False):
+def zip_single_alignment_file(entry, xmls_for_eSc_path, timestamp):
+    """
+    Compress a single XML file into a ZIP file.
+
+    Parameters:
+    entry (dict): The entry from alignment_register_data.
+    xmls_for_eSc_path (str): Path to the folder containing XML files to compress.
+    timestamp (str): Timestamp to add to the ZIP file name.
+    """
+    id2 = entry["GT_id"]
+    output_folder = os.path.join(xmls_for_eSc_path, id2)
+    id2_without_extension = os.path.splitext(id2)[0]
+    zip_file_name = f"{id2_without_extension}{timestamp}.zip"
+
+    zip_file_path = os.path.join(xmls_for_eSc_path, zip_file_name)
+
+    if not os.path.exists(output_folder):
+        print(f"Error: Directory '{output_folder}' does not exist for GT_id '{id2}'.")
+        return None
+
+    with zipfile.ZipFile(zip_file_path, "w") as zipf:
+        for root, _, files in os.walk(output_folder):
+            for file in files:
+                zipf.write(
+                    os.path.join(root, file),
+                    arcname=os.path.relpath(
+                        os.path.join(root, file), output_folder
+                    ),
+                )
+
+    return zip_file_path
+
+def zip_alignment_files(xmls_for_eSc_path, add_timestamp):
     """
     Compress the XML files in the 'xmls_for_eSc' folder into ZIP files, one for each GT_id.
     The ZIP files will be sent to the eScriptorium instance.
@@ -24,7 +57,7 @@ def zip_alignment_files(xmls_for_eSc_path, add_timestamp=False):
     xmls_for_eSc_path (str): Path to the folder containing XML files to compress.
     add_timestamp (bool): Whether to add a timestamp to the ZIP file names.
     """
-    timestamp = datetime.now().strftime("_%Y%m%d_%H%M%S")
+    timestamp = datetime.now().strftime("_%Y%m%d_%H%M%S") if add_timestamp else ""
 
     alignment_register = os.path.join(
         alignment_register_path, "alignment_register.json"
@@ -43,34 +76,8 @@ def zip_alignment_files(xmls_for_eSc_path, add_timestamp=False):
     with open(alignment_register, "r") as file_handler:
         alignment_register_data = json.load(file_handler)
 
-    for entry in alignment_register_data:
-        id2 = entry["GT_id"]
-        output_folder = os.path.join(xmls_for_eSc_path, id2)
-        id2_without_extension = os.path.splitext(id2)[0]
-        zip_file_name = f"{id2_without_extension}.zip"
-
-        if add_timestamp:
-            zip_file_name = f"{id2_without_extension}{timestamp}.zip"
-
-        zip_file_path = os.path.join(xmls_for_eSc_path, zip_file_name)
-
-        if not os.path.exists(output_folder):
-            print(
-                f"Error: Directory '{output_folder}' does not exist for GT_id '{id2}'."
-            )
-            continue
-
-        with zipfile.ZipFile(zip_file_path, "w") as zipf:
-            for root, _, files in os.walk(output_folder):
-                for file in files:
-                    zipf.write(
-                        os.path.join(root, file),
-                        arcname=os.path.relpath(
-                            os.path.join(root, file), output_folder
-                        ),
-                    )
-
-        # print(f"XML files in {output_folder} compressed in {zip_file_path}")
+    with ProcessPoolExecutor(max_workers=n_cores) as executor:
+        results = list(executor.map(zip_single_alignment_file, alignment_register_data, [xmls_for_eSc_path]*len(alignment_register_data), [timestamp]*len(alignment_register_data)))
 
 
 def import_xml(doc_pk, dirname, fname, name):
