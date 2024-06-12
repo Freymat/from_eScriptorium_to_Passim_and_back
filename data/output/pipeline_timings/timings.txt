@@ -1,4 +1,4 @@
-Current date: 2024-06-07 14:23:31
+Current date: 2024-06-11 16:44:09
 
 doc_pk: 4381
 Passim n-grams: 7
@@ -8,7 +8,7 @@ Levenshtein ratio threshold: 0.8
 Number of xml files processed (OCR): 65
 Number of txt files processed (Ground truth texts): 5
  
-Step 2 (prepare OCR lines for Passim): 0:00:00.105324
-Step 3 (Passim computation): 0:00:11.705701
-Step 4 (xmls update with alignments from Passim): 0:00:00.472512
-Step 5 (Tsv with results creation): 0:00:00.279995
+Step 2 (prepare OCR lines for Passim): 0:00:00.164365
+Step 3 (Passim computation): 0:00:48.379524
+Step 4 (xmls update with alignments from Passim): 0:00:01.894051
+Step 5 (Tsv with results creation): 0:00:00.240126

@@ -354,7 +354,7 @@ def create_tsv_biggest_cluster_size_from_alignment_register(
     top_n_best_gt = identify_top_n_best_gt_based_on_biggest_cluster_size(
         aligned_counts_by_image, n_best_gt
     )
-    tsv_content = create_tsv_total_alg_lines(
+    tsv_content = create_tsv_biggest_cluster_size(
         aligned_counts_by_image, doc_pk, top_n_best_gt, display_n_best_gt, n_best_gt
     )
 
@@ -378,38 +378,35 @@ def create_tsvs(alignment_register_path, doc_pk, display_n_best_gt, n_best_gt):
     # Load alignment register
     alignment_register = load_alignment_register(alignment_register_path)
 
-    # Create aligned counts by image
-    create_aligned_counts_by_image(alignment_register)
-
-    # Définir le nombre maximal de processus en parallèle
-    max_workers = n_cores
-
-    # Create a ThreadPoolExecutor with the maximum number of parallel processes
-    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-        # Submit tasks to the executor
-        future_total = executor.submit(
-            identify_top_n_best_gt_based_on_total_alg_lines,
-            aligned_counts_by_image,
-            n_best_gt,
-        )
-        future_cluster = executor.submit(
-            identify_top_n_best_gt_based_on_biggest_cluster_size,
-            aligned_counts_by_image,
-            n_best_gt,
+    with concurrent.futures.ProcessPoolExecutor(max_workers=n_cores) as executor:
+        futures = []
+        # Create TSV total aligned lines from alignment register
+        futures.append(
+            executor.submit(
+                create_tsv_total_alg_lines_from_alignment_register,
+                alignment_register,
+                doc_pk,
+                display_n_best_gt,
+                n_best_gt,
+            )
         )
 
-        # Retrieve task results
-        top_n_best_gt_total = future_total.result()
-        top_n_best_gt_cluster = future_cluster.result()
+        # Create TSV biggest cluster size from alignment register
+        futures.append(
+            executor.submit(
+                create_tsv_biggest_cluster_size_from_alignment_register,
+                alignment_register,
+                doc_pk,
+                display_n_best_gt,
+                n_best_gt,
+            )
+        )
 
-    # Create TSV total aligned lines from alignment register
-    create_tsv_total_alg_lines_from_alignment_register(
-        alignment_register, doc_pk, top_n_best_gt_total, display_n_best_gt, n_best_gt
-    )
-
-    # Create TSV biggest cluster size from alignment register
-    create_tsv_biggest_cluster_size_from_alignment_register(
-        alignment_register, doc_pk, top_n_best_gt_cluster, display_n_best_gt, n_best_gt
-    )
+        # Ensure all futures are completed
+        for future in concurrent.futures.as_completed(futures):
+            try:
+                future.result()
+            except Exception as e:
+                print(f"Error occurred: {e}")
 
     print(f"TSV files created in {results_summary_tsv_path}.")
