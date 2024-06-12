@@ -259,7 +259,6 @@ def process_single_dict_with_alg(
     xmls_for_eSc_path,
     xmls_from_eSc_path,
     levenshtein_threshold,
-    all_parts_infos,
     eSc_connexion
 ):
     # Load the JSON file
@@ -391,7 +390,6 @@ def process_alignment_xml_as_txt(
                 xmls_for_eSc_path,
                 xmls_from_eSc_path,
                 levenshtein_threshold,
-                all_parts_infos,
                 eSc_connexion
             ): json_file for json_file in json_files
         }

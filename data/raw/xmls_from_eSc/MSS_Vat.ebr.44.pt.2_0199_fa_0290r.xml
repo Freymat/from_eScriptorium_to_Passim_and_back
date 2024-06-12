@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v4#"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-2.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>MSS_Vat.ebr.44.pt.2_0199_fa_0290r.jpg</fileName>
+      <fileIdentifier>zip//BAV_random_imgs_batch1_chunk_5.zip/MSS_Vat.ebr.44.pt.2_Vat.ebr.44.pt.2_0199_fa_0290r.jpg</fileIdentifier>
+    </sourceImageInformation>
+  </Description>
+  <Tags>
+    <OtherTag ID="BT1" LABEL="Title" DESCRIPTION="block type Title"/><OtherTag ID="BT2" LABEL="Main" DESCRIPTION="block type Main"/><OtherTag ID="BT3" LABEL="Commentary" DESCRIPTION="block type Commentary"/><OtherTag ID="BT4" LABEL="Illustration" DESCRIPTION="block type Illustration"/><OtherTag ID="BT43" LABEL="Paratext" DESCRIPTION="block type Paratext"/><OtherTag ID="BT44" LABEL="Margin" DESCRIPTION="block type Margin"/>
+    <OtherTag ID="LT185" LABEL="default" DESCRIPTION="line type default"/><OtherTag ID="LT186" LABEL="Correction" DESCRIPTION="line type Correction"/><OtherTag ID="LT189" LABEL="Main" DESCRIPTION="line type Main"/><OtherTag ID="LT190" LABEL="Main" DESCRIPTION="line type Main"/>
+  </Tags>
+  <Layout>
+    <Page WIDTH="1732"
+          HEIGHT="2446"
+          PHYSICAL_IMG_NR="246"
+          ID="eSc_dummypage_">
+      <PrintSpace HPOS="0"
+                  VPOS="0"
+                  WIDTH="1732"
+                  HEIGHT="2446">
+        <TextBlock HPOS="353"
+                   VPOS="217"
+                   WIDTH="129"
+                   HEIGHT="102"
+                   ID="eSc_textblock_bb624183"
+                   TAGREFS="BT44">
+          <Shape><Polygon POINTS="424 217 482 217 482 270 433 319 353 281 375 255 444 250 406 226 364 237 424 217"/></Shape>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>
