@@ -131,7 +131,12 @@ def process_single_GT(GT_id, out_passim_list, ocr_lines_dict):
                                                 lev_ratio, 3
                                             )
                                             break
+    
+    
     # Save a JSON file for the current GT_id
+    if not os.path.exists(lines_dict_with_alg_GT_path):
+        os.makedirs(lines_dict_with_alg_GT_path)
+
     file_path = os.path.join(
         lines_dict_with_alg_GT_path, f"lines_dict_with_alg_{GT_id}.json"
     )
