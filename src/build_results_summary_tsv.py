@@ -95,7 +95,6 @@ def insert_infos_from_eSc(base_df, eSc_connexion, doc_pk):
 
     # keep only the fields: 'pk', filename', 'title'
     df_all_parts_infos = df_all_parts_infos.select(["pk", "filename", "title"])
-    print(df_all_parts_infos.head())
 
     # Rename column 'pk' to 'part_pk
     df_all_parts_infos = df_all_parts_infos.select(
