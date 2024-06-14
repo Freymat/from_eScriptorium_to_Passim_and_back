@@ -185,6 +185,8 @@ def create_tsv_total_aligned_lines(alignment_register):
 
     save_df_as_tsv(joined_df_with_ocr_lines, "results_based_on_total_aligned_lines")
 
+    return sorted_df
+
 
 def create_tsv_max_cluster_length(alignment_register):
     """
@@ -212,6 +214,8 @@ def create_tsv_max_cluster_length(alignment_register):
     sorted_df = grouped_df.sort(
         by=["filename", "max_aligned_clusters_size"], descending=[False, True]
     )
+
+    save_df_as_tsv(sorted_df, 'sorted_df_max_aligned_clusters_size')
 
     # Find the GT_id with the largest max_aligned_clusters_size for each filename and keep the value.
     result_df = sorted_df.group_by("filename").agg(
@@ -247,3 +251,56 @@ def create_tsv_max_cluster_length(alignment_register):
     joined_df_with_ocr_lines = joined_df_with_ocr_lines.with_row_index("id", offset=1)
 
     save_df_as_tsv(joined_df_with_ocr_lines, "results_based_on_biggest_cluster_length")
+
+    return sorted_df
+
+def create_tsvs(alignment_register):
+    """
+    Create TSV files with the results of the alignment process.
+    """
+    sorted_df_total_aligned_lines = create_tsv_total_aligned_lines(alignment_register)
+    sorted_df_max_cluster_length = create_tsv_max_cluster_length(alignment_register)
+
+    # join the two DataFrames
+    joined_df = sorted_df_total_aligned_lines.join(
+        sorted_df_max_cluster_length,  on=["filename", "GT_id"], how="outer")
+
+
+    # Select only the relevant columns for the final output
+    joined_df = joined_df.select([
+        "filename",
+        "GT_id",
+        "total_aligned_lines",
+        "max_aligned_clusters_size"
+    ])
+    # Insert the number of total ocr lines in the dataframe
+    df_ocr_lines = prepare_ocr_lines_df(ocr_lines_dict_path)
+    joined_df_with_ocr_lines = insert_ocr_lines(
+        base_df=joined_df, df_ocr_lines=df_ocr_lines
+    )
+
+    # reorder columns
+    columns_reordered = [
+        "filename",        
+        "GT_id",
+        "ocr_lines_in_part",
+        "total_aligned_lines",
+        "max_aligned_clusters_size",
+    ]
+    joined_df_with_ocr_lines = joined_df_with_ocr_lines.select(columns_reordered)
+
+
+    if eSc_connexion:
+        # Insert the information from eSc: doc_pk, part_pk, title
+        joined_df_with_ocr_lines = insert_infos_from_eSc(
+            joined_df_with_ocr_lines, eSc_connexion, doc_pk
+        )
+
+  
+
+    # Add a row index column
+    joined_df_with_ocr_lines = joined_df_with_ocr_lines.with_row_index("id", offset=1)
+
+
+    save_df_as_tsv(joined_df_with_ocr_lines, "Overall_results")
+
