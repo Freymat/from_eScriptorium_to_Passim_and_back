@@ -9,7 +9,7 @@ parent_dir = os.path.dirname(current_dir)
 sys.path.append(parent_dir)
 
 from src.utils import load_all_parts_infos
-from paths import alignment_register_path, results_summary_tsv_path
+from paths import alignment_register_path, results_summary_tsv_path, ocr_lines_dict_path
 from config import eSc_connexion, levenshtein_threshold, n, doc_pk
 
 
@@ -30,6 +30,107 @@ def load_alignment_register(alignment_register_path):
     except Exception as e:
         print(f"Error reading file {json_file_path}: {e}")
         return None
+
+
+def prepare_ocr_lines_df(ocr_lines_dict_path):
+    """
+    Prepare the OCR lines DataFrame before joining it.
+    """
+    with open(ocr_lines_dict_path, "r") as f:
+        data = json.load(f)
+
+    df_ocr_lines = pl.DataFrame(data)
+
+    # add '.xml' to every value in the 'filename' column
+    df_ocr_lines = df_ocr_lines.with_columns(
+        (pl.col("filename") + ".xml").alias("filename")
+    )
+
+    # Drop the 'ocr_blocks' column
+    df_ocr_lines = df_ocr_lines.drop("ocr_blocks")
+
+    return df_ocr_lines
+
+
+def insert_ocr_lines(base_df, df_ocr_lines):
+    """
+    Insert the number of total ocr lines in the dataframe.
+    """
+
+    df_ocr_lines = prepare_ocr_lines_df(ocr_lines_dict_path)
+    joined_df = base_df.join(df_ocr_lines, on="filename", how="left", coalesce=True)
+
+    # Reorder columns
+    columns_reordered = ["filename", "ocr_lines_in_part"] + [
+        col for col in joined_df.columns if col not in ["filename", "ocr_lines_in_part"]
+    ]
+    joined_df_with_ocr_lines = joined_df.select(columns_reordered)
+
+    return joined_df_with_ocr_lines
+
+
+def save_df_as_tsv(df, file_name):
+    """
+    Save a Polars DataFrame as a TSV file.
+    """
+    # Export the DataFrame as a TS fileV
+    if not os.path.exists(results_summary_tsv_path):
+        os.makedirs(results_summary_tsv_path)
+
+    output_file_path = os.path.join(
+        results_summary_tsv_path,
+        f"{file_name}_doc_pk_{doc_pk}_n{n}_lev_{levenshtein_threshold}.tsv",
+    )
+
+    df.write_csv(output_file_path, separator="\t")
+
+
+def insert_infos_from_eSc(base_df, eSc_connexion, doc_pk):
+    """
+    Insert in the DataFrame the information from eSc: doc_pk, part_pk, title.
+    From the all_parts_infos.json file.
+    """
+    all_parts_infos = load_all_parts_infos()
+    df_all_parts_infos = pl.DataFrame(all_parts_infos)
+
+    # keep only the fields: 'pk', filename', 'title'
+    df_all_parts_infos = df_all_parts_infos.select(["pk", "filename", "title"])
+    print(df_all_parts_infos.head())
+
+    # Rename column 'pk' to 'part_pk
+    df_all_parts_infos = df_all_parts_infos.select(
+        [(pl.col("pk").alias("part_pk")), "filename", "title"]
+    )
+
+    # In the 'filename' column, replace '.jpg' with '.xml'
+    df_all_parts_infos = df_all_parts_infos.with_columns(
+        [(pl.col("filename").str.replace(".jpg", ".xml")).alias("filename")]
+    )
+
+    # Join on the 'filename' column
+    joined_df = base_df.join(
+        df_all_parts_infos, on="filename", how="left", coalesce=True
+    )
+    joined_df.head()
+
+    # Add to joined_df a new column 'doc_pk' with the value of doc_pk
+    joined_df = joined_df.with_columns(pl.lit(doc_pk).alias("doc_pk"))
+
+    # Reorder columns
+    columns_reordered = [
+        "filename",
+        "doc_pk",
+        "part_pk",
+        "title",
+        "ocr_lines_in_part",
+    ] + [
+        col
+        for col in joined_df.columns
+        if col not in ["filename", "doc_pk", "part_pk", "title", "ocr_lines_in_part"]
+    ]
+    joined_df = joined_df.select(columns_reordered)
+
+    return joined_df
 
 
 def create_tsv_total_aligned_lines(alignment_register):
@@ -56,28 +157,34 @@ def create_tsv_total_aligned_lines(alignment_register):
     result_df = sorted_df.group_by("filename").agg(
         pl.col("GT_id")
         .first()
-        .alias("GT_id_Top1"),  # Renommer la colonne GT_id en GT_id_Top1
-        pl.col("total_aligned_lines").first().alias("total_aligned_lines"),
+        .alias("best_GT_1_id"),  # Renommer la colonne GT_id en GT_id_Top1
+        pl.col("total_aligned_lines").first().alias("best_GT_1_aligned_lines_count"),
     )
 
-    # Ajouter une colonne pour chaque GT_id avec le nombre de total_aligned_lines_count pour chaque filename
+    # Add a column for each GT_id with the number of total_aligned_lines_count for each filename
     pivot_df = grouped_df.pivot(
         values="total_aligned_lines", index="filename", columns="GT_id"
     )
 
-    # Joindre les deux DataFrames
-    final_df = result_df.join(pivot_df, on="filename", how="left")
+    # Join the two DataFrames
+    joined_df = result_df.join(pivot_df, on="filename", how="left")
 
-    # Export the DataFrame as a TS fileV
-
-    if not os.path.exists(results_summary_tsv_path):
-        os.makedirs(results_summary_tsv_path)
-
-    output_file_path = os.path.join(
-        results_summary_tsv_path,
-        f"results_based_on_total_alg_lines_doc_pk_{doc_pk}_n{n}_lev_{levenshtein_threshold}.tsv",
+    # Insert the number of total ocr lines in the dataframe
+    df_ocr_lines = prepare_ocr_lines_df(ocr_lines_dict_path)
+    joined_df_with_ocr_lines = insert_ocr_lines(
+        base_df=joined_df, df_ocr_lines=df_ocr_lines
     )
-    final_df.write_csv(output_file_path, separator="\t")
+
+    if eSc_connexion:
+        # Insert the information from eSc: doc_pk, part_pk, title
+        joined_df_with_ocr_lines = insert_infos_from_eSc(
+            joined_df_with_ocr_lines, eSc_connexion, doc_pk
+        )
+
+    # Add a row index column
+    joined_df_with_ocr_lines = joined_df_with_ocr_lines.with_row_index("id", offset=1)
+
+    save_df_as_tsv(joined_df_with_ocr_lines, "results_based_on_total_aligned_lines")
 
 
 def create_tsv_max_cluster_length(alignment_register):
@@ -111,8 +218,10 @@ def create_tsv_max_cluster_length(alignment_register):
     result_df = sorted_df.group_by("filename").agg(
         pl.col("GT_id")
         .first()
-        .alias("GT_id_Top1"),  # Renommer la colonne GT_id en GT_id_Top1
-        pl.col("max_aligned_clusters_size").first().alias("max_aligned_clusters_size"),
+        .alias("best_GT_1_id"),  # Rename GT_id column to GT_id_Top1
+        pl.col("max_aligned_clusters_size")
+        .first()
+        .alias("best_GT_1_biggest_cluster_length"),
     )
 
     # Add a column for each GT_id with the number of max_aligned_clusters_size for each filename
@@ -121,15 +230,21 @@ def create_tsv_max_cluster_length(alignment_register):
     )
 
     # Join the two DataFrames
-    final_df = result_df.join(pivot_df, on="filename", how="left")
+    joined_df = result_df.join(pivot_df, on="filename", how="left")
 
-    # Export DataFrame as TSV file
-
-    if not os.path.exists(results_summary_tsv_path):
-        os.makedirs(results_summary_tsv_path)
-
-    output_file_path = os.path.join(
-        results_summary_tsv_path,
-        f"results_based_on_max_cluster_length_doc_pk_{doc_pk}_n{n}_lev_{levenshtein_threshold}.tsv",
+    # Insert the number of total ocr lines in the dataframe
+    df_ocr_lines = prepare_ocr_lines_df(ocr_lines_dict_path)
+    joined_df_with_ocr_lines = insert_ocr_lines(
+        base_df=joined_df, df_ocr_lines=df_ocr_lines
     )
-    final_df.write_csv(output_file_path, separator="\t")
+
+    if eSc_connexion:
+        # Insert the information from eSc: doc_pk, part_pk, title
+        joined_df_with_ocr_lines = insert_infos_from_eSc(
+            joined_df_with_ocr_lines, eSc_connexion, doc_pk
+        )
+
+    # Add a row index column
+    joined_df_with_ocr_lines = joined_df_with_ocr_lines.with_row_index("id", offset=1)
+
+    save_df_as_tsv(joined_df_with_ocr_lines, "results_based_on_biggest_cluster_length")

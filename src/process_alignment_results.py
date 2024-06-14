@@ -347,6 +347,7 @@ def process_single_dict_with_alg(
                 )
 
                 if eSc_connexion:
+                    all_parts_infos = load_all_parts_infos()
                     part_pk, part_title = get_pk_from_filename(
                         all_parts_infos, filename
                     )
