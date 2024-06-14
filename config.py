@@ -11,7 +11,7 @@ doc_pk = 4381 # set to None if eSc_connexion is False
 region_type_pk_list = [
     6909, 8356, 8355
 ]  # Region type pk list, e.g., [6909] or [6909, 6910, 6911], or [None] if eSc_connexion is False
-transcription_level_pk = 10754
+transcription_level_pk = 11691
   # Transcription level pk, set to None if eSc_connexion is False
 
 # Passim parameters
