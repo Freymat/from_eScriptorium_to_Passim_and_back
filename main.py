@@ -37,7 +37,7 @@ from src.compute_alignments_with_passim import (
     run_command_and_save_output,
 )
 from src.process_alignment_results import process_passim_results
-from src.build_results_summary_tsv import create_tsvs
+from src.build_results_summary_tsv import create_overall_results_tsv
 from src.export_results_to_eSc import zip_alignment_files, import_zip_to_eSc
 from src.make_clean import (
     clean_pipeline_from_zero,
@@ -211,7 +211,7 @@ if args.create_xmls_from_passim_results or args.run_all:
 # Step 5. Summarize the results in tsv files
 if args.compiling_results_summary or args.run_all:
     with time_this_to_file("Step 5 (Tsv with results creation)"):
-       create_tsvs(alignment_register_path)
+       create_overall_results_tsv(alignment_register_path)
 
 # Step 6. Export the results to eScriptorium
 if (args.export_xmls_to_eSc or args.run_all) and not args.no_export:

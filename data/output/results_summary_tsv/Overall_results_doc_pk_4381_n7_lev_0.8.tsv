@@ -1,208 +1,208 @@
-id	filename	doc_pk	part_pk	title	ocr_lines_in_part	GT_id	total_aligned_lines	max_aligned_clusters_size
-1	IE103336373_00043.xml	4381	775261	Element 65	48	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	16	6
-2	IE103336373_00043.xml	4381	775261	Element 65	48	MT_NoVoc_concatenated.txt	16	6
-3	IE103336373_00043.xml	4381	775261	Element 65	48	Siddur_Ashkenaz_clean_concatenated.txt	16	6
-4	IE103336373_00043.xml	4381	775261	Element 65	48	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	16	4
-5	IE103336373_00043.xml	4381	775261	Element 65	48	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	16	4
-6	IE103402206_00010.xml	4381	734735	Element 1	11	MT_NoVoc_concatenated.txt	11	11
-7	IE103402206_00014.xml	4381	734736	Element 2	19	MT_NoVoc_concatenated.txt	9	9
-8	IE103409244_00025.xml	4381	734737	Element 3	28	MT_NoVoc_concatenated.txt	27	14
-9	IE108110062_00015.xml	4381	775262	Element 66	84	MT_NoVoc_concatenated.txt	6	3
-10	IE21442926_00014.xml	4381	775263	Element 67	66	MT_NoVoc_concatenated.txt	61	23
-11	IE36628376_00046.xml	4381	775264	Element 68	40	MT_NoVoc_concatenated.txt	14	14
-12	IE61220167_00083.xml	4381	734741	Element 7	19	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	6	5
-13	IE61220167_00083.xml	4381	734741	Element 7	19	MT_NoVoc_concatenated.txt	4	2
-14	IE61220167_00084.xml	4381	734742	Element 8	19	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	12	9
-15	IE61220167_00084.xml	4381	734742	Element 8	19	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	9	9
-16	IE61220167_00084.xml	4381	734742	Element 8	19	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	8	8
-17	IE61220167_00084.xml	4381	734742	Element 8	19	Siddur_Ashkenaz_clean_concatenated.txt	8	8
-18	IE61220167_00097.xml	4381	734743	Element 9	19	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	7	5
-19	IE61220167_00097.xml	4381	734743	Element 9	19	Siddur_Ashkenaz_clean_concatenated.txt	7	5
-20	IE61220167_00097.xml	4381	734743	Element 9	19	MT_NoVoc_concatenated.txt	8	3
-21	IE87234800_00003.xml	4381	734750	Element 16	22	MT_NoVoc_concatenated.txt	3	3
-22	IE87234800_00003.xml	4381	734750	Element 16	22	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	1	1
-23	IE87234800_00004.xml	4381	734751	Element 17	22	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	17	8
-24	IE87234800_00004.xml	4381	734751	Element 17	22	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	16	8
-25	IE87234800_00004.xml	4381	734751	Element 17	22	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	17	8
-26	IE87234800_00004.xml	4381	734751	Element 17	22	MT_NoVoc_concatenated.txt	8	6
-27	IE87234800_00005.xml	4381	734752	Element 18	22	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	22	22
-28	IE87234800_00005.xml	4381	734752	Element 18	22	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	22	22
-29	IE87234800_00005.xml	4381	734752	Element 18	22	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	21	12
-30	IE87234800_00005.xml	4381	734752	Element 18	22	Siddur_Ashkenaz_clean_concatenated.txt	17	9
-31	IE87297122_00014.xml	4381	734753	Element 19	25	MT_NoVoc_concatenated.txt	2	2
-32	IE87297122_00014.xml	4381	734753	Element 19	25	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	2	2
-33	IE87297122_00014.xml	4381	734753	Element 19	25	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	2	2
-34	IE87297122_00014.xml	4381	734753	Element 19	25	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	2	2
-35	IE87363222_00008.xml	4381	734754	Element 20	25	MT_NoVoc_concatenated.txt	14	14
-36	IE87363222_00008.xml	4381	734754	Element 20	25	Siddur_Ashkenaz_clean_concatenated.txt	14	14
-37	IE87363222_00008.xml	4381	734754	Element 20	25	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	12	12
-38	IE87363222_00008.xml	4381	734754	Element 20	25	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	13	10
-39	IE87363222_00008.xml	4381	734754	Element 20	25	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	13	10
-40	IE87447950_00011.xml	4381	734755	Element 21	22	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	10	6
-41	IE87447950_00011.xml	4381	734755	Element 21	22	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	12	6
-42	IE87447950_00011.xml	4381	734755	Element 21	22	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	13	6
-43	IE87447950_00015.xml	4381	734756	Element 22	31	MT_NoVoc_concatenated.txt	13	10
-44	IE87447950_00015.xml	4381	734756	Element 22	31	Siddur_Ashkenaz_clean_concatenated.txt	10	8
-45	IE87447950_00015.xml	4381	734756	Element 22	31	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	23	8
-46	IE87447950_00015.xml	4381	734756	Element 22	31	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	22	7
-47	IE87447950_00015.xml	4381	734756	Element 22	31	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	15	6
-48	IE87447950_00018.xml	4381	734757	Element 23	28	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	17	17
-49	IE87447950_00018.xml	4381	734757	Element 23	28	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	20	17
-50	IE87447950_00018.xml	4381	734757	Element 23	28	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	20	17
-51	IE87447950_00018.xml	4381	734757	Element 23	28	Siddur_Ashkenaz_clean_concatenated.txt	20	17
-52	IE87474895_00014.xml	4381	734758	Element 24	22	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	4	4
-53	IE87474895_00014.xml	4381	734758	Element 24	22	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	4	4
-54	IE87474895_00014.xml	4381	734758	Element 24	22	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	3	2
-55	IE87474895_00044.xml	4381	734759	Element 25	27	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	27	27
-56	IE87474895_00044.xml	4381	734759	Element 25	27	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	27	27
-57	IE87474895_00044.xml	4381	734759	Element 25	27	Siddur_Ashkenaz_clean_concatenated.txt	25	17
-58	IE87474895_00044.xml	4381	734759	Element 25	27	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	15	10
-59	IE87476216_00051.xml	4381	734760	Element 26	23	MT_NoVoc_concatenated.txt	21	18
-60	IE87476216_00051.xml	4381	734760	Element 26	23	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	4	4
-61	IE87476216_00051.xml	4381	734760	Element 26	23	Siddur_Ashkenaz_clean_concatenated.txt	4	4
-62	IE87502633_00018.xml	4381	734761	Element 27	23	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	10	5
-63	IE87502633_00018.xml	4381	734761	Element 27	23	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	11	5
-64	IE87502633_00018.xml	4381	734761	Element 27	23	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	11	5
-65	IE87502633_00044.xml	4381	734762	Element 28	23	MT_NoVoc_concatenated.txt	21	18
-66	IE87502633_00044.xml	4381	734762	Element 28	23	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	20	17
-67	IE87502633_00044.xml	4381	734762	Element 28	23	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	20	17
-68	IE87502633_00044.xml	4381	734762	Element 28	23	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	20	17
-69	IE87502633_00044.xml	4381	734762	Element 28	23	Siddur_Ashkenaz_clean_concatenated.txt	19	8
-70	IE87508468_00031.xml	4381	734763	Element 29	18	MT_NoVoc_concatenated.txt	14	14
-71	IE87508468_00031.xml	4381	734763	Element 29	18	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	12	12
-72	IE87508468_00031.xml	4381	734763	Element 29	18	Siddur_Ashkenaz_clean_concatenated.txt	12	12
-73	IE87519524_00013.xml	4381	734764	Element 30	23	Siddur_Ashkenaz_clean_concatenated.txt	20	10
-74	IE87519524_00013.xml	4381	734764	Element 30	23	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	19	10
-75	IE87519524_00013.xml	4381	734764	Element 30	23	MT_NoVoc_concatenated.txt	3	3
-76	IE87519524_00013.xml	4381	734764	Element 30	23	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	3	3
-77	IE87532920_00026.xml	4381	734765	Element 31	24	MT_NoVoc_concatenated.txt	24	24
-78	IE87532920_00026.xml	4381	734765	Element 31	24	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	16	16
-79	IE87532920_00026.xml	4381	734765	Element 31	24	Siddur_Ashkenaz_clean_concatenated.txt	15	14
-80	IE87532920_00026.xml	4381	734765	Element 31	24	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	15	13
-81	IE87532920_00026.xml	4381	734765	Element 31	24	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	14	6
-82	IE87555665_00021.xml	4381	734766	Element 32	14	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	6	6
-83	IE87555665_00021.xml	4381	734766	Element 32	14	Siddur_Ashkenaz_clean_concatenated.txt	6	6
-84	IE87580382_00008.xml	4381	734767	Element 33	30	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	7	5
-85	IE87580382_00008.xml	4381	734767	Element 33	30	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	5	5
-86	IE87580382_00008.xml	4381	734767	Element 33	30	MT_NoVoc_concatenated.txt	3	3
-87	IE87580382_00041.xml	4381	734768	Element 34	22	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	13	13
-88	IE87580382_00041.xml	4381	734768	Element 34	22	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	20	13
-89	IE87580382_00041.xml	4381	734768	Element 34	22	Siddur_Ashkenaz_clean_concatenated.txt	13	13
-90	IE87580382_00041.xml	4381	734768	Element 34	22	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	13	13
-91	IE87581919_00011.xml	4381	734769	Element 35	23	Siddur_Ashkenaz_clean_concatenated.txt	3	3
-92	IE87581919_00011.xml	4381	734769	Element 35	23	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	3	3
-93	IE87581919_00016.xml	4381	734770	Element 36	23	Siddur_Ashkenaz_clean_concatenated.txt	20	19
-94	IE87581919_00016.xml	4381	734770	Element 36	23	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	19	19
-95	IE87581919_00016.xml	4381	734770	Element 36	23	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	20	19
-96	IE87581919_00016.xml	4381	734770	Element 36	23	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	19	19
-97	IE87581919_00016.xml	4381	734770	Element 36	23	MT_NoVoc_concatenated.txt	18	10
-98	IE87581919_00018.xml	4381	734771	Element 37	23	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	12	5
-99	IE87581919_00018.xml	4381	734771	Element 37	23	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	9	5
-100	IE87581919_00018.xml	4381	734771	Element 37	23	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	10	4
-101	IE87581919_00018.xml	4381	734771	Element 37	23	Siddur_Ashkenaz_clean_concatenated.txt	5	4
-102	IE87581919_00018.xml	4381	734771	Element 37	23	MT_NoVoc_concatenated.txt	6	3
-103	IE87582245_00015.xml	4381	734772	Element 38	24	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	23	23
-104	IE87582245_00015.xml	4381	734772	Element 38	24	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	23	23
-105	IE87582245_00015.xml	4381	734772	Element 38	24	Siddur_Ashkenaz_clean_concatenated.txt	23	23
-106	IE87582245_00015.xml	4381	734772	Element 38	24	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	23	23
-107	IE87582245_00015.xml	4381	734772	Element 38	24	MT_NoVoc_concatenated.txt	23	23
-108	IE87610546_00015.xml	4381	734773	Element 39	17	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	6	5
-109	IE87610546_00015.xml	4381	734773	Element 39	17	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	6	5
-110	IE87610546_00015.xml	4381	734773	Element 39	17	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	6	5
-111	IE87610546_00015.xml	4381	734773	Element 39	17	MT_NoVoc_concatenated.txt	4	4
-112	IE87610546_00015.xml	4381	734773	Element 39	17	Siddur_Ashkenaz_clean_concatenated.txt	2	2
-113	IE87675634_00007.xml	4381	734774	Element 40	26	MT_NoVoc_concatenated.txt	4	3
-114	IE87675634_00007.xml	4381	734774	Element 40	26	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	3	3
-115	IE87675634_00007.xml	4381	734774	Element 40	26	Siddur_Ashkenaz_clean_concatenated.txt	3	3
-116	IE87675634_00010.xml	4381	734775	Element 41	30	Siddur_Ashkenaz_clean_concatenated.txt	8	4
-117	IE87675634_00010.xml	4381	734775	Element 41	30	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	8	4
-118	IE87675634_00010.xml	4381	734775	Element 41	30	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	4	3
-119	IE87690674_00007.xml	4381	734776	Element 42	20	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	12	10
-120	IE87690674_00007.xml	4381	734776	Element 42	20	Siddur_Ashkenaz_clean_concatenated.txt	10	10
-121	IE87690674_00007.xml	4381	734776	Element 42	20	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	4	3
-122	IE87690674_00007.xml	4381	734776	Element 42	20	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	1	1
-123	IE87694978_00020.xml	4381	734777	Element 43	26	Siddur_Ashkenaz_clean_concatenated.txt	23	17
-124	IE87694978_00020.xml	4381	734777	Element 43	26	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	23	17
-125	IE87700963_00014.xml	4381	734778	Element 44	14	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	11	7
-126	IE87700963_00014.xml	4381	734778	Element 44	14	Siddur_Ashkenaz_clean_concatenated.txt	11	7
-127	IE87700963_00014.xml	4381	734778	Element 44	14	MT_NoVoc_concatenated.txt	2	2
-128	IE87700963_00014.xml	4381	734778	Element 44	14	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	2	2
-129	IE87705971_00006.xml	4381	734779	Element 45	19	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	12	12
-130	IE87705971_00006.xml	4381	734779	Element 45	19	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	11	10
-131	IE87705971_00006.xml	4381	734779	Element 45	19	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	10	10
-132	IE87705976_00034.xml	4381	734780	Element 46	18	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	9	5
-133	IE87705976_00034.xml	4381	734780	Element 46	18	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	9	5
-134	IE87705976_00034.xml	4381	734780	Element 46	18	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	7	3
-135	IE87705976_00036.xml	4381	734781	Element 47	20	Siddur_Ashkenaz_clean_concatenated.txt	11	6
-136	IE87705976_00036.xml	4381	734781	Element 47	20	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	11	6
-137	IE87705976_00036.xml	4381	734781	Element 47	20	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	11	6
-138	IE87705976_00036.xml	4381	734781	Element 47	20	MT_NoVoc_concatenated.txt	10	5
-139	IE87705976_00036.xml	4381	734781	Element 47	20	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	5	4
-140	IE87708411_00019.xml	4381	734782	Element 48	22	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	13	5
-141	IE87708411_00019.xml	4381	734782	Element 48	22	Siddur_Ashkenaz_clean_concatenated.txt	6	4
-142	IE87708411_00019.xml	4381	734782	Element 48	22	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	9	2
-143	IE87708411_00019.xml	4381	734782	Element 48	22	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	10	2
-144	IE87708411_00021.xml	4381	734783	Element 49	22	Siddur_Ashkenaz_clean_concatenated.txt	22	22
-145	IE87708411_00021.xml	4381	734783	Element 49	22	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	22	22
-146	IE87708411_00021.xml	4381	734783	Element 49	22	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	22	22
-147	IE87708411_00021.xml	4381	734783	Element 49	22	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	21	13
-148	IE87708411_00021.xml	4381	734783	Element 49	22	MT_NoVoc_concatenated.txt	17	9
-149	IE87716931_00014.xml	4381	734784	Element 50	21	Siddur_Ashkenaz_clean_concatenated.txt	15	11
-150	IE87716931_00014.xml	4381	734784	Element 50	21	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	14	10
-151	IE87716931_00014.xml	4381	734784	Element 50	21	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	8	5
-152	IE87716931_00014.xml	4381	734784	Element 50	21	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	6	2
-153	IE87717323_00012.xml	4381	734785	Element 51	24	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	9	9
-154	IE87717323_00012.xml	4381	734785	Element 51	24	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	9	9
-155	IE87717323_00012.xml	4381	734785	Element 51	24	Siddur_Ashkenaz_clean_concatenated.txt	9	9
-156	IE87717323_00012.xml	4381	734785	Element 51	24	MT_NoVoc_concatenated.txt	22	8
-157	IE87717323_00012.xml	4381	734785	Element 51	24	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	6	4
-158	IE87719995_00046.xml	4381	734786	Element 52	30	Siddur_Ashkenaz_clean_concatenated.txt	11	8
-159	IE87719995_00046.xml	4381	734786	Element 52	30	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	8	8
-160	IE87719995_00046.xml	4381	734786	Element 52	30	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	8	8
-161	IE87719995_00046.xml	4381	734786	Element 52	30	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	10	8
-162	IE87719995_00053.xml	4381	734787	Element 53	28	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	22	15
-163	IE87719995_00053.xml	4381	734787	Element 53	28	Siddur_Ashkenaz_clean_concatenated.txt	22	15
-164	IE87719995_00053.xml	4381	734787	Element 53	28	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	8	8
-165	IE87719995_00053.xml	4381	734787	Element 53	28	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	8	8
-166	IE87719995_00053.xml	4381	734787	Element 53	28	MT_NoVoc_concatenated.txt	12	7
-167	IE87726132_00023.xml	4381	734788	Element 54	22	MT_NoVoc_concatenated.txt	22	22
-168	IE87726132_00023.xml	4381	734788	Element 54	22	Siddur_Ashkenaz_clean_concatenated.txt	13	12
-169	IE87726132_00023.xml	4381	734788	Element 54	22	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	14	12
-170	IE87726132_00023.xml	4381	734788	Element 54	22	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	14	12
-171	IE87726132_00023.xml	4381	734788	Element 54	22	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	12	7
-172	IE87733114_00006.xml	4381	734789	Element 55	24	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	19	10
-173	IE87733114_00006.xml	4381	734789	Element 55	24	Siddur_Ashkenaz_clean_concatenated.txt	19	10
-174	IE87733114_00006.xml	4381	734789	Element 55	24	MT_NoVoc_concatenated.txt	12	9
-175	IE87733114_00006.xml	4381	734789	Element 55	24	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	1	1
-176	IE87733114_00007.xml	4381	734790	Element 56	27	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	8	6
-177	IE87733114_00007.xml	4381	734790	Element 56	27	Siddur_Ashkenaz_clean_concatenated.txt	8	6
-178	IE87733114_00007.xml	4381	734790	Element 56	27	MT_NoVoc_concatenated.txt	9	5
-179	IE87733114_00007.xml	4381	734790	Element 56	27	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	1	1
-180	IE87733114_00008.xml	4381	734791	Element 57	24	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	23	23
-181	IE87733114_00008.xml	4381	734791	Element 57	24	Siddur_Ashkenaz_clean_concatenated.txt	23	23
-182	IE87739615_00009.xml	4381	734792	Element 58	28	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	12	7
-183	IE87739615_00009.xml	4381	734792	Element 58	28	Siddur_Ashkenaz_clean_concatenated.txt	11	6
-184	IE87739615_00009.xml	4381	734792	Element 58	28	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	2	2
-185	IE87739615_00009.xml	4381	734792	Element 58	28	MT_NoVoc_concatenated.txt	2	2
-186	IE87744435_00015.xml	4381	734793	Element 59	29	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	21	11
-187	IE87744435_00015.xml	4381	734793	Element 59	29	MT_NoVoc_concatenated.txt	15	10
-188	IE87744435_00015.xml	4381	734793	Element 59	29	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	10	7
-189	IE87744435_00039.xml	4381	734794	Element 60	29	Siddur_Ashkenaz_clean_concatenated.txt	19	19
-190	IE87744435_00039.xml	4381	734794	Element 60	29	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	21	18
-191	IE87744435_00039.xml	4381	734794	Element 60	29	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	21	18
-192	IE87744435_00039.xml	4381	734794	Element 60	29	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	21	18
-193	IE87744435_00039.xml	4381	734794	Element 60	29	MT_NoVoc_concatenated.txt	20	14
-194	IE87752740_00019.xml	4381	734795	Element 61	11	Siddur_Ashkenaz_clean_concatenated.txt	11	11
-195	IE87752740_00019.xml	4381	734795	Element 61	11	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	11	11
-196	IE87752740_00019.xml	4381	734795	Element 61	11	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	11	11
-197	IE87752740_00019.xml	4381	734795	Element 61	11	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	9	4
-198	IE87752740_00022.xml	4381	734796	Element 62	13	Siddur_Ashkenaz_clean_concatenated.txt	13	13
-199	IE87752740_00022.xml	4381	734796	Element 62	13	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	13	13
-200	IE87752740_00022.xml	4381	734796	Element 62	13	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	13	13
-201	IE87752740_00022.xml	4381	734796	Element 62	13	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	12	7
-202	IE87752740_00038.xml	4381	734797	Element 63	13	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	13	13
-203	IE87752740_00038.xml	4381	734797	Element 63	13	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	10	8
-204	IE87755510_00024.xml	4381	734798	Element 64	18	Siddur_Ashkenaz_clean_concatenated.txt	16	16
-205	IE87755510_00024.xml	4381	734798	Element 64	18	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	16	16
-206	IE87755510_00024.xml	4381	734798	Element 64	18	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	15	12
-207	IE87755510_00024.xml	4381	734798	Element 64	18	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	15	12
+filename	GT_id	ocr_lines_in_part	total_aligned_lines	aligned_lines_ratio	max_aligned_clusters_size
+IE103336373_00043.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	48	16	33.3	6
+IE103336373_00043.xml	Siddur_Ashkenaz_clean_concatenated.txt	48	16	33.3	6
+IE103336373_00043.xml	MT_NoVoc_concatenated.txt	48	16	33.3	6
+IE103336373_00043.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	48	16	33.3	4
+IE103336373_00043.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	48	16	33.3	4
+IE103402206_00010.xml	MT_NoVoc_concatenated.txt	11	11	100.0	11
+IE103402206_00014.xml	MT_NoVoc_concatenated.txt	19	9	47.4	9
+IE103409244_00025.xml	MT_NoVoc_concatenated.txt	28	27	96.4	14
+IE108110062_00015.xml	MT_NoVoc_concatenated.txt	84	6	7.1	3
+IE21442926_00014.xml	MT_NoVoc_concatenated.txt	66	61	92.4	23
+IE36628376_00046.xml	MT_NoVoc_concatenated.txt	40	14	35.0	14
+IE61220167_00083.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	19	6	31.6	5
+IE61220167_00083.xml	MT_NoVoc_concatenated.txt	19	4	21.1	2
+IE61220167_00084.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	19	9	47.4	9
+IE61220167_00084.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	19	12	63.2	9
+IE61220167_00084.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	19	8	42.1	8
+IE61220167_00084.xml	Siddur_Ashkenaz_clean_concatenated.txt	19	8	42.1	8
+IE61220167_00097.xml	Siddur_Ashkenaz_clean_concatenated.txt	19	7	36.8	5
+IE61220167_00097.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	19	7	36.8	5
+IE61220167_00097.xml	MT_NoVoc_concatenated.txt	19	8	42.1	3
+IE87234800_00003.xml	MT_NoVoc_concatenated.txt	22	3	13.6	3
+IE87234800_00003.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	22	1	4.5	1
+IE87234800_00004.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	22	17	77.3	8
+IE87234800_00004.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	22	17	77.3	8
+IE87234800_00004.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	22	16	72.7	8
+IE87234800_00004.xml	MT_NoVoc_concatenated.txt	22	8	36.4	6
+IE87234800_00005.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	22	22	100.0	22
+IE87234800_00005.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	22	22	100.0	22
+IE87234800_00005.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	22	21	95.5	12
+IE87234800_00005.xml	Siddur_Ashkenaz_clean_concatenated.txt	22	17	77.3	9
+IE87297122_00014.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	25	2	8.0	2
+IE87297122_00014.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	25	2	8.0	2
+IE87297122_00014.xml	MT_NoVoc_concatenated.txt	25	2	8.0	2
+IE87297122_00014.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	25	2	8.0	2
+IE87363222_00008.xml	Siddur_Ashkenaz_clean_concatenated.txt	25	14	56.0	14
+IE87363222_00008.xml	MT_NoVoc_concatenated.txt	25	14	56.0	14
+IE87363222_00008.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	25	12	48.0	12
+IE87363222_00008.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	25	13	52.0	10
+IE87363222_00008.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	25	13	52.0	10
+IE87447950_00011.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	22	10	45.5	6
+IE87447950_00011.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	22	12	54.5	6
+IE87447950_00011.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	22	13	59.1	6
+IE87447950_00015.xml	MT_NoVoc_concatenated.txt	31	13	41.9	10
+IE87447950_00015.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	31	23	74.2	8
+IE87447950_00015.xml	Siddur_Ashkenaz_clean_concatenated.txt	31	10	32.3	8
+IE87447950_00015.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	31	22	71.0	7
+IE87447950_00015.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	31	15	48.4	6
+IE87447950_00018.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	28	20	71.4	17
+IE87447950_00018.xml	Siddur_Ashkenaz_clean_concatenated.txt	28	20	71.4	17
+IE87447950_00018.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	28	20	71.4	17
+IE87447950_00018.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	28	17	60.7	17
+IE87474895_00014.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	22	4	18.2	4
+IE87474895_00014.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	22	4	18.2	4
+IE87474895_00014.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	22	3	13.6	2
+IE87474895_00044.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	27	27	100.0	27
+IE87474895_00044.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	27	27	100.0	27
+IE87474895_00044.xml	Siddur_Ashkenaz_clean_concatenated.txt	27	25	92.6	17
+IE87474895_00044.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	27	15	55.6	10
+IE87476216_00051.xml	MT_NoVoc_concatenated.txt	23	21	91.3	18
+IE87476216_00051.xml	Siddur_Ashkenaz_clean_concatenated.txt	23	4	17.4	4
+IE87476216_00051.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	23	4	17.4	4
+IE87502633_00018.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	23	11	47.8	5
+IE87502633_00018.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	23	11	47.8	5
+IE87502633_00018.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	23	10	43.5	5
+IE87502633_00044.xml	MT_NoVoc_concatenated.txt	23	21	91.3	18
+IE87502633_00044.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	23	20	87.0	17
+IE87502633_00044.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	23	20	87.0	17
+IE87502633_00044.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	23	20	87.0	17
+IE87502633_00044.xml	Siddur_Ashkenaz_clean_concatenated.txt	23	19	82.6	8
+IE87508468_00031.xml	MT_NoVoc_concatenated.txt	18	14	77.8	14
+IE87508468_00031.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	18	12	66.7	12
+IE87508468_00031.xml	Siddur_Ashkenaz_clean_concatenated.txt	18	12	66.7	12
+IE87519524_00013.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	23	19	82.6	10
+IE87519524_00013.xml	Siddur_Ashkenaz_clean_concatenated.txt	23	20	87.0	10
+IE87519524_00013.xml	MT_NoVoc_concatenated.txt	23	3	13.0	3
+IE87519524_00013.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	23	3	13.0	3
+IE87532920_00026.xml	MT_NoVoc_concatenated.txt	24	24	100.0	24
+IE87532920_00026.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	24	16	66.7	16
+IE87532920_00026.xml	Siddur_Ashkenaz_clean_concatenated.txt	24	15	62.5	14
+IE87532920_00026.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	24	15	62.5	13
+IE87532920_00026.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	24	14	58.3	6
+IE87555665_00021.xml	Siddur_Ashkenaz_clean_concatenated.txt	14	6	42.9	6
+IE87555665_00021.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	14	6	42.9	6
+IE87580382_00008.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	30	5	16.7	5
+IE87580382_00008.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	30	7	23.3	5
+IE87580382_00008.xml	MT_NoVoc_concatenated.txt	30	3	10.0	3
+IE87580382_00041.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	22	13	59.1	13
+IE87580382_00041.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	22	20	90.9	13
+IE87580382_00041.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	22	13	59.1	13
+IE87580382_00041.xml	Siddur_Ashkenaz_clean_concatenated.txt	22	13	59.1	13
+IE87581919_00011.xml	Siddur_Ashkenaz_clean_concatenated.txt	23	3	13.0	3
+IE87581919_00011.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	23	3	13.0	3
+IE87581919_00016.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	23	20	87.0	19
+IE87581919_00016.xml	Siddur_Ashkenaz_clean_concatenated.txt	23	20	87.0	19
+IE87581919_00016.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	23	19	82.6	19
+IE87581919_00016.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	23	19	82.6	19
+IE87581919_00016.xml	MT_NoVoc_concatenated.txt	23	18	78.3	10
+IE87581919_00018.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	23	9	39.1	5
+IE87581919_00018.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	23	12	52.2	5
+IE87581919_00018.xml	Siddur_Ashkenaz_clean_concatenated.txt	23	5	21.7	4
+IE87581919_00018.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	23	10	43.5	4
+IE87581919_00018.xml	MT_NoVoc_concatenated.txt	23	6	26.1	3
+IE87582245_00015.xml	Siddur_Ashkenaz_clean_concatenated.txt	24	23	95.8	23
+IE87582245_00015.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	24	23	95.8	23
+IE87582245_00015.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	24	23	95.8	23
+IE87582245_00015.xml	MT_NoVoc_concatenated.txt	24	23	95.8	23
+IE87582245_00015.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	24	23	95.8	23
+IE87610546_00015.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	17	6	35.3	5
+IE87610546_00015.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	17	6	35.3	5
+IE87610546_00015.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	17	6	35.3	5
+IE87610546_00015.xml	MT_NoVoc_concatenated.txt	17	4	23.5	4
+IE87610546_00015.xml	Siddur_Ashkenaz_clean_concatenated.txt	17	2	11.8	2
+IE87675634_00007.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	26	3	11.5	3
+IE87675634_00007.xml	Siddur_Ashkenaz_clean_concatenated.txt	26	3	11.5	3
+IE87675634_00007.xml	MT_NoVoc_concatenated.txt	26	4	15.4	3
+IE87675634_00010.xml	Siddur_Ashkenaz_clean_concatenated.txt	30	8	26.7	4
+IE87675634_00010.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	30	8	26.7	4
+IE87675634_00010.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	30	4	13.3	3
+IE87690674_00007.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	20	12	60.0	10
+IE87690674_00007.xml	Siddur_Ashkenaz_clean_concatenated.txt	20	10	50.0	10
+IE87690674_00007.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	20	4	20.0	3
+IE87690674_00007.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	20	1	5.0	1
+IE87694978_00020.xml	Siddur_Ashkenaz_clean_concatenated.txt	26	23	88.5	17
+IE87694978_00020.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	26	23	88.5	17
+IE87700963_00014.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	14	11	78.6	7
+IE87700963_00014.xml	Siddur_Ashkenaz_clean_concatenated.txt	14	11	78.6	7
+IE87700963_00014.xml	MT_NoVoc_concatenated.txt	14	2	14.3	2
+IE87700963_00014.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	14	2	14.3	2
+IE87705971_00006.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	19	12	63.2	12
+IE87705971_00006.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	19	11	57.9	10
+IE87705971_00006.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	19	10	52.6	10
+IE87705976_00034.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	18	9	50.0	5
+IE87705976_00034.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	18	9	50.0	5
+IE87705976_00034.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	18	7	38.9	3
+IE87705976_00036.xml	Siddur_Ashkenaz_clean_concatenated.txt	20	11	55.0	6
+IE87705976_00036.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	20	11	55.0	6
+IE87705976_00036.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	20	11	55.0	6
+IE87705976_00036.xml	MT_NoVoc_concatenated.txt	20	10	50.0	5
+IE87705976_00036.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	20	5	25.0	4
+IE87708411_00019.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	22	13	59.1	5
+IE87708411_00019.xml	Siddur_Ashkenaz_clean_concatenated.txt	22	6	27.3	4
+IE87708411_00019.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	22	9	40.9	2
+IE87708411_00019.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	22	10	45.5	2
+IE87708411_00021.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	22	22	100.0	22
+IE87708411_00021.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	22	22	100.0	22
+IE87708411_00021.xml	Siddur_Ashkenaz_clean_concatenated.txt	22	22	100.0	22
+IE87708411_00021.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	22	21	95.5	13
+IE87708411_00021.xml	MT_NoVoc_concatenated.txt	22	17	77.3	9
+IE87716931_00014.xml	Siddur_Ashkenaz_clean_concatenated.txt	21	15	71.4	11
+IE87716931_00014.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	21	14	66.7	10
+IE87716931_00014.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	21	8	38.1	5
+IE87716931_00014.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	21	6	28.6	2
+IE87717323_00012.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	24	9	37.5	9
+IE87717323_00012.xml	Siddur_Ashkenaz_clean_concatenated.txt	24	9	37.5	9
+IE87717323_00012.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	24	9	37.5	9
+IE87717323_00012.xml	MT_NoVoc_concatenated.txt	24	22	91.7	8
+IE87717323_00012.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	24	6	25.0	4
+IE87719995_00046.xml	Siddur_Ashkenaz_clean_concatenated.txt	30	11	36.7	8
+IE87719995_00046.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	30	8	26.7	8
+IE87719995_00046.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	30	10	33.3	8
+IE87719995_00046.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	30	8	26.7	8
+IE87719995_00053.xml	Siddur_Ashkenaz_clean_concatenated.txt	28	22	78.6	15
+IE87719995_00053.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	28	22	78.6	15
+IE87719995_00053.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	28	8	28.6	8
+IE87719995_00053.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	28	8	28.6	8
+IE87719995_00053.xml	MT_NoVoc_concatenated.txt	28	12	42.9	7
+IE87726132_00023.xml	MT_NoVoc_concatenated.txt	22	22	100.0	22
+IE87726132_00023.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	22	14	63.6	12
+IE87726132_00023.xml	Siddur_Ashkenaz_clean_concatenated.txt	22	13	59.1	12
+IE87726132_00023.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	22	14	63.6	12
+IE87726132_00023.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	22	12	54.5	7
+IE87733114_00006.xml	Siddur_Ashkenaz_clean_concatenated.txt	24	19	79.2	10
+IE87733114_00006.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	24	19	79.2	10
+IE87733114_00006.xml	MT_NoVoc_concatenated.txt	24	12	50.0	9
+IE87733114_00006.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	24	1	4.2	1
+IE87733114_00007.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	27	8	29.6	6
+IE87733114_00007.xml	Siddur_Ashkenaz_clean_concatenated.txt	27	8	29.6	6
+IE87733114_00007.xml	MT_NoVoc_concatenated.txt	27	9	33.3	5
+IE87733114_00007.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	27	1	3.7	1
+IE87733114_00008.xml	Siddur_Ashkenaz_clean_concatenated.txt	24	23	95.8	23
+IE87733114_00008.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	24	23	95.8	23
+IE87739615_00009.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	28	12	42.9	7
+IE87739615_00009.xml	Siddur_Ashkenaz_clean_concatenated.txt	28	11	39.3	6
+IE87739615_00009.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	28	2	7.1	2
+IE87739615_00009.xml	MT_NoVoc_concatenated.txt	28	2	7.1	2
+IE87744435_00015.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	29	21	72.4	11
+IE87744435_00015.xml	MT_NoVoc_concatenated.txt	29	15	51.7	10
+IE87744435_00015.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	29	10	34.5	7
+IE87744435_00039.xml	Siddur_Ashkenaz_clean_concatenated.txt	29	19	65.5	19
+IE87744435_00039.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	29	21	72.4	18
+IE87744435_00039.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	29	21	72.4	18
+IE87744435_00039.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	29	21	72.4	18
+IE87744435_00039.xml	MT_NoVoc_concatenated.txt	29	20	69.0	14
+IE87752740_00019.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	11	11	100.0	11
+IE87752740_00019.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	11	11	100.0	11
+IE87752740_00019.xml	Siddur_Ashkenaz_clean_concatenated.txt	11	11	100.0	11
+IE87752740_00019.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	11	9	81.8	4
+IE87752740_00022.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	13	13	100.0	13
+IE87752740_00022.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	13	13	100.0	13
+IE87752740_00022.xml	Siddur_Ashkenaz_clean_concatenated.txt	13	13	100.0	13
+IE87752740_00022.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	13	12	92.3	7
+IE87752740_00038.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	13	13	100.0	13
+IE87752740_00038.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	13	10	76.9	8
+IE87755510_00024.xml	Siddur_Ashkenaz_novoc_no_lbs_Daniel.txt	18	16	88.9	16
+IE87755510_00024.xml	Siddur_Ashkenaz_clean_concatenated.txt	18	16	88.9	16
+IE87755510_00024.xml	Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt	18	15	83.3	12
+IE87755510_00024.xml	Machzor_Rosh_Hashanah_Ashkenaz_clean_concatenated.txt	18	15	83.3	12

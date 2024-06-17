@@ -20,7 +20,7 @@ n_cores = 6  # Number of threads (Spark argument)
 mem = 8  # Memory per node, in GB (Spark argument)
 driver_mem = 4  # Memory for the driver, in GB (Spark argument)
 
-# Filering parameters
+# Filtering parameters
 # aligned lines with a levenshtein ratio > threshold will be kept.
 levenshtein_threshold = 0.8
 
