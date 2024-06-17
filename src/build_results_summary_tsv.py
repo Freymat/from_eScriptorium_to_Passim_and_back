@@ -152,8 +152,8 @@ def create_df_total_aligned_lines(alignment_register):
     sorted_df = grouped_df.sort(
         by=["filename", "total_aligned_lines"], descending=[False, True]
     )
-    print("df_total_aligned_lines:")
-    print(sorted_df.head())
+    # print("df_total_aligned_lines:")
+    # print(sorted_df.head())
     return sorted_df
 
 def create_pivoted_df_total_aligned_lines(df_total_aligned_lines):
@@ -173,8 +173,8 @@ def create_pivoted_df_total_aligned_lines(df_total_aligned_lines):
         base_df=pivot_df, df_ocr_lines=df_ocr_lines
     )
 
-    print("pivoted_df_total_aligned_lines:")
-    print(joined_df_with_ocr_lines.head())
+    # print("pivoted_df_total_aligned_lines:")
+    # print(joined_df_with_ocr_lines.head())
     return joined_df_with_ocr_lines
 
 
@@ -204,8 +204,8 @@ def create_df_max_cluster_length(alignment_register):
     sorted_df = grouped_df.sort(
         by=["filename", "max_aligned_clusters_size"], descending=[False, True]
     )
-    print("df_max_cluster_length:")
-    print(sorted_df.head())
+    # print("df_max_cluster_length:")
+    # print(sorted_df.head())
     return sorted_df
 
 def create_pivoted_df_max_cluster_length(sorted_df):
@@ -225,8 +225,8 @@ def create_pivoted_df_max_cluster_length(sorted_df):
     joined_df_with_ocr_lines = insert_ocr_lines(
         base_df=pivot_df, df_ocr_lines=df_ocr_lines
     )
-    print("pivoted_df_max_cluster_length")
-    print(joined_df_with_ocr_lines.head())
+    # print("pivoted_df_max_cluster_length")
+    # print(joined_df_with_ocr_lines.head())
     return joined_df_with_ocr_lines
 
 def create_overall_results_tsv(alignment_register):
@@ -272,8 +272,8 @@ def create_overall_results_tsv(alignment_register):
         "max_aligned_clusters_size",
     ]
     overall_df = joined_df_with_ocr_lines.select(columns_reordered)
-    print("overall_df:")
-    print(overall_df.head())
+    # print("overall_df:")
+    # print(overall_df.head())
     return overall_df, sorted_df_total_aligned_lines, sorted_df_max_cluster_length
 
 
@@ -333,15 +333,15 @@ def build_all_tsvs(alignment_register_path):
     top_gt_ids_total_aligned_lines_list = get_top_gt_ids(overall_df, n_best_gt, sort_column='total_aligned_lines')
     top_gt_total_aligned_lines_df = build_top_gt_tsv(top_gt_ids_total_aligned_lines_list, n_best_gt, sort_column='total_aligned_lines')
     top_gt_total_aligned_lines_df = insert_ocr_lines(top_gt_total_aligned_lines_df, df_ocr_lines)
-    print("top_gt_total_aligned_lines_df:")
-    print(top_gt_total_aligned_lines_df.head())
+    # print("top_gt_total_aligned_lines_df:")
+    # print(top_gt_total_aligned_lines_df.head())
 
     # get the top n_best_gt GT_ids for each filename, based on the max_aligned_clusters_size
     top_gt_ids_max_cluster_length_list = get_top_gt_ids(overall_df, n_best_gt, sort_column='max_aligned_clusters_size')
     top_gt_max_cluster_length_df = build_top_gt_tsv(top_gt_ids_max_cluster_length_list, n_best_gt,  sort_column='max_aligned_clusters_size')
     top_gt_max_cluster_length_df = insert_ocr_lines(top_gt_max_cluster_length_df, df_ocr_lines)
-    print("top_gt_max_cluster_length_df:")
-    print(top_gt_max_cluster_length_df.head())
+    # print("top_gt_max_cluster_length_df:")
+    # print(top_gt_max_cluster_length_df.head())
 
     if eSc_connexion:
         # Insert the information from eSc: doc_pk, part_pk, title
@@ -360,16 +360,16 @@ def build_all_tsvs(alignment_register_path):
         top_gt_max_cluster_length_df = insert_infos_from_eSc(
             top_gt_max_cluster_length_df, eSc_connexion, doc_pk
         )
-        print("overall_df:")
-        print(overall_df.head())
-        print("pivoted_df_total_aligned_lines:")
-        print(pivoted_df_total_aligned_lines.head())
-        print("pivoted_df_max_cluster_length:")
-        print(pivoted_df_max_cluster_length.head())
-        print("top_gt_total_aligned_lines_df:")
-        print(top_gt_total_aligned_lines_df.head())
-        print("top_gt_max_cluster_length_df:")
-        print(top_gt_max_cluster_length_df.head())
+        # print("overall_df:")
+        # print(overall_df.head())
+        # print("pivoted_df_total_aligned_lines:")
+        # print(pivoted_df_total_aligned_lines.head())
+        # print("pivoted_df_max_cluster_length:")
+        # print(pivoted_df_max_cluster_length.head())
+        # print("top_gt_total_aligned_lines_df:")
+        # print(top_gt_total_aligned_lines_df.head())
+        # print("top_gt_max_cluster_length_df:")
+        # print(top_gt_max_cluster_length_df.head())
     
     # Add a row index column
     overall_df = overall_df.with_row_index("id", offset=1)
