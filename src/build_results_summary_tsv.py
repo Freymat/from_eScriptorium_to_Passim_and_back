@@ -97,7 +97,7 @@ def insert_infos_from_eSc(base_df, eSc_connexion, doc_pk):
     # keep only the fields: 'pk', filename', 'title'
     df_all_parts_infos = df_all_parts_infos.select(["pk", "filename", "title"])
 
-    # Rename column 'pk' to 'part_pk
+    # Rename column 'pk' to 'part_pk'
     df_all_parts_infos = df_all_parts_infos.select(
         [(pl.col("pk").alias("part_pk")), "filename", "title"]
     )
@@ -121,22 +121,22 @@ def insert_infos_from_eSc(base_df, eSc_connexion, doc_pk):
         "filename",
         "doc_pk",
         "part_pk",
-        "title",
-        "ocr_lines_in_part",
+        "title"
     ] + [
         col
         for col in joined_df.columns
-        if col not in ["filename", "doc_pk", "part_pk", "title", "ocr_lines_in_part"]
+        if col not in ["filename", "doc_pk", "part_pk", "title"]
     ]
     joined_df = joined_df.select(columns_reordered)
 
     return joined_df
 
 
-def create_tsv_total_aligned_lines(alignment_register):
+
+def create_df_total_aligned_lines(alignment_register):
     """
-    Create a TSV file creates a TSV file with aligned lines counts for each GT and image.
-    Takes the alignment register (list of dictionnaries) as input.
+    Create a DataFrame with the total number of aligned lines for each GT and file.
+    filename | GT_id | total_aligned_lines
     """
     data = load_alignment_register(alignment_register)
 
@@ -148,65 +148,54 @@ def create_tsv_total_aligned_lines(alignment_register):
         pl.max("total_aligned_lines_count").alias("total_aligned_lines")
     )
 
-    # Sort data by filename and total_aligned_lines_sum in descending order
+    # Sort data by filename and total_aligned_lines in descending order
     sorted_df = grouped_df.sort(
         by=["filename", "total_aligned_lines"], descending=[False, True]
     )
+    print("df_total_aligned_lines:")
+    print(sorted_df.head())
+    return sorted_df
 
-    # Find the GT_id with the largest total_aligned_lines_sum for each filename and keep the value.
-    result_df = sorted_df.group_by("filename").agg(
-        pl.col("GT_id")
-        .first()
-        .alias("best_GT_1_id"),  # Renommer la colonne GT_id en GT_id_Top1
-        pl.col("total_aligned_lines").first().alias("best_GT_1_aligned_lines_count"),
-    )
-
-    # Add a column for each GT_id with the number of total_aligned_lines_count for each filename
-    pivot_df = grouped_df.pivot(
+def create_pivoted_df_total_aligned_lines(df_total_aligned_lines):
+    """
+    Create a TSV file with the total number of aligned lines for each GT and image.
+    filename | GT_id_1 | GT_id_2 | ... | GT_id_n
+    file_1   | total_aligned_lines_file_1_GT_id_1 | 
+    """
+    # Add a column for each GT_id with the number of total_aligned_lines for each filename
+    pivot_df = df_total_aligned_lines.pivot(
         values="total_aligned_lines", index="filename", columns="GT_id"
     )
 
-    # Join the two DataFrames
-    joined_df = result_df.join(pivot_df, on="filename", how="left")
-
-    # Insert the number of total ocr lines in the dataframe
+    # Insert the number of total OCR lines in the dataframe
     df_ocr_lines = prepare_ocr_lines_df(ocr_lines_dict_path)
     joined_df_with_ocr_lines = insert_ocr_lines(
-        base_df=joined_df, df_ocr_lines=df_ocr_lines
+        base_df=pivot_df, df_ocr_lines=df_ocr_lines
     )
 
-    # if eSc_connexion:
-    #     # Insert the information from eSc: doc_pk, part_pk, title
-    #     joined_df_with_ocr_lines = insert_infos_from_eSc(
-    #         joined_df_with_ocr_lines, eSc_connexion, doc_pk
-    #     )
-
-    # # Add a row index column
-    # joined_df_with_ocr_lines = joined_df_with_ocr_lines.with_row_index("id", offset=1)
-
-    save_df_as_tsv(joined_df_with_ocr_lines, "results_based_on_total_aligned_lines")
-
-    return sorted_df
+    print("pivoted_df_total_aligned_lines:")
+    print(joined_df_with_ocr_lines.head())
+    return joined_df_with_ocr_lines
 
 
-def create_tsv_max_cluster_length(alignment_register):
+def create_df_max_cluster_length(alignment_register):
     """
-    Create a TSV file creates a TSV file with aligned lines counts for each GT and image.
-    Takes the alignment register (list of dictionnaries) as input.
+    Create a DataFrame with the max cluster length for each GT and file.
+    filename | GT_id | max_aligned_clusters_size
     """
     data = load_alignment_register(alignment_register)
 
     # Create a Polars DataFrame from data
     df = pl.DataFrame(data)
 
-    # create a new column with the max value of 'aligned_clusters_size' for each row
+    # Create a new column with the max value of 'aligned_clusters_size' for each row
     df_with_max_cluster_size = df.with_columns(
         pl.col("aligned_clusters_size")
         .map_elements(lambda x: max(x), return_dtype=pl.Int64)
         .alias("max_aligned_clusters_size")
     )
 
-    # Group by filename and GT_id, then give the max value max_aligned_clusters_size for each group.
+    # Group by filename and GT_id, then give the max value of max_aligned_clusters_size for each group.
     grouped_df = df_with_max_cluster_size.group_by(["filename", "GT_id"]).agg(
         pl.max("max_aligned_clusters_size").alias("max_aligned_clusters_size")
     )
@@ -215,45 +204,30 @@ def create_tsv_max_cluster_length(alignment_register):
     sorted_df = grouped_df.sort(
         by=["filename", "max_aligned_clusters_size"], descending=[False, True]
     )
+    print("df_max_cluster_length:")
+    print(sorted_df.head())
+    return sorted_df
 
-    # save_df_as_tsv(sorted_df, 'sorted_df_max_aligned_clusters_size')
-
-    # Find the GT_id with the largest max_aligned_clusters_size for each filename and keep the value.
-    result_df = sorted_df.group_by("filename").agg(
-        pl.col("GT_id")
-        .first()
-        .alias("best_GT_1_id"),  # Rename GT_id column to GT_id_Top1
-        pl.col("max_aligned_clusters_size")
-        .first()
-        .alias("best_GT_1_biggest_cluster_length"),
-    )
-
+def create_pivoted_df_max_cluster_length(sorted_df):
+    """
+    Create a TSV file with the max cluster length for each GT and image.
+    filename | GT_id_1 | GT_id_2 | ... | GT_id_n
+    file_1   | max_aligned_clusters_size_file_1_GT_id_1 | ...
+    file_2   | max_aligned_clusters_size_file_2_GT_id_1 | ...
+    """
     # Add a column for each GT_id with the number of max_aligned_clusters_size for each filename
-    pivot_df = grouped_df.pivot(
+    pivot_df = sorted_df.pivot(
         values="max_aligned_clusters_size", index="filename", columns="GT_id"
     )
 
-    # Join the two DataFrames
-    joined_df = result_df.join(pivot_df, on="filename", how="left")
-
-    # Insert the number of total ocr lines in the dataframe
+    # Insert the number of total OCR lines in the dataframe
     df_ocr_lines = prepare_ocr_lines_df(ocr_lines_dict_path)
     joined_df_with_ocr_lines = insert_ocr_lines(
-        base_df=joined_df, df_ocr_lines=df_ocr_lines
+        base_df=pivot_df, df_ocr_lines=df_ocr_lines
     )
-
-    # if eSc_connexion:
-    #     # Insert the information from eSc: doc_pk, part_pk, title
-    #     joined_df_with_ocr_lines = insert_infos_from_eSc(
-    #         joined_df_with_ocr_lines, eSc_connexion, doc_pk
-    #     )
-
-    # # Add a row index column
-    # joined_df_with_ocr_lines = joined_df_with_ocr_lines.with_row_index("id", offset=1)
-
-    save_df_as_tsv(joined_df_with_ocr_lines, "results_based_on_biggest_cluster_length")
-
-    return sorted_df
+    print("pivoted_df_max_cluster_length")
+    print(joined_df_with_ocr_lines.head())
+    return joined_df_with_ocr_lines
 
 def create_overall_results_tsv(alignment_register):
     """
@@ -261,13 +235,12 @@ def create_overall_results_tsv(alignment_register):
     This file will be used to create tops (best GTs ranking) for each part.   
     """
 
-    sorted_df_total_aligned_lines = create_tsv_total_aligned_lines(alignment_register)
-    sorted_df_max_cluster_length = create_tsv_max_cluster_length(alignment_register)
+    sorted_df_total_aligned_lines = create_df_total_aligned_lines(alignment_register)
+    sorted_df_max_cluster_length = create_df_max_cluster_length(alignment_register)
 
     # join the two DataFrames
     joined_df = sorted_df_total_aligned_lines.join(
         sorted_df_max_cluster_length,  on=["filename", "GT_id"], how="outer")
-
 
     # Select only the relevant columns for the final output
     joined_df = joined_df.select([
@@ -298,9 +271,10 @@ def create_overall_results_tsv(alignment_register):
         "aligned_lines_ratio",
         "max_aligned_clusters_size",
     ]
-    joined_df_with_ocr_lines = joined_df_with_ocr_lines.select(columns_reordered)
-    print(joined_df_with_ocr_lines.head())
-    return joined_df_with_ocr_lines
+    overall_df = joined_df_with_ocr_lines.select(columns_reordered)
+    print("overall_df:")
+    print(overall_df.head())
+    return overall_df, sorted_df_total_aligned_lines, sorted_df_max_cluster_length
 
 
 def get_top_gt_ids(df, n_best_gt, sort_column):
@@ -311,23 +285,23 @@ def get_top_gt_ids(df, n_best_gt, sort_column):
     top_gt_ids_list = []
     grouped = df.group_by('filename').agg([
         pl.col('GT_id').sort(descending=True).head(n_best_gt).alias('Top_GT_ids'),
-        pl.col(sort_column).sort(descending=True).head(n_best_gt).alias('Top_total_aligned_lines')
+        pl.col(sort_column).sort(descending=True).head(n_best_gt).alias(f'Top_{sort_column}')
     ])
     for row in grouped.iter_rows(named=True):
         filename = row['filename']
         top_gt_ids = row['Top_GT_ids']
-        top_aligned_lines = row['Top_total_aligned_lines']
+        top_lines = row[f'Top_{sort_column}']
         entry = [filename]
-        for gt_id, aligned_lines in zip(top_gt_ids, top_aligned_lines):
+        for gt_id, lines in zip(top_gt_ids, top_lines):
             entry.append(gt_id)
-            entry.append(aligned_lines)
+            entry.append(lines)
         # Compléter avec "None" si moins de top_n GT_id trouvés
         while len(entry) < 2 * n_best_gt + 1:
             entry.append(None)
         top_gt_ids_list.append(entry)
     return top_gt_ids_list
 
-def build_top_gt_tsv(top_gt_ids_list, n_best_gt):
+def build_top_gt_tsv(top_gt_ids_list, n_best_gt, sort_column):
     """
     Build the results summary TSV file, with the top GT_ids for each filename.
     Takes the list of top GT_ids for each filename as input (get_top_gt_ids).
@@ -337,87 +311,76 @@ def build_top_gt_tsv(top_gt_ids_list, n_best_gt):
     columns = ['filename']
     for i in range(1, n_best_gt + 1):
         columns.append(f'Top{i}_GT_id')
-        columns.append(f'total_aligned_lines_{i}')
+        columns.append(f'{sort_column}_{i}')
 
     # Convertir en DataFrame
     top_gt_df = pl.DataFrame(top_gt_ids_list, schema=columns)
 
     return top_gt_df
 
-df = create_overall_results_tsv(alignment_register_path)
-top_gt_ids_list = get_top_gt_ids(df, n_best_gt, sort_column='total_aligned_lines')
-top_gt_df = build_top_gt_tsv(top_gt_ids_list, n_best_gt)
-print(top_gt_df.head())
 
+def build_all_tsvs(alignment_register_path):
+    """
+    Create TSV files with the results of the alignment process.
+    """
 
+    overall_df, sorted_df_total_aligned_lines, sorted_df_max_cluster_length = create_overall_results_tsv(alignment_register_path)
+    pivoted_df_total_aligned_lines = create_pivoted_df_total_aligned_lines(sorted_df_total_aligned_lines)
+    pivoted_df_max_cluster_length = create_pivoted_df_max_cluster_length(sorted_df_max_cluster_length)
+    df_ocr_lines = prepare_ocr_lines_df(ocr_lines_dict_path)
 
+    # get the top n_best_gt GT_ids for each filename, based on the total_aligned_lines
+    top_gt_ids_total_aligned_lines_list = get_top_gt_ids(overall_df, n_best_gt, sort_column='total_aligned_lines')
+    top_gt_total_aligned_lines_df = build_top_gt_tsv(top_gt_ids_total_aligned_lines_list, n_best_gt, sort_column='total_aligned_lines')
+    top_gt_total_aligned_lines_df = insert_ocr_lines(top_gt_total_aligned_lines_df, df_ocr_lines)
+    print("top_gt_total_aligned_lines_df:")
+    print(top_gt_total_aligned_lines_df.head())
 
+    # get the top n_best_gt GT_ids for each filename, based on the max_aligned_clusters_size
+    top_gt_ids_max_cluster_length_list = get_top_gt_ids(overall_df, n_best_gt, sort_column='max_aligned_clusters_size')
+    top_gt_max_cluster_length_df = build_top_gt_tsv(top_gt_ids_max_cluster_length_list, n_best_gt,  sort_column='max_aligned_clusters_size')
+    top_gt_max_cluster_length_df = insert_ocr_lines(top_gt_max_cluster_length_df, df_ocr_lines)
+    print("top_gt_max_cluster_length_df:")
+    print(top_gt_max_cluster_length_df.head())
 
+    if eSc_connexion:
+        # Insert the information from eSc: doc_pk, part_pk, title
+        overall_df = insert_infos_from_eSc(
+            overall_df, eSc_connexion, doc_pk
+        )
+        pivoted_df_total_aligned_lines = insert_infos_from_eSc(
+            pivoted_df_total_aligned_lines, eSc_connexion, doc_pk
+        )
+        pivoted_df_max_cluster_length = insert_infos_from_eSc(
+            pivoted_df_max_cluster_length, eSc_connexion, doc_pk
+        )
+        top_gt_total_aligned_lines_df = insert_infos_from_eSc(
+            top_gt_total_aligned_lines_df, eSc_connexion, doc_pk
+        )
+        top_gt_max_cluster_length_df = insert_infos_from_eSc(
+            top_gt_max_cluster_length_df, eSc_connexion, doc_pk
+        )
+        print("overall_df:")
+        print(overall_df.head())
+        print("pivoted_df_total_aligned_lines:")
+        print(pivoted_df_total_aligned_lines.head())
+        print("pivoted_df_max_cluster_length:")
+        print(pivoted_df_max_cluster_length.head())
+        print("top_gt_total_aligned_lines_df:")
+        print(top_gt_total_aligned_lines_df.head())
+        print("top_gt_max_cluster_length_df:")
+        print(top_gt_max_cluster_length_df.head())
+    
+    # Add a row index column
+    overall_df = overall_df.with_row_index("id", offset=1)
+    pivoted_df_total_aligned_lines = pivoted_df_total_aligned_lines.with_row_index("id", offset=1)
+    pivoted_df_max_cluster_length = pivoted_df_max_cluster_length.with_row_index("id", offset=1)
+    top_gt_total_aligned_lines_df = top_gt_total_aligned_lines_df.with_row_index("id", offset=1)
+    top_gt_max_cluster_length_df = top_gt_max_cluster_length_df.with_row_index("id", offset=1)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# def create_tsvs(alignment_register):
-#     """
-#     Create TSV files with the results of the alignment process.
-#     """
-#     sorted_df_total_aligned_lines = create_tsv_total_aligned_lines(alignment_register)
-#     sorted_df_max_cluster_length = create_tsv_max_cluster_length(alignment_register)
-
-#     # join the two DataFrames
-#     joined_df = sorted_df_total_aligned_lines.join(
-#         sorted_df_max_cluster_length,  on=["filename", "GT_id"], how="outer")
-
-
-#     # Select only the relevant columns for the final output
-#     joined_df = joined_df.select([
-#         "filename",
-#         "GT_id",
-#         "total_aligned_lines",
-#         "max_aligned_clusters_size"
-#     ])
-#     # Insert the number of total ocr lines in the dataframe
-#     df_ocr_lines = prepare_ocr_lines_df(ocr_lines_dict_path)
-#     joined_df_with_ocr_lines = insert_ocr_lines(
-#         base_df=joined_df, df_ocr_lines=df_ocr_lines
-#     )
-
-#     # reorder columns
-#     columns_reordered = [
-#         "filename",        
-#         "GT_id",
-#         "ocr_lines_in_part",
-#         "total_aligned_lines",
-#         "max_aligned_clusters_size",
-#     ]
-#     joined_df_with_ocr_lines = joined_df_with_ocr_lines.select(columns_reordered)
-
-
-#     if eSc_connexion:
-#         # Insert the information from eSc: doc_pk, part_pk, title
-#         joined_df_with_ocr_lines = insert_infos_from_eSc(
-#             joined_df_with_ocr_lines, eSc_connexion, doc_pk
-#         )
-
-  
-
-#     # Add a row index column
-#     joined_df_with_ocr_lines = joined_df_with_ocr_lines.with_row_index("id", offset=1)
-
-
-#     save_df_as_tsv(joined_df_with_ocr_lines, "Overall_results")
-
+    # Save the DataFrames as TSV files
+    save_df_as_tsv(overall_df, "Overall_results")
+    save_df_as_tsv(pivoted_df_total_aligned_lines, "Results_based_on_total_aligned_lines")
+    save_df_as_tsv(pivoted_df_max_cluster_length, "Results_based_on_max_cluster_length")
+    save_df_as_tsv(top_gt_total_aligned_lines_df, f"Top_{n_best_gt}_GT_total_aligned_lines")
+    save_df_as_tsv(top_gt_max_cluster_length_df, f"Top_{n_best_gt}_GT_max_cluster_length")
