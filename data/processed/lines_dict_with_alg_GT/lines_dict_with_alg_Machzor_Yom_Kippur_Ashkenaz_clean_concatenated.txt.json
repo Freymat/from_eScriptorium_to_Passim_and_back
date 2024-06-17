@@ -3782,6 +3782,324 @@
         ]
     },
     {
+        "filename": "IE36628376_00046",
+        "ocr_lines_in_part": 40,
+        "ocr_blocks": [
+            {
+                "ocr_block_text": "סנטר אל ששטבחם קשקשת לו קלטן קקטשהס כוו שנאמרושרן קשקשים קאלהשי שק ענר\nמקום משמעו דכד נמוך שרוחש וע על קארץ. ושקן יקיו לאסוראת ערוביקם אסיש בן בטותן טעם מבשרם.\nאימ מוקרעל קפנטריה ועל העבמות. ואת נאתם תשקט ליבות ינחושן שסיען יביושן מושיילוש בלעיוכל\nאשר אין לוג' מקתל שיקל אין לשיקא מותראלא היעלה סימטן של לבשק קשירן במה מטן תל וכל אשראן",
+                "text_block_id": "eSc_textblock_897f7817",
+                "ocr_lines_in_block": 4,
+                "ocr_lines": [
+                    {
+                        "line_id": "eSc_line_75afbcb0",
+                        "start": 0,
+                        "end": 69,
+                        "length": 70,
+                        "text": "סנטר אל ששטבחם קשקשת לו קלטן קקטשהס כוו שנאמרושרן קשקשים קאלהשי שק ענר"
+                    },
+                    {
+                        "line_id": "eSc_line_5e427187",
+                        "start": 71,
+                        "end": 158,
+                        "length": 88,
+                        "text": "מקום משמעו דכד נמוך שרוחש וע על קארץ. ושקן יקיו לאסוראת ערוביקם אסיש בן בטותן טעם מבשרם."
+                    },
+                    {
+                        "line_id": "eSc_line_67768c0d",
+                        "start": 160,
+                        "end": 246,
+                        "length": 87,
+                        "text": "אימ מוקרעל קפנטריה ועל העבמות. ואת נאתם תשקט ליבות ינחושן שסיען יביושן מושיילוש בלעיוכל"
+                    },
+                    {
+                        "line_id": "eSc_line_69188d4d",
+                        "start": 248,
+                        "end": 334,
+                        "length": 87,
+                        "text": "אשר אין לוג' מקתל שיקל אין לשיקא מותראלא היעלה סימטן של לבשק קשירן במה מטן תל וכל אשראן"
+                    }
+                ],
+                "series": "OCR"
+            },
+            {
+                "ocr_block_text": "ית דין תיכלן מכלדי במיא\nכל דליה ציצין וקלפין במיא\nביממיא ובנחליא יתהון תיבלוןו\nובלךליתליה ציעין וקלפין ש\nביממיא ובנחליאמכלריחשא\nדמיאומכלנפשאהיתא די\nבמיא שקצא אינון לכוןושקצא\nיהון לכון מבשריהון לא תיכאן\nויתנבלתהון תשקצון! כלי\nדלית ליה ציצין וקלפין במיא\nשקצאהוא לבון וית אילין\nתשקצון מךעופא לא יתאבלון\nשקצא אינון נשרא וערועזיא!\nודיתא וטרפיתא לונה: ית כל\nעורבאלניה זוית בת נעמיתא\nוציצא",
+                "text_block_id": "eSc_textblock_476ae7a5",
+                "ocr_lines_in_block": 16,
+                "ocr_lines": [
+                    {
+                        "line_id": "eSc_line_1e6127b8",
+                        "start": 0,
+                        "end": 22,
+                        "length": 23,
+                        "text": "ית דין תיכלן מכלדי במיא"
+                    },
+                    {
+                        "line_id": "eSc_line_04a0cc08",
+                        "start": 24,
+                        "end": 48,
+                        "length": 25,
+                        "text": "כל דליה ציצין וקלפין במיא"
+                    },
+                    {
+                        "line_id": "eSc_line_b4971daf",
+                        "start": 50,
+                        "end": 77,
+                        "length": 28,
+                        "text": "ביממיא ובנחליא יתהון תיבלוןו"
+                    },
+                    {
+                        "line_id": "eSc_line_6581a747",
+                        "start": 79,
+                        "end": 103,
+                        "length": 25,
+                        "text": "ובלךליתליה ציעין וקלפין ש"
+                    },
+                    {
+                        "line_id": "eSc_line_66ff2e46",
+                        "start": 105,
+                        "end": 126,
+                        "length": 22,
+                        "text": "ביממיא ובנחליאמכלריחשא"
+                    },
+                    {
+                        "line_id": "eSc_line_b9c6364d",
+                        "start": 128,
+                        "end": 146,
+                        "length": 19,
+                        "text": "דמיאומכלנפשאהיתא די"
+                    },
+                    {
+                        "line_id": "eSc_line_243b3418",
+                        "start": 148,
+                        "end": 172,
+                        "length": 25,
+                        "text": "במיא שקצא אינון לכוןושקצא"
+                    },
+                    {
+                        "line_id": "eSc_line_82af837d",
+                        "start": 174,
+                        "end": 200,
+                        "length": 27,
+                        "text": "יהון לכון מבשריהון לא תיכאן"
+                    },
+                    {
+                        "line_id": "eSc_line_1367833a",
+                        "start": 202,
+                        "end": 223,
+                        "length": 22,
+                        "text": "ויתנבלתהון תשקצון! כלי"
+                    },
+                    {
+                        "line_id": "eSc_line_d83e8c09",
+                        "start": 225,
+                        "end": 250,
+                        "length": 26,
+                        "text": "דלית ליה ציצין וקלפין במיא"
+                    },
+                    {
+                        "line_id": "eSc_line_eb380e04",
+                        "start": 252,
+                        "end": 273,
+                        "length": 22,
+                        "text": "שקצאהוא לבון וית אילין"
+                    },
+                    {
+                        "line_id": "eSc_line_a2e0913d",
+                        "start": 275,
+                        "end": 298,
+                        "length": 24,
+                        "text": "תשקצון מךעופא לא יתאבלון"
+                    },
+                    {
+                        "line_id": "eSc_line_73b89fa6",
+                        "start": 300,
+                        "end": 324,
+                        "length": 25,
+                        "text": "שקצא אינון נשרא וערועזיא!"
+                    },
+                    {
+                        "line_id": "eSc_line_3cc86530",
+                        "start": 326,
+                        "end": 350,
+                        "length": 25,
+                        "text": "ודיתא וטרפיתא לונה: ית כל"
+                    },
+                    {
+                        "line_id": "eSc_line_f973a312",
+                        "start": 352,
+                        "end": 375,
+                        "length": 24,
+                        "text": "עורבאלניה זוית בת נעמיתא"
+                    },
+                    {
+                        "line_id": "eSc_line_6ac04b0a",
+                        "start": 377,
+                        "end": 381,
+                        "length": 5,
+                        "text": "וציצא"
+                    }
+                ],
+                "series": "OCR"
+            },
+            {
+                "ocr_block_text": "אתזהתאכלו מכלאשרבמים כל\nאשר לוסנפיר וקשקשתבמים בימים\nובנחלים אתם תאכלו: וכלאשראין-\nלוסנפיר וקשקשת בימים ובנחלים\nמכלשרץהמיסומכלנפש החיה\nאשר במים שקץהם לכםוושקץ יהיו\nלכסמבשרם לאתאכלוואתנבלתם\nתשקצו כלאשראיץ לו סנפ-\nוקשקשת במים שקץ הוא לכסזואת\nאלהתשקצומן העוף לא יאכלו\nשקץ הסאתהנשרואת הפרס ואת\nהעזטה : ואת הדאה ואת האיה\nלמינה : את כל-ערב למעו:\nזאת בת היעה ואת־התחמס",
+                "text_block_id": "eSc_textblock_47d2bd2f",
+                "ocr_lines_in_block": 14,
+                "ocr_lines": [
+                    {
+                        "line_id": "eSc_line_db1e0963",
+                        "start": 0,
+                        "end": 22,
+                        "length": 23,
+                        "text": "אתזהתאכלו מכלאשרבמים כל"
+                    },
+                    {
+                        "line_id": "eSc_line_32bc4a30",
+                        "start": 24,
+                        "end": 51,
+                        "length": 28,
+                        "text": "אשר לוסנפיר וקשקשתבמים בימים"
+                    },
+                    {
+                        "line_id": "eSc_line_4662da98",
+                        "start": 53,
+                        "end": 81,
+                        "length": 29,
+                        "text": "ובנחלים אתם תאכלו: וכלאשראין-"
+                    },
+                    {
+                        "line_id": "eSc_line_e38233e5",
+                        "start": 83,
+                        "end": 110,
+                        "length": 28,
+                        "text": "לוסנפיר וקשקשת בימים ובנחלים"
+                    },
+                    {
+                        "line_id": "eSc_line_0fd6f1dc",
+                        "start": 112,
+                        "end": 133,
+                        "length": 22,
+                        "text": "מכלשרץהמיסומכלנפש החיה"
+                    },
+                    {
+                        "line_id": "eSc_line_fcd301fc",
+                        "start": 135,
+                        "end": 162,
+                        "length": 28,
+                        "text": "אשר במים שקץהם לכםוושקץ יהיו"
+                    },
+                    {
+                        "line_id": "eSc_line_0223547e",
+                        "start": 164,
+                        "end": 187,
+                        "length": 24,
+                        "text": "לכסמבשרם לאתאכלוואתנבלתם"
+                    },
+                    {
+                        "line_id": "eSc_line_04beb015",
+                        "start": 189,
+                        "end": 210,
+                        "length": 22,
+                        "text": "תשקצו כלאשראיץ לו סנפ-"
+                    },
+                    {
+                        "line_id": "eSc_line_4895c400",
+                        "start": 212,
+                        "end": 238,
+                        "length": 27,
+                        "text": "וקשקשת במים שקץ הוא לכסזואת"
+                    },
+                    {
+                        "line_id": "eSc_line_d08ab80e",
+                        "start": 240,
+                        "end": 263,
+                        "length": 24,
+                        "text": "אלהתשקצומן העוף לא יאכלו"
+                    },
+                    {
+                        "line_id": "eSc_line_1e0c5493",
+                        "start": 265,
+                        "end": 288,
+                        "length": 24,
+                        "text": "שקץ הסאתהנשרואת הפרס ואת"
+                    },
+                    {
+                        "line_id": "eSc_line_cda71088",
+                        "start": 290,
+                        "end": 314,
+                        "length": 25,
+                        "text": "העזטה : ואת הדאה ואת האיה"
+                    },
+                    {
+                        "line_id": "eSc_line_aca1ab02",
+                        "start": 316,
+                        "end": 338,
+                        "length": 23,
+                        "text": "למינה : את כל-ערב למעו:"
+                    },
+                    {
+                        "line_id": "eSc_line_6a05ed65",
+                        "start": 340,
+                        "end": 360,
+                        "length": 21,
+                        "text": "זאת בת היעה ואת־התחמס"
+                    }
+                ],
+                "series": "OCR"
+            },
+            {
+                "ocr_block_text": "א מנטרוקשקשת כנה קא אס קו ל מם אעפשהשק נעיתמתר איאלו לסינאת קיאטללקטפ\nסקך ישמט לאיקו נאסט על יקך אואיט אלא לאסק בקואק תל לא תאלום כאפ קאסורין בחואקמותיין כל\nמוף ששאמרש למינה למח למינקוש כאות קמן שאן דמן זקלזק לא במראיקן ולא בשמותהן וטאן מן אחד.\nקט אושטיר שלך פרשו רבתמ זקהשולה אים מן קים ווקו שתרגה אנקלסושעמנאי טסוישוף * קם\nמאיטס קטמקס באסוש סה לשתת כאדם זעראחדדומה ל שקרן יבן קשמת קיאקלבא שורק ודיזה\nלעאגד קטרא באק'",
+                "text_block_id": "eSc_textblock_3f687b09",
+                "ocr_lines_in_block": 6,
+                "ocr_lines": [
+                    {
+                        "line_id": "eSc_line_2d4b69f3",
+                        "start": 0,
+                        "end": 68,
+                        "length": 69,
+                        "text": "א מנטרוקשקשת כנה קא אס קו ל מם אעפשהשק נעיתמתר איאלו לסינאת קיאטללקטפ"
+                    },
+                    {
+                        "line_id": "eSc_line_f0faa043",
+                        "start": 70,
+                        "end": 155,
+                        "length": 86,
+                        "text": "סקך ישמט לאיקו נאסט על יקך אואיט אלא לאסק בקואק תל לא תאלום כאפ קאסורין בחואקמותיין כל"
+                    },
+                    {
+                        "line_id": "eSc_line_10236192",
+                        "start": 157,
+                        "end": 243,
+                        "length": 87,
+                        "text": "מוף ששאמרש למינה למח למינקוש כאות קמן שאן דמן זקלזק לא במראיקן ולא בשמותהן וטאן מן אחד."
+                    },
+                    {
+                        "line_id": "eSc_line_e9c2f737",
+                        "start": 245,
+                        "end": 323,
+                        "length": 79,
+                        "text": "קט אושטיר שלך פרשו רבתמ זקהשולה אים מן קים ווקו שתרגה אנקלסושעמנאי טסוישוף * קם"
+                    },
+                    {
+                        "line_id": "eSc_line_6db67fa1",
+                        "start": 325,
+                        "end": 400,
+                        "length": 76,
+                        "text": "מאיטס קטמקס באסוש סה לשתת כאדם זעראחדדומה ל שקרן יבן קשמת קיאקלבא שורק ודיזה"
+                    },
+                    {
+                        "line_id": "eSc_line_36d179b6",
+                        "start": 402,
+                        "end": 416,
+                        "length": 15,
+                        "text": "לעאגד קטרא באק'"
+                    }
+                ],
+                "series": "OCR"
+            }
+        ]
+    },
+    {
         "filename": "IE61220167_00083",
         "ocr_lines_in_part": 19,
         "ocr_blocks": [
@@ -4017,228 +4335,6 @@
                         "GT_start": 37606,
                         "GT_len": 30,
                         "levenshtein_ratio": 0.983
-                    }
-                ],
-                "series": "OCR"
-            }
-        ]
-    },
-    {
-        "filename": "IE61220167_00084",
-        "ocr_lines_in_part": 19,
-        "ocr_blocks": [
-            {
-                "ocr_block_text": "הגדול הגבור ודנורא אל עליון קונה ברחמיו\nשמים וארץ: מגן אבות בדברו מחיה מתים\nבמאמרו המלך הקדוש שאין כמותו המניח\nלעמו בשבת קדשו בי בם רצה להניח להם\nלפניו נעבוד ביראה ופחד ונורה לשמו בכל\nיום תמיר מעין הברכות ורוב ההודאות לאדון\nהשלום מקדש השבת ומברך השביעי ומניח\nבקדשה לעם מדשני עונג זכר למעשה\nאלהינו ואלהי אכותינו רצה נא במנוחתינו\nבראשית:\nבתורתך שבענו מטובך שמח נפשנו בישועתך\nקדשנו במצותיך שים נחלקנו ב\nוטהר לבנו לעבדך באמת והנחילנו יי אלהינו\nבאהבה וברעון שבת קדשך וינוחו בה כל\nישראל מקדשי שמך ברוך אתה יי מקדש\nיתגדל ויתקדש שמיה רבא: בעלמא\nהשבת:\nדברא כרעיתיה וימליך מלכותיה\nויצמח בורקניה ויקרב משיחיה בחייכון",
-                "text_block_id": "eSc_textblock_ab76e7e2",
-                "ocr_lines_in_block": 19,
-                "ocr_lines": [
-                    {
-                        "line_id": "eSc_line_4e3880cd",
-                        "start": 0,
-                        "end": 38,
-                        "length": 39,
-                        "text": "הגדול הגבור ודנורא אל עליון קונה ברחמיו",
-                        "alg_GT": "הגדול הגבור והנורא. אל עליון קונה",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 37637,
-                        "GT_len": 34,
-                        "levenshtein_ratio": 0.861
-                    },
-                    {
-                        "line_id": "eSc_line_dca6900f",
-                        "start": 40,
-                        "end": 74,
-                        "length": 35,
-                        "text": "שמים וארץ: מגן אבות בדברו מחיה מתים",
-                        "alg_GT": "שמים וארץ:מגן אבות בדברו. מחיה מתים",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 37671,
-                        "GT_len": 36,
-                        "levenshtein_ratio": 0.971
-                    },
-                    {
-                        "line_id": "eSc_line_1e489b81",
-                        "start": 76,
-                        "end": 109,
-                        "length": 34,
-                        "text": "במאמרו המלך הקדוש שאין כמותו המניח",
-                        "alg_GT": "במאמרו. המלך הקדוש שאין כמוהו. המניח",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 37707,
-                        "GT_len": 37,
-                        "levenshtein_ratio": 0.943
-                    },
-                    {
-                        "line_id": "eSc_line_eba95cdc",
-                        "start": 111,
-                        "end": 144,
-                        "length": 34,
-                        "text": "לעמו בשבת קדשו בי בם רצה להניח להם",
-                        "alg_GT": "לעמו ביום שבת קדשו. כי בם רצה להניח להם.",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 37744,
-                        "GT_len": 41,
-                        "levenshtein_ratio": 0.892
-                    },
-                    {
-                        "line_id": "eSc_line_1682007f",
-                        "start": 146,
-                        "end": 182,
-                        "length": 37,
-                        "text": "לפניו נעבוד ביראה ופחד ונורה לשמו בכל",
-                        "alg_GT": "לפניו נעבוד ביראה ופחד. ונודה לשמו בכל",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 37785,
-                        "GT_len": 39,
-                        "levenshtein_ratio": 0.96
-                    },
-                    {
-                        "line_id": "eSc_line_2fbc7c51",
-                        "start": 184,
-                        "end": 222,
-                        "length": 39,
-                        "text": "יום תמיר מעין הברכות ורוב ההודאות לאדון",
-                        "alg_GT": "יום תמיד מעין הברכות: אל ההודאות. אדון",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 37824,
-                        "GT_len": 39,
-                        "levenshtein_ratio": 0.857
-                    },
-                    {
-                        "line_id": "eSc_line_80ee3f7b",
-                        "start": 224,
-                        "end": 257,
-                        "length": 34,
-                        "text": "השלום מקדש השבת ומברך השביעי ומניח",
-                        "alg_GT": "השלום. מקדש השבת ומברך שביעי. ומניח",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 37863,
-                        "GT_len": 36,
-                        "levenshtein_ratio": 0.957
-                    },
-                    {
-                        "line_id": "eSc_line_b7925a91",
-                        "start": 259,
-                        "end": 288,
-                        "length": 30,
-                        "text": "בקדשה לעם מדשני עונג זכר למעשה",
-                        "alg_GT": "בקדשה לעם מדשני ענג זכר למעשה",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 37899,
-                        "GT_len": 30,
-                        "levenshtein_ratio": 0.983
-                    },
-                    {
-                        "line_id": "eSc_line_9ac5b6ed",
-                        "start": 290,
-                        "end": 326,
-                        "length": 37,
-                        "text": "אלהינו ואלהי אכותינו רצה נא במנוחתינו",
-                        "alg_GT": "בראשית: אלהינו ואלהי אבותינו רצה נא במנוחתנו.",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 37929,
-                        "GT_len": 46,
-                        "levenshtein_ratio": 0.854
-                    },
-                    {
-                        "line_id": "eSc_line_14ace57a",
-                        "start": 328,
-                        "end": 334,
-                        "length": 7,
-                        "text": "בראשית:",
-                        "alg_GT": "קדש",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 37975,
-                        "GT_len": 3,
-                        "levenshtein_ratio": 0.2
-                    },
-                    {
-                        "line_id": "eSc_line_dcfe1d0e",
-                        "start": 336,
-                        "end": 371,
-                        "length": 36,
-                        "text": "בתורתך שבענו מטובך שמח נפשנו בישועתך",
-                        "alg_GT": "נו במצותיך ותן חלקנו בתורתך",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 37978,
-                        "GT_len": 28,
-                        "levenshtein_ratio": 0.476
-                    },
-                    {
-                        "line_id": "eSc_line_b6861d19",
-                        "start": 373,
-                        "end": 398,
-                        "length": 26,
-                        "text": "קדשנו במצותיך שים נחלקנו ב",
-                        "alg_GT": "שבענו מטובך. ושמחנו בישועתך:",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 38006,
-                        "GT_len": 29,
-                        "levenshtein_ratio": 0.519
-                    },
-                    {
-                        "line_id": "eSc_line_96a7f8db",
-                        "start": 400,
-                        "end": 438,
-                        "length": 39,
-                        "text": "וטהר לבנו לעבדך באמת והנחילנו יי אלהינו",
-                        "alg_GT": "וטהר לבנו לעבדך באמת. והנחילנו יהוה אלהינו",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 38035,
-                        "GT_len": 43,
-                        "levenshtein_ratio": 0.938
-                    },
-                    {
-                        "line_id": "eSc_line_3ff22c12",
-                        "start": 440,
-                        "end": 473,
-                        "length": 34,
-                        "text": "באהבה וברעון שבת קדשך וינוחו בה כל",
-                        "alg_GT": "באהבה וברצון שבת קדשך. וינוחו בה",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 38078,
-                        "GT_len": 33,
-                        "levenshtein_ratio": 0.909
-                    },
-                    {
-                        "line_id": "eSc_line_b529e927",
-                        "start": 475,
-                        "end": 506,
-                        "length": 32,
-                        "text": "ישראל מקדשי שמך ברוך אתה יי מקדש",
-                        "alg_GT": "ישראל מקדשי שמך. ברוך אתה יהוה מקדש",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 38111,
-                        "GT_len": 35,
-                        "levenshtein_ratio": 0.925
-                    },
-                    {
-                        "line_id": "eSc_line_fb453e14",
-                        "start": 508,
-                        "end": 535,
-                        "length": 28,
-                        "text": "יתגדל ויתקדש שמיה רבא: בעלמא"
-                    },
-                    {
-                        "line_id": "eSc_line_4efe3c25",
-                        "start": 537,
-                        "end": 541,
-                        "length": 5,
-                        "text": "השבת:"
-                    },
-                    {
-                        "line_id": "eSc_line_ca02cb8c",
-                        "start": 543,
-                        "end": 569,
-                        "length": 27,
-                        "text": "דברא כרעיתיה וימליך מלכותיה"
-                    },
-                    {
-                        "line_id": "eSc_line_687ee41e",
-                        "start": 571,
-                        "end": 604,
-                        "length": 34,
-                        "text": "ויצמח בורקניה ויקרב משיחיה בחייכון"
                     }
                 ],
                 "series": "OCR"
@@ -7627,6 +7723,291 @@
         ]
     },
     {
+        "filename": "IE87502633_00044",
+        "ocr_lines_in_part": 23,
+        "ocr_blocks": [
+            {
+                "ocr_block_text": "והמו נשא לכל לראש: והעשר והכבוד מלפניך\nואתה מושל בכל ובידך כח וגבורה ובידך לגדל\nולחזק לכל : ועתה אהינו מודים אנחנו לך ומהללים\nלשם תפארתך : ויברכו שם כבדך ימרומם על כל\nברכה ותהלהזאתה הוא יהוה לבדך אתה עשית את\nהשמים שמי השמים וכל צראם הארץ וכל אשר\nעליה הימים וכל אשרבהם ואתה מחיה את כלבםן\nוצבא השמים לך משתחוים : ע\"כ אתה הוא יהוה\nהאהים אשר בחרת באברם והוצאתומאורכשדים\nושמת שמו אררהם : ומצאת את לבבו נאמן לפניך\nוכרות עמו הברית לתת את ארץ הבנעני החתי\nהאמרי והפרזי והיבוסיוהגרגשי לתת לזרעו ‧ והקם\nאת דבריך כי צדיק אתה : ותרא את עני אבותינו\nבמצרים ואת זעקתם שמעת על ים סוף: ותתן אתת\nומפתים בפרעה ובכל עבדיו ובכל עם ארצו : בי\nידעת כי הזידו עליהם ותעש לך שם כהיום הזה :\nוהים בקעת לפניהם ויעברו בתוך הים ביבשה ואת\nררפיהם השלכת במצולת כמו אבן במים עזים :\nויושט יהוה ביום ההוא את ישדאל מיד מצרים וירא\nישרא את מצרים מת על שפת הים : וירא ישרא\nאת היד הגדלה אשר עשה יהוה במצרים וייראו\nהעם את יהוה ויאמינו ביהוה ובמשה עבדו:\nבתשעה באב אנמדים האזינו.",
+                "text_block_id": "eSc_textblock_ec9d0e4c",
+                "ocr_lines_in_block": 23,
+                "ocr_lines": [
+                    {
+                        "line_id": "eSc_line_83ffb3e7",
+                        "start": 0,
+                        "end": 37,
+                        "length": 38,
+                        "text": "והמו נשא לכל לראש: והעשר והכבוד מלפניך",
+                        "alg_GT": "והמתנשא לכל לראש: והעשר והכבוד מלפניך",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 119709,
+                        "GT_len": 38,
+                        "levenshtein_ratio": 0.96
+                    },
+                    {
+                        "line_id": "eSc_line_143c5651",
+                        "start": 39,
+                        "end": 78,
+                        "length": 40,
+                        "text": "ואתה מושל בכל ובידך כח וגבורה ובידך לגדל",
+                        "alg_GT": "ואתה מושל בכל, ובידך כח וגבורה, ובידך לגדל",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 119747,
+                        "GT_len": 43,
+                        "levenshtein_ratio": 0.976
+                    },
+                    {
+                        "line_id": "eSc_line_c3222657",
+                        "start": 80,
+                        "end": 124,
+                        "length": 45,
+                        "text": "ולחזק לכל : ועתה אהינו מודים אנחנו לך ומהללים",
+                        "alg_GT": "ולחזק לכל: ועתה אלהינו מודים אנחנו לך ומהללים",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 119790,
+                        "GT_len": 46,
+                        "levenshtein_ratio": 0.978
+                    },
+                    {
+                        "line_id": "eSc_line_42162675",
+                        "start": 126,
+                        "end": 165,
+                        "length": 40,
+                        "text": "לשם תפארתך : ויברכו שם כבדך ימרומם על כל",
+                        "alg_GT": "לשם תפארתך:",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 119836,
+                        "GT_len": 12,
+                        "levenshtein_ratio": 0.431
+                    },
+                    {
+                        "line_id": "eSc_line_f9df1cb7",
+                        "start": 167,
+                        "end": 206,
+                        "length": 40,
+                        "text": "ברכה ותהלהזאתה הוא יהוה לבדך אתה עשית את",
+                        "alg_GT": "אתה־הוא יהוה לבדך, אתה עשית את־",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 119848,
+                        "GT_len": 31,
+                        "levenshtein_ratio": 0.789
+                    },
+                    {
+                        "line_id": "eSc_line_81028636",
+                        "start": 208,
+                        "end": 244,
+                        "length": 37,
+                        "text": "השמים שמי השמים וכל צראם הארץ וכל אשר",
+                        "alg_GT": "השמים שמי השמים וכל־צבאם, הארץ וכל־אשר",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 119879,
+                        "GT_len": 39,
+                        "levenshtein_ratio": 0.907
+                    },
+                    {
+                        "line_id": "eSc_line_a59a5cdb",
+                        "start": 246,
+                        "end": 285,
+                        "length": 40,
+                        "text": "עליה הימים וכל אשרבהם ואתה מחיה את כלבםן",
+                        "alg_GT": "עליה הימים וכל־אשר בהם, ואתה מחיה את־כלם",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 119918,
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.9
+                    },
+                    {
+                        "line_id": "eSc_line_c7e348cc",
+                        "start": 287,
+                        "end": 326,
+                        "length": 40,
+                        "text": "וצבא השמים לך משתחוים : ע\"כ אתה הוא יהוה",
+                        "alg_GT": "וצבא השמים לך משתחוים: חזן: אתה הוא יהוה",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 119959,
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.9
+                    },
+                    {
+                        "line_id": "eSc_line_b503646d",
+                        "start": 328,
+                        "end": 364,
+                        "length": 37,
+                        "text": "האהים אשר בחרת באברם והוצאתומאורכשדים",
+                        "alg_GT": "האלהים אשר בחרת באברם והוצאתו מאור כשדים",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 120000,
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.961
+                    },
+                    {
+                        "line_id": "eSc_line_69563750",
+                        "start": 366,
+                        "end": 406,
+                        "length": 41,
+                        "text": "ושמת שמו אררהם : ומצאת את לבבו נאמן לפניך",
+                        "alg_GT": "ושמת שמו אברהם: ומצאת את־לבבו נאמן לפניך",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 120041,
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.938
+                    },
+                    {
+                        "line_id": "eSc_line_edc8a3cf",
+                        "start": 408,
+                        "end": 445,
+                        "length": 38,
+                        "text": "וכרות עמו הברית לתת את ארץ הבנעני החתי",
+                        "alg_GT": "וכרות עמו הברית לתת את־ארץ הכנעני החתי",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 120082,
+                        "GT_len": 39,
+                        "levenshtein_ratio": 0.947
+                    },
+                    {
+                        "line_id": "eSc_line_3f9fcd85",
+                        "start": 447,
+                        "end": 490,
+                        "length": 44,
+                        "text": "האמרי והפרזי והיבוסיוהגרגשי לתת לזרעו ‧ והקם",
+                        "alg_GT": "האמרי והפרזי והיבוסי והגרגשי לתת לזרעו ותקם",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 120121,
+                        "GT_len": 44,
+                        "levenshtein_ratio": 0.943
+                    },
+                    {
+                        "line_id": "eSc_line_3486f3d3",
+                        "start": 492,
+                        "end": 533,
+                        "length": 42,
+                        "text": "את דבריך כי צדיק אתה : ותרא את עני אבותינו",
+                        "alg_GT": "את־דבריך כי צדיק אתה: ותרא את־עני אבתינו",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 120165,
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.927
+                    },
+                    {
+                        "line_id": "eSc_line_81dbfc02",
+                        "start": 535,
+                        "end": 575,
+                        "length": 41,
+                        "text": "במצרים ואת זעקתם שמעת על ים סוף: ותתן אתת",
+                        "alg_GT": "במצרים ואת־זעקתם שמעת על־ים־סוף: ותתן אתת",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 120206,
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.927
+                    },
+                    {
+                        "line_id": "eSc_line_8ac7259a",
+                        "start": 577,
+                        "end": 617,
+                        "length": 41,
+                        "text": "ומפתים בפרעה ובכל עבדיו ובכל עם ארצו : בי",
+                        "alg_GT": "ומפתים בפרעה ובכל־עבדיו ובכל־עם ארצו כי",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 120248,
+                        "GT_len": 40,
+                        "levenshtein_ratio": 0.9
+                    },
+                    {
+                        "line_id": "eSc_line_2eda3e92",
+                        "start": 619,
+                        "end": 660,
+                        "length": 42,
+                        "text": "ידעת כי הזידו עליהם ותעש לך שם כהיום הזה :",
+                        "alg_GT": "ידעת כי הזידו עליהם ותעש־לך שם כהיום הזה: חזן:",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 120288,
+                        "GT_len": 47,
+                        "levenshtein_ratio": 0.932
+                    },
+                    {
+                        "line_id": "eSc_line_0e9e46fd",
+                        "start": 662,
+                        "end": 703,
+                        "length": 42,
+                        "text": "והים בקעת לפניהם ויעברו בתוך הים ביבשה ואת",
+                        "alg_GT": "והים בקעת לפניהם ויעברו בתוך־הים ביבשה ואת",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 120335,
+                        "GT_len": 42,
+                        "levenshtein_ratio": 0.976
+                    },
+                    {
+                        "line_id": "eSc_line_233b397c",
+                        "start": 705,
+                        "end": 743,
+                        "length": 39,
+                        "text": "ררפיהם השלכת במצולת כמו אבן במים עזים :",
+                        "alg_GT": "־רדפיהם השלכת במצולת כמו־אבן במים עזים:",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 120377,
+                        "GT_len": 40,
+                        "levenshtein_ratio": 0.923
+                    },
+                    {
+                        "line_id": "eSc_line_ecdd116a",
+                        "start": 745,
+                        "end": 788,
+                        "length": 44,
+                        "text": "ויושט יהוה ביום ההוא את ישדאל מיד מצרים וירא",
+                        "alg_GT": "ויושע יהוה ביום ההוא את־ישראל מיד מצרים וירא",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 120417,
+                        "GT_len": 45,
+                        "levenshtein_ratio": 0.932
+                    },
+                    {
+                        "line_id": "eSc_line_c90384d7",
+                        "start": 790,
+                        "end": 828,
+                        "length": 39,
+                        "text": "ישרא את מצרים מת על שפת הים : וירא ישרא",
+                        "alg_GT": "ישראל את־מצרים מת על־שפת הים: חזן: וירא ישראל",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 120462,
+                        "GT_len": 46,
+                        "levenshtein_ratio": 0.881
+                    },
+                    {
+                        "line_id": "eSc_line_7fa12d20",
+                        "start": 830,
+                        "end": 868,
+                        "length": 39,
+                        "text": "את היד הגדלה אשר עשה יהוה במצרים וייראו",
+                        "alg_GT": "את־היד הגדלה אשר עשה יהוה במצרים וייראו",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 120508,
+                        "GT_len": 40,
+                        "levenshtein_ratio": 0.974
+                    },
+                    {
+                        "line_id": "eSc_line_1d880db6",
+                        "start": 870,
+                        "end": 906,
+                        "length": 37,
+                        "text": "העם את יהוה ויאמינו ביהוה ובמשה עבדו:",
+                        "alg_GT": "העם את יהוה ויאמינו ביהוה ובמשה עבדו:",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 120548,
+                        "GT_len": 37,
+                        "levenshtein_ratio": 1.0
+                    },
+                    {
+                        "line_id": "eSc_line_be68a6f4",
+                        "start": 908,
+                        "end": 931,
+                        "length": 24,
+                        "text": "בתשעה באב אנמדים האזינו."
+                    }
+                ],
+                "series": "OCR"
+            }
+        ]
+    },
+    {
         "filename": "IE87508468_00031",
         "ocr_lines_in_part": 18,
         "ocr_blocks": [
@@ -7800,196 +8181,6 @@
                         "GT_start": 147608,
                         "GT_len": 26,
                         "levenshtein_ratio": 0.5
-                    }
-                ],
-                "series": "OCR"
-            }
-        ]
-    },
-    {
-        "filename": "IE87519524_00013",
-        "ocr_lines_in_part": 23,
-        "ocr_blocks": [
-            {
-                "ocr_block_text": "כיעל רחמיךהרבים אנו בטוחים‧ ועל צדקתיך\nאנו נשענים ולסליחתיךאנו מקוים ‧ ולישועתך\nאנו מצפיס: אתה הוא יי מלך אהב צדקות\nמקדם: מעביר עונות עמו ומסיר חטאת יראיו:\nכורת ברית לראשונים ‧ ומקים שבועה\nלאחרונים : אתה הוא שירדת בענן כבודך על\nהר סיני ‧ והראית דרכי טובך למשה עבדך :\nארחות חסדיך גלית לו ‧ והודעתו כי אתה אל\nרחוםוחנון :ארךאפיסורב חסד ומרבה להטיב.\nומנהיג את (כל-) העולם כלו במדת רחמים וכן\nכתוב ויאמר אני אעביר כל-טובי על-פניך\nוקראתי בשם יי לפניך וחנתי את־אשר אחן\nורחמתי את-אשר ארחם :\nאל ארך אפים אתה‧ ובעל הרחמים נקראת‧\nודרך תשובה הורית : גדלת רחמיך וחסדיך ‧\nתזכור היום ובכל-יום לזרעידידיך : תפן אלינו\nברחמים כי אתה הוא בעל הרחמים : בתחנון\nובתפלה פניך נקדם‧ כהודעת לענו מקדם :\nמחרון אפך שוב (\"יתוב) ‧ כמו בתורתך כתוב\nובצל כנפיך נחסה ונתלונן‧ כיום וירד יי בענן.\nהעבר על פשע ותמחה אשם‧ כיום ויתיצב עמו\nשם תאזין שועתנו ותקשיב מנו מאמר ‧ כיום\nויקרא בשם יי : ושם נאמר",
-                "text_block_id": "eSc_textblock_15c3ca13",
-                "ocr_lines_in_block": 23,
-                "ocr_lines": [
-                    {
-                        "line_id": "eSc_line_021c1c39",
-                        "start": 0,
-                        "end": 37,
-                        "length": 38,
-                        "text": "כיעל רחמיךהרבים אנו בטוחים‧ ועל צדקתיך"
-                    },
-                    {
-                        "line_id": "eSc_line_ba066561",
-                        "start": 39,
-                        "end": 78,
-                        "length": 40,
-                        "text": "אנו נשענים ולסליחתיךאנו מקוים ‧ ולישועתך"
-                    },
-                    {
-                        "line_id": "eSc_line_5ef1eeec",
-                        "start": 80,
-                        "end": 114,
-                        "length": 35,
-                        "text": "אנו מצפיס: אתה הוא יי מלך אהב צדקות"
-                    },
-                    {
-                        "line_id": "eSc_line_c6fc4c46",
-                        "start": 116,
-                        "end": 154,
-                        "length": 39,
-                        "text": "מקדם: מעביר עונות עמו ומסיר חטאת יראיו:"
-                    },
-                    {
-                        "line_id": "eSc_line_bb4d2bca",
-                        "start": 156,
-                        "end": 187,
-                        "length": 32,
-                        "text": "כורת ברית לראשונים ‧ ומקים שבועה"
-                    },
-                    {
-                        "line_id": "eSc_line_5326c285",
-                        "start": 189,
-                        "end": 226,
-                        "length": 38,
-                        "text": "לאחרונים : אתה הוא שירדת בענן כבודך על"
-                    },
-                    {
-                        "line_id": "eSc_line_2a664435",
-                        "start": 228,
-                        "end": 265,
-                        "length": 38,
-                        "text": "הר סיני ‧ והראית דרכי טובך למשה עבדך :"
-                    },
-                    {
-                        "line_id": "eSc_line_72d6b4b4",
-                        "start": 267,
-                        "end": 305,
-                        "length": 39,
-                        "text": "ארחות חסדיך גלית לו ‧ והודעתו כי אתה אל"
-                    },
-                    {
-                        "line_id": "eSc_line_6019dc23",
-                        "start": 307,
-                        "end": 344,
-                        "length": 38,
-                        "text": "רחוםוחנון :ארךאפיסורב חסד ומרבה להטיב."
-                    },
-                    {
-                        "line_id": "eSc_line_cfb004f3",
-                        "start": 346,
-                        "end": 385,
-                        "length": 40,
-                        "text": "ומנהיג את (כל-) העולם כלו במדת רחמים וכן"
-                    },
-                    {
-                        "line_id": "eSc_line_05765f1d",
-                        "start": 387,
-                        "end": 422,
-                        "length": 36,
-                        "text": "כתוב ויאמר אני אעביר כל-טובי על-פניך",
-                        "alg_GT": "תך: ויאמר. אני אעביר כל טובי על פניך.",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 262661,
-                        "GT_len": 38,
-                        "levenshtein_ratio": 0.849
-                    },
-                    {
-                        "line_id": "eSc_line_0525d687",
-                        "start": 424,
-                        "end": 459,
-                        "length": 36,
-                        "text": "וקראתי בשם יי לפניך וחנתי את־אשר אחן",
-                        "alg_GT": "וקראתי בשם יהוה לפניך. וחנתי את אשר אחן.",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 262699,
-                        "GT_len": 41,
-                        "levenshtein_ratio": 0.895
-                    },
-                    {
-                        "line_id": "eSc_line_c54474e2",
-                        "start": 461,
-                        "end": 480,
-                        "length": 20,
-                        "text": "ורחמתי את-אשר ארחם :",
-                        "alg_GT": "ורחמתי את אשר ארחם:",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 262740,
-                        "GT_len": 19,
-                        "levenshtein_ratio": 0.923
-                    },
-                    {
-                        "line_id": "eSc_line_96ea086c",
-                        "start": 482,
-                        "end": 516,
-                        "length": 35,
-                        "text": "אל ארך אפים אתה‧ ובעל הרחמים נקראת‧"
-                    },
-                    {
-                        "line_id": "eSc_line_913e9b3c",
-                        "start": 518,
-                        "end": 555,
-                        "length": 38,
-                        "text": "ודרך תשובה הורית : גדלת רחמיך וחסדיך ‧"
-                    },
-                    {
-                        "line_id": "eSc_line_b699c27e",
-                        "start": 557,
-                        "end": 598,
-                        "length": 42,
-                        "text": "תזכור היום ובכל-יום לזרעידידיך : תפן אלינו"
-                    },
-                    {
-                        "line_id": "eSc_line_f7448350",
-                        "start": 600,
-                        "end": 636,
-                        "length": 37,
-                        "text": "ברחמים כי אתה הוא בעל הרחמים : בתחנון"
-                    },
-                    {
-                        "line_id": "eSc_line_397b82f0",
-                        "start": 638,
-                        "end": 673,
-                        "length": 36,
-                        "text": "ובתפלה פניך נקדם‧ כהודעת לענו מקדם :"
-                    },
-                    {
-                        "line_id": "eSc_line_732953ae",
-                        "start": 675,
-                        "end": 713,
-                        "length": 39,
-                        "text": "מחרון אפך שוב (\"יתוב) ‧ כמו בתורתך כתוב"
-                    },
-                    {
-                        "line_id": "eSc_line_70aaeb90",
-                        "start": 715,
-                        "end": 757,
-                        "length": 43,
-                        "text": "ובצל כנפיך נחסה ונתלונן‧ כיום וירד יי בענן."
-                    },
-                    {
-                        "line_id": "eSc_line_15876454",
-                        "start": 759,
-                        "end": 796,
-                        "length": 38,
-                        "text": "העבר על פשע ותמחה אשם‧ כיום ויתיצב עמו"
-                    },
-                    {
-                        "line_id": "eSc_line_7f318ce4",
-                        "start": 798,
-                        "end": 835,
-                        "length": 38,
-                        "text": "שם תאזין שועתנו ותקשיב מנו מאמר ‧ כיום"
-                    },
-                    {
-                        "line_id": "eSc_line_4caa422f",
-                        "start": 837,
-                        "end": 859,
-                        "length": 23,
-                        "text": "ויקרא בשם יי : ושם נאמר"
                     }
                 ],
                 "series": "OCR"
@@ -10956,6 +11147,143 @@
         ]
     },
     {
+        "filename": "IE87700963_00014",
+        "ocr_lines_in_part": 14,
+        "ocr_blocks": [
+            {
+                "ocr_block_text": "שכועה לאחרונים. אתה הוא שירדת בענן כבודך על הר\nסיני והראית דרכי טובך למשה עבדך, ארחות חסדיך\nגלית לו, והודעתו כי אתה אל רחום וחנון, ארך אפים\nורב־חסד ומרבה להטיב, ומנהיג את־כל־העולם כלו\nבמדת הרחמים . וכן כתוב ויאמר אנג אעביר כל-טובי\nעל־פניך וקראתי בשם יי לפניך וחנתי את־אשר אחן\nורחמתי את־אשר ארחם :\nאל ארך-אפים אתה, ובעל־הרחמיםנקראת,\nודרך תשובה הורית, גדלת רחמיך וחסדיך\nתזכר היום ובכל-יום לזרע ידידיך. תפן אלינו\nברחמים, כי אתה הוא בעל הרחמים. בתחנון\nובתפלה פניך נקדם, כהודעת לענו מקדם.\nמחרון אפך שוב, כמו בתורתך פתוב. ובצל\nכנפיך נחסה ונתלונן, כיום וירד יי בענן. תעבר",
+                "text_block_id": "eSc_textblock_198ee4e8",
+                "ocr_lines_in_block": 14,
+                "ocr_lines": [
+                    {
+                        "line_id": "eSc_line_c0f97e65",
+                        "start": 0,
+                        "end": 45,
+                        "length": 46,
+                        "text": "שכועה לאחרונים. אתה הוא שירדת בענן כבודך על הר"
+                    },
+                    {
+                        "line_id": "eSc_line_5e5ee15f",
+                        "start": 47,
+                        "end": 90,
+                        "length": 44,
+                        "text": "סיני והראית דרכי טובך למשה עבדך, ארחות חסדיך"
+                    },
+                    {
+                        "line_id": "eSc_line_0c7d2488",
+                        "start": 92,
+                        "end": 138,
+                        "length": 47,
+                        "text": "גלית לו, והודעתו כי אתה אל רחום וחנון, ארך אפים",
+                        "alg_GT": "כמה שידענו יהוה אלהינו את אשר תחון יוחן. ואת אש",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 262589,
+                        "GT_len": 48,
+                        "levenshtein_ratio": 0.489
+                    },
+                    {
+                        "line_id": "eSc_line_8ba3d819",
+                        "start": 140,
+                        "end": 182,
+                        "length": 43,
+                        "text": "ורב־חסד ומרבה להטיב, ומנהיג את־כל־העולם כלו",
+                        "alg_GT": "ר תרחם ירוחם. ככתוב בתורתך: ויאמר. אני",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 262637,
+                        "GT_len": 39,
+                        "levenshtein_ratio": 0.296
+                    },
+                    {
+                        "line_id": "eSc_line_22d72dad",
+                        "start": 184,
+                        "end": 229,
+                        "length": 46,
+                        "text": "במדת הרחמים . וכן כתוב ויאמר אנג אעביר כל-טובי",
+                        "alg_GT": "אעביר כל טובי",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 262676,
+                        "GT_len": 14,
+                        "levenshtein_ratio": 0.407
+                    },
+                    {
+                        "line_id": "eSc_line_f1e89818",
+                        "start": 231,
+                        "end": 274,
+                        "length": 44,
+                        "text": "על־פניך וקראתי בשם יי לפניך וחנתי את־אשר אחן",
+                        "alg_GT": "על פניך. וקראתי בשם יהוה לפניך. וחנתי את אשר אחן.",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 262690,
+                        "GT_len": 50,
+                        "levenshtein_ratio": 0.882
+                    },
+                    {
+                        "line_id": "eSc_line_f1e527aa",
+                        "start": 276,
+                        "end": 295,
+                        "length": 20,
+                        "text": "ורחמתי את־אשר ארחם :",
+                        "alg_GT": "ורחמתי את אשר ארחם:",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 262740,
+                        "GT_len": 19,
+                        "levenshtein_ratio": 0.923
+                    },
+                    {
+                        "line_id": "eSc_line_6a6c0860",
+                        "start": 297,
+                        "end": 330,
+                        "length": 34,
+                        "text": "אל ארך-אפים אתה, ובעל־הרחמיםנקראת,"
+                    },
+                    {
+                        "line_id": "eSc_line_f27a8461",
+                        "start": 332,
+                        "end": 366,
+                        "length": 35,
+                        "text": "ודרך תשובה הורית, גדלת רחמיך וחסדיך"
+                    },
+                    {
+                        "line_id": "eSc_line_d01962c6",
+                        "start": 368,
+                        "end": 408,
+                        "length": 41,
+                        "text": "תזכר היום ובכל-יום לזרע ידידיך. תפן אלינו"
+                    },
+                    {
+                        "line_id": "eSc_line_1aec9a60",
+                        "start": 410,
+                        "end": 446,
+                        "length": 37,
+                        "text": "ברחמים, כי אתה הוא בעל הרחמים. בתחנון"
+                    },
+                    {
+                        "line_id": "eSc_line_0407e3fb",
+                        "start": 448,
+                        "end": 482,
+                        "length": 35,
+                        "text": "ובתפלה פניך נקדם, כהודעת לענו מקדם."
+                    },
+                    {
+                        "line_id": "eSc_line_88bfac83",
+                        "start": 484,
+                        "end": 519,
+                        "length": 36,
+                        "text": "מחרון אפך שוב, כמו בתורתך פתוב. ובצל"
+                    },
+                    {
+                        "line_id": "eSc_line_b619bdaa",
+                        "start": 521,
+                        "end": 563,
+                        "length": 43,
+                        "text": "כנפיך נחסה ונתלונן, כיום וירד יי בענן. תעבר"
+                    }
+                ],
+                "series": "OCR"
+            }
+        ]
+    },
+    {
         "filename": "IE87705971_00006",
         "ocr_lines_in_part": 19,
         "ocr_blocks": [
@@ -11146,236 +11474,6 @@
                         "end": 460,
                         "length": 24,
                         "text": "בביתך ובלכתך בדרך ובשכבך"
-                    }
-                ],
-                "series": "OCR"
-            }
-        ]
-    },
-    {
-        "filename": "IE87705976_00034",
-        "ocr_lines_in_part": 18,
-        "ocr_blocks": [
-            {
-                "ocr_block_text": "ברוך אתה יי אמ\"ה הנותן ליעף כח :\nברוך אתה יי אמ\"ה עוטר ישראל בתפארה :\nברוך אתה יי אמ\"ה שלא עשני גוי:\nבא\"י אמ\"ה שלא עשני עבד שפחה\nהאשה אומרת\nבא\"י אמ\"ה שלא עשני אשה שעשני כרצונו\nברוך אתה יי אלהינו מלך העולם המעביר\nחבלי שינה מעינינו ותנומה מעפעפנו :\nויהי רצון מלפניך יי אלהינו ואלהי אבותינו\nשתרגילנו בתורתך ותדביקנו במצותיך\nואל תביאנו לידי חטא ולא לידי עבירה ולא\nלידי נסיון ולא לידי בזיון. ותרחיקנו מיצו\nהרע ותדביקנו ביצר הטוב ותננו לאהבהלה\nולחסד ולרחמים בעיניך ובעיני כל רואינ\nוגמלנו חסדים טובים. ברוך אתה יי גומל\nחסדים טובים לעמו ישראל:\nיהי רצון מלפניך יי אלהינו ואלהי אבותים\nשתצילנו היום ובכל יום ויום מעזי פריו",
-                "text_block_id": "eSc_textblock_90e2102a",
-                "ocr_lines_in_block": 18,
-                "ocr_lines": [
-                    {
-                        "line_id": "eSc_line_003c98a6",
-                        "start": 0,
-                        "end": 31,
-                        "length": 32,
-                        "text": "ברוך אתה יי אמ\"ה הנותן ליעף כח :",
-                        "alg_GT": "בחין בין יום ובין לילה:",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 92408,
-                        "GT_len": 24,
-                        "levenshtein_ratio": 0.4
-                    },
-                    {
-                        "line_id": "eSc_line_7d48a026",
-                        "start": 33,
-                        "end": 68,
-                        "length": 36,
-                        "text": "ברוך אתה יי אמ\"ה עוטר ישראל בתפארה :",
-                        "alg_GT": "ברוך אתה יהוה אלה",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 92432,
-                        "GT_len": 17,
-                        "levenshtein_ratio": 0.604
-                    },
-                    {
-                        "line_id": "eSc_line_4beab188",
-                        "start": 70,
-                        "end": 99,
-                        "length": 30,
-                        "text": "ברוך אתה יי אמ\"ה שלא עשני גוי:",
-                        "alg_GT": "ינו מלך העולם שלא עשני גוי:",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 92449,
-                        "GT_len": 28,
-                        "levenshtein_ratio": 0.632
-                    },
-                    {
-                        "line_id": "eSc_line_b8d5221b",
-                        "start": 101,
-                        "end": 127,
-                        "length": 27,
-                        "text": "בא\"י אמ\"ה שלא עשני עבד שפחה",
-                        "alg_GT": "ברוך אתה יהוה אלהינו מלך העולם שלא עשני עבד: ברוך",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 92477,
-                        "GT_len": 49,
-                        "levenshtein_ratio": 0.553
-                    },
-                    {
-                        "line_id": "eSc_line_dd6f6e37",
-                        "start": 129,
-                        "end": 138,
-                        "length": 10,
-                        "text": "האשה אומרת",
-                        "alg_GT": "אתה יהוה א",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 92526,
-                        "GT_len": 11,
-                        "levenshtein_ratio": 0.4
-                    },
-                    {
-                        "line_id": "eSc_line_e3d4a4ca",
-                        "start": 140,
-                        "end": 174,
-                        "length": 35,
-                        "text": "בא\"י אמ\"ה שלא עשני אשה שעשני כרצונו",
-                        "alg_GT": "להינו מלך העולם שלא עשני אשה: ברוך אתה יהוה אלהינו מלך העולם שעשני כרצונו:",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 92537,
-                        "GT_len": 74,
-                        "levenshtein_ratio": 0.55
-                    },
-                    {
-                        "line_id": "eSc_line_ac26aa60",
-                        "start": 176,
-                        "end": 210,
-                        "length": 35,
-                        "text": "ברוך אתה יי אלהינו מלך העולם המעביר",
-                        "alg_GT": "ברוך אתה יהוה אלהינו מלך העולם פוקח",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 92611,
-                        "GT_len": 36,
-                        "levenshtein_ratio": 0.8
-                    },
-                    {
-                        "line_id": "eSc_line_aa0079cb",
-                        "start": 212,
-                        "end": 245,
-                        "length": 34,
-                        "text": "חבלי שינה מעינינו ותנומה מעפעפנו :",
-                        "alg_GT": "עורים: ברוך אתה יהוה אלהינו מלך העולם מלביש ערמים: ברוך אתה יהוה אלהינו מלך העולם מתיר אסורים: ברוך אתה יהוה אלהינו מלך העולם זוקף כפופים: ברוך אתה יהוה אלהינו מלך העולם רוקע הארץ על המים: ברוך אתה יהוה אלהינו מלך העולם שעשה לי כל צרכי: ברוך אתה יהוה אלהינו מלך העולם המכין מצעדי גבר: ברוך אתה יהוה אלהינו מלך העולם אוזר ישראל בגבורה: ברוך אתה יהוה אלהינו מלך העולם עוטר ישראל בתפארה: ברוך אתה יהוה אלהינו מלך העולם הנותן ליעף כח: ברוך אתה יהוה אלהינו מלך העולם המעביר שנה מעיני ותנומה מעפעפי:",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 92647,
-                        "GT_len": 495,
-                        "levenshtein_ratio": 0.121
-                    },
-                    {
-                        "line_id": "eSc_line_72b49c91",
-                        "start": 247,
-                        "end": 286,
-                        "length": 40,
-                        "text": "ויהי רצון מלפניך יי אלהינו ואלהי אבותינו",
-                        "alg_GT": "ויהי רצון מלפניך יהוה אלהינו ואלהי אבותינו",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 93142,
-                        "GT_len": 43,
-                        "levenshtein_ratio": 0.951
-                    },
-                    {
-                        "line_id": "eSc_line_47f5896a",
-                        "start": 288,
-                        "end": 319,
-                        "length": 32,
-                        "text": "שתרגילנו בתורתך ותדביקנו במצותיך",
-                        "alg_GT": "שתרגילנו בתורתך ודבקנו במצותיך,",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 93185,
-                        "GT_len": 32,
-                        "levenshtein_ratio": 0.952
-                    },
-                    {
-                        "line_id": "eSc_line_579b0f6f",
-                        "start": 321,
-                        "end": 358,
-                        "length": 38,
-                        "text": "ואל תביאנו לידי חטא ולא לידי עבירה ולא",
-                        "alg_GT": "ואל תביאנו לא לידי חטא ולא לידי עברה ועון ולא",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 93217,
-                        "GT_len": 46,
-                        "levenshtein_ratio": 0.892
-                    },
-                    {
-                        "line_id": "eSc_line_c3336d81",
-                        "start": 360,
-                        "end": 399,
-                        "length": 40,
-                        "text": "לידי נסיון ולא לידי בזיון. ותרחיקנו מיצו",
-                        "alg_GT": "לידי נסיון ולא לידי בזיון ואל תשלט בנו יצר הרע והרחיקנו מאדם",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 93263,
-                        "GT_len": 61,
-                        "levenshtein_ratio": 0.72
-                    },
-                    {
-                        "line_id": "eSc_line_5c59f4a2",
-                        "start": 401,
-                        "end": 436,
-                        "length": 36,
-                        "text": "הרע ותדביקנו ביצר הטוב ותננו לאהבהלה",
-                        "alg_GT": "רע ומחבר רע ודבקנו ביצר הטוב וב",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 93324,
-                        "GT_len": 31,
-                        "levenshtein_ratio": 0.657
-                    },
-                    {
-                        "line_id": "eSc_line_7c6e2edd",
-                        "start": 438,
-                        "end": 473,
-                        "length": 36,
-                        "text": "ולחסד ולרחמים בעיניך ובעיני כל רואינ",
-                        "alg_GT": "ולחסד ולרחמים בעיניך ובעיני כל רואינו",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 93416,
-                        "GT_len": 38,
-                        "levenshtein_ratio": 0.986
-                    },
-                    {
-                        "line_id": "eSc_line_f78ac088",
-                        "start": 475,
-                        "end": 510,
-                        "length": 36,
-                        "text": "וגמלנו חסדים טובים. ברוך אתה יי גומל",
-                        "alg_GT": "ותגמלנו חסדים טובים: חזן: ברוך אתה יהוה גומל",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 93454,
-                        "GT_len": 45,
-                        "levenshtein_ratio": 0.85
-                    },
-                    {
-                        "line_id": "eSc_line_dbadbf35",
-                        "start": 512,
-                        "end": 534,
-                        "length": 23,
-                        "text": "חסדים טובים לעמו ישראל:",
-                        "alg_GT": "חסדים טובים לעמו ישראל:",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 93499,
-                        "GT_len": 24,
-                        "levenshtein_ratio": 1.0
-                    },
-                    {
-                        "line_id": "eSc_line_9dfb49a3",
-                        "start": 536,
-                        "end": 573,
-                        "length": 38,
-                        "text": "יהי רצון מלפניך יי אלהינו ואלהי אבותים",
-                        "alg_GT": "יהי רצון מלפניך יהוה אלהי ואלהי אבותי",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 93523,
-                        "GT_len": 38,
-                        "levenshtein_ratio": 0.907
-                    },
-                    {
-                        "line_id": "eSc_line_44795b16",
-                        "start": 575,
-                        "end": 610,
-                        "length": 36,
-                        "text": "שתצילנו היום ובכל יום ויום מעזי פריו",
-                        "alg_GT": "שתצילני היום ובכל יום מעזי פני",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 93561,
-                        "GT_len": 30,
-                        "levenshtein_ratio": 0.848
                     }
                 ],
                 "series": "OCR"
@@ -15495,602 +15593,221 @@
         "ocr_blocks": []
     },
     {
-        "filename": "IE36628376_00046",
-        "ocr_lines_in_part": 40,
+        "filename": "IE61220167_00084",
+        "ocr_lines_in_part": 19,
         "ocr_blocks": [
             {
-                "ocr_block_text": "סנטר אל ששטבחם קשקשת לו קלטן קקטשהס כוו שנאמרושרן קשקשים קאלהשי שק ענר\nמקום משמעו דכד נמוך שרוחש וע על קארץ. ושקן יקיו לאסוראת ערוביקם אסיש בן בטותן טעם מבשרם.\nאימ מוקרעל קפנטריה ועל העבמות. ואת נאתם תשקט ליבות ינחושן שסיען יביושן מושיילוש בלעיוכל\nאשר אין לוג' מקתל שיקל אין לשיקא מותראלא היעלה סימטן של לבשק קשירן במה מטן תל וכל אשראן",
-                "text_block_id": "eSc_textblock_897f7817",
-                "ocr_lines_in_block": 4,
+                "ocr_block_text": "הגדול הגבור ודנורא אל עליון קונה ברחמיו\nשמים וארץ: מגן אבות בדברו מחיה מתים\nבמאמרו המלך הקדוש שאין כמותו המניח\nלעמו בשבת קדשו בי בם רצה להניח להם\nלפניו נעבוד ביראה ופחד ונורה לשמו בכל\nיום תמיר מעין הברכות ורוב ההודאות לאדון\nהשלום מקדש השבת ומברך השביעי ומניח\nבקדשה לעם מדשני עונג זכר למעשה\nאלהינו ואלהי אכותינו רצה נא במנוחתינו\nבראשית:\nבתורתך שבענו מטובך שמח נפשנו בישועתך\nקדשנו במצותיך שים נחלקנו ב\nוטהר לבנו לעבדך באמת והנחילנו יי אלהינו\nבאהבה וברעון שבת קדשך וינוחו בה כל\nישראל מקדשי שמך ברוך אתה יי מקדש\nיתגדל ויתקדש שמיה רבא: בעלמא\nהשבת:\nדברא כרעיתיה וימליך מלכותיה\nויצמח בורקניה ויקרב משיחיה בחייכון",
+                "text_block_id": "eSc_textblock_ab76e7e2",
+                "ocr_lines_in_block": 19,
                 "ocr_lines": [
                     {
-                        "line_id": "eSc_line_75afbcb0",
+                        "line_id": "eSc_line_4e3880cd",
                         "start": 0,
-                        "end": 69,
-                        "length": 70,
-                        "text": "סנטר אל ששטבחם קשקשת לו קלטן קקטשהס כוו שנאמרושרן קשקשים קאלהשי שק ענר"
-                    },
-                    {
-                        "line_id": "eSc_line_5e427187",
-                        "start": 71,
-                        "end": 158,
-                        "length": 88,
-                        "text": "מקום משמעו דכד נמוך שרוחש וע על קארץ. ושקן יקיו לאסוראת ערוביקם אסיש בן בטותן טעם מבשרם."
-                    },
-                    {
-                        "line_id": "eSc_line_67768c0d",
-                        "start": 160,
-                        "end": 246,
-                        "length": 87,
-                        "text": "אימ מוקרעל קפנטריה ועל העבמות. ואת נאתם תשקט ליבות ינחושן שסיען יביושן מושיילוש בלעיוכל"
-                    },
-                    {
-                        "line_id": "eSc_line_69188d4d",
-                        "start": 248,
-                        "end": 334,
-                        "length": 87,
-                        "text": "אשר אין לוג' מקתל שיקל אין לשיקא מותראלא היעלה סימטן של לבשק קשירן במה מטן תל וכל אשראן"
-                    }
-                ],
-                "series": "OCR"
-            },
-            {
-                "ocr_block_text": "ית דין תיכלן מכלדי במיא\nכל דליה ציצין וקלפין במיא\nביממיא ובנחליא יתהון תיבלוןו\nובלךליתליה ציעין וקלפין ש\nביממיא ובנחליאמכלריחשא\nדמיאומכלנפשאהיתא די\nבמיא שקצא אינון לכוןושקצא\nיהון לכון מבשריהון לא תיכאן\nויתנבלתהון תשקצון! כלי\nדלית ליה ציצין וקלפין במיא\nשקצאהוא לבון וית אילין\nתשקצון מךעופא לא יתאבלון\nשקצא אינון נשרא וערועזיא!\nודיתא וטרפיתא לונה: ית כל\nעורבאלניה זוית בת נעמיתא\nוציצא",
-                "text_block_id": "eSc_textblock_476ae7a5",
-                "ocr_lines_in_block": 16,
-                "ocr_lines": [
-                    {
-                        "line_id": "eSc_line_1e6127b8",
-                        "start": 0,
-                        "end": 22,
-                        "length": 23,
-                        "text": "ית דין תיכלן מכלדי במיא"
-                    },
-                    {
-                        "line_id": "eSc_line_04a0cc08",
-                        "start": 24,
-                        "end": 48,
-                        "length": 25,
-                        "text": "כל דליה ציצין וקלפין במיא"
-                    },
-                    {
-                        "line_id": "eSc_line_b4971daf",
-                        "start": 50,
-                        "end": 77,
-                        "length": 28,
-                        "text": "ביממיא ובנחליא יתהון תיבלוןו"
-                    },
-                    {
-                        "line_id": "eSc_line_6581a747",
-                        "start": 79,
-                        "end": 103,
-                        "length": 25,
-                        "text": "ובלךליתליה ציעין וקלפין ש"
-                    },
-                    {
-                        "line_id": "eSc_line_66ff2e46",
-                        "start": 105,
-                        "end": 126,
-                        "length": 22,
-                        "text": "ביממיא ובנחליאמכלריחשא"
-                    },
-                    {
-                        "line_id": "eSc_line_b9c6364d",
-                        "start": 128,
-                        "end": 146,
-                        "length": 19,
-                        "text": "דמיאומכלנפשאהיתא די"
-                    },
-                    {
-                        "line_id": "eSc_line_243b3418",
-                        "start": 148,
-                        "end": 172,
-                        "length": 25,
-                        "text": "במיא שקצא אינון לכוןושקצא"
-                    },
-                    {
-                        "line_id": "eSc_line_82af837d",
-                        "start": 174,
-                        "end": 200,
-                        "length": 27,
-                        "text": "יהון לכון מבשריהון לא תיכאן"
-                    },
-                    {
-                        "line_id": "eSc_line_1367833a",
-                        "start": 202,
-                        "end": 223,
-                        "length": 22,
-                        "text": "ויתנבלתהון תשקצון! כלי"
-                    },
-                    {
-                        "line_id": "eSc_line_d83e8c09",
-                        "start": 225,
-                        "end": 250,
-                        "length": 26,
-                        "text": "דלית ליה ציצין וקלפין במיא"
-                    },
-                    {
-                        "line_id": "eSc_line_eb380e04",
-                        "start": 252,
-                        "end": 273,
-                        "length": 22,
-                        "text": "שקצאהוא לבון וית אילין"
-                    },
-                    {
-                        "line_id": "eSc_line_a2e0913d",
-                        "start": 275,
-                        "end": 298,
-                        "length": 24,
-                        "text": "תשקצון מךעופא לא יתאבלון"
-                    },
-                    {
-                        "line_id": "eSc_line_73b89fa6",
-                        "start": 300,
-                        "end": 324,
-                        "length": 25,
-                        "text": "שקצא אינון נשרא וערועזיא!"
-                    },
-                    {
-                        "line_id": "eSc_line_3cc86530",
-                        "start": 326,
-                        "end": 350,
-                        "length": 25,
-                        "text": "ודיתא וטרפיתא לונה: ית כל"
-                    },
-                    {
-                        "line_id": "eSc_line_f973a312",
-                        "start": 352,
-                        "end": 375,
-                        "length": 24,
-                        "text": "עורבאלניה זוית בת נעמיתא"
-                    },
-                    {
-                        "line_id": "eSc_line_6ac04b0a",
-                        "start": 377,
-                        "end": 381,
-                        "length": 5,
-                        "text": "וציצא"
-                    }
-                ],
-                "series": "OCR"
-            },
-            {
-                "ocr_block_text": "אתזהתאכלו מכלאשרבמים כל\nאשר לוסנפיר וקשקשתבמים בימים\nובנחלים אתם תאכלו: וכלאשראין-\nלוסנפיר וקשקשת בימים ובנחלים\nמכלשרץהמיסומכלנפש החיה\nאשר במים שקץהם לכםוושקץ יהיו\nלכסמבשרם לאתאכלוואתנבלתם\nתשקצו כלאשראיץ לו סנפ-\nוקשקשת במים שקץ הוא לכסזואת\nאלהתשקצומן העוף לא יאכלו\nשקץ הסאתהנשרואת הפרס ואת\nהעזטה : ואת הדאה ואת האיה\nלמינה : את כל-ערב למעו:\nזאת בת היעה ואת־התחמס",
-                "text_block_id": "eSc_textblock_47d2bd2f",
-                "ocr_lines_in_block": 14,
-                "ocr_lines": [
-                    {
-                        "line_id": "eSc_line_db1e0963",
-                        "start": 0,
-                        "end": 22,
-                        "length": 23,
-                        "text": "אתזהתאכלו מכלאשרבמים כל"
-                    },
-                    {
-                        "line_id": "eSc_line_32bc4a30",
-                        "start": 24,
-                        "end": 51,
-                        "length": 28,
-                        "text": "אשר לוסנפיר וקשקשתבמים בימים"
-                    },
-                    {
-                        "line_id": "eSc_line_4662da98",
-                        "start": 53,
-                        "end": 81,
-                        "length": 29,
-                        "text": "ובנחלים אתם תאכלו: וכלאשראין-"
-                    },
-                    {
-                        "line_id": "eSc_line_e38233e5",
-                        "start": 83,
-                        "end": 110,
-                        "length": 28,
-                        "text": "לוסנפיר וקשקשת בימים ובנחלים"
-                    },
-                    {
-                        "line_id": "eSc_line_0fd6f1dc",
-                        "start": 112,
-                        "end": 133,
-                        "length": 22,
-                        "text": "מכלשרץהמיסומכלנפש החיה"
-                    },
-                    {
-                        "line_id": "eSc_line_fcd301fc",
-                        "start": 135,
-                        "end": 162,
-                        "length": 28,
-                        "text": "אשר במים שקץהם לכםוושקץ יהיו"
-                    },
-                    {
-                        "line_id": "eSc_line_0223547e",
-                        "start": 164,
-                        "end": 187,
-                        "length": 24,
-                        "text": "לכסמבשרם לאתאכלוואתנבלתם"
-                    },
-                    {
-                        "line_id": "eSc_line_04beb015",
-                        "start": 189,
-                        "end": 210,
-                        "length": 22,
-                        "text": "תשקצו כלאשראיץ לו סנפ-"
-                    },
-                    {
-                        "line_id": "eSc_line_4895c400",
-                        "start": 212,
-                        "end": 238,
-                        "length": 27,
-                        "text": "וקשקשת במים שקץ הוא לכסזואת"
-                    },
-                    {
-                        "line_id": "eSc_line_d08ab80e",
-                        "start": 240,
-                        "end": 263,
-                        "length": 24,
-                        "text": "אלהתשקצומן העוף לא יאכלו"
-                    },
-                    {
-                        "line_id": "eSc_line_1e0c5493",
-                        "start": 265,
-                        "end": 288,
-                        "length": 24,
-                        "text": "שקץ הסאתהנשרואת הפרס ואת"
-                    },
-                    {
-                        "line_id": "eSc_line_cda71088",
-                        "start": 290,
-                        "end": 314,
-                        "length": 25,
-                        "text": "העזטה : ואת הדאה ואת האיה"
-                    },
-                    {
-                        "line_id": "eSc_line_aca1ab02",
-                        "start": 316,
-                        "end": 338,
-                        "length": 23,
-                        "text": "למינה : את כל-ערב למעו:"
-                    },
-                    {
-                        "line_id": "eSc_line_6a05ed65",
-                        "start": 340,
-                        "end": 360,
-                        "length": 21,
-                        "text": "זאת בת היעה ואת־התחמס"
-                    }
-                ],
-                "series": "OCR"
-            },
-            {
-                "ocr_block_text": "א מנטרוקשקשת כנה קא אס קו ל מם אעפשהשק נעיתמתר איאלו לסינאת קיאטללקטפ\nסקך ישמט לאיקו נאסט על יקך אואיט אלא לאסק בקואק תל לא תאלום כאפ קאסורין בחואקמותיין כל\nמוף ששאמרש למינה למח למינקוש כאות קמן שאן דמן זקלזק לא במראיקן ולא בשמותהן וטאן מן אחד.\nקט אושטיר שלך פרשו רבתמ זקהשולה אים מן קים ווקו שתרגה אנקלסושעמנאי טסוישוף * קם\nמאיטס קטמקס באסוש סה לשתת כאדם זעראחדדומה ל שקרן יבן קשמת קיאקלבא שורק ודיזה\nלעאגד קטרא באק'",
-                "text_block_id": "eSc_textblock_3f687b09",
-                "ocr_lines_in_block": 6,
-                "ocr_lines": [
-                    {
-                        "line_id": "eSc_line_2d4b69f3",
-                        "start": 0,
-                        "end": 68,
-                        "length": 69,
-                        "text": "א מנטרוקשקשת כנה קא אס קו ל מם אעפשהשק נעיתמתר איאלו לסינאת קיאטללקטפ"
-                    },
-                    {
-                        "line_id": "eSc_line_f0faa043",
-                        "start": 70,
-                        "end": 155,
-                        "length": 86,
-                        "text": "סקך ישמט לאיקו נאסט על יקך אואיט אלא לאסק בקואק תל לא תאלום כאפ קאסורין בחואקמותיין כל"
-                    },
-                    {
-                        "line_id": "eSc_line_10236192",
-                        "start": 157,
-                        "end": 243,
-                        "length": 87,
-                        "text": "מוף ששאמרש למינה למח למינקוש כאות קמן שאן דמן זקלזק לא במראיקן ולא בשמותהן וטאן מן אחד."
-                    },
-                    {
-                        "line_id": "eSc_line_e9c2f737",
-                        "start": 245,
-                        "end": 323,
-                        "length": 79,
-                        "text": "קט אושטיר שלך פרשו רבתמ זקהשולה אים מן קים ווקו שתרגה אנקלסושעמנאי טסוישוף * קם"
-                    },
-                    {
-                        "line_id": "eSc_line_6db67fa1",
-                        "start": 325,
-                        "end": 400,
-                        "length": 76,
-                        "text": "מאיטס קטמקס באסוש סה לשתת כאדם זעראחדדומה ל שקרן יבן קשמת קיאקלבא שורק ודיזה"
-                    },
-                    {
-                        "line_id": "eSc_line_36d179b6",
-                        "start": 402,
-                        "end": 416,
-                        "length": 15,
-                        "text": "לעאגד קטרא באק'"
-                    }
-                ],
-                "series": "OCR"
-            }
-        ]
-    },
-    {
-        "filename": "IE87502633_00044",
-        "ocr_lines_in_part": 23,
-        "ocr_blocks": [
-            {
-                "ocr_block_text": "והמו נשא לכל לראש: והעשר והכבוד מלפניך\nואתה מושל בכל ובידך כח וגבורה ובידך לגדל\nולחזק לכל : ועתה אהינו מודים אנחנו לך ומהללים\nלשם תפארתך : ויברכו שם כבדך ימרומם על כל\nברכה ותהלהזאתה הוא יהוה לבדך אתה עשית את\nהשמים שמי השמים וכל צראם הארץ וכל אשר\nעליה הימים וכל אשרבהם ואתה מחיה את כלבםן\nוצבא השמים לך משתחוים : ע\"כ אתה הוא יהוה\nהאהים אשר בחרת באברם והוצאתומאורכשדים\nושמת שמו אררהם : ומצאת את לבבו נאמן לפניך\nוכרות עמו הברית לתת את ארץ הבנעני החתי\nהאמרי והפרזי והיבוסיוהגרגשי לתת לזרעו ‧ והקם\nאת דבריך כי צדיק אתה : ותרא את עני אבותינו\nבמצרים ואת זעקתם שמעת על ים סוף: ותתן אתת\nומפתים בפרעה ובכל עבדיו ובכל עם ארצו : בי\nידעת כי הזידו עליהם ותעש לך שם כהיום הזה :\nוהים בקעת לפניהם ויעברו בתוך הים ביבשה ואת\nררפיהם השלכת במצולת כמו אבן במים עזים :\nויושט יהוה ביום ההוא את ישדאל מיד מצרים וירא\nישרא את מצרים מת על שפת הים : וירא ישרא\nאת היד הגדלה אשר עשה יהוה במצרים וייראו\nהעם את יהוה ויאמינו ביהוה ובמשה עבדו:\nבתשעה באב אנמדים האזינו.",
-                "text_block_id": "eSc_textblock_ec9d0e4c",
-                "ocr_lines_in_block": 23,
-                "ocr_lines": [
-                    {
-                        "line_id": "eSc_line_83ffb3e7",
-                        "start": 0,
-                        "end": 37,
-                        "length": 38,
-                        "text": "והמו נשא לכל לראש: והעשר והכבוד מלפניך",
-                        "alg_GT": "והמתנשא לכל לראש: והעשר והכבוד מלפניך",
+                        "end": 38,
+                        "length": 39,
+                        "text": "הגדול הגבור ודנורא אל עליון קונה ברחמיו",
+                        "alg_GT": "הגדול הגבור והנורא. אל עליון קונה",
                         "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 119709,
-                        "GT_len": 38,
-                        "levenshtein_ratio": 0.96
+                        "GT_start": 37637,
+                        "GT_len": 34,
+                        "levenshtein_ratio": 0.861
                     },
                     {
-                        "line_id": "eSc_line_143c5651",
-                        "start": 39,
-                        "end": 78,
-                        "length": 40,
-                        "text": "ואתה מושל בכל ובידך כח וגבורה ובידך לגדל",
-                        "alg_GT": "ואתה מושל בכל, ובידך כח וגבורה, ובידך לגדל",
+                        "line_id": "eSc_line_dca6900f",
+                        "start": 40,
+                        "end": 74,
+                        "length": 35,
+                        "text": "שמים וארץ: מגן אבות בדברו מחיה מתים",
+                        "alg_GT": "שמים וארץ:מגן אבות בדברו. מחיה מתים",
                         "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 119747,
-                        "GT_len": 43,
-                        "levenshtein_ratio": 0.976
+                        "GT_start": 37671,
+                        "GT_len": 36,
+                        "levenshtein_ratio": 0.971
                     },
                     {
-                        "line_id": "eSc_line_c3222657",
-                        "start": 80,
-                        "end": 124,
-                        "length": 45,
-                        "text": "ולחזק לכל : ועתה אהינו מודים אנחנו לך ומהללים",
-                        "alg_GT": "ולחזק לכל: ועתה אלהינו מודים אנחנו לך ומהללים",
+                        "line_id": "eSc_line_1e489b81",
+                        "start": 76,
+                        "end": 109,
+                        "length": 34,
+                        "text": "במאמרו המלך הקדוש שאין כמותו המניח",
+                        "alg_GT": "במאמרו. המלך הקדוש שאין כמוהו. המניח",
                         "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 119790,
-                        "GT_len": 46,
-                        "levenshtein_ratio": 0.978
-                    },
-                    {
-                        "line_id": "eSc_line_42162675",
-                        "start": 126,
-                        "end": 165,
-                        "length": 40,
-                        "text": "לשם תפארתך : ויברכו שם כבדך ימרומם על כל",
-                        "alg_GT": "לשם תפארתך:",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 119836,
-                        "GT_len": 12,
-                        "levenshtein_ratio": 0.431
-                    },
-                    {
-                        "line_id": "eSc_line_f9df1cb7",
-                        "start": 167,
-                        "end": 206,
-                        "length": 40,
-                        "text": "ברכה ותהלהזאתה הוא יהוה לבדך אתה עשית את",
-                        "alg_GT": "אתה־הוא יהוה לבדך, אתה עשית את־",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 119848,
-                        "GT_len": 31,
-                        "levenshtein_ratio": 0.789
-                    },
-                    {
-                        "line_id": "eSc_line_81028636",
-                        "start": 208,
-                        "end": 244,
-                        "length": 37,
-                        "text": "השמים שמי השמים וכל צראם הארץ וכל אשר",
-                        "alg_GT": "השמים שמי השמים וכל־צבאם, הארץ וכל־אשר",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 119879,
-                        "GT_len": 39,
-                        "levenshtein_ratio": 0.907
-                    },
-                    {
-                        "line_id": "eSc_line_a59a5cdb",
-                        "start": 246,
-                        "end": 285,
-                        "length": 40,
-                        "text": "עליה הימים וכל אשרבהם ואתה מחיה את כלבםן",
-                        "alg_GT": "עליה הימים וכל־אשר בהם, ואתה מחיה את־כלם",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 119918,
-                        "GT_len": 41,
-                        "levenshtein_ratio": 0.9
-                    },
-                    {
-                        "line_id": "eSc_line_c7e348cc",
-                        "start": 287,
-                        "end": 326,
-                        "length": 40,
-                        "text": "וצבא השמים לך משתחוים : ע\"כ אתה הוא יהוה",
-                        "alg_GT": "וצבא השמים לך משתחוים: חזן: אתה הוא יהוה",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 119959,
-                        "GT_len": 41,
-                        "levenshtein_ratio": 0.9
-                    },
-                    {
-                        "line_id": "eSc_line_b503646d",
-                        "start": 328,
-                        "end": 364,
-                        "length": 37,
-                        "text": "האהים אשר בחרת באברם והוצאתומאורכשדים",
-                        "alg_GT": "האלהים אשר בחרת באברם והוצאתו מאור כשדים",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 120000,
-                        "GT_len": 41,
-                        "levenshtein_ratio": 0.961
-                    },
-                    {
-                        "line_id": "eSc_line_69563750",
-                        "start": 366,
-                        "end": 406,
-                        "length": 41,
-                        "text": "ושמת שמו אררהם : ומצאת את לבבו נאמן לפניך",
-                        "alg_GT": "ושמת שמו אברהם: ומצאת את־לבבו נאמן לפניך",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 120041,
-                        "GT_len": 41,
-                        "levenshtein_ratio": 0.938
-                    },
-                    {
-                        "line_id": "eSc_line_edc8a3cf",
-                        "start": 408,
-                        "end": 445,
-                        "length": 38,
-                        "text": "וכרות עמו הברית לתת את ארץ הבנעני החתי",
-                        "alg_GT": "וכרות עמו הברית לתת את־ארץ הכנעני החתי",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 120082,
-                        "GT_len": 39,
-                        "levenshtein_ratio": 0.947
-                    },
-                    {
-                        "line_id": "eSc_line_3f9fcd85",
-                        "start": 447,
-                        "end": 490,
-                        "length": 44,
-                        "text": "האמרי והפרזי והיבוסיוהגרגשי לתת לזרעו ‧ והקם",
-                        "alg_GT": "האמרי והפרזי והיבוסי והגרגשי לתת לזרעו ותקם",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 120121,
-                        "GT_len": 44,
+                        "GT_start": 37707,
+                        "GT_len": 37,
                         "levenshtein_ratio": 0.943
                     },
                     {
-                        "line_id": "eSc_line_3486f3d3",
-                        "start": 492,
-                        "end": 533,
-                        "length": 42,
-                        "text": "את דבריך כי צדיק אתה : ותרא את עני אבותינו",
-                        "alg_GT": "את־דבריך כי צדיק אתה: ותרא את־עני אבתינו",
+                        "line_id": "eSc_line_eba95cdc",
+                        "start": 111,
+                        "end": 144,
+                        "length": 34,
+                        "text": "לעמו בשבת קדשו בי בם רצה להניח להם",
+                        "alg_GT": "לעמו ביום שבת קדשו. כי בם רצה להניח להם.",
                         "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 120165,
+                        "GT_start": 37744,
                         "GT_len": 41,
-                        "levenshtein_ratio": 0.927
+                        "levenshtein_ratio": 0.892
                     },
                     {
-                        "line_id": "eSc_line_81dbfc02",
-                        "start": 535,
-                        "end": 575,
-                        "length": 41,
-                        "text": "במצרים ואת זעקתם שמעת על ים סוף: ותתן אתת",
-                        "alg_GT": "במצרים ואת־זעקתם שמעת על־ים־סוף: ותתן אתת",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 120206,
-                        "GT_len": 42,
-                        "levenshtein_ratio": 0.927
-                    },
-                    {
-                        "line_id": "eSc_line_8ac7259a",
-                        "start": 577,
-                        "end": 617,
-                        "length": 41,
-                        "text": "ומפתים בפרעה ובכל עבדיו ובכל עם ארצו : בי",
-                        "alg_GT": "ומפתים בפרעה ובכל־עבדיו ובכל־עם ארצו כי",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 120248,
-                        "GT_len": 40,
-                        "levenshtein_ratio": 0.9
-                    },
-                    {
-                        "line_id": "eSc_line_2eda3e92",
-                        "start": 619,
-                        "end": 660,
-                        "length": 42,
-                        "text": "ידעת כי הזידו עליהם ותעש לך שם כהיום הזה :",
-                        "alg_GT": "ידעת כי הזידו עליהם ותעש־לך שם כהיום הזה: חזן:",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 120288,
-                        "GT_len": 47,
-                        "levenshtein_ratio": 0.932
-                    },
-                    {
-                        "line_id": "eSc_line_0e9e46fd",
-                        "start": 662,
-                        "end": 703,
-                        "length": 42,
-                        "text": "והים בקעת לפניהם ויעברו בתוך הים ביבשה ואת",
-                        "alg_GT": "והים בקעת לפניהם ויעברו בתוך־הים ביבשה ואת",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 120335,
-                        "GT_len": 42,
-                        "levenshtein_ratio": 0.976
-                    },
-                    {
-                        "line_id": "eSc_line_233b397c",
-                        "start": 705,
-                        "end": 743,
-                        "length": 39,
-                        "text": "ררפיהם השלכת במצולת כמו אבן במים עזים :",
-                        "alg_GT": "־רדפיהם השלכת במצולת כמו־אבן במים עזים:",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 120377,
-                        "GT_len": 40,
-                        "levenshtein_ratio": 0.923
-                    },
-                    {
-                        "line_id": "eSc_line_ecdd116a",
-                        "start": 745,
-                        "end": 788,
-                        "length": 44,
-                        "text": "ויושט יהוה ביום ההוא את ישדאל מיד מצרים וירא",
-                        "alg_GT": "ויושע יהוה ביום ההוא את־ישראל מיד מצרים וירא",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 120417,
-                        "GT_len": 45,
-                        "levenshtein_ratio": 0.932
-                    },
-                    {
-                        "line_id": "eSc_line_c90384d7",
-                        "start": 790,
-                        "end": 828,
-                        "length": 39,
-                        "text": "ישרא את מצרים מת על שפת הים : וירא ישרא",
-                        "alg_GT": "ישראל את־מצרים מת על־שפת הים: חזן: וירא ישראל",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 120462,
-                        "GT_len": 46,
-                        "levenshtein_ratio": 0.881
-                    },
-                    {
-                        "line_id": "eSc_line_7fa12d20",
-                        "start": 830,
-                        "end": 868,
-                        "length": 39,
-                        "text": "את היד הגדלה אשר עשה יהוה במצרים וייראו",
-                        "alg_GT": "את־היד הגדלה אשר עשה יהוה במצרים וייראו",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 120508,
-                        "GT_len": 40,
-                        "levenshtein_ratio": 0.974
-                    },
-                    {
-                        "line_id": "eSc_line_1d880db6",
-                        "start": 870,
-                        "end": 906,
+                        "line_id": "eSc_line_1682007f",
+                        "start": 146,
+                        "end": 182,
                         "length": 37,
-                        "text": "העם את יהוה ויאמינו ביהוה ובמשה עבדו:",
-                        "alg_GT": "העם את יהוה ויאמינו ביהוה ובמשה עבדו:",
+                        "text": "לפניו נעבוד ביראה ופחד ונורה לשמו בכל",
+                        "alg_GT": "לפניו נעבוד ביראה ופחד. ונודה לשמו בכל",
                         "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 120548,
-                        "GT_len": 37,
-                        "levenshtein_ratio": 1.0
+                        "GT_start": 37785,
+                        "GT_len": 39,
+                        "levenshtein_ratio": 0.96
                     },
                     {
-                        "line_id": "eSc_line_be68a6f4",
-                        "start": 908,
-                        "end": 931,
-                        "length": 24,
-                        "text": "בתשעה באב אנמדים האזינו."
+                        "line_id": "eSc_line_2fbc7c51",
+                        "start": 184,
+                        "end": 222,
+                        "length": 39,
+                        "text": "יום תמיר מעין הברכות ורוב ההודאות לאדון",
+                        "alg_GT": "יום תמיד מעין הברכות: אל ההודאות. אדון",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 37824,
+                        "GT_len": 39,
+                        "levenshtein_ratio": 0.857
+                    },
+                    {
+                        "line_id": "eSc_line_80ee3f7b",
+                        "start": 224,
+                        "end": 257,
+                        "length": 34,
+                        "text": "השלום מקדש השבת ומברך השביעי ומניח",
+                        "alg_GT": "השלום. מקדש השבת ומברך שביעי. ומניח",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 37863,
+                        "GT_len": 36,
+                        "levenshtein_ratio": 0.957
+                    },
+                    {
+                        "line_id": "eSc_line_b7925a91",
+                        "start": 259,
+                        "end": 288,
+                        "length": 30,
+                        "text": "בקדשה לעם מדשני עונג זכר למעשה",
+                        "alg_GT": "בקדשה לעם מדשני ענג זכר למעשה",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 37899,
+                        "GT_len": 30,
+                        "levenshtein_ratio": 0.983
+                    },
+                    {
+                        "line_id": "eSc_line_9ac5b6ed",
+                        "start": 290,
+                        "end": 326,
+                        "length": 37,
+                        "text": "אלהינו ואלהי אכותינו רצה נא במנוחתינו",
+                        "alg_GT": "בראשית: אלהינו ואלהי אבותינו רצה נא במנוחתנו.",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 37929,
+                        "GT_len": 46,
+                        "levenshtein_ratio": 0.854
+                    },
+                    {
+                        "line_id": "eSc_line_14ace57a",
+                        "start": 328,
+                        "end": 334,
+                        "length": 7,
+                        "text": "בראשית:",
+                        "alg_GT": "קדש",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 37975,
+                        "GT_len": 3,
+                        "levenshtein_ratio": 0.2
+                    },
+                    {
+                        "line_id": "eSc_line_dcfe1d0e",
+                        "start": 336,
+                        "end": 371,
+                        "length": 36,
+                        "text": "בתורתך שבענו מטובך שמח נפשנו בישועתך",
+                        "alg_GT": "נו במצותיך ותן חלקנו בתורתך",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 37978,
+                        "GT_len": 28,
+                        "levenshtein_ratio": 0.476
+                    },
+                    {
+                        "line_id": "eSc_line_b6861d19",
+                        "start": 373,
+                        "end": 398,
+                        "length": 26,
+                        "text": "קדשנו במצותיך שים נחלקנו ב",
+                        "alg_GT": "שבענו מטובך. ושמחנו בישועתך:",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 38006,
+                        "GT_len": 29,
+                        "levenshtein_ratio": 0.519
+                    },
+                    {
+                        "line_id": "eSc_line_96a7f8db",
+                        "start": 400,
+                        "end": 438,
+                        "length": 39,
+                        "text": "וטהר לבנו לעבדך באמת והנחילנו יי אלהינו",
+                        "alg_GT": "וטהר לבנו לעבדך באמת. והנחילנו יהוה אלהינו",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 38035,
+                        "GT_len": 43,
+                        "levenshtein_ratio": 0.938
+                    },
+                    {
+                        "line_id": "eSc_line_3ff22c12",
+                        "start": 440,
+                        "end": 473,
+                        "length": 34,
+                        "text": "באהבה וברעון שבת קדשך וינוחו בה כל",
+                        "alg_GT": "באהבה וברצון שבת קדשך. וינוחו בה",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 38078,
+                        "GT_len": 33,
+                        "levenshtein_ratio": 0.909
+                    },
+                    {
+                        "line_id": "eSc_line_b529e927",
+                        "start": 475,
+                        "end": 506,
+                        "length": 32,
+                        "text": "ישראל מקדשי שמך ברוך אתה יי מקדש",
+                        "alg_GT": "ישראל מקדשי שמך. ברוך אתה יהוה מקדש",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 38111,
+                        "GT_len": 35,
+                        "levenshtein_ratio": 0.925
+                    },
+                    {
+                        "line_id": "eSc_line_fb453e14",
+                        "start": 508,
+                        "end": 535,
+                        "length": 28,
+                        "text": "יתגדל ויתקדש שמיה רבא: בעלמא"
+                    },
+                    {
+                        "line_id": "eSc_line_4efe3c25",
+                        "start": 537,
+                        "end": 541,
+                        "length": 5,
+                        "text": "השבת:"
+                    },
+                    {
+                        "line_id": "eSc_line_ca02cb8c",
+                        "start": 543,
+                        "end": 569,
+                        "length": 27,
+                        "text": "דברא כרעיתיה וימליך מלכותיה"
+                    },
+                    {
+                        "line_id": "eSc_line_687ee41e",
+                        "start": 571,
+                        "end": 604,
+                        "length": 34,
+                        "text": "ויצמח בורקניה ויקרב משיחיה בחייכון"
                     }
                 ],
                 "series": "OCR"
@@ -16098,82 +15815,114 @@
         ]
     },
     {
-        "filename": "IE87700963_00014",
-        "ocr_lines_in_part": 14,
+        "filename": "IE87519524_00013",
+        "ocr_lines_in_part": 23,
         "ocr_blocks": [
             {
-                "ocr_block_text": "שכועה לאחרונים. אתה הוא שירדת בענן כבודך על הר\nסיני והראית דרכי טובך למשה עבדך, ארחות חסדיך\nגלית לו, והודעתו כי אתה אל רחום וחנון, ארך אפים\nורב־חסד ומרבה להטיב, ומנהיג את־כל־העולם כלו\nבמדת הרחמים . וכן כתוב ויאמר אנג אעביר כל-טובי\nעל־פניך וקראתי בשם יי לפניך וחנתי את־אשר אחן\nורחמתי את־אשר ארחם :\nאל ארך-אפים אתה, ובעל־הרחמיםנקראת,\nודרך תשובה הורית, גדלת רחמיך וחסדיך\nתזכר היום ובכל-יום לזרע ידידיך. תפן אלינו\nברחמים, כי אתה הוא בעל הרחמים. בתחנון\nובתפלה פניך נקדם, כהודעת לענו מקדם.\nמחרון אפך שוב, כמו בתורתך פתוב. ובצל\nכנפיך נחסה ונתלונן, כיום וירד יי בענן. תעבר",
-                "text_block_id": "eSc_textblock_198ee4e8",
-                "ocr_lines_in_block": 14,
+                "ocr_block_text": "כיעל רחמיךהרבים אנו בטוחים‧ ועל צדקתיך\nאנו נשענים ולסליחתיךאנו מקוים ‧ ולישועתך\nאנו מצפיס: אתה הוא יי מלך אהב צדקות\nמקדם: מעביר עונות עמו ומסיר חטאת יראיו:\nכורת ברית לראשונים ‧ ומקים שבועה\nלאחרונים : אתה הוא שירדת בענן כבודך על\nהר סיני ‧ והראית דרכי טובך למשה עבדך :\nארחות חסדיך גלית לו ‧ והודעתו כי אתה אל\nרחוםוחנון :ארךאפיסורב חסד ומרבה להטיב.\nומנהיג את (כל-) העולם כלו במדת רחמים וכן\nכתוב ויאמר אני אעביר כל-טובי על-פניך\nוקראתי בשם יי לפניך וחנתי את־אשר אחן\nורחמתי את-אשר ארחם :\nאל ארך אפים אתה‧ ובעל הרחמים נקראת‧\nודרך תשובה הורית : גדלת רחמיך וחסדיך ‧\nתזכור היום ובכל-יום לזרעידידיך : תפן אלינו\nברחמים כי אתה הוא בעל הרחמים : בתחנון\nובתפלה פניך נקדם‧ כהודעת לענו מקדם :\nמחרון אפך שוב (\"יתוב) ‧ כמו בתורתך כתוב\nובצל כנפיך נחסה ונתלונן‧ כיום וירד יי בענן.\nהעבר על פשע ותמחה אשם‧ כיום ויתיצב עמו\nשם תאזין שועתנו ותקשיב מנו מאמר ‧ כיום\nויקרא בשם יי : ושם נאמר",
+                "text_block_id": "eSc_textblock_15c3ca13",
+                "ocr_lines_in_block": 23,
                 "ocr_lines": [
                     {
-                        "line_id": "eSc_line_c0f97e65",
+                        "line_id": "eSc_line_021c1c39",
                         "start": 0,
-                        "end": 45,
-                        "length": 46,
-                        "text": "שכועה לאחרונים. אתה הוא שירדת בענן כבודך על הר"
+                        "end": 37,
+                        "length": 38,
+                        "text": "כיעל רחמיךהרבים אנו בטוחים‧ ועל צדקתיך"
                     },
                     {
-                        "line_id": "eSc_line_5e5ee15f",
-                        "start": 47,
-                        "end": 90,
-                        "length": 44,
-                        "text": "סיני והראית דרכי טובך למשה עבדך, ארחות חסדיך"
+                        "line_id": "eSc_line_ba066561",
+                        "start": 39,
+                        "end": 78,
+                        "length": 40,
+                        "text": "אנו נשענים ולסליחתיךאנו מקוים ‧ ולישועתך"
                     },
                     {
-                        "line_id": "eSc_line_0c7d2488",
-                        "start": 92,
-                        "end": 138,
-                        "length": 47,
-                        "text": "גלית לו, והודעתו כי אתה אל רחום וחנון, ארך אפים",
-                        "alg_GT": "כמה שידענו יהוה אלהינו את אשר תחון יוחן. ואת אש",
+                        "line_id": "eSc_line_5ef1eeec",
+                        "start": 80,
+                        "end": 114,
+                        "length": 35,
+                        "text": "אנו מצפיס: אתה הוא יי מלך אהב צדקות"
+                    },
+                    {
+                        "line_id": "eSc_line_c6fc4c46",
+                        "start": 116,
+                        "end": 154,
+                        "length": 39,
+                        "text": "מקדם: מעביר עונות עמו ומסיר חטאת יראיו:"
+                    },
+                    {
+                        "line_id": "eSc_line_bb4d2bca",
+                        "start": 156,
+                        "end": 187,
+                        "length": 32,
+                        "text": "כורת ברית לראשונים ‧ ומקים שבועה"
+                    },
+                    {
+                        "line_id": "eSc_line_5326c285",
+                        "start": 189,
+                        "end": 226,
+                        "length": 38,
+                        "text": "לאחרונים : אתה הוא שירדת בענן כבודך על"
+                    },
+                    {
+                        "line_id": "eSc_line_2a664435",
+                        "start": 228,
+                        "end": 265,
+                        "length": 38,
+                        "text": "הר סיני ‧ והראית דרכי טובך למשה עבדך :"
+                    },
+                    {
+                        "line_id": "eSc_line_72d6b4b4",
+                        "start": 267,
+                        "end": 305,
+                        "length": 39,
+                        "text": "ארחות חסדיך גלית לו ‧ והודעתו כי אתה אל"
+                    },
+                    {
+                        "line_id": "eSc_line_6019dc23",
+                        "start": 307,
+                        "end": 344,
+                        "length": 38,
+                        "text": "רחוםוחנון :ארךאפיסורב חסד ומרבה להטיב."
+                    },
+                    {
+                        "line_id": "eSc_line_cfb004f3",
+                        "start": 346,
+                        "end": 385,
+                        "length": 40,
+                        "text": "ומנהיג את (כל-) העולם כלו במדת רחמים וכן"
+                    },
+                    {
+                        "line_id": "eSc_line_05765f1d",
+                        "start": 387,
+                        "end": 422,
+                        "length": 36,
+                        "text": "כתוב ויאמר אני אעביר כל-טובי על-פניך",
+                        "alg_GT": "תך: ויאמר. אני אעביר כל טובי על פניך.",
                         "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 262589,
-                        "GT_len": 48,
-                        "levenshtein_ratio": 0.489
+                        "GT_start": 262661,
+                        "GT_len": 38,
+                        "levenshtein_ratio": 0.849
                     },
                     {
-                        "line_id": "eSc_line_8ba3d819",
-                        "start": 140,
-                        "end": 182,
-                        "length": 43,
-                        "text": "ורב־חסד ומרבה להטיב, ומנהיג את־כל־העולם כלו",
-                        "alg_GT": "ר תרחם ירוחם. ככתוב בתורתך: ויאמר. אני",
+                        "line_id": "eSc_line_0525d687",
+                        "start": 424,
+                        "end": 459,
+                        "length": 36,
+                        "text": "וקראתי בשם יי לפניך וחנתי את־אשר אחן",
+                        "alg_GT": "וקראתי בשם יהוה לפניך. וחנתי את אשר אחן.",
                         "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 262637,
-                        "GT_len": 39,
-                        "levenshtein_ratio": 0.296
+                        "GT_start": 262699,
+                        "GT_len": 41,
+                        "levenshtein_ratio": 0.895
                     },
                     {
-                        "line_id": "eSc_line_22d72dad",
-                        "start": 184,
-                        "end": 229,
-                        "length": 46,
-                        "text": "במדת הרחמים . וכן כתוב ויאמר אנג אעביר כל-טובי",
-                        "alg_GT": "אעביר כל טובי",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 262676,
-                        "GT_len": 14,
-                        "levenshtein_ratio": 0.407
-                    },
-                    {
-                        "line_id": "eSc_line_f1e89818",
-                        "start": 231,
-                        "end": 274,
-                        "length": 44,
-                        "text": "על־פניך וקראתי בשם יי לפניך וחנתי את־אשר אחן",
-                        "alg_GT": "על פניך. וקראתי בשם יהוה לפניך. וחנתי את אשר אחן.",
-                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
-                        "GT_start": 262690,
-                        "GT_len": 50,
-                        "levenshtein_ratio": 0.882
-                    },
-                    {
-                        "line_id": "eSc_line_f1e527aa",
-                        "start": 276,
-                        "end": 295,
+                        "line_id": "eSc_line_c54474e2",
+                        "start": 461,
+                        "end": 480,
                         "length": 20,
-                        "text": "ורחמתי את־אשר ארחם :",
+                        "text": "ורחמתי את-אשר ארחם :",
                         "alg_GT": "ורחמתי את אשר ארחם:",
                         "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
                         "GT_start": 262740,
@@ -16181,53 +15930,304 @@
                         "levenshtein_ratio": 0.923
                     },
                     {
-                        "line_id": "eSc_line_6a6c0860",
-                        "start": 297,
-                        "end": 330,
-                        "length": 34,
-                        "text": "אל ארך-אפים אתה, ובעל־הרחמיםנקראת,"
-                    },
-                    {
-                        "line_id": "eSc_line_f27a8461",
-                        "start": 332,
-                        "end": 366,
+                        "line_id": "eSc_line_96ea086c",
+                        "start": 482,
+                        "end": 516,
                         "length": 35,
-                        "text": "ודרך תשובה הורית, גדלת רחמיך וחסדיך"
+                        "text": "אל ארך אפים אתה‧ ובעל הרחמים נקראת‧"
                     },
                     {
-                        "line_id": "eSc_line_d01962c6",
-                        "start": 368,
-                        "end": 408,
-                        "length": 41,
-                        "text": "תזכר היום ובכל-יום לזרע ידידיך. תפן אלינו"
+                        "line_id": "eSc_line_913e9b3c",
+                        "start": 518,
+                        "end": 555,
+                        "length": 38,
+                        "text": "ודרך תשובה הורית : גדלת רחמיך וחסדיך ‧"
                     },
                     {
-                        "line_id": "eSc_line_1aec9a60",
-                        "start": 410,
-                        "end": 446,
+                        "line_id": "eSc_line_b699c27e",
+                        "start": 557,
+                        "end": 598,
+                        "length": 42,
+                        "text": "תזכור היום ובכל-יום לזרעידידיך : תפן אלינו"
+                    },
+                    {
+                        "line_id": "eSc_line_f7448350",
+                        "start": 600,
+                        "end": 636,
                         "length": 37,
-                        "text": "ברחמים, כי אתה הוא בעל הרחמים. בתחנון"
+                        "text": "ברחמים כי אתה הוא בעל הרחמים : בתחנון"
                     },
                     {
-                        "line_id": "eSc_line_0407e3fb",
-                        "start": 448,
-                        "end": 482,
-                        "length": 35,
-                        "text": "ובתפלה פניך נקדם, כהודעת לענו מקדם."
-                    },
-                    {
-                        "line_id": "eSc_line_88bfac83",
-                        "start": 484,
-                        "end": 519,
+                        "line_id": "eSc_line_397b82f0",
+                        "start": 638,
+                        "end": 673,
                         "length": 36,
-                        "text": "מחרון אפך שוב, כמו בתורתך פתוב. ובצל"
+                        "text": "ובתפלה פניך נקדם‧ כהודעת לענו מקדם :"
                     },
                     {
-                        "line_id": "eSc_line_b619bdaa",
-                        "start": 521,
-                        "end": 563,
+                        "line_id": "eSc_line_732953ae",
+                        "start": 675,
+                        "end": 713,
+                        "length": 39,
+                        "text": "מחרון אפך שוב (\"יתוב) ‧ כמו בתורתך כתוב"
+                    },
+                    {
+                        "line_id": "eSc_line_70aaeb90",
+                        "start": 715,
+                        "end": 757,
                         "length": 43,
-                        "text": "כנפיך נחסה ונתלונן, כיום וירד יי בענן. תעבר"
+                        "text": "ובצל כנפיך נחסה ונתלונן‧ כיום וירד יי בענן."
+                    },
+                    {
+                        "line_id": "eSc_line_15876454",
+                        "start": 759,
+                        "end": 796,
+                        "length": 38,
+                        "text": "העבר על פשע ותמחה אשם‧ כיום ויתיצב עמו"
+                    },
+                    {
+                        "line_id": "eSc_line_7f318ce4",
+                        "start": 798,
+                        "end": 835,
+                        "length": 38,
+                        "text": "שם תאזין שועתנו ותקשיב מנו מאמר ‧ כיום"
+                    },
+                    {
+                        "line_id": "eSc_line_4caa422f",
+                        "start": 837,
+                        "end": 859,
+                        "length": 23,
+                        "text": "ויקרא בשם יי : ושם נאמר"
+                    }
+                ],
+                "series": "OCR"
+            }
+        ]
+    },
+    {
+        "filename": "IE87705976_00034",
+        "ocr_lines_in_part": 18,
+        "ocr_blocks": [
+            {
+                "ocr_block_text": "ברוך אתה יי אמ\"ה הנותן ליעף כח :\nברוך אתה יי אמ\"ה עוטר ישראל בתפארה :\nברוך אתה יי אמ\"ה שלא עשני גוי:\nבא\"י אמ\"ה שלא עשני עבד שפחה\nהאשה אומרת\nבא\"י אמ\"ה שלא עשני אשה שעשני כרצונו\nברוך אתה יי אלהינו מלך העולם המעביר\nחבלי שינה מעינינו ותנומה מעפעפנו :\nויהי רצון מלפניך יי אלהינו ואלהי אבותינו\nשתרגילנו בתורתך ותדביקנו במצותיך\nואל תביאנו לידי חטא ולא לידי עבירה ולא\nלידי נסיון ולא לידי בזיון. ותרחיקנו מיצו\nהרע ותדביקנו ביצר הטוב ותננו לאהבהלה\nולחסד ולרחמים בעיניך ובעיני כל רואינ\nוגמלנו חסדים טובים. ברוך אתה יי גומל\nחסדים טובים לעמו ישראל:\nיהי רצון מלפניך יי אלהינו ואלהי אבותים\nשתצילנו היום ובכל יום ויום מעזי פריו",
+                "text_block_id": "eSc_textblock_90e2102a",
+                "ocr_lines_in_block": 18,
+                "ocr_lines": [
+                    {
+                        "line_id": "eSc_line_003c98a6",
+                        "start": 0,
+                        "end": 31,
+                        "length": 32,
+                        "text": "ברוך אתה יי אמ\"ה הנותן ליעף כח :",
+                        "alg_GT": "בחין בין יום ובין לילה:",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 92408,
+                        "GT_len": 24,
+                        "levenshtein_ratio": 0.4
+                    },
+                    {
+                        "line_id": "eSc_line_7d48a026",
+                        "start": 33,
+                        "end": 68,
+                        "length": 36,
+                        "text": "ברוך אתה יי אמ\"ה עוטר ישראל בתפארה :",
+                        "alg_GT": "ברוך אתה יהוה אלה",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 92432,
+                        "GT_len": 17,
+                        "levenshtein_ratio": 0.604
+                    },
+                    {
+                        "line_id": "eSc_line_4beab188",
+                        "start": 70,
+                        "end": 99,
+                        "length": 30,
+                        "text": "ברוך אתה יי אמ\"ה שלא עשני גוי:",
+                        "alg_GT": "ינו מלך העולם שלא עשני גוי:",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 92449,
+                        "GT_len": 28,
+                        "levenshtein_ratio": 0.632
+                    },
+                    {
+                        "line_id": "eSc_line_b8d5221b",
+                        "start": 101,
+                        "end": 127,
+                        "length": 27,
+                        "text": "בא\"י אמ\"ה שלא עשני עבד שפחה",
+                        "alg_GT": "ברוך אתה יהוה אלהינו מלך העולם שלא עשני עבד: ברוך",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 92477,
+                        "GT_len": 49,
+                        "levenshtein_ratio": 0.553
+                    },
+                    {
+                        "line_id": "eSc_line_dd6f6e37",
+                        "start": 129,
+                        "end": 138,
+                        "length": 10,
+                        "text": "האשה אומרת",
+                        "alg_GT": "אתה יהוה א",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 92526,
+                        "GT_len": 11,
+                        "levenshtein_ratio": 0.4
+                    },
+                    {
+                        "line_id": "eSc_line_e3d4a4ca",
+                        "start": 140,
+                        "end": 174,
+                        "length": 35,
+                        "text": "בא\"י אמ\"ה שלא עשני אשה שעשני כרצונו",
+                        "alg_GT": "להינו מלך העולם שלא עשני אשה: ברוך אתה יהוה אלהינו מלך העולם שעשני כרצונו:",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 92537,
+                        "GT_len": 74,
+                        "levenshtein_ratio": 0.55
+                    },
+                    {
+                        "line_id": "eSc_line_ac26aa60",
+                        "start": 176,
+                        "end": 210,
+                        "length": 35,
+                        "text": "ברוך אתה יי אלהינו מלך העולם המעביר",
+                        "alg_GT": "ברוך אתה יהוה אלהינו מלך העולם פוקח",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 92611,
+                        "GT_len": 36,
+                        "levenshtein_ratio": 0.8
+                    },
+                    {
+                        "line_id": "eSc_line_aa0079cb",
+                        "start": 212,
+                        "end": 245,
+                        "length": 34,
+                        "text": "חבלי שינה מעינינו ותנומה מעפעפנו :",
+                        "alg_GT": "עורים: ברוך אתה יהוה אלהינו מלך העולם מלביש ערמים: ברוך אתה יהוה אלהינו מלך העולם מתיר אסורים: ברוך אתה יהוה אלהינו מלך העולם זוקף כפופים: ברוך אתה יהוה אלהינו מלך העולם רוקע הארץ על המים: ברוך אתה יהוה אלהינו מלך העולם שעשה לי כל צרכי: ברוך אתה יהוה אלהינו מלך העולם המכין מצעדי גבר: ברוך אתה יהוה אלהינו מלך העולם אוזר ישראל בגבורה: ברוך אתה יהוה אלהינו מלך העולם עוטר ישראל בתפארה: ברוך אתה יהוה אלהינו מלך העולם הנותן ליעף כח: ברוך אתה יהוה אלהינו מלך העולם המעביר שנה מעיני ותנומה מעפעפי:",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 92647,
+                        "GT_len": 495,
+                        "levenshtein_ratio": 0.121
+                    },
+                    {
+                        "line_id": "eSc_line_72b49c91",
+                        "start": 247,
+                        "end": 286,
+                        "length": 40,
+                        "text": "ויהי רצון מלפניך יי אלהינו ואלהי אבותינו",
+                        "alg_GT": "ויהי רצון מלפניך יהוה אלהינו ואלהי אבותינו",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 93142,
+                        "GT_len": 43,
+                        "levenshtein_ratio": 0.951
+                    },
+                    {
+                        "line_id": "eSc_line_47f5896a",
+                        "start": 288,
+                        "end": 319,
+                        "length": 32,
+                        "text": "שתרגילנו בתורתך ותדביקנו במצותיך",
+                        "alg_GT": "שתרגילנו בתורתך ודבקנו במצותיך,",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 93185,
+                        "GT_len": 32,
+                        "levenshtein_ratio": 0.952
+                    },
+                    {
+                        "line_id": "eSc_line_579b0f6f",
+                        "start": 321,
+                        "end": 358,
+                        "length": 38,
+                        "text": "ואל תביאנו לידי חטא ולא לידי עבירה ולא",
+                        "alg_GT": "ואל תביאנו לא לידי חטא ולא לידי עברה ועון ולא",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 93217,
+                        "GT_len": 46,
+                        "levenshtein_ratio": 0.892
+                    },
+                    {
+                        "line_id": "eSc_line_c3336d81",
+                        "start": 360,
+                        "end": 399,
+                        "length": 40,
+                        "text": "לידי נסיון ולא לידי בזיון. ותרחיקנו מיצו",
+                        "alg_GT": "לידי נסיון ולא לידי בזיון ואל תשלט בנו יצר הרע והרחיקנו מאדם",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 93263,
+                        "GT_len": 61,
+                        "levenshtein_ratio": 0.72
+                    },
+                    {
+                        "line_id": "eSc_line_5c59f4a2",
+                        "start": 401,
+                        "end": 436,
+                        "length": 36,
+                        "text": "הרע ותדביקנו ביצר הטוב ותננו לאהבהלה",
+                        "alg_GT": "רע ומחבר רע ודבקנו ביצר הטוב וב",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 93324,
+                        "GT_len": 31,
+                        "levenshtein_ratio": 0.657
+                    },
+                    {
+                        "line_id": "eSc_line_7c6e2edd",
+                        "start": 438,
+                        "end": 473,
+                        "length": 36,
+                        "text": "ולחסד ולרחמים בעיניך ובעיני כל רואינ",
+                        "alg_GT": "ולחסד ולרחמים בעיניך ובעיני כל רואינו",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 93416,
+                        "GT_len": 38,
+                        "levenshtein_ratio": 0.986
+                    },
+                    {
+                        "line_id": "eSc_line_f78ac088",
+                        "start": 475,
+                        "end": 510,
+                        "length": 36,
+                        "text": "וגמלנו חסדים טובים. ברוך אתה יי גומל",
+                        "alg_GT": "ותגמלנו חסדים טובים: חזן: ברוך אתה יהוה גומל",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 93454,
+                        "GT_len": 45,
+                        "levenshtein_ratio": 0.85
+                    },
+                    {
+                        "line_id": "eSc_line_dbadbf35",
+                        "start": 512,
+                        "end": 534,
+                        "length": 23,
+                        "text": "חסדים טובים לעמו ישראל:",
+                        "alg_GT": "חסדים טובים לעמו ישראל:",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 93499,
+                        "GT_len": 24,
+                        "levenshtein_ratio": 1.0
+                    },
+                    {
+                        "line_id": "eSc_line_9dfb49a3",
+                        "start": 536,
+                        "end": 573,
+                        "length": 38,
+                        "text": "יהי רצון מלפניך יי אלהינו ואלהי אבותים",
+                        "alg_GT": "יהי רצון מלפניך יהוה אלהי ואלהי אבותי",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 93523,
+                        "GT_len": 38,
+                        "levenshtein_ratio": 0.907
+                    },
+                    {
+                        "line_id": "eSc_line_44795b16",
+                        "start": 575,
+                        "end": 610,
+                        "length": 36,
+                        "text": "שתצילנו היום ובכל יום ויום מעזי פריו",
+                        "alg_GT": "שתצילני היום ובכל יום מעזי פני",
+                        "GT_id": "Machzor_Yom_Kippur_Ashkenaz_clean_concatenated.txt",
+                        "GT_start": 93561,
+                        "GT_len": 30,
+                        "levenshtein_ratio": 0.848
                     }
                 ],
                 "series": "OCR"

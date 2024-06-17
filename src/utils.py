@@ -43,7 +43,6 @@ def load_all_parts_infos():
     """
     # check if the file exists
     if not os.path.exists(f"{all_parts_infos_path}/all_parts_infos.json"):
-        print("The file 'all_parts_infos.json' does not exist.")
         print("Loading the parts informations from the eScriptorium API.")
         get_all_parts_infos(doc_pk)
         return None
