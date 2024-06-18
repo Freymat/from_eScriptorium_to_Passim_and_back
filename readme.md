@@ -20,7 +20,7 @@ The principle of this pipeline is as follows:
 
 The aim of this pipeline is therefore to align large numbers of known numerical texts with large numbers of documents (manuscripts or prints).
 
-**The pipeline has been tested on batches of more than 7000 manuscript images and 150 known digital texts and corpus like the Hebrew Bible, Talmuds, Mishnah, Midrashim, etc.**
+**The pipeline has been tested on batches of more than 45 0000 manuscript images and 150 known digital texts and corpus like the Hebrew Bible, Talmuds, Mishnah, Midrashim, etc.**
 
 ## Installation
 1. Create a dedicated environment with conda:
@@ -129,12 +129,24 @@ Step 4 (xmls update with alignments from Passim): 0:01:00.126999
 Step 5 (Tsv with results creation): 0:00:23.462202
 ```
 
-- ```data/output/results_summary_tsv/``` : contains tsv files with the number of total aligned lines (tsv 1) and the length of the biggest line cluster (tsv 2) for each page and each GT.
+- ```data/output/results_summary_tsv/``` : contains tsv files summarizing the results. The files give the number of aligned lines and the length of the biggest line cluster for each page and each GT. 
 
-![alt text](images/tsv_pandas_biggest_cluster.png)
-Parameters `display_n_best_gt = true` and `n_best_gt` can be set in the `config.py` file to insert in the dataframe the n best GT for each part.
+Example of tsv file content:
+![alt text](images/polars_total_aligned_lines.png)
+*Results summary tsv file showing the number of aligned lines for each page and each GT.*
 
-![alt text](images/tsv_pandas_nbest.png)
+![alt text](images/polars_max_cluster.png)
+*Results summary tsv file showing the length of the biggest line cluster for each page and each GT.*
+
+![alt text](images/polars_top5_aligned.png)
+*Results summary tsv file showing the number of aligned lines for the top 5 GT, for each page*
+
+![alt text](images/polars_top5_max_cluster.png)
+*Results summary tsv file showing the length of the biggest line cluster for the top 5 GT, for each page*
+
+![alt text](images/polars_overall.png)
+*Results summary tsv file showing the number of aligned lines and the length of the biggest line cluster for each GT and each page*
+
 
 ## How to use the pipeline
 
@@ -159,11 +171,9 @@ The configuration file `config.py` contains the parameters required for pipeline
 `levenshtein_threshold` (int): for every OCR line with an alignment found by Passim, the Levenshtein ratio beetween OCR and GT is calculated. If this ratio is above the threshold, the alignment is considered valid.
 
 #### Results summary (tsv) parameters
-Two tsv files are created in the `data/output/results_summary_tsv/` folder. They contain the number of aligned lines and the length of the biggest line cluster for each page and each GT. The following parameters can be set:
+Multiple tsv files are created in the `data/output/results_summary_tsv/` folder. They contain the number of aligned lines and the length of the biggest line cluster for each page and each GT. The following parameters can be set (in the `config.py` file):
 
-`display_n_best_gt` (bool): if True, the best GT for each part will be displayed at the beginning of the tsv file.
-
-`n_best_gt` (int): the number of best GT to display in the tsv file.
+`n_best_gt` (int): the number of best GT to display in the tsv file where top GT are displayed.
 
 ### 3. Get your xml alto files (OCR) from eScriptorium
 After having set the doc_pk you want to retrieve from eScriptorium in the `config.py`, you can import the xml files with the following command:

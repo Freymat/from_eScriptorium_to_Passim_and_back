@@ -25,7 +25,6 @@ driver_mem = 4  # Memory for the driver, in GB (Spark argument)
 levenshtein_threshold = 0.8
 
 # Results summary (tsv) parameters
-# Choose to display the n best GT for part
-display_n_best_gt = True
+
 # Number of best GT to display
 n_best_gt = 5

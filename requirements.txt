@@ -1,3 +1,4 @@
 jsonlines==4.0.0
+polars==0.20.31
 python_Levenshtein==0.25.1
 Requests==2.32.3

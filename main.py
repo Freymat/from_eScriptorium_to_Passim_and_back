@@ -26,7 +26,6 @@ from config import (
     mem,
     driver_mem,
     levenshtein_threshold,
-    display_n_best_gt,
     n_best_gt,
 )
 
