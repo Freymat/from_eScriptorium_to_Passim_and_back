@@ -257,6 +257,14 @@ def count_aligned_line_clusters(lines_dict, filename, levenshtein_threshold):
 
     return clusters
 
+def clean_alg_GT_before_xml_update(text):
+    text = re.sub(r'\u0026', '&amp;', text)  # & -> &amp;
+    text = re.sub(r'\u0022', '&quot;', text)  # " -> &quot;
+    text = re.sub(r'\u0027', '&apos;', text)  # ' -> &apos;
+    text = re.sub(r'\u003C', '&lt;', text)  # < -> &lt;
+    text = re.sub(r'\u003E', '&gt;', text)  # > -> &gt;
+    return text
+
 
 def process_single_dict_with_alg(
     json_file,
@@ -331,7 +339,9 @@ def process_single_dict_with_alg(
                             )
                             if string_content_match:
                                 if levenshtein_ratio >= levenshtein_threshold:
-                                    new_content = f'CONTENT="{alg_GT}"'
+                                    # replace characters that could cause problems in XML
+                                    cleaned_alg_GT = clean_alg_GT_before_xml_update(alg_GT)
+                                    new_content = f'CONTENT="{cleaned_alg_GT}"'
                                     line_count += 1
                                 else:
                                     new_content = 'CONTENT=""'
