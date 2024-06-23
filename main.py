@@ -103,7 +103,7 @@ def save_pipeline_parameters():
 
 # Argparse setup
 parser = argparse.ArgumentParser(
-    description="Pipeline for massive matching between OCR-extracted texts and known digital editions to produce large quantities of ground truth for training OCR models."
+    description="TABA: automatic transcription pipeline based on alignment between OCR transcriptions and existing digital texts, using Passim. Its aim is to produce large quantities of ground truth for training OCR models with eScriptorium and Kraken."
 )
 
 parser.add_argument(
