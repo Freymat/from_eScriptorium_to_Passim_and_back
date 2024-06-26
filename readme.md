@@ -1,4 +1,4 @@
-# Aligning large quantities of digital text on large numbers of ocerized manuscripts/prints.
+# TABA: a pipeline for the self-supervised creation of ground truth for training automatic transcription models of ancient Hebrew documents.
 
 ![alt text](images/alignment-example_1.png)
 
@@ -18,7 +18,7 @@ The principle of this pipeline is as follows:
 
 The aim of this pipeline is therefore to align large numbers of known numerical texts with large numbers of documents (manuscripts or prints).
 
-**The pipeline has been tested on batches of more than 45 0000 manuscript images and 150 known digital texts and corpus like the Hebrew Bible, Talmuds, Mishnah, Midrashim, etc.**
+**The pipeline has been tested on batches of over 45,000 manuscript images and 150 known digital texts and corpora (such as the Hebrew Bible, Talmuds, etc.), as part of the MiDRASH project involving the Ecole Pratique des Hautes Etudes.**
 
 ## Installation
 1. Create a dedicated environment with conda:
