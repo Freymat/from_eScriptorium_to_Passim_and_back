@@ -1,5 +1,3 @@
-This repository is a work in progress.
-Scheduled delivery date: 06/25/2024
 # Aligning large quantities of digital text on large numbers of ocerized manuscripts/prints.
 
 ![alt text](images/alignment-example_1.png)
